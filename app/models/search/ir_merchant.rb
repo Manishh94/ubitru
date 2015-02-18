@@ -6,10 +6,11 @@ class Search::IrMerchant < Search::Merchant
   include ActionView::Helpers::TextHelper
 
   def set_attributes_from_search(advertiser, offer, controller)
-    coupons_count = advertiser.coupons.where(['expires_at IS NULL or expires_at >= ?', Date.today]).count
+    coupons = advertiser.coupons.where(['expires_at IS NULL or expires_at >= ?', Date.today]).count
+    coupons_count = coupons.count 
     money = advertiser.max_commission_percent.blank? ? number_to_currency(number_with_precision(advertiser.max_commission_dollars, :precision => 2)) : number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})
     self.company_name = advertiser.name
-    self.company_address = ''
+    self.company_address = coupons.push(coupons_count)
     urls = URI.extract(advertiser.advertiser_url)
     self.company_url = URI.parse(urls[0]).host
     self.user_money = "Up to #{money}"
@@ -19,7 +20,7 @@ class Search::IrMerchant < Search::Merchant
     add_intent_id_to_trackable_url('subId1')
     self.offer_buy_url = self.offer_buy_url  + "&url=#{URI::encode(urls[0])}"
     self.logo_url = advertiser.logo.url.index('missing.png').nil? ? 'https://muddleme.com' + advertiser.logo.url : nil
-
+    self.coupons_count=coupons_count
     self.company_coupons_url = controller.auction_coupons_url('ir', advertiser.advertiser_id)
   end
 end

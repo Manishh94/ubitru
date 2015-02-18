@@ -11,10 +11,12 @@
         %div.clearfix{:style => "display:table;width:100%;"}
           - if @results.count < 3
             - @results.each_with_index do |result, index|
+       
               .col-md-4.col-sm-6.padding-left-0{:style => "display:table-cell;float:none !important;"}
                 = render "/search/deals_section_new", :result => result, :index => index
           - else
             - @results.in_groups_of(3, false).each do |group|
+              =group
               %div{:style => "display:table-row;"}
                 - group.each_with_index do |result, index|
                   .col-md-4.col-sm-6.padding-left-0

@@ -33,7 +33,7 @@ class PjAdvertiser < ActiveRecord::Base
     begin
       page += 1
       response = PJ.joined_advertisers page
-      break if response.nil? || response['data'].blank?
+      # if response.nil? || response['data'].blank?
       advertisers = response['data']
       advertisers = [advertisers] unless advertisers.is_a? Array
       #self.collect_generic_links advertisers

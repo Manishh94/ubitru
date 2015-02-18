@@ -94,7 +94,7 @@ class CjAdvertiser < ActiveRecord::Base
   def set_attributes_from_response_row row
     self.name           = row['advertiser_name']
     self.advertiser_id  = row['advertiser_id']
-    self.sample_link_id = row['sample_link_id']
+    # self.sample_link_id = row['sample_link_id']
     self.inactive       = false
     self.params         = row
     return self if !row['actions'] && !row['actions']['action']

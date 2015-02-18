@@ -6,6 +6,6 @@
           #all-form-errors.text-center.text-danger
           .search-area
             .input-group
-              = text_field_tag :search_by_merchants, {}, :value => "Macy's, JCPenney, Target...", :autocomplete => "off", :class => "form-control search rb_medium", :style => "font-size: 18pt; font-family: Roboto-Regular;"
+              = text_field_tag :search_by_merchants,params[:search_by_merchants], :placeholder => "Macy's, JCPenney, Target...", :autocomplete => "off", :class => "form-control search rb_medium", :style => "font-size: 18pt; font-family: Roboto-Regular;"
               .input-group-btn{:style => "width:113px;"}
                 %button.btn.btn-primary.rb_bold{:type => "submit"} SEARCH
