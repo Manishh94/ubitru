@@ -22,8 +22,23 @@
                   .col-md-4.col-sm-6.padding-left-0
                     = render "/search/deals_section_new", :result => result, :index => index
       - else
+        %h1 
+          Opps this is Embarrassing! 
         %p
-          No Merchants found for your query.
+          We don’t have this Merchant in our platform. Please fill out the simple form below and we’ll add them to our list. 
+        %p
+          Merchant Name:
+          %input{:type => "text"} 
+        %p
+          Merchant Website:
+          %input{:type => "text"}
+        %p
+          We would need this form to go to our admin queue where we would a) approve this merchant  (make sure they are not currently in our DB of Merchants    b) be able to add a Merchant Logo and c) Allow admin/users to submit coupon codes and printable codes for use on the site (WE would not have cash back or an api integration with these Merchants – this is for convenience only
+
+          For Example:
+
+          User types in Michaels (http://www.michaels.com/). They are not one of our cash back merchants so we display the following message:
+
 
       .search-results-back-section
         = image_tag('second-pattern-line.png', :class => 'search-results-bottom-line-img')

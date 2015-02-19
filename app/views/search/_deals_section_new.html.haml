@@ -21,7 +21,11 @@
             = content[29..content.length]
           = link_to 'view more', 'javascript: void(0);', :class => 'view-more-coupon-description roboto-light', :id => "#{advertiser.advertiser_id}", :style => "font-size:12px!important;"
           %br
-          = link_to "get coupon (#{result['company_address'][1]})",result["company_address"][0].ad_url, :class => 'coupon-sty'
+          %span{:class => "coupon-sty"}
+            
+            %img{:src => "assets/new_scissor_icon.png"}
+            Get Coupon (#{result['company_address'][1]})
+                
     .row
       %span.roboto-light.margin-left-36
         = number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})

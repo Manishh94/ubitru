@@ -458,55 +458,64 @@ class SearchController < ApplicationController
   end
 
   def hp_merchants_search
-    @results = []
-    search = params[:search_by_merchants].strip
-    begin
+     @results = []
+     search = params[:search_by_merchants].strip
+     search = search.downcase.gsub(/[!@%'s'S&-,";]/,'')
+     puts '--------------------------------------------------------------------------------'
+     begin
       if current_user.present?
         search_intent = Search::Intent.find_or_create_by_search_and_user_id_and_search_date(search, current_user.id, Date.today)
-      else
-        search_intent = Search::Intent.find_or_create_by_search_and_search_date(search, Date.today)
+        puts "svdvdvdvddvdvdvdevcscjsckcd-------------------------------eccc"
+     else
+       search_intent = Search::Intent.find_or_create_by_search_and_search_date(search, Date.today)
+       puts "svdvdvdvddvdvdvdevcscjsck"
       end
     rescue ActiveRecord::RecordNotUnique
       render :json => [] and return
     end
-
+    puts "svdvdvdvddvdvdvdevcscjsckddwdwdwwd-dwdwd-dw-d-wd-wd"
     @results = []
-
-    avant = AvantAdvertiser.where('inactive != 1 and name LIKE ?', "%#{search}%").first
-    cj = CjAdvertiser.where('inactive != 1 and name LIKE ?', "%#{search}%").first
-    linkshare = LinkshareAdvertiser.where('inactive != 1 and name LIKE ?', "%#{search}%").first
-    pj = PjAdvertiser.where('inactive != 1 and name LIKE ?', "%#{search}%").first
-    ir = IrAdvertiser.where('inactive != 1 and name LIKE ?', "%#{search}%").first
+    avant = AvantAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
+    cj = CjAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
+    linkshare = LinkshareAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
+    pj = PjAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
+    ir = IrAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
 
     if avant
       merchant = Search::AvantMerchant.find_or_initialize_by_db_id_and_intent_id(avant.id, search_intent.id)
       merchant.set_attributes_from_search avant, nil, self
       @results << merchant.attributes if merchant.save!
+       puts "avant"
     elsif cj
       merchant = Search::CjMerchant.find_or_initialize_by_db_id_and_intent_id(cj.id, search_intent.id)
       merchant.set_attributes_from_search cj, nil, self
       @results << merchant.attributes if merchant.save!
+      puts "cj"
     elsif linkshare
       merchant = Search::LinkshareMerchant.find_or_initialize_by_db_id_and_intent_id(linkshare.id, search_intent.id)
       merchant.set_attributes_from_search linkshare, nil, self
       @results << merchant.attributes if merchant.save!
+      puts "linkshare"
     elsif pj
       merchant = Search::PjMerchant.find_or_initialize_by_db_id_and_intent_id(pj.id, search_intent.id)
       merchant.set_attributes_from_search pj, nil, self
       @results << merchant.attributes if merchant.save!
+      puts "pj"
     elsif ir
       merchant = Search::IrMerchant.find_or_initialize_by_db_id_and_intent_id(ir.id, search_intent.id)
       merchant.set_attributes_from_search ir, nil, self
       @results << merchant.attributes if merchant.save!
+      puts "ir"
     end
-
    if @results.blank?
       direct_affiliate_name_result, direct_linkshare_advertisers,  direct_avant_advertisers, direct_cj_advertisers, direct_pj_advertisers, direct_ir_advertisers = search_all_affiliates_by_name(search_intent, search)
       @results = direct_affiliate_name_result
+       #  render 'users/index' 
+       # # redirect_to admins_add_storecat_to_merchant_add_merchant_path
+       # # redirect_to add_merchant_admin_add_storecat_to_merchant_path
+      puts "blank"
    end
-   
-
-    render :layout => "new_application"
+     render :layout => "new_application"
   end
 
   def hp_pc_merchants

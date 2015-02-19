@@ -163,7 +163,35 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
+.coupon-sty{
 
+  padding: 10px !important;
+  text-transform: capitalize !important;
+  margin-top: 20px !important;
+  color: gray !important;
+  font-weight: bold;
+}
+
+.coupon-sty-pc-merchants {
+position: relative !important;
+top: 37px !important;
+left: -130px !important;
+color: gray;
+font-weight: bold;
+width: 150px;
+text-transform: capitalize !important;
+}
+.sci-coupn {
+    background: url(new_scissor_icon.png) 
+}
+.deals.gray-border-sq-box-35{
+ border: 5px solid #d2d2d1;
+ border-radius: 0 !important;
+ -o-border-radius: 0 !important;
+ -moz-border-radius: 0 !important;
+ padding-bottom: 0 !important;
+ min-height: 405px;
+}
 .main-nav button:focus {
     outline: none;
 }

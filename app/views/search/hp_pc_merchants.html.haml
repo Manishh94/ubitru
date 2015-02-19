@@ -11,12 +11,13 @@
           %div{:style => "display:table-row;"}
             - group.each_with_index do |result, i|
               .col-md-4.col-sm-6.padding-left-0
-                .deals.gray-border-sq-box
+                .deals.gray-border-sq-box-35
                   .deals-logo.no-gray-border
                     = image_tag(result.is_a?(LinkshareAdvertiser) ? result.logo_url : result.logo.url, :title => result.name, :size => "150x110")
                   .deals-info
                     .row
-                      %p.min-height-70{:id => "cdesc_#{result.advertiser_id}" }
+
+                      %p.min-height-35{:id => "cdesc_#{result.advertiser_id}" }
                         - content = "40% off on your entire order"
                         - content += " Hurry up!. Buy and win more coupons" if i < 1
                         - if content.length < 30
@@ -29,10 +30,15 @@
                             &nbsp;
                             = content[29..content.length]
                           = link_to 'view more', 'javascript: void(0);', :class => 'view-more-coupon-description roboto-light', :id => "#{result.advertiser_id}", :style => "font-size:12px!important;"
+                        
                     .row
                       %span.roboto-light.margin-left-36
                         = number_to_percentage(result.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})
                         Cash Back
+                      %span{:class => "coupon-sty-pc-merchants"}
+                        %span
+                          %img{:src => "assets/new_scissor_icon.png"}
+                          Get Coupon (#{result.coupons.count})
                       %span{:class => "promo pull-right"}
                         = image_tag('scissor.png', :class => 'top-deals-scissor')
                         %span{:style => "border: 2px dashed #828282 ;padding: 2px 25px; width:100%; margin-right: 36px;"}
