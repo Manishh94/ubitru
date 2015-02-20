@@ -18,7 +18,6 @@ class Search::LinkshareMerchant < Search::Merchant
     self.coupon_code = coupons_count == 0 ? 'No coupons' : pluralize(coupons_count, 'coupon')
     self.offer_buy_url = offer.nil? ? advertiser.base_tracking_url : offer.buy_url
     self.logo_url = advertiser.logo_url
-    # self.coupons_count=coupons_count if coupons_count.present?
     add_intent_id_to_trackable_url('u1')
 
     self.company_coupons_url = controller.auction_coupons_url('linkshare', advertiser.advertiser_id)

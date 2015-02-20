@@ -23,6 +23,7 @@ MuddleMe::Application.routes.draw do
   post '/mm_box_remove_user_message' => 'search#remove_user_message'
   post '/mm_skip_info_before_shopping' => 'search#skip_info_before_shopping'
   get '/mm_check_coupons_by_location' => 'search#check_coupons_by_location'
+  get '/muddleme-search' =>'search#muddleme_search'
 
   # ========= bing search ===================
   get '/bing_search' => 'search#bing_search'

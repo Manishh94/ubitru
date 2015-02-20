@@ -977,4 +977,16 @@ class SearchController < ApplicationController
     (spots.blank?) ? [] : spots.collect { |spot| spot.name }.uniq
   end
 
+  def muddleme_search
+
+    avant = AvantAdvertiser.all.map(&:name)
+    cj = CjAdvertiser.all.map(&:name)
+    linkshare = LinkshareAdvertiser.all.map(&:name)
+    pj = PjAdvertiser.all.map(&:name)
+    ir = IrAdvertiser.all.map(&:name)
+
+    arr = avant + cj + linkshare + pj + ir
+    arr = arr.map{|m| m.gsub(".com","")}
+    render json: arr
+  end
 end
