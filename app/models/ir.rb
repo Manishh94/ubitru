@@ -10,7 +10,7 @@ class IR
     #API request for Impact radius second account for advertiser information.
     response_two = self.get($ir_base_url+"/Mediapartners/#{$ir_account_sid_two}/Campaigns.json?",  {:basic_auth => account_two_auth, :query => params})
     #Merging advertisers information from both accounts.
-    break if (response_one.nil? && response_two.nil?) || (response_one['Campaigns'].blank? && response_two['Campaigns'].blank?)
+    # break if (response_one.nil? && response_two.nil?) || (response_one['Campaigns'].blank? && response_two['Campaigns'].blank?)
     advertisers_list_one = response_one['Campaigns']
     advertisers_list_one = [advertisers_list_one] unless advertisers_list_one.is_a? Array
     advertisers_list_two = response_two['Campaigns']
@@ -26,7 +26,7 @@ class IR
     response_one = self.get($ir_base_url+"/Mediapartners/#{$ir_account_sid}/PromoAds.json?",  {:basic_auth => auth, :query => params})
     #API request for Impact radius second account for coupon information.
     response_two = self.get($ir_base_url+"/Mediapartners/#{$ir_account_sid_two}/PromoAds.json?",  {:basic_auth => account_two_auth, :query => params})
-    break if (response_one.nil? && response_two.nil?) || (response_one['PromotionalAds'].blank? && response_two['PromotionalAds'].blank?)
+    # break if (response_one.nil? && response_two.nil?) || (response_one['PromotionalAds'].blank? && response_two['PromotionalAds'].blank?)
     #Merging coupon information from both accounts.
     coupons_list_one = response_one['PromotionalAds']
     coupons_list_one = [coupons_list_one] unless coupons_list_one.is_a? Array

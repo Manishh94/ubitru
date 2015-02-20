@@ -1,0 +1,1 @@
+$(document).ready(function(){availableTags=new Array,$.ajax({url:"/muddleme-search",success:function(t){for(console.log(t),i=0;i<t.length;i++)availableTags.push(t[i])}}),$(".search").on("keydown",function(){}),$(".search").autocomplete({source:availableTags})});

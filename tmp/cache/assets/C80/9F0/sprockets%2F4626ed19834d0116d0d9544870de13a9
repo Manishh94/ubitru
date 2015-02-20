@@ -1,0 +1,30 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791695.1043167:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%0868f5fb8826bb49a266c5e3fb9b973b;
+FI"logical_path;
+TI"video-js-custom.css;
+FI"pathname;
+TI":$root/app/assets/stylesheets/video-js-custom.css.scss;
+FI"content_type;
+TI"text/css;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI".vjs-default-skin .vjs-big-play-button{display:none !important}#video_container{padding-bottom:34px;background:url(/assets/video-shadow.png) no-repeat transparent center bottom}#video_container #mm_consumer_video,#video_container #mm_consumer_video{border:5px solid white;margin:0 auto}
+;
+TI"asset_paths;
+T[I":$root/app/assets/stylesheets/video-js-custom.css.scss;
+FI"dependency_paths;
+T[{I"	path;
+TI":$root/app/assets/stylesheets/video-js-custom.css.scss;
+FI"
+mtime;
+TIu:	Time®Å€lxV
+:nano_numi™:nano_deni:submicro"’:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%ea252c5e3b16ac9fc4f6935e9e4ea6fc;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

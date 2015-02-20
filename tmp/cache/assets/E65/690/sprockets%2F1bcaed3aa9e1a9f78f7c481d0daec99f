@@ -1,0 +1,7 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.4414968:@value{	I"length:ETiÑI"digest;
+TI"%6350cfa330d953b200b32778bc61e88d;
+FI"source;
+TI"Ñ$(function(){$("#describe-continue").click(function(){var t="-624px";$("#company-registration #step2_init").animate({marginLeft:t},300,"swing"),$("#company-registration #step2_optional").slideDown("slow")})});;
+TI"_version;
+TI"%362f16e5970712ad1ec42eb0d57f42c1;
+F

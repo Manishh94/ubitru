@@ -1,0 +1,96 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791684.9593706:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%e27a297af326711de5bee01d1cf59d29;
+FI"logical_path;
+TI"responsive-tables.js;
+FI"pathname;
+TI"6$root/app/assets/javascripts/responsive-tables.js;
+FI"content_type;
+TI"application/javascript;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI"Œ$(document).ready(function() {
+  var switched = false;
+  var updateTables = function() {
+    if (($(window).width() < 767) && !switched ){
+      switched = true;
+      $("table.responsive").each(function(i, element) {
+        splitTable($(element));
+      });
+      return true;
+    }
+    else if (switched && ($(window).width() > 767)) {
+      switched = false;
+      $("table.responsive").each(function(i, element) {
+        unsplitTable($(element));
+      });
+    }
+  };
+   
+  $(window).load(updateTables);
+  $(window).on("redraw",function(){switched=false;updateTables();}); // An event to listen for
+  $(window).on("resize", updateTables);
+   
+	
+	function splitTable(original)
+	{
+		original.wrap("<div class='table-wrapper' />");
+		
+		var copy = original.clone();
+		copy.find("td:not(:first-child), th:not(:first-child)").css("display", "none");
+		copy.removeClass("responsive");
+		
+		original.closest(".table-wrapper").append(copy);
+		copy.wrap("<div class='pinned' />");
+		original.wrap("<div class='scrollable' />");
+
+    setCellHeights(original, copy);
+	}
+	
+	function unsplitTable(original) {
+    original.closest(".table-wrapper").find(".pinned").remove();
+    original.unwrap();
+    original.unwrap();
+	}
+
+  function setCellHeights(original, copy) {
+    var tr = original.find('tr'),
+        tr_copy = copy.find('tr'),
+        heights = [];
+
+    tr.each(function (index) {
+      var self = $(this),
+          tx = self.find('th, td');
+
+      tx.each(function () {
+        var height = $(this).outerHeight(true);
+        heights[index] = heights[index] || 0;
+        if (height > heights[index]) heights[index] = height;
+      });
+
+    });
+
+    tr_copy.each(function (index) {
+      $(this).height(heights[index]);
+    });
+  }
+
+});
+;
+TI"asset_paths;
+T[I"6$root/app/assets/javascripts/responsive-tables.js;
+FI"dependency_paths;
+T[{I"	path;
+TI"6$root/app/assets/javascripts/responsive-tables.js;
+FI"
+mtime;
+TIu:	TimeÆ≈Ä¨ùU
+:nano_numiõ:nano_deni:submicro"í0:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%18bd59146c4c1f37203173bd1d37c036;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

@@ -4,8 +4,9 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 //
+//= require jquery_ujs
 //= require jquery
-//jquery_ujs
+//= require jquery_ujs
 //= require jquery-ui
 //= require jquery-ui-timepicker-addon
 //= require jquery.fancybox.pack
@@ -29,6 +30,9 @@
 //= require image-slider
 //= require form-toggler
 //= require common/auctions
+//= require custom
 //= require categories_multi_select
 //= require constants.js
 //= require jquery.inview.min.js
+
+

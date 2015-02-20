@@ -29,6 +29,7 @@ gem 'jquery-rails', '1.0.19' #must be fixed because current version of multisele
 gem 'html5-rails', '0.0.4'
 gem 'gdata', git: 'https://github.com/agentrock/gdata.git'
 gem "iconv", "~> 1.0.3"
+gem 'sprockets'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

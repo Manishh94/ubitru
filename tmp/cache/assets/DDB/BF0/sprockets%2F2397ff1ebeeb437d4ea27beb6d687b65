@@ -1,0 +1,45 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791713.4537456:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%39fefd83e0912ed5f734d8dc7b3cb77d;
+FI"logical_path;
+TI"h5bp/plugins.js;
+FI"pathname;
+TI"m/home/mamoon/.rvm/gems/ruby-2.1.2@leme1/gems/html5-rails-0.0.4/vendor/assets/javascripts/h5bp/plugins.js;
+FI"content_type;
+TI"application/javascript;
+TI"
+mtime;
+TI"2015-02-16T15:31:06+05:00;
+TI"	body;
+TI"„// usage: log('inside coolFunc', this, arguments);
+// paulirish.com/2009/log-a-lightweight-wrapper-for-consolelog/
+window.log = function(){
+  log.history = log.history || [];   // store logs to an array for reference
+  log.history.push(arguments);
+  if(this.console) {
+    arguments.callee = arguments.callee.caller;
+    var newarr = [].slice.call(arguments);
+    (typeof console.log === 'object' ? log.apply.call(console.log, console, newarr) : console.log.apply(console, newarr));
+  }
+};
+
+// make it safe to use console.log always
+(function(b){function c(){}for(var d="assert,clear,count,debug,dir,dirxml,error,exception,firebug,group,groupCollapsed,groupEnd,info,log,memoryProfile,memoryProfileEnd,profile,profileEnd,table,time,timeEnd,timeStamp,trace,warn".split(","),a;a=d.pop();){b[a]=b[a]||c}})((function(){try
+{console.log();return window.console;}catch(err){return window.console={};}})());
+;
+TI"asset_paths;
+T[I"m/home/mamoon/.rvm/gems/ruby-2.1.2@leme1/gems/html5-rails-0.0.4/vendor/assets/javascripts/h5bp/plugins.js;
+FI"dependency_paths;
+T[{I"	path;
+TI"m/home/mamoon/.rvm/gems/ruby-2.1.2@leme1/gems/html5-rails-0.0.4/vendor/assets/javascripts/h5bp/plugins.js;
+FI"
+mtime;
+TIu:	Time
+Æ€²cb|
+:nano_numi×:nano_deni:submicro"˜0:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%d9637216e1ddb5d601d8fb6681145820;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

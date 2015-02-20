@@ -1,0 +1,1 @@
+$(function(){$('input[name="to_release[]"]').live("click",function(){var e=0;$('input[name="to_release[]"]').each(function(){this.checked&&(e+=100*Number(this.value))}),$("#for_release").text("$"+(e/100).toFixed(2))})});

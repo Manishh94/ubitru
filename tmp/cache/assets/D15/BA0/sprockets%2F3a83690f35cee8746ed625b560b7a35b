@@ -1,0 +1,40 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.9239979:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%183179f27f9589410ebc196ce5e74c4d;
+FI"logical_path;
+TI"admins/outcome_reports.js;
+FI"pathname;
+TI";$root/app/assets/javascripts/admins/outcome_reports.js;
+FI"content_type;
+TI"application/javascript;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI"@$(function(){
+  $('input[name="to_release[]"]').live('click', function(){
+      var total = 0;
+      $('input[name="to_release[]"]').each(function() {
+         if(this.checked) {
+             total += Number(this.value) * 100;
+         }
+      });
+      $('#for_release').text('$' + (total / 100).toFixed(2));
+  });
+});
+;
+TI"asset_paths;
+T[I";$root/app/assets/javascripts/admins/outcome_reports.js;
+FI"dependency_paths;
+T[{I"	path;
+TI";$root/app/assets/javascripts/admins/outcome_reports.js;
+FI"
+mtime;
+TIu:	Time®Å€l~U
+:nano_numiœ:nano_deni:submicro"’@:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%6d9a4b604d99863eff684d5c32d31e27;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

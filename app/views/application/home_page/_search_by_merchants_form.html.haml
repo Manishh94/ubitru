@@ -1,20 +1,21 @@
 :javascript
-  $(function () {
-      $("document").ready(function () {
-           availableTags =  new Array(); 
-           $.ajax({url: "/muddleme-search", success: function(result){
-            console.log(result);
-            for (i = 0;i < result.length; i++) { 
-                availableTags.push(result[i]);
-            }
-            }});
-          $(".search").on("keydown", function () {
-        });
-          $(".search").autocomplete({
-              source: availableTags
+  $(function() {
+    $(document).ready(function () {
+         alert('tesign.... ')
+         var availableTags =  new Array(); 
+          $.ajax({url: "/muddleme-search", success: function(result){
+           console.log(result);
+           for (i = 0;i < result.length; i++) { 
+               availableTags.push(result[i]);
+           }
+           }});
+         $(".search").on("keydown", function () {
           });
-      });
-  });
+         $(".search").autocomplete({
+             source: availableTags
+         });
+     });
+   });  
 %section.main-search-area
   .move_left
     .container-fluid

@@ -1,0 +1,36 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.4270651:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%362f16e5970712ad1ec42eb0d57f42c1;
+FI"logical_path;
+TI"4vendors/devise/registrations/company-details.js;
+FI"pathname;
+TI"Q$root/app/assets/javascripts/vendors/devise/registrations/company-details.js;
+FI"content_type;
+TI"application/javascript;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI""$(function () {
+    $('#describe-continue').click(function () {
+        var slider_elem_width = "-624px";
+        $('#company-registration #step2_init').animate({marginLeft:slider_elem_width}, 300, 'swing');
+        $('#company-registration #step2_optional').slideDown("slow");
+    });
+});
+;
+TI"asset_paths;
+T[I"Q$root/app/assets/javascripts/vendors/devise/registrations/company-details.js;
+FI"dependency_paths;
+T[{I"	path;
+TI"Q$root/app/assets/javascripts/vendors/devise/registrations/company-details.js;
+FI"
+mtime;
+TIu:	TimeÆ≈Ä¨ùU
+:nano_numiõ:nano_deni:submicro"í0:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%9b91d6281e946192a219700fea2a8133;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

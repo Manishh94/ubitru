@@ -14,3 +14,5 @@
 //= require shake
 //= require search/utils
 //= require search/mm-engine
+
+alert('testing...')

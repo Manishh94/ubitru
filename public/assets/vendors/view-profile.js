@@ -1,0 +1,1 @@
+$(function(){var t,e=$(".profile-link:first").text();$(".profile-link").live("click",function(i){i.preventDefault();var n=$(this);n.text("Generating preview..."),t&&t.abort(),$.ajax({type:"POST",url:n.attr("href"),complete:function(){n.text(e),showDetailsBox($("#profile-details-box"))},dataType:"script"})})});

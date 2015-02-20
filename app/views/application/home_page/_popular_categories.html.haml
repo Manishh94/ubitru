@@ -10,16 +10,3 @@
                   %div{:style => "font-size:12px;padding:3px;word-wrap: break-word;"}
                     = link_to product_cat.name, hp_pc_merchants_path(:pcid => product_cat.id), :class => "pcs_list_link"
 
-
-:javascript
-  $(".slidingDiv").hide();
-  $('.pcs_show_hide').on('click', function(e){
-    $('.slidingDiv').toggle(function(){
-      if ($("#pcs_plus").text() == "+"){
-        $("#pcs_plus").text("-")
-      }
-      else{
-        $("#pcs_plus").text("+")
-      }
-    });
-  });

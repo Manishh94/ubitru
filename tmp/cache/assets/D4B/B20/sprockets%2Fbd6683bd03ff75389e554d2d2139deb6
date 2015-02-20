@@ -1,0 +1,49 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.4715571:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%29a41846e89d8641397fc5ad9f1fe9d9;
+FI"logical_path;
+TI"vendors/view-profile.js;
+FI"pathname;
+TI"9$root/app/assets/javascripts/vendors/view-profile.js;
+FI"content_type;
+TI"application/javascript;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI"Ó$(function(){
+  var pendingRequest;
+  var linkTxt = $('.profile-link:first').text();
+  $('.profile-link').live('click',function(e){
+    e.preventDefault();
+    var $this = $(this);
+    $this.text('Generating preview...');
+    if(pendingRequest) pendingRequest.abort();
+    $.ajax({
+      type: 'POST',
+      url: $this.attr('href'),
+      complete: function(){
+        $this.text(linkTxt);
+        showDetailsBox($('#profile-details-box'));
+      },
+      dataType: 'script'
+    });
+  });
+})
+;
+;
+TI"asset_paths;
+T[I"9$root/app/assets/javascripts/vendors/view-profile.js;
+FI"dependency_paths;
+T[{I"	path;
+TI"9$root/app/assets/javascripts/vendors/view-profile.js;
+FI"
+mtime;
+TIu:	TimeÆ≈Ä¨ùU
+:nano_numiõ:nano_deni:submicro"í0:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%9adf82a4defec1c2d237a752a309f462;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

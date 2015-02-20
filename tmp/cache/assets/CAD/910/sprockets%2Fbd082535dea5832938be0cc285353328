@@ -1,0 +1,59 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.854192:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%55d0b3b83cfe2b3ce246135af56e83eb;
+FI"logical_path;
+TI":admins/affiliated_advertisers/affiliate_categories.js;
+FI"pathname;
+TI"W$root/app/assets/javascripts/admins/affiliated_advertisers/affiliate_categories.js;
+FI"content_type;
+TI"application/javascript;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI"í$('.tag .close, .tag .preferred').live('click', function(){
+    showLoader($('#affiliates-form-warp'))
+})
+
+$('.add-advertiser-button').live('click', function(e){
+    e.preventDefault();
+    var selected = $(this).parent().find('option:selected:first');
+    if(!selected.length || !selected.val())
+        return;
+    var advertiserId = selected.val()
+    if(!window.selected_category_id) return;
+
+
+    var type;
+    if($(this).hasClass('add-cj')) type = 'cj';
+    if($(this).hasClass('add-avant')) type = 'avant';
+    if($(this).hasClass('add-linkshare')) type = 'linkshare';
+    if($(this).hasClass('add-pj')) type = 'pj';
+    if($(this).hasClass('add-ir')) type = 'ir';
+    if(!type) return;
+
+    if($('.' + type + '_' + advertiserId).length) return;
+
+    $.getScript(add_advertiser_mapping_url.
+        replace('__category__id__', window.selected_category_id).
+        replace('__type__',type).
+        replace('__advertiser_id__',advertiserId)
+        )
+    showLoader($('#affiliates-form-warp'))
+});
+;
+TI"asset_paths;
+T[I"W$root/app/assets/javascripts/admins/affiliated_advertisers/affiliate_categories.js;
+FI"dependency_paths;
+T[{I"	path;
+TI"W$root/app/assets/javascripts/admins/affiliated_advertisers/affiliate_categories.js;
+FI"
+mtime;
+TIu:	Time®Å€l~U
+:nano_numiœ:nano_deni:submicro"’@:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%b06f9d77f940e9441dee93c1dd86944e;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

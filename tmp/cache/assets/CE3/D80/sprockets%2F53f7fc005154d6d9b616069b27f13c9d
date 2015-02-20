@@ -1,0 +1,58 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.4547896:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%bbd8b3d612ceec4c29565ed139152c52;
+FI"logical_path;
+TI""vendors/offers/multiselect.js;
+FI"pathname;
+TI"?$root/app/assets/javascripts/vendors/offers/multiselect.js;
+FI"content_type;
+TI"application/javascript;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI"£$(function(){
+
+  $('#offer_expiration_time_1i, #offer_expiration_time_3i, #offer_expiration_time_4i, #offer_expiration_time_5i').multiselect({
+      header: false,
+      selectedList: 1,
+      height: "auto",
+      minWidth: "80",
+      multiple: false,
+      classes: "multiselect-button multiselect-dropdown",
+      position: {
+        my: 'left top',
+        at: 'left top'
+      }
+    });
+
+  $('#offer_expiration_time_2i').multiselect({
+    header: false,
+    selectedList: 1,
+    height: "auto",
+    minWidth: "105",
+    multiple: false,
+    classes: "multiselect-button multiselect-dropdown",
+    position: {
+      my: 'left top',
+      at: 'left top'
+    }
+  });
+
+});
+;
+TI"asset_paths;
+T[I"?$root/app/assets/javascripts/vendors/offers/multiselect.js;
+FI"dependency_paths;
+T[{I"	path;
+TI"?$root/app/assets/javascripts/vendors/offers/multiselect.js;
+FI"
+mtime;
+TIu:	TimeÆ≈Ä¨ùU
+:nano_numiõ:nano_deni:submicro"í0:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%6b81352ad95bc5d0724cf714ef49189b;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

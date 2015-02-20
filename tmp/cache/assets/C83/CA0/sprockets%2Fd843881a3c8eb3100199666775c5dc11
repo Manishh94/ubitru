@@ -1,0 +1,30 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791692.2049623:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%493f88c816739f7d493c9d9a8b35ba8d;
+FI"logical_path;
+TI"print.css;
+FI"pathname;
+TI"0$root/app/assets/stylesheets/print.css.scss;
+FI"content_type;
+TI"text/css;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI"Ebody{padding:0}#preview{border:none}#print-button{display:none}
+;
+TI"asset_paths;
+T[I"0$root/app/assets/stylesheets/print.css.scss;
+FI"dependency_paths;
+T[{I"	path;
+TI"0$root/app/assets/stylesheets/print.css.scss;
+FI"
+mtime;
+TIu:	Time®Å€lxV
+:nano_numi™:nano_deni:submicro"’:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%924bd8446caa9590960ada4c46964d87;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

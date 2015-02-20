@@ -1,0 +1,30 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791692.2306795:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%94b1f8812549bf246f1d58127ac23774;
+FI"logical_path;
+TI"print_preview.css;
+FI"pathname;
+TI"8$root/app/assets/stylesheets/print_preview.css.scss;
+FI"content_type;
+TI"text/css;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI"Œbody{margin:0;padding:0;line-height:1.4em;font:12pt  Arial,  Helvetica, "Lucida Grande", sens-serif;background:#fff;color:#000}h1{font-size:13pt;text-align:center;padding:3pt}#preview{padding:15pt}p{paddin:3pt 0}p.bigger{fon-size:13pt}p.highlight{font-weight:bold}body{padding:10px}#print-button{padding:40px;text-align:center}#print-button button{font-size:14pt}#preview{border:2px solid black}
+;
+TI"asset_paths;
+T[I"8$root/app/assets/stylesheets/print_preview.css.scss;
+FI"dependency_paths;
+T[{I"	path;
+TI"8$root/app/assets/stylesheets/print_preview.css.scss;
+FI"
+mtime;
+TIu:	Time®Å€lxV
+:nano_numi™:nano_deni:submicro"’:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%6c1019736ec85389a753f5111fb4af6a;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

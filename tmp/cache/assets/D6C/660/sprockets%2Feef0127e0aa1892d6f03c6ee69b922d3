@@ -1,0 +1,57 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791711.6215672:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%76e4528b463bc3f0fd67ce550ab98730;
+FI"logical_path;
+TI"!jquery_file_upload/locale.js;
+FI"pathname;
+TI"A$root/vendor/assets/javascripts/jquery_file_upload/locale.js;
+FI"content_type;
+TI"application/javascript;
+TI"
+mtime;
+TI"2015-02-13T19:01:04+05:00;
+TI"	body;
+TI"ü/*
+ * jQuery File Upload Plugin Localization Example 6.5
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2012, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+
+window.locale = {
+    "fileupload": {
+        "errors": {
+            "maxFileSize": "File is too big",
+            "minFileSize": "File is too small",
+            "acceptFileTypes": "Filetype not allowed",
+            "maxNumberOfFiles": "No more files allowed",
+            "uploadedBytes": "Uploaded bytes exceed file size",
+            "emptyResult": "Empty file upload result"
+        },
+        "error": "Error",
+        "start": "Start",
+        "cancel": "Cancel",
+        "destroy": "Delete"
+    }
+};
+;
+TI"asset_paths;
+T[I"A$root/vendor/assets/javascripts/jquery_file_upload/locale.js;
+FI"dependency_paths;
+T[{I"	path;
+TI"A$root/vendor/assets/javascripts/jquery_file_upload/locale.js;
+FI"
+mtime;
+TIu:	Time®Å€,#O
+:nano_numi•:nano_deni:submicro"@P:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%1635ebe582d29abba0aafff2e47711c6;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

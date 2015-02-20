@@ -1,0 +1,74 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791670.1391358:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%f8b87f4048c98cf497d5bdfcc302ae5d;
+FI"logical_path;
+TI"common/file_upload.js;
+FI"pathname;
+TI"7$root/app/assets/javascripts/common/file_upload.js;
+FI"content_type;
+TI"application/javascript;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI"3//= require jquery_file_upload
+
+$(function () {
+    $("input[type=file]")
+    .change(function(){
+      $(this).closest('.input-file-wrap').find('input.fakeupload').val($(this).val().replace('C:\\fakepath\\',''))
+    })
+  
+    locale.fileupload.errors.emptyResult = 'Error while loading file'
+  
+    // Initialize the jQuery File Upload widget:
+    $('#fileupload').fileupload({
+      autoUpload: true, 
+      previewMaxWidth: 48, 
+      previewMaxHeight: 48,
+      maxFileSize: window.fileUploadMaxFileSize || (300 * 1000),
+      maxNumberOfFiles: window.fileUploadMaxFiles || 10,
+      acceptFileTypes: /(\.|\/)(gif|jpe?g|png)$/i
+    });
+    
+    var showHideDropMessage = function() {
+      var fn = $('#fileupload .files').children().length ? 'hide' : 'show';
+      $('#fileupload .drop-msg')[fn]();
+    }
+    
+    $('#fileupload').bind('fileuploadadded', function () {showHideDropMessage()});
+    $('#fileupload').bind('fileuploaddestroyed', function () {showHideDropMessage()});
+    $('#fileupload input[type="file"]').attr('multiple', 'multiple');
+    // 
+    // Load existing files:
+    $.getJSON($('#fileupload').data('image-list-url'), function (files) {
+      var fu = $('#fileupload').data('fileupload'), 
+        template;
+      fu._adjustMaxNumberOfFiles(-files.length);
+      template = fu._renderDownload(files)
+        .appendTo($('#fileupload .files'));
+      // Force reflow:
+      fu._reflow = fu._transition && template.length &&
+        template[0].offsetWidth;
+      template.addClass('in');
+      $('#loading').remove();
+      showHideDropMessage();
+    });
+
+});
+;
+TI"asset_paths;
+T[I"7$root/app/assets/javascripts/common/file_upload.js;
+FI"dependency_paths;
+T[{I"	path;
+TI"7$root/app/assets/javascripts/common/file_upload.js;
+FI"
+mtime;
+TIu:	Time®Å€l~U
+:nano_numiœ:nano_deni:submicro"’@:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%242a7e777d7054ef5cec4bb1c25fe11e;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

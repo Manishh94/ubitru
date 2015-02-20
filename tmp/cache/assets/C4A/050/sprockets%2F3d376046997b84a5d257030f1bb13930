@@ -1,0 +1,32 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.3989534:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%f0f68c08003267c5d52702c517c6f97c;
+FI"logical_path;
+TI"$users/user_service_providers.js;
+FI"pathname;
+TI"A$root/app/assets/javascripts/users/user_service_providers.js;
+FI"content_type;
+TI"application/javascript;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI"ï// Place all the behaviors and hooks related to the matching controller here.
+// All this logic will automatically be available in application.js.
+;
+;
+TI"asset_paths;
+T[I"A$root/app/assets/javascripts/users/user_service_providers.js;
+FI"dependency_paths;
+T[{I"	path;
+TI"A$root/app/assets/javascripts/users/user_service_providers.js;
+FI"
+mtime;
+TIu:	TimeÆ≈Ä¨ùU
+:nano_numiõ:nano_deni:submicro"í0:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%96a9e1e74b5465a86522686485c31ac6;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

@@ -1,0 +1,32 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.9120977:@value{I"
+class:ETI"BundledAsset;
+FI"id;
+TI"%4fe87546cc53b703dbd9abf8eb7192df;
+FI"logical_path;
+TI"!admins/custom_advertisers.js;
+FI"pathname;
+TI">$root/app/assets/javascripts/admins/custom_advertisers.js;
+FI"content_type;
+TI"application/javascript;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"	body;
+TI"•// Place all the behaviors and hooks related to the matching controller here.
+// All this logic will automatically be available in application.js.
+;
+;
+TI"asset_paths;
+T[I">$root/app/assets/javascripts/admins/custom_advertisers.js;
+FI"dependency_paths;
+T[{I"	path;
+TI">$root/app/assets/javascripts/admins/custom_advertisers.js;
+FI"
+mtime;
+TIu:	Time®Å€l~U
+:nano_numiœ:nano_deni:submicro"’@:offsetiPF:	zoneI"PKT;
+TI"hexdigest;
+TI"%96a9e1e74b5465a86522686485c31ac6;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

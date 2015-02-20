@@ -1,0 +1,20 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791684.4993956:@value{I"
+class:ETI"StaticAsset;
+FI"id;
+TI"%e2e3ac70e31598a1d07f8d24f387a2aa;
+FI"logical_path;
+TI"&new_application.js-bkp-12-01-2014;
+FI"pathname;
+TI"C$root/app/assets/javascripts/new_application.js-bkp-12-01-2014;
+FI"content_type;
+TI"application/octet-stream;
+TI"
+mtime;
+TI"2015-02-13T19:00:53+05:00;
+TI"length;
+TI"839;
+FI"digest;
+TI"%335d0c713755b85342dcee5188c5b11b;
+FI"_version;
+TI"%df7525e917401704ef453cb56bf16697;
+F

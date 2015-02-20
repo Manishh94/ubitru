@@ -8,7 +8,7 @@ MuddleMe::Application.configure do
 
   # Log error messages when you accidentally call methods on nil.
   config.whiny_nils = true
-
+  config.serve_static_assets = false
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
@@ -23,13 +23,13 @@ MuddleMe::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
 
   # Do not compress assets
-  config.assets.compress = false
+
 
   config.action_mailer.asset_host = HOSTNAME_CONFIG['hostname_url']
 
   # Expands the lines which load the assets
   config.assets.debug = true
-
+  #config.assets.compile=true
   config.action_mailer.default_url_options = { :host => "localhost", :port => '3000' }
   config.action_mailer.delivery_method = :sendmail
   config.action_mailer.sendmail_settings = {
