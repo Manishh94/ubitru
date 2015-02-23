@@ -14,7 +14,7 @@ class PjCoupon < ActiveRecord::Base
     inserted_count = 0
     begin
       response = PJ.coupons
-      break if response.nil? || response['data'].blank?
+     # if response.nil? || response['data'].blank?
       coupons = response['data']
       coupons = [coupons] unless coupons.is_a? Array
 

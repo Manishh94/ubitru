@@ -1,23 +1,24 @@
 development:
+
  adapter: mysql2
  database: muddleme_development
  username: root
- password: db123@
+ password: password
  host: localhost
  reconnect: true
-
-staging:
- adapter: mysql2
- database: muddleme_staging
- username: root
- password: db123@
- host: localhost
- reconnect: true
-
-production:
- adapter: mysql2
- database: muddleme_production
- username: root 
- password: db123@
- host: localhost
- reconnect: true
+socket: /usr/local/var/mysql/mysql.sock
+# staging:
+#  adapter: mysql2
+#  database: muddleme_staging
+#  username: root
+#  password: ""
+#  host: localhost
+#  reconnect: true
+# socket: /tmp/mysql.sock
+# production:
+#  adapter: mysql2
+#  database: muddleme_production
+#  username: root 
+#  password: db123@
+#  host: localhost
+#  reconnect: true

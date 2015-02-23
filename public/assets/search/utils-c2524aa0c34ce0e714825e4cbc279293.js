@@ -1,1 +1,0 @@
-function formatMoney(e){var t=parseFloat(e);return isNaN(t)?"N/A":"$"+t.toFixed(2)}function uniqueBy(e,t){var i={},n=[];return e.forEach(function(e){var s=t(e);i[s]||(n.push(e),i[s]=!0)}),n}function isMobile(){return/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)}

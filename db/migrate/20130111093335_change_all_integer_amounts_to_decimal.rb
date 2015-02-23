@@ -21,10 +21,10 @@ class ChangeAllIntegerAmountsToDecimal < ActiveRecord::Migration
     change_column :campaigns, :budget, :decimal, :precision => 8, :scale => 2
     change_column :campaigns, :total_spent, :decimal, :precision => 8, :scale => 2
 
-    change_column :cj_advertisers, :commission_percent, :decimal, :precision => 8, :scale => 2
-    change_column :cj_advertisers, :commission_dollars, :decimal, :precision => 8, :scale => 2
-    change_column :cj_advertisers, :max_commission_dollars, :decimal, :precision => 8, :scale => 2
-    change_column :cj_advertisers, :max_commission_dollars, :decimal, :precision => 8, :scale => 2
+    # change_column :cj_advertisers, :commission_percent, :decimal, :precision => 8, :scale => 2
+    # change_column :cj_advertisers, :commission_dollars, :decimal, :precision => 8, :scale => 2
+    # change_column :cj_advertisers, :max_commission_dollars, :decimal, :precision => 8, :scale => 2
+    # change_column :cj_advertisers, :max_commission_dollars, :decimal, :precision => 8, :scale => 2
 
     change_column :cj_commissions, :price, :decimal, :precision => 8, :scale => 2
     change_column :cj_commissions, :commission_amount, :decimal, :precision => 8, :scale => 2

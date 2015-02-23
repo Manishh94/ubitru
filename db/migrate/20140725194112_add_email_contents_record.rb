@@ -1,6 +1,6 @@
 class AddEmailContentsRecord < ActiveRecord::Migration
   def up
-    EmailContent.create(:name => 'search_ended_from_soleo', :send_mail => 1)
+    EmailContent.create(:name => 'search_ended_from_soleo')
   end
 
   def down

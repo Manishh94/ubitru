@@ -1,1 +1,0 @@
-$(function(){$("#bing-submit-button").click(function(){$("#bing-search-box-form").submit()})});
