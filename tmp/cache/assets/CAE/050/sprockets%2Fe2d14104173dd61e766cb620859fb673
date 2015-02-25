@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791698.269734:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851614.9484591:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%a8e959f4e1a2e5b78db6fb94e316a7d7;
+TI"%74a3ffb007293b11d96888f939fb8387;
 FI"logical_path;
 TI"uniform/bg-input-focus.png;
 FI"pathname;

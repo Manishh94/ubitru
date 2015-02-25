@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.3682985:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5287163:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%e8153660e575e41f784cf56317000be8;
+TI"%de5fa3e3028152a2a6357939d8ec4a8a;
 FI"logical_path;
 TI"pictures/megaphone.png;
 FI"pathname;

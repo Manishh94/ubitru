@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.3115158:@value{	I"length:ETi§I"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851606.2274387:@value{	I"length:ETi§I"digest;
 TI"%dce72fb4324994a26faa2547a5d82864;
 FI"source;
 TI"§function initCategorySelects(t,e,i){var n=document.getElementById("first_level_category"),s=document.getElementById("second_level_category");$.when(loadCategories(t,n,e)).then(function(){loadCategories(e,s,i)})}function loadCategories(t,e,i){return $.ajax({type:"GET",url:"/load_product_categories",data:{id:t},dataType:"json",success:function(t){reloadCategorySelects(t,e,i)}})}function reloadCategorySelects(t,e,i){var n;null!=document.getElementById("second_level_category")?n=document.getElementById("second_level_category"):null!=document.getElementById("affiliation_second_level_category")&&(n=document.getElementById("affiliation_second_level_category"));var s;s=e.size<=1?!0:!1,e==n?(e.options.length=0,s&&e.options.add(new Option("Select",""))):(e.options.length=0,n.options.length=0,s&&(e.options.add(new Option("Select","")),n.options.add(new Option("",""))));var o,a;for(o=0;o<t.length;++o)a=t[o],e.options.add(new Option(a.name,a.id,!1,a.id==i));e==n?$("select#second_level_category").multiselect("refresh"):($("select#second_level_category").multiselect("refresh"),$("select#first_level_category").multiselect("refresh"))}$(document).ready(function(){$("select#root_category").change(function(){var t=$(this).val(),e=document.getElementById("first_level_category");loadCategories(t,e)}),$("select#first_level_category").change(function(){var t=$(this).val(),e=document.getElementById("second_level_category");loadCategories(t,e)})});;
 TI"_version;
-TI"%42355dfcbabdd5820829dad8ecdf1ffc;
+TI"%96ebc6624bbe1150313889e81a9f7570;
 F

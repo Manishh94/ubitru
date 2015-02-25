@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791669.3806417:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851590.3564632:@value{I"
 class:ETI"BundledAsset;
 FI"id;
-TI"%76ad9a9a7e5b05e8323ffd55574edb58;
+TI"%8a00479e30e1a71cb3576f89dc5cdd2d;
 FI"logical_path;
 TI"application.js;
 FI"pathname;
@@ -10,9 +10,9 @@ FI"content_type;
 TI"application/javascript;
 TI"
 mtime;
-TI"2015-02-24T15:19:28+05:00;
+TI"2015-02-25T13:01:50+05:00;
 TI"	body;
-TI"«// This is a manifest file that'll be compiled into including all the files listed below.
+TI"// This is a manifest file that'll be compiled into including all the files listed below.
 // Add new JavaScript/Coffee code in separate files in this directory and they'll automatically
 // be included in the compiled file accessible from http://example.com/assets/application.js
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
@@ -48,8 +48,10 @@ TI"«// This is a manifest file that'll be compiled into including all the file
 //= require categories_multi_select
 //= require constants.js
 //= require jquery.inview.min.js
+//= require_tree .
 
 
+$('.check').click(function(){ alert("haha motuuuuuu")})
 ;
 ;
 TI"asset_paths;
@@ -59,11 +61,10 @@ T[{I"	path;
 TI"0$root/app/assets/javascripts/application.js;
 FI"
 mtime;
-TIu:	Time
-«Ä˙√M
-:nano_numiÉ:nano_deni:submicro"âê:offsetiPF:	zoneI"PKT;
+TIu:	Time(«Ä 
+:nano_numi:nano_deni:submicro"yp:offsetiPF:	zoneI"PKT;
 TI"hexdigest;
-TI"%429be2c710d74f8c3631958ca199eeae;
+TI"%bc692bcd336df1ec629c292b2a858659;
 FI"_version;
 TI"%df7525e917401704ef453cb56bf16697;
 F

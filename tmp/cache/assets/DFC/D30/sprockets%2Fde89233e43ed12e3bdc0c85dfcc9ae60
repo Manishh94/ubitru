@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.183547:@value{	I"length:ETi'I"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851605.9620368:@value{	I"length:ETi'I"digest;
 TI"%31705d1460c2c692def2d979202e83d5;
 FI"source;
 TI"'function formatMoney(t){var e=parseFloat(t);return isNaN(e)?"N/A":"$"+e.toFixed(2)}function uniqueBy(t,e){var i={},n=[];return t.forEach(function(t){var s=e(t);i[s]||(n.push(t),i[s]=!0)}),n}function isMobile(){return/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)}jQuery.fn.center=function(){return this.each(function(){var t=$(this),e=t.height(),i=t.width(),n=$(window).width(),s=$(window).height(),o=(n-i)/2,a=(s-e)/2.5,r={position:"absolute",left:o+"px",top:a+"px"};t.css(r)})},$(document).ready(function(){alert("tesign.... "),availableTags=new Array,$.ajax({url:"/muddleme-search",success:function(t){for(console.log(t),i=0;i<t.length;i++)availableTags.push(t[i])}}),$(".search").on("keydown",function(){}),$(".search").autocomplete({source:availableTags})});;
 TI"_version;
-TI"%e3d2d9dc844845d7f34b89f9cedd9a12;
+TI"%216d59bc5d424e370ca33f18428b7a20;
 F

@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.3586352:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.519589:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%b07b0f754b9dbc2ffb3fccede3315973;
+TI"%d8c1591782e0fc10a8791c9f263e9447;
 FI"logical_path;
 TI"$pictures/great-deal-sticker.png;
 FI"pathname;

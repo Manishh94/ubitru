@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.0859609:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2594166:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%fd74f8ddfed0bde20c308a628f4e2cc7;
+TI"%13465a9d0c6aa3da526547ac32014c58;
 FI"logical_path;
 TI"browserhelp/circle_two.png;
 FI"pathname;

@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791666.833863:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851588.7580166:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%17edba893724cfd0ba90b9ff6d37d716;
+TI"%0b4c73acc4af391611dfd240da45e7d0;
 FI"logical_path;
 TI"NexaSlab-Bold.otf;
 FI"pathname;

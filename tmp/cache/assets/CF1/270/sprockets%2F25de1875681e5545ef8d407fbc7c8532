@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.4821534:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5917523:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%ded18f3efb95b1c8b254935461f894a1;
+TI"%9d7f273b2f7b442a5c269f85c344db45;
 FI"logical_path;
 TI"#search/mm-balance-btn-icon.png;
 FI"pathname;

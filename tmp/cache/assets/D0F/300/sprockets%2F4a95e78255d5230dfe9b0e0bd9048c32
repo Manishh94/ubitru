@@ -1,20 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791713.0122578:@value{I"
-class:ETI"StaticAsset;
-FI"id;
-TI"%43f36019811deb21d2888226e8839a47;
-FI"logical_path;
-TI"images/bx_loader.gif;
-FI"pathname;
-TI"9$root/vendor/assets/stylesheets/images/bx_loader.gif;
-FI"content_type;
-TI"image/gif;
-TI"
-mtime;
-TI"2015-02-13T19:01:04+05:00;
-TI"length;
-TI"	8581;
-FI"digest;
-TI"%604ee6bf555a8f66464a490eda891707;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F

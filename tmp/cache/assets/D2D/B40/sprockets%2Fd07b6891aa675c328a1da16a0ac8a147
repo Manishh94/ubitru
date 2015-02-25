@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.04082:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2164516:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%a30fa046260dc72d7003e8e6d464fc47;
+TI"%0d1a93df231344eb64d2a872b4c97f11;
 FI"logical_path;
 TI"amazon-logo.png;
 FI"pathname;

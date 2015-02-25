@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.5140364:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.6098025:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%4d2836bb7f5b447dc1bd54ca1a173250;
+TI"%21bb8e9d079c1f3ad02b60a2f3754225;
 FI"logical_path;
 TI"search/muddlemelogo.png;
 FI"pathname;

@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.0731056:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2449477:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%ba99abbd7819c3b4c5a0356ec13072e7;
+TI"%d55825f59fb452ebed65ba5aa423ff18;
 FI"logical_path;
 TI"browser/chrome.png;
 FI"pathname;

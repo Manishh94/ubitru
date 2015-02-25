@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.3235774:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4873774:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%3db579e700eedf94e2b8088e4cbdeda1;
+TI"%292a200a4b593d2fe1bfb6259beb571f;
 FI"logical_path;
 TI"new_scissor_icon.png;
 FI"pathname;

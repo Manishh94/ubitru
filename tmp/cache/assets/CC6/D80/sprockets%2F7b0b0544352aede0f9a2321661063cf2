@@ -1,20 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791713.087433:@value{I"
-class:ETI"StaticAsset;
-FI"id;
-TI"%215e51f651c6ac9b22ad3aa3202ff650;
-FI"logical_path;
-TI"4jquery_file_upload/img/glyphicons-halflings.png;
-FI"pathname;
-TI"T$root/vendor/assets/stylesheets/jquery_file_upload/img/glyphicons-halflings.png;
-FI"content_type;
-TI"image/png;
-TI"
-mtime;
-TI"2015-02-13T19:01:05+05:00;
-TI"length;
-TI"	4352;
-FI"digest;
-TI"%0d35d28d069e8c8fefb369fb1653f3c9;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F

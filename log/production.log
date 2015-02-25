@@ -24713,3 +24713,2251 @@ Compiled modernizr.min.js  (0ms)  (pid 6879)
 Compiled jquery.js  (24ms)  (pid 6879)
 Compiled jquery.min.js  (28ms)  (pid 6879)
 Compiled jquery_ujs.js  (25ms)  (pid 6879)
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in CustomAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in AvantAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in CjAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in IrAdvertiser class
+Mysql2::Error: MySQL server has gone away: SHOW TABLES
+Mysql2::Error: MySQL server has gone away: SHOW TABLES
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in CustomAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in AvantAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in CjAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in IrAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in CustomAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in AvantAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in CjAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in IrAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in CustomAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in AvantAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in CjAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in IrAdvertiser class
+Compiled admins/add_storecat_to_merchant.js  (0ms)  (pid 3978)
+Compiled admins/affiliated_advertisers/affiliate_categories.js  (29ms)  (pid 3978)
+Compiled admins/auctions/datepicker-filters.js  (0ms)  (pid 3978)
+Compiled admins/auctions/email_contents/preview.js  (0ms)  (pid 3978)
+Compiled admins/box_messages.js  (0ms)  (pid 3978)
+Compiled admins/custom_advertisers.js  (0ms)  (pid 3978)
+Compiled admins/hp_stores.js  (0ms)  (pid 3978)
+Compiled admins/outcome_reports.js  (0ms)  (pid 3978)
+Compiled admins/stores.js  (0ms)  (pid 3978)
+Compiled admins/users.js  (0ms)  (pid 3978)
+Compiled admins/withdrawal_requests.js  (0ms)  (pid 3978)
+Compiled ajaxform.js  (1ms)  (pid 3978)
+Compiled application.js  (1ms)  (pid 3978)
+Compiled bootstrap.js  (2ms)  (pid 3978)
+Compiled categories_multi_select.js  (31ms)  (pid 3978)
+Compiled common/auctions.js  (0ms)  (pid 3978)
+Compiled common/file_upload.js  (0ms)  (pid 3978)
+Compiled constants.js  (1ms)  (pid 3978)
+Compiled custom.js  (0ms)  (pid 3978)
+Compiled details-box.js  (0ms)  (pid 3978)
+Compiled form-toggler.js  (0ms)  (pid 3978)
+Compiled global.js  (0ms)  (pid 3978)
+Compiled image-slider.js  (13ms)  (pid 3978)
+Compiled init_datepicker.js  (2ms)  (pid 3978)
+Compiled init_placeholders.js  (0ms)  (pid 3978)
+Compiled init_tooltips.js  (0ms)  (pid 3978)
+Compiled init_uniform.js  (0ms)  (pid 3978)
+Compiled jquery-1-11-1.min.js  (2ms)  (pid 3978)
+Compiled jquery-ui.js  (32ms)  (pid 3978)
+Compiled jquery.fancybox.js  (19ms)  (pid 3978)
+Compiled jquery.fancybox.pack.js  (1ms)  (pid 3978)
+Compiled jquery.inview.min.js  (22ms)  (pid 3978)
+Compiled main.js  (21ms)  (pid 3978)
+Compiled modernizr-2.6.2.min.js  (0ms)  (pid 3978)
+Compiled new_application.js  (49ms)  (pid 3978)
+Compiled owl.carousel.js  (1ms)  (pid 3978)
+Compiled polyfills.js  (25ms)  (pid 3978)
+Compiled rails.validations.extensions.js  (0ms)  (pid 3978)
+Compiled responsive-tables.js  (0ms)  (pid 3978)
+Compiled search/bing_search.js  (0ms)  (pid 3978)
+Compiled search/extension_background_iframe.js  (0ms)  (pid 3978)
+Compiled search/google_search.js  (0ms)  (pid 3978)
+Compiled search/mm-box.js  (0ms)  (pid 3978)
+Compiled search/mm-engine.js  (0ms)  (pid 3978)
+Compiled search/mm-icons.js  (0ms)  (pid 3978)
+Compiled search/prompt_cc_window.js  (0ms)  (pid 3978)
+Compiled search/search.js  (21ms)  (pid 3978)
+Compiled search/utils.js  (7ms)  (pid 3978)
+Compiled show_loader.js  (41ms)  (pid 3978)
+Compiled show_loader.js.erb-20-1-2015  (0ms)  (pid 3978)
+Compiled tables.js  (0ms)  (pid 3978)
+Compiled users/auctions.js  (0ms)  (pid 3978)
+Compiled users/auctions/multiselect.js  (0ms)  (pid 3978)
+Compiled users/auctions/product_categories.js  (0ms)  (pid 3978)
+Compiled users/devise/registrations.js  (0ms)  (pid 3978)
+Compiled users/devise/registrations/customer-details.js  (0ms)  (pid 3978)
+Compiled users/devise/registrations/multiselect.js  (0ms)  (pid 3978)
+Compiled users/favorite_advertisers.js  (0ms)  (pid 3978)
+Compiled users/profile/multiselect.js  (0ms)  (pid 3978)
+Compiled users/surveys.js  (0ms)  (pid 3978)
+Compiled users/user_service_providers.js  (0ms)  (pid 3978)
+Compiled vendors/campaigns.js  (0ms)  (pid 3978)
+Compiled vendors/devise/registrations/company-details.js  (0ms)  (pid 3978)
+Compiled vendors/offers/multiselect.js  (0ms)  (pid 3978)
+Compiled vendors/searches.js  (0ms)  (pid 3978)
+Compiled vendors/view-profile.js  (0ms)  (pid 3978)
+Compiled zclip.js  (0ms)  (pid 3978)
+Compiled jquery-ui-1.8.18.custom.css  (0ms)  (pid 3978)
+Compiled jquery.multiselect.css  (0ms)  (pid 3978)
+Compiled j.query.uniform.default.css  (0ms)  (pid 3978)
+Compiled jquery.fancybox.css  (0ms)  (pid 3978)
+Compiled jquery-ui-timepicker-addon.css  (0ms)  (pid 3978)
+Compiled application.css  (2124ms)  (pid 3978)
+Compiled bootstrap.css.scss-bkp-07-01-2014  (20ms)  (pid 3978)
+Compiled file_upload.css  (143ms)  (pid 3978)
+Compiled main.css.scss--13-1-2015-2  (0ms)  (pid 3978)
+Compiled main.css.scss-12-1-2015  (16ms)  (pid 3978)
+Compiled main.css.scss-13-1-2015  (30ms)  (pid 3978)
+Compiled main.css.scss-19-1-2015  (19ms)  (pid 3978)
+Compiled main.css.scss-9-1-2015  (41ms)  (pid 3978)
+Compiled main.css.scss-bkp-07-01-2014  (34ms)  (pid 3978)
+Compiled main_home_page.css.scss-11-1-2015  (0ms)  (pid 3978)
+Compiled main_home_page.css.scss-13-1-2015  (0ms)  (pid 3978)
+Compiled main_home_page.css.scss-9-1-2015  (0ms)  (pid 3978)
+Compiled admins/add_storecat_to_merchant.js  (0ms)  (pid 4150)
+Compiled admins/affiliated_advertisers/affiliate_categories.js  (0ms)  (pid 4150)
+Compiled admins/auctions/datepicker-filters.js  (0ms)  (pid 4150)
+Compiled admins/auctions/email_contents/preview.js  (0ms)  (pid 4150)
+Compiled admins/box_messages.js  (0ms)  (pid 4150)
+Compiled admins/custom_advertisers.js  (0ms)  (pid 4150)
+Compiled admins/hp_stores.js  (0ms)  (pid 4150)
+Compiled admins/outcome_reports.js  (0ms)  (pid 4150)
+Compiled admins/stores.js  (0ms)  (pid 4150)
+Compiled admins/users.js  (0ms)  (pid 4150)
+Compiled admins/withdrawal_requests.js  (0ms)  (pid 4150)
+Compiled ajaxform.js  (1ms)  (pid 4150)
+Compiled application.js  (0ms)  (pid 4150)
+Compiled bootstrap.js  (1ms)  (pid 4150)
+Compiled categories_multi_select.js  (0ms)  (pid 4150)
+Compiled common/auctions.js  (0ms)  (pid 4150)
+Compiled common/file_upload.js  (0ms)  (pid 4150)
+Compiled constants.js  (0ms)  (pid 4150)
+Compiled custom.js  (0ms)  (pid 4150)
+Compiled details-box.js  (0ms)  (pid 4150)
+Compiled form-toggler.js  (0ms)  (pid 4150)
+Compiled global.js  (0ms)  (pid 4150)
+Compiled image-slider.js  (0ms)  (pid 4150)
+Compiled init_datepicker.js  (1ms)  (pid 4150)
+Compiled init_placeholders.js  (0ms)  (pid 4150)
+Compiled init_tooltips.js  (0ms)  (pid 4150)
+Compiled init_uniform.js  (0ms)  (pid 4150)
+Compiled jquery-1-11-1.min.js  (1ms)  (pid 4150)
+Compiled jquery-ui.js  (7ms)  (pid 4150)
+Compiled jquery.fancybox.js  (1ms)  (pid 4150)
+Compiled jquery.fancybox.pack.js  (0ms)  (pid 4150)
+Compiled jquery.inview.min.js  (0ms)  (pid 4150)
+Compiled main.js  (0ms)  (pid 4150)
+Compiled modernizr-2.6.2.min.js  (0ms)  (pid 4150)
+Compiled new_application.js  (0ms)  (pid 4150)
+Compiled owl.carousel.js  (1ms)  (pid 4150)
+Compiled polyfills.js  (0ms)  (pid 4150)
+Compiled rails.validations.extensions.js  (0ms)  (pid 4150)
+Compiled responsive-tables.js  (0ms)  (pid 4150)
+Compiled search/bing_search.js  (0ms)  (pid 4150)
+Compiled search/extension_background_iframe.js  (0ms)  (pid 4150)
+Compiled search/google_search.js  (0ms)  (pid 4150)
+Compiled search/mm-box.js  (0ms)  (pid 4150)
+Compiled search/mm-engine.js  (0ms)  (pid 4150)
+Compiled search/mm-icons.js  (0ms)  (pid 4150)
+Compiled search/prompt_cc_window.js  (0ms)  (pid 4150)
+Compiled search/search.js  (0ms)  (pid 4150)
+Compiled search/utils.js  (0ms)  (pid 4150)
+Compiled show_loader.js  (17ms)  (pid 4150)
+Compiled show_loader.js.erb-20-1-2015  (0ms)  (pid 4150)
+Compiled tables.js  (0ms)  (pid 4150)
+Compiled users/auctions.js  (0ms)  (pid 4150)
+Compiled users/auctions/multiselect.js  (0ms)  (pid 4150)
+Compiled users/auctions/product_categories.js  (0ms)  (pid 4150)
+Compiled users/devise/registrations.js  (0ms)  (pid 4150)
+Compiled users/devise/registrations/customer-details.js  (0ms)  (pid 4150)
+Compiled users/devise/registrations/multiselect.js  (0ms)  (pid 4150)
+Compiled users/favorite_advertisers.js  (0ms)  (pid 4150)
+Compiled users/profile/multiselect.js  (0ms)  (pid 4150)
+Compiled users/surveys.js  (0ms)  (pid 4150)
+Compiled users/user_service_providers.js  (0ms)  (pid 4150)
+Compiled vendors/campaigns.js  (0ms)  (pid 4150)
+Compiled vendors/devise/registrations/company-details.js  (0ms)  (pid 4150)
+Compiled vendors/offers/multiselect.js  (0ms)  (pid 4150)
+Compiled vendors/searches.js  (0ms)  (pid 4150)
+Compiled vendors/view-profile.js  (0ms)  (pid 4150)
+Compiled zclip.js  (0ms)  (pid 4150)
+Compiled jquery-ui-1.8.18.custom.css  (0ms)  (pid 4150)
+Compiled jquery.multiselect.css  (0ms)  (pid 4150)
+Compiled j.query.uniform.default.css  (0ms)  (pid 4150)
+Compiled jquery.fancybox.css  (0ms)  (pid 4150)
+Compiled jquery-ui-timepicker-addon.css  (0ms)  (pid 4150)
+Compiled application.css  (1708ms)  (pid 4150)
+Compiled bootstrap.css.scss-bkp-07-01-2014  (0ms)  (pid 4150)
+Compiled file_upload.css  (88ms)  (pid 4150)
+Compiled main.css.scss--13-1-2015-2  (0ms)  (pid 4150)
+Compiled main.css.scss-12-1-2015  (0ms)  (pid 4150)
+Compiled main.css.scss-13-1-2015  (0ms)  (pid 4150)
+Compiled main.css.scss-19-1-2015  (0ms)  (pid 4150)
+Compiled main.css.scss-9-1-2015  (0ms)  (pid 4150)
+Compiled main.css.scss-bkp-07-01-2014  (0ms)  (pid 4150)
+Compiled print.css  (1ms)  (pid 4150)
+Compiled print_preview.css  (2ms)  (pid 4150)
+Compiled jquery.tipsy.custom.css  (0ms)  (pid 4150)
+Compiled jquery.bxslider.css  (0ms)  (pid 4150)
+Compiled search.css  (191ms)  (pid 4150)
+Compiled vendors.css  (1086ms)  (pid 4150)
+Compiled video-js-custom.css  (1ms)  (pid 4150)
+Compiled bootstrap-custom.js  (0ms)  (pid 4150)
+Compiled jquery-ui-timepicker-addon.js  (1ms)  (pid 4150)
+Compiled jquery-ui.min.js  (2ms)  (pid 4150)
+Compiled jquery.bxslider.min.js  (0ms)  (pid 4150)
+Compiled jquery.cookie.js  (0ms)  (pid 4150)
+Compiled jquery.history.js  (0ms)  (pid 4150)
+Compiled jquery.multiselect.min.js  (0ms)  (pid 4150)
+Compiled jquery.placeholder.js  (0ms)  (pid 4150)
+Compiled jquery.tipsy.custom.js  (0ms)  (pid 4150)
+Compiled jquery.tools.min.js  (0ms)  (pid 4150)
+Compiled jquery.trunk8.custom.js  (0ms)  (pid 4150)
+Compiled jquery.uniform.min.js  (0ms)  (pid 4150)
+Compiled jquery.zclip.min.js  (0ms)  (pid 4150)
+Compiled jquery_file_upload/canvas-to-blob.min.js  (0ms)  (pid 4150)
+Compiled jquery_file_upload/index.js  (0ms)  (pid 4150)
+Compiled jquery_file_upload/jquery.fileupload-ip.js  (0ms)  (pid 4150)
+Compiled jquery_file_upload/jquery.fileupload-ui.js  (0ms)  (pid 4150)
+Compiled jquery_file_upload/jquery.fileupload.js  (0ms)  (pid 4150)
+Compiled jquery_file_upload/jquery.iframe-transport.js  (0ms)  (pid 4150)
+Compiled jquery_file_upload/load-image.min.js  (0ms)  (pid 4150)
+Compiled jquery_file_upload/locale.js  (0ms)  (pid 4150)
+Compiled jquery_file_upload/tmpl.min.js  (0ms)  (pid 4150)
+Compiled shake.js  (0ms)  (pid 4150)
+Compiled video.min.js  (1ms)  (pid 4150)
+Compiled video-js.css  (0ms)  (pid 4150)
+Compiled rails.validations.js  (0ms)  (pid 4150)
+Compiled h5bp/index.js  (0ms)  (pid 4150)
+Compiled h5bp/plugins.js  (0ms)  (pid 4150)
+Compiled modernizr.min.js  (0ms)  (pid 4150)
+Compiled jquery.js  (4ms)  (pid 4150)
+Compiled jquery.min.js  (1ms)  (pid 4150)
+Compiled jquery_ujs.js  (0ms)  (pid 4150)
+Compiled admins/add_storecat_to_merchant.js  (0ms)  (pid 4084)
+Compiled admins/affiliated_advertisers/affiliate_categories.js  (0ms)  (pid 4084)
+Compiled admins/auctions/datepicker-filters.js  (0ms)  (pid 4084)
+Compiled admins/auctions/email_contents/preview.js  (0ms)  (pid 4084)
+Compiled admins/box_messages.js  (0ms)  (pid 4084)
+Compiled admins/custom_advertisers.js  (0ms)  (pid 4084)
+Compiled admins/hp_stores.js  (0ms)  (pid 4084)
+Compiled admins/outcome_reports.js  (0ms)  (pid 4084)
+Compiled admins/stores.js  (0ms)  (pid 4084)
+Compiled admins/users.js  (0ms)  (pid 4084)
+Compiled admins/withdrawal_requests.js  (0ms)  (pid 4084)
+Compiled ajaxform.js  (1ms)  (pid 4084)
+Compiled application.js  (0ms)  (pid 4084)
+Compiled bootstrap.js  (1ms)  (pid 4084)
+Compiled categories_multi_select.js  (0ms)  (pid 4084)
+Compiled common/auctions.js  (0ms)  (pid 4084)
+Compiled common/file_upload.js  (0ms)  (pid 4084)
+Compiled constants.js  (0ms)  (pid 4084)
+Compiled custom.js  (0ms)  (pid 4084)
+Compiled details-box.js  (0ms)  (pid 4084)
+Compiled form-toggler.js  (0ms)  (pid 4084)
+Compiled global.js  (0ms)  (pid 4084)
+Compiled image-slider.js  (0ms)  (pid 4084)
+Compiled init_datepicker.js  (1ms)  (pid 4084)
+Compiled init_placeholders.js  (0ms)  (pid 4084)
+Compiled init_tooltips.js  (0ms)  (pid 4084)
+Compiled init_uniform.js  (0ms)  (pid 4084)
+Compiled jquery-1-11-1.min.js  (1ms)  (pid 4084)
+Compiled jquery-ui.js  (7ms)  (pid 4084)
+Compiled jquery.fancybox.js  (1ms)  (pid 4084)
+Compiled jquery.fancybox.pack.js  (0ms)  (pid 4084)
+Compiled jquery.inview.min.js  (0ms)  (pid 4084)
+Compiled main.js  (0ms)  (pid 4084)
+Compiled modernizr-2.6.2.min.js  (0ms)  (pid 4084)
+Compiled new_application.js  (0ms)  (pid 4084)
+Compiled owl.carousel.js  (1ms)  (pid 4084)
+Compiled polyfills.js  (0ms)  (pid 4084)
+Compiled rails.validations.extensions.js  (0ms)  (pid 4084)
+Compiled responsive-tables.js  (0ms)  (pid 4084)
+Compiled search/bing_search.js  (0ms)  (pid 4084)
+Compiled search/extension_background_iframe.js  (0ms)  (pid 4084)
+Compiled search/google_search.js  (0ms)  (pid 4084)
+Compiled search/mm-box.js  (0ms)  (pid 4084)
+Compiled search/mm-engine.js  (1ms)  (pid 4084)
+Compiled search/mm-icons.js  (0ms)  (pid 4084)
+Compiled search/prompt_cc_window.js  (0ms)  (pid 4084)
+Compiled search/search.js  (0ms)  (pid 4084)
+Compiled search/utils.js  (0ms)  (pid 4084)
+Compiled show_loader.js  (15ms)  (pid 4084)
+Compiled show_loader.js.erb-20-1-2015  (0ms)  (pid 4084)
+Compiled tables.js  (0ms)  (pid 4084)
+Compiled users/auctions.js  (0ms)  (pid 4084)
+Compiled users/auctions/multiselect.js  (0ms)  (pid 4084)
+Compiled users/auctions/product_categories.js  (0ms)  (pid 4084)
+Compiled users/devise/registrations.js  (0ms)  (pid 4084)
+Compiled users/devise/registrations/customer-details.js  (0ms)  (pid 4084)
+Compiled users/devise/registrations/multiselect.js  (0ms)  (pid 4084)
+Compiled users/favorite_advertisers.js  (0ms)  (pid 4084)
+Compiled users/profile/multiselect.js  (0ms)  (pid 4084)
+Compiled users/surveys.js  (0ms)  (pid 4084)
+Compiled users/user_service_providers.js  (0ms)  (pid 4084)
+Compiled vendors/campaigns.js  (0ms)  (pid 4084)
+Compiled vendors/devise/registrations/company-details.js  (0ms)  (pid 4084)
+Compiled vendors/offers/multiselect.js  (0ms)  (pid 4084)
+Compiled vendors/searches.js  (0ms)  (pid 4084)
+Compiled vendors/view-profile.js  (0ms)  (pid 4084)
+Compiled zclip.js  (0ms)  (pid 4084)
+Compiled jquery-ui-1.8.18.custom.css  (0ms)  (pid 4084)
+Compiled jquery.multiselect.css  (0ms)  (pid 4084)
+Compiled j.query.uniform.default.css  (0ms)  (pid 4084)
+Compiled jquery.fancybox.css  (0ms)  (pid 4084)
+Compiled jquery-ui-timepicker-addon.css  (0ms)  (pid 4084)
+Compiled application.css  (1701ms)  (pid 4084)
+Compiled bootstrap.css.scss-bkp-07-01-2014  (0ms)  (pid 4084)
+Compiled file_upload.css  (66ms)  (pid 4084)
+Compiled main.css.scss--13-1-2015-2  (0ms)  (pid 4084)
+Compiled main.css.scss-12-1-2015  (0ms)  (pid 4084)
+Compiled main.css.scss-13-1-2015  (0ms)  (pid 4084)
+Compiled main.css.scss-19-1-2015  (0ms)  (pid 4084)
+Compiled main.css.scss-9-1-2015  (0ms)  (pid 4084)
+Compiled main.css.scss-bkp-07-01-2014  (0ms)  (pid 4084)
+Compiled print.css  (34ms)  (pid 4084)
+Compiled print_preview.css  (11ms)  (pid 4084)
+Compiled jquery.tipsy.custom.css  (9ms)  (pid 4084)
+Compiled jquery.bxslider.css  (0ms)  (pid 4084)
+Compiled search.css  (261ms)  (pid 4084)
+Compiled vendors.css  (1181ms)  (pid 4084)
+Compiled video-js-custom.css  (52ms)  (pid 4084)
+Compiled bootstrap-custom.js  (12ms)  (pid 4084)
+Compiled jquery-ui-timepicker-addon.js  (1ms)  (pid 4084)
+Compiled jquery-ui.min.js  (24ms)  (pid 4084)
+Compiled jquery.bxslider.min.js  (29ms)  (pid 4084)
+Compiled jquery.cookie.js  (21ms)  (pid 4084)
+Compiled jquery.history.js  (0ms)  (pid 4084)
+Compiled jquery.multiselect.min.js  (23ms)  (pid 4084)
+Compiled jquery.placeholder.js  (0ms)  (pid 4084)
+Compiled jquery.tipsy.custom.js  (0ms)  (pid 4084)
+Compiled jquery.tools.min.js  (0ms)  (pid 4084)
+Compiled jquery.trunk8.custom.js  (5ms)  (pid 4084)
+Compiled jquery.uniform.min.js  (29ms)  (pid 4084)
+Compiled jquery.zclip.min.js  (20ms)  (pid 4084)
+Compiled jquery_file_upload/canvas-to-blob.min.js  (15ms)  (pid 4084)
+Compiled jquery_file_upload/index.js  (0ms)  (pid 4084)
+Compiled jquery_file_upload/jquery.fileupload-ip.js  (0ms)  (pid 4084)
+Compiled jquery_file_upload/jquery.fileupload-ui.js  (0ms)  (pid 4084)
+Compiled jquery_file_upload/jquery.fileupload.js  (34ms)  (pid 4084)
+Compiled jquery_file_upload/jquery.iframe-transport.js  (0ms)  (pid 4084)
+Compiled jquery_file_upload/load-image.min.js  (0ms)  (pid 4084)
+Compiled jquery_file_upload/locale.js  (0ms)  (pid 4084)
+Compiled jquery_file_upload/tmpl.min.js  (0ms)  (pid 4084)
+Compiled shake.js  (22ms)  (pid 4084)
+Compiled video.min.js  (1ms)  (pid 4084)
+Compiled video-js.css  (0ms)  (pid 4084)
+Compiled rails.validations.js  (17ms)  (pid 4084)
+Compiled h5bp/index.js  (17ms)  (pid 4084)
+Compiled h5bp/plugins.js  (0ms)  (pid 4084)
+Compiled modernizr.min.js  (0ms)  (pid 4084)
+Compiled jquery.js  (28ms)  (pid 4084)
+Compiled jquery.min.js  (22ms)  (pid 4084)
+Compiled jquery_ujs.js  (22ms)  (pid 4084)
+
+
+Started GET "/hp_mm_box_merchants_search" for 127.0.0.1 at 2015-02-25 12:43:59 +0500
+  Processing by ApplicationController#index as HTML
+  Parameters: {"referring_user_id_or_group_name"=>"hp_mm_box_merchants_search"}
+Geokit is using the domain: localhost
+  [1m[36mSalesGroup Load (0.6ms)[0m  [1mSELECT `sales_groups`.* FROM `sales_groups` WHERE `sales_groups`.`name` = 'hp_mm_box_merchants_search' LIMIT 1[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`sales_name` = 'hp_mm_box_merchants_search' LIMIT 1
+  [1m[36mProductCategory Load (0.6ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Accessories%')[0m
+  [1m[35mProductCategory Load (0.6ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Air Conditioning%')
+  [1m[36mProductCategory Load (0.5ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Airline%')[0m
+  [1m[35mProductCategory Load (0.5ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Appliances%')
+  [1m[36mProductCategory Load (0.5ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Automotive%')[0m
+  [1m[35mProductCategory Load (0.3ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Baby%')
+  [1m[36mProductCategory Load (0.3ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Books%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Boots%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Builders%')[0m
+  [1m[35mProductCategory Load (0.3ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Cable/Dish TV%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Cameras%')[0m
+  [1m[35mProductCategory Load (0.3ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Car Rentals%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Clothng%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Coffee%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Computers%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Cosmetics%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Costumes%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Crafts%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Debt Repair%')[0m
+  [1m[35mProductCategory Load (0.6ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Decor%')
+  [1m[36mProductCategory Load (0.3ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Delivery%')[0m
+  [1m[35mProductCategory Load (0.3ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Designer%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Dresses%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Electricians%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Electronics%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Fashion%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Flights%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Flowers%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Food%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Furniture%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Games%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Gifts%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%HVAC%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Health%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Home%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Hotels%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Insurance%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Internet%')
+  [1m[36mProductCategory Load (0.2ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Jewelry%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Kids%')
+  [1m[36mProductCategory Load (0.4ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Laptops%')[0m
+  [1m[35mProductCategory Load (0.3ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Mac%')
+  [1m[36mProductCategory Load (0.3ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Magazines%')[0m
+  [1m[35mProductCategory Load (0.2ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Makeup%')
+  [1m[36mProductCategory Load (0.4ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Movies%')[0m
+  [1m[35mProductCategory Load (0.4ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Music%')
+  [1m[36mProductCategory Load (0.4ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Outdoors%')[0m
+  [1m[35mProductCategory Load (0.4ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Party Supplies%')
+  [1m[36mProductCategory Load (0.3ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Photo%')[0m
+  [1m[35mProductCategory Load (0.3ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Plumbing%')
+  [1m[36mProductCategory Load (0.3ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Roofers%')[0m
+  [1m[35mProductCategory Load (0.7ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Shoes%')
+  [1m[36mProductCategory Load (0.4ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Skin Care%')[0m
+  [1m[35mProductCategory Load (0.3ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Software%')
+  [1m[36mProductCategory Load (0.3ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Sports%')[0m
+  [1m[35mProductCategory Load (0.3ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Supplements%')
+  [1m[36mProductCategory Load (0.3ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%TV’s%')[0m
+  [1m[35mProductCategory Load (0.3ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Tablets%')
+  [1m[36mProductCategory Load (0.3ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Tickets%')[0m
+  [1m[35mProductCategory Load (0.3ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Tools%')
+  [1m[36mProductCategory Load (0.3ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Toys%')[0m
+  [1m[35mProductCategory Load (0.3ms)[0m  SELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Travel%')
+  [1m[36mProductCategory Load (0.3ms)[0m  [1mSELECT `product_categories`.* FROM `product_categories` WHERE (name LIKE '%Weddings%')[0m
+  [1m[35mHpStore Load (0.3ms)[0m  SELECT cj_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'favorite_stores'
+  [1m[36mHpStore Load (0.4ms)[0m  [1mSELECT avant_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'favorite_stores'[0m
+  [1m[35mHpStore Load (0.2ms)[0m  SELECT linkshare_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'favorite_stores'
+  [1m[36mHpStore Load (0.4ms)[0m  [1mSELECT pj_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'favorite_stores'[0m
+  [1m[35mHpStore Load (0.3ms)[0m  SELECT ir_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'favorite_stores'
+  [1m[36mHpStore Load (0.3ms)[0m  [1mSELECT custom_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'favorite_stores'[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (id IN (NULL)) ORDER BY commission_percent DESC[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC[0m
+  [1m[35mIrAdvertiser Load (0.6ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC
+  [1m[36mCustomAdvertiser Load (0.5ms)[0m  [1mSELECT `custom_advertisers`.* FROM `custom_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC[0m
+  [1m[35mHpStore Load (0.4ms)[0m  SELECT cj_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'browseable'
+  [1m[36mHpStore Load (0.4ms)[0m  [1mSELECT avant_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'browseable'[0m
+  [1m[35mHpStore Load (0.3ms)[0m  SELECT linkshare_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'browseable'
+  [1m[36mHpStore Load (0.3ms)[0m  [1mSELECT pj_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'browseable'[0m
+  [1m[35mHpStore Load (0.3ms)[0m  SELECT ir_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'browseable'
+  [1m[36mHpStore Load (0.3ms)[0m  [1mSELECT custom_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'browseable'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (id IN (NULL)) ORDER BY commission_percent DESC[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `custom_advertisers`.* FROM `custom_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC[0m
+  [1m[35mHpStore Load (0.4ms)[0m  SELECT cj_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'top_dealers'
+  [1m[36mHpStore Load (0.4ms)[0m  [1mSELECT avant_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'top_dealers'[0m
+  [1m[35mHpStore Load (0.4ms)[0m  SELECT linkshare_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'top_dealers'
+  [1m[36mHpStore Load (0.5ms)[0m  [1mSELECT pj_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'top_dealers'[0m
+  [1m[35mHpStore Load (1.1ms)[0m  SELECT ir_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'top_dealers'
+  [1m[36mHpStore Load (0.4ms)[0m  [1mSELECT custom_advertiser_id FROM `hp_stores` WHERE `hp_stores`.`store_type` = 'top_dealers'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (id IN (NULL)) ORDER BY commission_percent DESC[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `custom_advertisers`.* FROM `custom_advertisers` WHERE (id IN (NULL)) ORDER BY max_commission_percent DESC[0m
+Rendered application/home_page/_search_by_merchants_form.html.haml (5.3ms)
+Rendered application/home_page/_favorite_stores_section.html.haml (5.8ms)
+Rendered application/home_page/_browse_stores_section.html.haml (5.7ms)
+Rendered application/home_page/_local_services_section.html.haml (5.8ms)
+Rendered application/home_page/_search_by_services_form.html.haml (13.4ms)
+Rendered application/home_page/_top_deals_section.html.haml (8.1ms)
+Rendered application/home_page/_sms_module.html.haml (4.2ms)
+Rendered application/home_page/_coming_soon_popup.html.haml (2.1ms)
+Rendered application/home_page/_mobile_apps_banner.html.haml (11.1ms)
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Ebags') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.6ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Ebags') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.5ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Ebags') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.7ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Ebags') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.5ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Ebags') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.5ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Sunglasses Hut') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Sunglasses Hut') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.5ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Sunglasses Hut') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.2ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Sunglasses Hut') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.5ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Sunglasses Hut') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'SUSU Handbag') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'SUSU Handbag') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.5ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'SUSU Handbag') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'SUSU Handbag') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'SUSU Handbag') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Ray-Ban') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Ray-Ban') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Ray-Ban') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Ray-Ban') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Ray-Ban') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Oakley') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.2ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Oakley') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.2ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Oakley') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Oakley') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.2ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Oakley') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Jewelry.com') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Jewelry.com') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.6ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Jewelry.com') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.5ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Jewelry.com') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Jewelry.com') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Sears') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.5ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Sears') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Sears') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Sears') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Sears') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'AJ Madison') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'AJ Madison') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'AJ Madison') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'AJ Madison') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'AJ Madison') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.3ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Sears Outlet') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.3ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Sears Outlet') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.3ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Sears Outlet') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Sears Outlet') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Sears Outlet') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Homeclick') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Homeclick') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Homeclick') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.5ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Homeclick') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Homeclick') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Whirlpool') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Whirlpool') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.3ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Whirlpool') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.2ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Whirlpool') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.2ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Whirlpool') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.3ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Art.com') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.3ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Art.com') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.2ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Art.com') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.2ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Art.com') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.2ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Art.com') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Dollar Tree') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.3ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Dollar Tree') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Dollar Tree') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Dollar Tree') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.3ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Dollar Tree') LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Sears Outlet') LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Sears Outlet') LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Sears Outlet') LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Sears Outlet') LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Sears Outlet') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.6ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Peapod') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Peapod') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Peapod') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Peapod') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Peapod') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Magic Cabin') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Magic Cabin') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Magic Cabin') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Magic Cabin') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Magic Cabin') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Auto Parts Warehouse') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.5ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Auto Parts Warehouse') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Auto Parts Warehouse') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Auto Parts Warehouse') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.3ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Auto Parts Warehouse') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Advance Auto Parts') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Advance Auto Parts') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Advance Auto Parts') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Advance Auto Parts') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.2ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Advance Auto Parts') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Sears Parts Direct') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Sears Parts Direct') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Sears Parts Direct') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Sears Parts Direct') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Sears Parts Direct') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Firestone Auto Care') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Firestone Auto Care') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Firestone Auto Care') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Firestone Auto Care') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.5ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Firestone Auto Care') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'The Tire Rack') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.3ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'The Tire Rack') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.6ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'The Tire Rack') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'The Tire Rack') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.5ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'The Tire Rack') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Diapers.com') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Diapers.com') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Diapers.com') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.6ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Diapers.com') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.7ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Diapers.com') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Baby Age') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.5ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Baby Age') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Baby Age') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Baby Age') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Baby Age') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Baby Leggings') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Baby Leggings') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Baby Leggings') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Baby Leggings') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Baby Leggings') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Giggle') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.5ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Giggle') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Giggle') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Giggle') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Giggle') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Vitamin Shoppe') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Vitamin Shoppe') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Vitamin Shoppe') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Vitamin Shoppe') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.5ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Vitamin Shoppe') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Elizabeth Arden') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.5ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Elizabeth Arden') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.8ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Elizabeth Arden') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Elizabeth Arden') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Elizabeth Arden') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Perfume Worldwide') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Perfume Worldwide') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Perfume Worldwide') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Perfume Worldwide') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Perfume Worldwide') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.3ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Walgreens') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.3ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Walgreens') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.3ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Walgreens') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Walgreens') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Walgreens') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Rite-Aid') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Rite-Aid') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Rite-Aid') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Rite-Aid') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.2ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Rite-Aid') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.2ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Sephra') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Sephra') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.2ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Sephra') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.2ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Sephra') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.2ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Sephra') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.2ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Drugstore.com') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.6ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Drugstore.com') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.5ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Drugstore.com') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Drugstore.com') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Drugstore.com') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Hayneedle') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.2ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Hayneedle') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.2ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Hayneedle') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.2ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Hayneedle') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.2ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Hayneedle') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Booksamillion') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Booksamillion') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Booksamillion') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Booksamillion') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Booksamillion') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Book Outlet') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.3ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Book Outlet') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.3ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Book Outlet') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Book Outlet') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Book Outlet') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'eCampus') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.8ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'eCampus') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'eCampus') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'eCampus') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'eCampus') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'eBooks') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'eBooks') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'eBooks') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'eBooks') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'eBooks') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Betterworld Books') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Betterworld Books') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Betterworld Books') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Betterworld Books') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Betterworld Books') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Textbooks Bookrenter') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Textbooks Bookrenter') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Textbooks Bookrenter') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Textbooks Bookrenter') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.3ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Textbooks Bookrenter') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Tommy Hilfiger') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Tommy Hilfiger') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Tommy Hilfiger') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Tommy Hilfiger') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Tommy Hilfiger') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Levi\'s') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Levi\'s') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.5ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Levi\'s') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Levi\'s') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.7ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Levi\'s') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.5ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Banana Republic') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Banana Republic') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Banana Republic') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Banana Republic') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.5ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Banana Republic') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Silver Jeans') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Silver Jeans') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Silver Jeans') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Silver Jeans') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Silver Jeans') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Marmot') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Marmot') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Marmot') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Marmot') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Marmot') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Nordstrom') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Nordstrom') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Nordstrom') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Nordstrom') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Nordstrom') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.6ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Beyondtherack') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Beyondtherack') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.5ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Beyondtherack') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.2ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Beyondtherack') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.2ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Beyondtherack') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Orvis') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Orvis') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Orvis') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Orvis') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.9ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Orvis') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.5ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Eastern Mountain Sports') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Eastern Mountain Sports') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Eastern Mountain Sports') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Eastern Mountain Sports') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Eastern Mountain Sports') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'REI') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.5ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'REI') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.5ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'REI') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'REI') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'REI') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'North by Northwest') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'North by Northwest') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.5ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'North by Northwest') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.5ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'North by Northwest') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'North by Northwest') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.3ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Salomon') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.5ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Salomon') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Salomon') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Salomon') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.5ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Salomon') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.5ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Piperlime') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.8ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Piperlime') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Piperlime') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Piperlime') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Piperlime') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Athleta') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Athleta') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Athleta') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Athleta') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Athleta') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Jane') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Jane') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Jane') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.2ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Jane') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Jane') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Ellie') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.3ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Ellie') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.3ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Ellie') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Ellie') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.8ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Ellie') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'French Toast') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'French Toast') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.5ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'French Toast') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'French Toast') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'French Toast') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Bluefly') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.3ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Bluefly') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Bluefly') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Bluefly') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.5ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Bluefly') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Journeys') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.3ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Journeys') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.3ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Journeys') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.3ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Journeys') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Journeys') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Life is Good') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Life is Good') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (1.0ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Life is Good') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Life is Good') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Life is Good') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'The Limited') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'The Limited') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'The Limited') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'The Limited') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'The Limited') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Nautica') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Nautica') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Nautica') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Nautica') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Nautica') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Cooking.com') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Cooking.com') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.3ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Cooking.com') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Cooking.com') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Cooking.com') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.3ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Rachel Ray Store') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Rachel Ray Store') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Rachel Ray Store') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Rachel Ray Store') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Rachel Ray Store') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'ShopKitchenAid.com') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.2ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'ShopKitchenAid.com') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.3ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'ShopKitchenAid.com') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.3ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'ShopKitchenAid.com') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'ShopKitchenAid.com') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.3ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Pots and Pans') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.8ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Pots and Pans') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Pots and Pans') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Pots and Pans') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Pots and Pans') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Discount School Supplies') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Discount School Supplies') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Discount School Supplies') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Discount School Supplies') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Discount School Supplies') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.3ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Staples') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Staples') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.3ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Staples') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Staples') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.3ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Staples') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Office Supply') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Office Supply') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Office Supply') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.3ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Office Supply') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Office Supply') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Shoes.com') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Shoes.com') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.6ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Shoes.com') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Shoes.com') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.2ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Shoes.com') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.3ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Famous Footwear') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.3ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Famous Footwear') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.3ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Famous Footwear') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.3ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Famous Footwear') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Famous Footwear') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.3ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'DNA Footwear') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.2ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'DNA Footwear') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.3ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'DNA Footwear') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'DNA Footwear') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.5ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'DNA Footwear') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.5ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Buy.com') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Buy.com') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Buy.com') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Buy.com') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Buy.com') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'PlanetShoes.com') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'PlanetShoes.com') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.9ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'PlanetShoes.com') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'PlanetShoes.com') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'PlanetShoes.com') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.5ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Modell\'s') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Modell\'s') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Modell\'s') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.3ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Modell\'s') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Modell\'s') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Road Runner Sports') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Road Runner Sports') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Road Runner Sports') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Road Runner Sports') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Road Runner Sports') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.8ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'City Sports') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'City Sports') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'City Sports') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.3ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'City Sports') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'City Sports') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.6ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Soccer.com') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Soccer.com') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Soccer.com') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Soccer.com') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.5ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Soccer.com') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Lacross.com') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Lacross.com') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Lacross.com') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Lacross.com') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Lacross.com') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.3ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'HockeyMonkey') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.3ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'HockeyMonkey') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'HockeyMonkey') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'HockeyMonkey') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'HockeyMonkey') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.5ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Homerun Monkey') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.8ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Homerun Monkey') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.6ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Homerun Monkey') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.5ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Homerun Monkey') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Homerun Monkey') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Snowboards') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.5ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Snowboards') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Snowboards') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Snowboards') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Snowboards') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.9ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'New Balance') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'New Balance') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'New Balance') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'New Balance') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'New Balance') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Joe\'s') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Joe\'s') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Joe\'s') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Joe\'s') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.6ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Joe\'s') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.5ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Gaiam') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Gaiam') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.3ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Gaiam') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.5ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Gaiam') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Gaiam') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Football America') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.3ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Football America') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.3ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Football America') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Football America') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.3ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Football America') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.3ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Softball.com') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.3ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Softball.com') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.3ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Softball.com') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.3ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Softball.com') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Softball.com') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Basketball Express') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.3ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Basketball Express') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.3ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Basketball Express') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Basketball Express') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.7ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Basketball Express') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'The Sports Authority') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'The Sports Authority') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'The Sports Authority') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.5ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'The Sports Authority') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'The Sports Authority') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Footlocker') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Footlocker') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Footlocker') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Footlocker') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.5ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Footlocker') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.3ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'NFL Shop') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'NFL Shop') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.3ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'NFL Shop') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.6ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'NFL Shop') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'NFL Shop') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Nascar') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Nascar') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.3ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Nascar') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Nascar') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.3ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Nascar') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.3ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'The NBA Store') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.2ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'The NBA Store') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.2ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'The NBA Store') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'The NBA Store') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'The NBA Store') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'NHL') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.5ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'NHL') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.5ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'NHL') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'NHL') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'NHL') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Fanatics') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Fanatics') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.5ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Fanatics') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.6ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Fanatics') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Fanatics') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.2ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Fanzz') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.2ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Fanzz') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.5ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Fanzz') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Fanzz') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.3ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Fanzz') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.3ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Fathead') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.3ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Fathead') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Fathead') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.3ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Fathead') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Fathead') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Team Express') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Team Express') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Team Express') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Team Express') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.5ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Team Express') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Ice Jerseys') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Ice Jerseys') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.6ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Ice Jerseys') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.6ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Ice Jerseys') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.6ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Ice Jerseys') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.5ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'TicketNetwork') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'TicketNetwork') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'TicketNetwork') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'TicketNetwork') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.2ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'TicketNetwork') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.3ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Ticket Solutions') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.6ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Ticket Solutions') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Ticket Solutions') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.9ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Ticket Solutions') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Ticket Solutions') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Ticket Spot') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Ticket Spot') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.5ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Ticket Spot') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Ticket Spot') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Ticket Spot') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.6ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Priceline') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Priceline') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.5ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Priceline') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Priceline') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Priceline') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Travelocity') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Travelocity') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Travelocity') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Travelocity') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.6ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Travelocity') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.5ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Hotwire') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Hotwire') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.5ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Hotwire') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.5ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Hotwire') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Hotwire') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Expedia') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Expedia') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.3ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Expedia') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.3ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Expedia') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Expedia') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Hotels') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Hotels') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.3ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Hotels') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.4ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Hotels') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.3ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Hotels') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Virgin Atlantic') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.3ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Virgin Atlantic') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Virgin Atlantic') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.5ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Virgin Atlantic') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.5ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Virgin Atlantic') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.7ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Hertz') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.5ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Hertz') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.4ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Hertz') LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.5ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Hertz') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Hertz') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.4ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (name LIKE 'Thrifty') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.4ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (name LIKE 'Thrifty') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.5ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (name LIKE 'Thrifty') LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (name LIKE 'Thrifty') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.4ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (name LIKE 'Thrifty') LIMIT 1
+Rendered application/home_page/_most_popular_stores.html.haml (533.6ms)
+Rendered application/home_page/_money_box_section.html.haml (6.3ms)
+Rendered application/home_page/_hp_click_to_call_services.html.haml (15.9ms)
+Rendered application/home_page/_popular_categories.html.haml (2.5ms)
+Rendered application/home_page/_hp_popup.html.haml (4.2ms)
+Rendered application/index.haml within layouts/new_application (636.7ms)
+Compiled new_hp.css  (901ms)  (pid 4493)
+Rendered layouts/_new_resp_header.html.haml (12.4ms)
+Rendered layouts/_new_resp_footer.html.haml (13.5ms)
+Completed 200 OK in 4307ms (Views: 3961.4ms | ActiveRecord: 269.6ms)
+
+
+Started GET "/assets/new_hp-328a3bd2840ba7ee0d19ba5df38923ef.css" for 127.0.0.1 at 2015-02-25 12:44:03 +0500
+Served asset /new_hp-328a3bd2840ba7ee0d19ba5df38923ef.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.fancybox.css" for 127.0.0.1 at 2015-02-25 12:44:03 +0500
+Compiled jquery.fancybox.css  (13ms)  (pid 4493)
+Served asset /jquery.fancybox.css - 304 Not Modified (18ms)
+
+
+Started POST "/hp_mm_box_merchants_search" for 127.0.0.1 at 2015-02-25 12:44:16 +0500
+  Processing by SearchController#hp_merchants_search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WI0mssfHad0A5n9U6JztMm7b74h77Bi7jkQsb18R+v4=", "search_by_merchants"=>""}
+Geokit is using the domain: localhost
+  [1m[36mSearch::Intent Load (0.9ms)[0m  [1mSELECT `search_intents`.* FROM `search_intents` WHERE `search_intents`.`search` = '' AND `search_intents`.`search_date` = '2015-02-25' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `search_intents` (`created_at`, `has_active_service_merchants`, `search`, `search_date`, `status`, `updated_at`, `user_earnings`, `user_id`) VALUES ('2015-02-25 07:44:16', 0, '', '2015-02-25', NULL, '2015-02-25 07:44:16', NULL, NULL)[0m
+  [1m[35m (42.6ms)[0m  COMMIT
+  [1m[36mAvantAdvertiser Load (0.4ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.4ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.4ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.4ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.4ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.6ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE ((`linkshare_advertisers`.`inactive` IN (0) OR `linkshare_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[36mAvantAdvertiser Load (0.7ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE ((`avant_advertisers`.`inactive` IN (0) OR `avant_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))[0m
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[35mCjAdvertiser Load (0.8ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE ((`cj_advertisers`.`inactive` IN (0) OR `cj_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[36mPjAdvertiser Load (1.0ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE ((`pj_advertisers`.`inactive` IN (0) OR `pj_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))[0m
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[35mIrAdvertiser Load (0.8ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE ((`ir_advertisers`.`inactive` IN (0) OR `ir_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+Rendered application/home_page/_search_by_merchants_form.html.haml (1.1ms)
+Rendered search/hp_merchants_search.html.haml within layouts/new_application (9.9ms)
+Rendered layouts/_new_resp_header.html.haml (1.7ms)
+Rendered layouts/_new_resp_footer.html.haml (1.5ms)
+Completed 200 OK in 144ms (Views: 22.7ms | ActiveRecord: 52.8ms)
+
+
+Started GET "/assets/jquery.fancybox.css" for 127.0.0.1 at 2015-02-25 12:44:17 +0500
+Served asset /jquery.fancybox.css - 304 Not Modified (0ms)
+
+
+Started POST "/hp_mm_box_merchants_search" for 127.0.0.1 at 2015-02-25 12:44:18 +0500
+  Processing by SearchController#hp_merchants_search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WI0mssfHad0A5n9U6JztMm7b74h77Bi7jkQsb18R+v4=", "search_by_merchants"=>""}
+Geokit is using the domain: localhost
+  [1m[36mSearch::Intent Load (0.6ms)[0m  [1mSELECT `search_intents`.* FROM `search_intents` WHERE `search_intents`.`search` = '' AND `search_intents`.`search_date` = '2015-02-25' LIMIT 1[0m
+  [1m[35mAvantAdvertiser Load (0.1ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1
+  [1m[36mCjAdvertiser Load (0.1ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.1ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1
+  [1m[36mPjAdvertiser Load (0.1ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1[0m
+  [1m[35mIrAdvertiser Load (0.1ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.1ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE ((`linkshare_advertisers`.`inactive` IN (0) OR `linkshare_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))[0m
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[35mAvantAdvertiser Load (0.1ms)[0m  SELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE ((`avant_advertisers`.`inactive` IN (0) OR `avant_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[36mCjAdvertiser Load (0.1ms)[0m  [1mSELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE ((`cj_advertisers`.`inactive` IN (0) OR `cj_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))[0m
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[35mPjAdvertiser Load (0.2ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE ((`pj_advertisers`.`inactive` IN (0) OR `pj_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[36mIrAdvertiser Load (0.2ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE ((`ir_advertisers`.`inactive` IN (0) OR `ir_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))[0m
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+Rendered application/home_page/_search_by_merchants_form.html.haml (0.8ms)
+Rendered search/hp_merchants_search.html.haml within layouts/new_application (1.8ms)
+Rendered layouts/_new_resp_header.html.haml (1.5ms)
+Rendered layouts/_new_resp_footer.html.haml (1.7ms)
+Completed 200 OK in 57ms (Views: 6.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/jquery.fancybox.css" for 127.0.0.1 at 2015-02-25 12:44:18 +0500
+Served asset /jquery.fancybox.css - 304 Not Modified (0ms)
+
+
+Started POST "/hp_mm_box_merchants_search" for 127.0.0.1 at 2015-02-25 12:44:20 +0500
+  Processing by SearchController#hp_merchants_search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WI0mssfHad0A5n9U6JztMm7b74h77Bi7jkQsb18R+v4=", "search_by_merchants"=>""}
+Geokit is using the domain: localhost
+  [1m[35mSearch::Intent Load (0.2ms)[0m  SELECT `search_intents`.* FROM `search_intents` WHERE `search_intents`.`search` = '' AND `search_intents`.`search_date` = '2015-02-25' LIMIT 1
+  [1m[36mAvantAdvertiser Load (0.1ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1[0m
+  [1m[35mCjAdvertiser Load (0.1ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1
+  [1m[36mLinkshareAdvertiser Load (0.1ms)[0m  [1mSELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1[0m
+  [1m[35mPjAdvertiser Load (0.1ms)[0m  SELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1
+  [1m[36mIrAdvertiser Load (0.1ms)[0m  [1mSELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE (inactive != 1 and LOWER(name) LIKE '%%') LIMIT 1[0m
+  [1m[35mLinkshareAdvertiser Load (0.1ms)[0m  SELECT `linkshare_advertisers`.* FROM `linkshare_advertisers` WHERE ((`linkshare_advertisers`.`inactive` IN (0) OR `linkshare_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[36mAvantAdvertiser Load (0.1ms)[0m  [1mSELECT `avant_advertisers`.* FROM `avant_advertisers` WHERE ((`avant_advertisers`.`inactive` IN (0) OR `avant_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))[0m
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[35mCjAdvertiser Load (0.1ms)[0m  SELECT `cj_advertisers`.* FROM `cj_advertisers` WHERE ((`cj_advertisers`.`inactive` IN (0) OR `cj_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[36mPjAdvertiser Load (0.8ms)[0m  [1mSELECT `pj_advertisers`.* FROM `pj_advertisers` WHERE ((`pj_advertisers`.`inactive` IN (0) OR `pj_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))[0m
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+  [1m[35mIrAdvertiser Load (0.3ms)[0m  SELECT `ir_advertisers`.* FROM `ir_advertisers` WHERE ((`ir_advertisers`.`inactive` IN (0) OR `ir_advertisers`.`inactive` IS NULL)) AND (name LIKE ('%%'))
+
+=============SEARCH ERROR TRACE======================
+
+ Query::"" 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+
+=============SEARCH ERROR TRACE======================
+
+ Query:: 
+
+ Message::Connection refused - connect(2) for "localhost" port 9200 
+
+ Error Class::Errno::ECONNREFUSED 
+
+=============END OF SEARCH ERROR TRACE================
+Rendered application/home_page/_search_by_merchants_form.html.haml (0.9ms)
+Rendered search/hp_merchants_search.html.haml within layouts/new_application (2.5ms)
+Rendered layouts/_new_resp_header.html.haml (2.9ms)
+Rendered layouts/_new_resp_footer.html.haml (3.9ms)
+Completed 200 OK in 69ms (Views: 12.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/jquery.fancybox.css" for 127.0.0.1 at 2015-02-25 12:44:20 +0500
+Served asset /jquery.fancybox.css - 304 Not Modified (0ms)
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in CustomAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in AvantAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in CjAdvertiser class
+[paperclip] Duplicate URL for logo with /system/:attachment/:id/:style/:filename. This will clash with attachment defined in IrAdvertiser class
+Compiled admins/add_storecat_to_merchant.js  (0ms)  (pid 4954)
+Compiled admins/affiliated_advertisers/affiliate_categories.js  (0ms)  (pid 4954)
+Compiled admins/auctions/datepicker-filters.js  (0ms)  (pid 4954)
+Compiled admins/auctions/email_contents/preview.js  (0ms)  (pid 4954)
+Compiled admins/box_messages.js  (0ms)  (pid 4954)
+Compiled admins/custom_advertisers.js  (0ms)  (pid 4954)
+Compiled admins/hp_stores.js  (0ms)  (pid 4954)
+Compiled admins/outcome_reports.js  (0ms)  (pid 4954)
+Compiled admins/stores.js  (0ms)  (pid 4954)
+Compiled admins/users.js  (0ms)  (pid 4954)
+Compiled admins/withdrawal_requests.js  (0ms)  (pid 4954)
+Compiled ajaxform.js  (1ms)  (pid 4954)
+Compiled application.js  (0ms)  (pid 4954)
+Compiled bootstrap.js  (1ms)  (pid 4954)
+Compiled categories_multi_select.js  (0ms)  (pid 4954)
+Compiled common/auctions.js  (0ms)  (pid 4954)
+Compiled common/file_upload.js  (0ms)  (pid 4954)
+Compiled constants.js  (1ms)  (pid 4954)
+Compiled custom.js  (0ms)  (pid 4954)
+Compiled details-box.js  (0ms)  (pid 4954)
+Compiled form-toggler.js  (0ms)  (pid 4954)
+Compiled global.js  (0ms)  (pid 4954)
+Compiled image-slider.js  (0ms)  (pid 4954)
+Compiled init_datepicker.js  (1ms)  (pid 4954)
+Compiled init_placeholders.js  (0ms)  (pid 4954)
+Compiled init_tooltips.js  (0ms)  (pid 4954)
+Compiled init_uniform.js  (0ms)  (pid 4954)
+Compiled jquery-1-11-1.min.js  (1ms)  (pid 4954)
+Compiled jquery-ui.js  (7ms)  (pid 4954)
+Compiled jquery.fancybox.js  (1ms)  (pid 4954)
+Compiled jquery.fancybox.pack.js  (0ms)  (pid 4954)
+Compiled jquery.inview.min.js  (0ms)  (pid 4954)
+Compiled main.js  (0ms)  (pid 4954)
+Compiled modernizr-2.6.2.min.js  (0ms)  (pid 4954)
+Compiled new_application.js  (0ms)  (pid 4954)
+Compiled owl.carousel.js  (1ms)  (pid 4954)
+Compiled polyfills.js  (0ms)  (pid 4954)
+Compiled rails.validations.extensions.js  (0ms)  (pid 4954)
+Compiled responsive-tables.js  (0ms)  (pid 4954)
+Compiled search/bing_search.js  (0ms)  (pid 4954)
+Compiled search/extension_background_iframe.js  (0ms)  (pid 4954)
+Compiled search/google_search.js  (0ms)  (pid 4954)
+Compiled search/mm-box.js  (0ms)  (pid 4954)
+Compiled search/mm-engine.js  (0ms)  (pid 4954)
+Compiled search/mm-icons.js  (0ms)  (pid 4954)
+Compiled search/prompt_cc_window.js  (0ms)  (pid 4954)
+Compiled search/search.js  (0ms)  (pid 4954)
+Compiled search/utils.js  (0ms)  (pid 4954)
+Compiled show_loader.js  (17ms)  (pid 4954)
+Compiled show_loader.js.erb-20-1-2015  (0ms)  (pid 4954)
+Compiled tables.js  (0ms)  (pid 4954)
+Compiled users/auctions.js  (0ms)  (pid 4954)
+Compiled users/auctions/multiselect.js  (0ms)  (pid 4954)
+Compiled users/auctions/product_categories.js  (0ms)  (pid 4954)
+Compiled users/devise/registrations.js  (0ms)  (pid 4954)
+Compiled users/devise/registrations/customer-details.js  (0ms)  (pid 4954)
+Compiled users/devise/registrations/multiselect.js  (0ms)  (pid 4954)
+Compiled users/favorite_advertisers.js  (0ms)  (pid 4954)
+Compiled users/profile/multiselect.js  (0ms)  (pid 4954)
+Compiled users/surveys.js  (0ms)  (pid 4954)
+Compiled users/user_service_providers.js  (0ms)  (pid 4954)
+Compiled vendors/campaigns.js  (0ms)  (pid 4954)
+Compiled vendors/devise/registrations/company-details.js  (0ms)  (pid 4954)
+Compiled vendors/offers/multiselect.js  (0ms)  (pid 4954)
+Compiled vendors/searches.js  (0ms)  (pid 4954)
+Compiled vendors/view-profile.js  (0ms)  (pid 4954)
+Compiled zclip.js  (0ms)  (pid 4954)
+Compiled jquery-ui-1.8.18.custom.css  (0ms)  (pid 4954)
+Compiled jquery.multiselect.css  (0ms)  (pid 4954)
+Compiled j.query.uniform.default.css  (0ms)  (pid 4954)
+Compiled jquery.fancybox.css  (0ms)  (pid 4954)
+Compiled jquery-ui-timepicker-addon.css  (0ms)  (pid 4954)
+Compiled application.css  (1779ms)  (pid 4954)
+Compiled bootstrap.css.scss-bkp-07-01-2014  (0ms)  (pid 4954)
+Compiled file_upload.css  (85ms)  (pid 4954)
+Compiled main.css.scss--13-1-2015-2  (0ms)  (pid 4954)
+Compiled main.css.scss-12-1-2015  (0ms)  (pid 4954)
+Compiled main.css.scss-13-1-2015  (0ms)  (pid 4954)
+Compiled main.css.scss-19-1-2015  (0ms)  (pid 4954)
+Compiled main.css.scss-9-1-2015  (0ms)  (pid 4954)
+Compiled main.css.scss-bkp-07-01-2014  (0ms)  (pid 4954)
+Compiled print.css  (2ms)  (pid 4954)
+Compiled print_preview.css  (4ms)  (pid 4954)
+Compiled jquery.tipsy.custom.css  (0ms)  (pid 4954)
+Compiled jquery.bxslider.css  (0ms)  (pid 4954)
+Compiled search.css  (244ms)  (pid 4954)
+Compiled vendors.css  (1148ms)  (pid 4954)
+Compiled video-js-custom.css  (1ms)  (pid 4954)
+Compiled bootstrap-custom.js  (0ms)  (pid 4954)
+Compiled jquery-ui-timepicker-addon.js  (1ms)  (pid 4954)
+Compiled jquery-ui.min.js  (2ms)  (pid 4954)
+Compiled jquery.bxslider.min.js  (0ms)  (pid 4954)
+Compiled jquery.cookie.js  (0ms)  (pid 4954)
+Compiled jquery.history.js  (0ms)  (pid 4954)
+Compiled jquery.multiselect.min.js  (0ms)  (pid 4954)
+Compiled jquery.placeholder.js  (0ms)  (pid 4954)
+Compiled jquery.tipsy.custom.js  (0ms)  (pid 4954)
+Compiled jquery.tools.min.js  (0ms)  (pid 4954)
+Compiled jquery.trunk8.custom.js  (0ms)  (pid 4954)
+Compiled jquery.uniform.min.js  (0ms)  (pid 4954)
+Compiled jquery.zclip.min.js  (0ms)  (pid 4954)
+Compiled jquery_file_upload/canvas-to-blob.min.js  (0ms)  (pid 4954)
+Compiled jquery_file_upload/index.js  (0ms)  (pid 4954)
+Compiled jquery_file_upload/jquery.fileupload-ip.js  (0ms)  (pid 4954)
+Compiled jquery_file_upload/jquery.fileupload-ui.js  (0ms)  (pid 4954)
+Compiled jquery_file_upload/jquery.fileupload.js  (0ms)  (pid 4954)
+Compiled jquery_file_upload/jquery.iframe-transport.js  (0ms)  (pid 4954)
+Compiled jquery_file_upload/load-image.min.js  (0ms)  (pid 4954)
+Compiled jquery_file_upload/locale.js  (0ms)  (pid 4954)
+Compiled jquery_file_upload/tmpl.min.js  (0ms)  (pid 4954)
+Compiled shake.js  (0ms)  (pid 4954)
+Compiled video.min.js  (1ms)  (pid 4954)
+Compiled video-js.css  (0ms)  (pid 4954)
+Compiled rails.validations.js  (0ms)  (pid 4954)
+Compiled h5bp/index.js  (0ms)  (pid 4954)
+Compiled h5bp/plugins.js  (0ms)  (pid 4954)
+Compiled modernizr.min.js  (0ms)  (pid 4954)
+Compiled jquery.js  (3ms)  (pid 4954)
+Compiled jquery.min.js  (1ms)  (pid 4954)
+Compiled jquery_ujs.js  (0ms)  (pid 4954)
+Compiled admins/add_storecat_to_merchant.js  (0ms)  (pid 4831)
+Compiled admins/affiliated_advertisers/affiliate_categories.js  (0ms)  (pid 4831)
+Compiled admins/auctions/datepicker-filters.js  (0ms)  (pid 4831)
+Compiled admins/auctions/email_contents/preview.js  (0ms)  (pid 4831)
+Compiled admins/box_messages.js  (0ms)  (pid 4831)
+Compiled admins/custom_advertisers.js  (0ms)  (pid 4831)
+Compiled admins/hp_stores.js  (0ms)  (pid 4831)
+Compiled admins/outcome_reports.js  (0ms)  (pid 4831)
+Compiled admins/stores.js  (0ms)  (pid 4831)
+Compiled admins/users.js  (0ms)  (pid 4831)
+Compiled admins/withdrawal_requests.js  (0ms)  (pid 4831)
+Compiled ajaxform.js  (1ms)  (pid 4831)
+Compiled application.js  (0ms)  (pid 4831)
+Compiled bootstrap.js  (1ms)  (pid 4831)
+Compiled categories_multi_select.js  (0ms)  (pid 4831)
+Compiled common/auctions.js  (0ms)  (pid 4831)
+Compiled common/file_upload.js  (0ms)  (pid 4831)
+Compiled constants.js  (1ms)  (pid 4831)
+Compiled custom.js  (0ms)  (pid 4831)
+Compiled details-box.js  (0ms)  (pid 4831)
+Compiled form-toggler.js  (0ms)  (pid 4831)
+Compiled global.js  (0ms)  (pid 4831)
+Compiled image-slider.js  (0ms)  (pid 4831)
+Compiled init_datepicker.js  (1ms)  (pid 4831)
+Compiled init_placeholders.js  (0ms)  (pid 4831)
+Compiled init_tooltips.js  (0ms)  (pid 4831)
+Compiled init_uniform.js  (0ms)  (pid 4831)
+Compiled jquery-1-11-1.min.js  (1ms)  (pid 4831)
+Compiled jquery-ui.js  (7ms)  (pid 4831)
+Compiled jquery.fancybox.js  (1ms)  (pid 4831)
+Compiled jquery.fancybox.pack.js  (0ms)  (pid 4831)
+Compiled jquery.inview.min.js  (0ms)  (pid 4831)
+Compiled main.js  (0ms)  (pid 4831)
+Compiled modernizr-2.6.2.min.js  (0ms)  (pid 4831)
+Compiled new_application.js  (0ms)  (pid 4831)
+Compiled owl.carousel.js  (1ms)  (pid 4831)
+Compiled polyfills.js  (0ms)  (pid 4831)
+Compiled rails.validations.extensions.js  (0ms)  (pid 4831)
+Compiled responsive-tables.js  (0ms)  (pid 4831)
+Compiled search/bing_search.js  (0ms)  (pid 4831)
+Compiled search/extension_background_iframe.js  (0ms)  (pid 4831)
+Compiled search/google_search.js  (0ms)  (pid 4831)
+Compiled search/mm-box.js  (0ms)  (pid 4831)
+Compiled search/mm-engine.js  (0ms)  (pid 4831)
+Compiled search/mm-icons.js  (0ms)  (pid 4831)
+Compiled search/prompt_cc_window.js  (0ms)  (pid 4831)
+Compiled search/search.js  (0ms)  (pid 4831)
+Compiled search/utils.js  (0ms)  (pid 4831)
+Compiled show_loader.js  (17ms)  (pid 4831)
+Compiled show_loader.js.erb-20-1-2015  (0ms)  (pid 4831)
+Compiled tables.js  (0ms)  (pid 4831)
+Compiled users/auctions.js  (0ms)  (pid 4831)
+Compiled users/auctions/multiselect.js  (0ms)  (pid 4831)
+Compiled users/auctions/product_categories.js  (0ms)  (pid 4831)
+Compiled users/devise/registrations.js  (0ms)  (pid 4831)
+Compiled users/devise/registrations/customer-details.js  (0ms)  (pid 4831)
+Compiled users/devise/registrations/multiselect.js  (0ms)  (pid 4831)
+Compiled users/favorite_advertisers.js  (0ms)  (pid 4831)
+Compiled users/profile/multiselect.js  (0ms)  (pid 4831)
+Compiled users/surveys.js  (0ms)  (pid 4831)
+Compiled users/user_service_providers.js  (0ms)  (pid 4831)
+Compiled vendors/campaigns.js  (0ms)  (pid 4831)
+Compiled vendors/devise/registrations/company-details.js  (0ms)  (pid 4831)
+Compiled vendors/offers/multiselect.js  (0ms)  (pid 4831)
+Compiled vendors/searches.js  (0ms)  (pid 4831)
+Compiled vendors/view-profile.js  (0ms)  (pid 4831)
+Compiled zclip.js  (0ms)  (pid 4831)
+Compiled jquery-ui-1.8.18.custom.css  (0ms)  (pid 4831)
+Compiled jquery.multiselect.css  (0ms)  (pid 4831)
+Compiled j.query.uniform.default.css  (0ms)  (pid 4831)
+Compiled jquery.fancybox.css  (0ms)  (pid 4831)
+Compiled jquery-ui-timepicker-addon.css  (0ms)  (pid 4831)
+Compiled application.css  (1797ms)  (pid 4831)
+Compiled bootstrap.css.scss-bkp-07-01-2014  (0ms)  (pid 4831)
+Compiled file_upload.css  (91ms)  (pid 4831)
+Compiled main.css.scss--13-1-2015-2  (0ms)  (pid 4831)
+Compiled main.css.scss-12-1-2015  (0ms)  (pid 4831)
+Compiled main.css.scss-13-1-2015  (0ms)  (pid 4831)
+Compiled main.css.scss-19-1-2015  (0ms)  (pid 4831)
+Compiled main.css.scss-9-1-2015  (0ms)  (pid 4831)
+Compiled main.css.scss-bkp-07-01-2014  (0ms)  (pid 4831)
+Compiled print.css  (2ms)  (pid 4831)
+Compiled print_preview.css  (2ms)  (pid 4831)
+Compiled jquery.tipsy.custom.css  (0ms)  (pid 4831)
+Compiled jquery.bxslider.css  (0ms)  (pid 4831)
+Compiled search.css  (196ms)  (pid 4831)
+Compiled vendors.css  (1179ms)  (pid 4831)
+Compiled video-js-custom.css  (1ms)  (pid 4831)
+Compiled bootstrap-custom.js  (0ms)  (pid 4831)
+Compiled jquery-ui-timepicker-addon.js  (1ms)  (pid 4831)
+Compiled jquery-ui.min.js  (2ms)  (pid 4831)
+Compiled jquery.bxslider.min.js  (0ms)  (pid 4831)
+Compiled jquery.cookie.js  (0ms)  (pid 4831)
+Compiled jquery.history.js  (0ms)  (pid 4831)
+Compiled jquery.multiselect.min.js  (0ms)  (pid 4831)
+Compiled jquery.placeholder.js  (0ms)  (pid 4831)
+Compiled jquery.tipsy.custom.js  (0ms)  (pid 4831)
+Compiled jquery.tools.min.js  (0ms)  (pid 4831)
+Compiled jquery.trunk8.custom.js  (0ms)  (pid 4831)
+Compiled jquery.uniform.min.js  (0ms)  (pid 4831)
+Compiled jquery.zclip.min.js  (0ms)  (pid 4831)
+Compiled jquery_file_upload/canvas-to-blob.min.js  (0ms)  (pid 4831)
+Compiled jquery_file_upload/index.js  (0ms)  (pid 4831)
+Compiled jquery_file_upload/jquery.fileupload-ip.js  (0ms)  (pid 4831)
+Compiled jquery_file_upload/jquery.fileupload-ui.js  (0ms)  (pid 4831)
+Compiled jquery_file_upload/jquery.fileupload.js  (0ms)  (pid 4831)
+Compiled jquery_file_upload/jquery.iframe-transport.js  (0ms)  (pid 4831)
+Compiled jquery_file_upload/load-image.min.js  (0ms)  (pid 4831)
+Compiled jquery_file_upload/locale.js  (0ms)  (pid 4831)
+Compiled jquery_file_upload/tmpl.min.js  (0ms)  (pid 4831)
+Compiled shake.js  (0ms)  (pid 4831)
+Compiled video.min.js  (1ms)  (pid 4831)
+Compiled video-js.css  (0ms)  (pid 4831)
+Compiled rails.validations.js  (0ms)  (pid 4831)
+Compiled h5bp/index.js  (0ms)  (pid 4831)
+Compiled h5bp/plugins.js  (0ms)  (pid 4831)
+Compiled modernizr.min.js  (0ms)  (pid 4831)
+Compiled jquery.js  (4ms)  (pid 4831)
+Compiled jquery.min.js  (1ms)  (pid 4831)
+Compiled jquery_ujs.js  (0ms)  (pid 4831)
+Compiled admins/add_storecat_to_merchant.js  (0ms)  (pid 5345)
+Compiled admins/affiliated_advertisers/affiliate_categories.js  (0ms)  (pid 5345)
+Compiled admins/auctions/datepicker-filters.js  (0ms)  (pid 5345)
+Compiled admins/auctions/email_contents/preview.js  (0ms)  (pid 5345)
+Compiled admins/box_messages.js  (0ms)  (pid 5345)
+Compiled admins/custom_advertisers.js  (0ms)  (pid 5345)
+Compiled admins/hp_stores.js  (0ms)  (pid 5345)
+Compiled admins/outcome_reports.js  (0ms)  (pid 5345)
+Compiled admins/stores.js  (0ms)  (pid 5345)
+Compiled admins/users.js  (0ms)  (pid 5345)
+Compiled admins/withdrawal_requests.js  (0ms)  (pid 5345)
+Compiled ajaxform.js  (1ms)  (pid 5345)
+Compiled application.js  (0ms)  (pid 5345)
+Compiled bootstrap.js  (1ms)  (pid 5345)
+Compiled categories_multi_select.js  (0ms)  (pid 5345)
+Compiled common/auctions.js  (0ms)  (pid 5345)
+Compiled common/file_upload.js  (0ms)  (pid 5345)
+Compiled constants.js  (0ms)  (pid 5345)
+Compiled custom.js  (0ms)  (pid 5345)
+Compiled details-box.js  (0ms)  (pid 5345)
+Compiled form-toggler.js  (0ms)  (pid 5345)
+Compiled global.js  (0ms)  (pid 5345)
+Compiled image-slider.js  (0ms)  (pid 5345)
+Compiled init_datepicker.js  (1ms)  (pid 5345)
+Compiled init_placeholders.js  (0ms)  (pid 5345)
+Compiled init_tooltips.js  (0ms)  (pid 5345)
+Compiled init_uniform.js  (0ms)  (pid 5345)
+Compiled jquery-1-11-1.min.js  (1ms)  (pid 5345)
+Compiled jquery-ui.js  (7ms)  (pid 5345)
+Compiled jquery.fancybox.js  (1ms)  (pid 5345)
+Compiled jquery.fancybox.pack.js  (0ms)  (pid 5345)
+Compiled jquery.inview.min.js  (0ms)  (pid 5345)
+Compiled main.js  (0ms)  (pid 5345)
+Compiled modernizr-2.6.2.min.js  (0ms)  (pid 5345)
+Compiled new_application.js  (0ms)  (pid 5345)
+Compiled owl.carousel.js  (1ms)  (pid 5345)
+Compiled polyfills.js  (0ms)  (pid 5345)
+Compiled rails.validations.extensions.js  (0ms)  (pid 5345)
+Compiled responsive-tables.js  (0ms)  (pid 5345)
+Compiled search/bing_search.js  (0ms)  (pid 5345)
+Compiled search/extension_background_iframe.js  (0ms)  (pid 5345)
+Compiled search/google_search.js  (0ms)  (pid 5345)
+Compiled search/mm-box.js  (0ms)  (pid 5345)
+Compiled search/mm-engine.js  (0ms)  (pid 5345)
+Compiled search/mm-icons.js  (0ms)  (pid 5345)
+Compiled search/prompt_cc_window.js  (0ms)  (pid 5345)
+Compiled search/search.js  (0ms)  (pid 5345)
+Compiled search/utils.js  (0ms)  (pid 5345)
+Compiled show_loader.js  (15ms)  (pid 5345)
+Compiled show_loader.js.erb-20-1-2015  (0ms)  (pid 5345)
+Compiled tables.js  (0ms)  (pid 5345)
+Compiled users/auctions.js  (0ms)  (pid 5345)
+Compiled users/auctions/multiselect.js  (0ms)  (pid 5345)
+Compiled users/auctions/product_categories.js  (0ms)  (pid 5345)
+Compiled users/devise/registrations.js  (0ms)  (pid 5345)
+Compiled users/devise/registrations/customer-details.js  (0ms)  (pid 5345)
+Compiled users/devise/registrations/multiselect.js  (0ms)  (pid 5345)
+Compiled users/favorite_advertisers.js  (0ms)  (pid 5345)
+Compiled users/profile/multiselect.js  (0ms)  (pid 5345)
+Compiled users/surveys.js  (0ms)  (pid 5345)
+Compiled users/user_service_providers.js  (0ms)  (pid 5345)
+Compiled vendors/campaigns.js  (0ms)  (pid 5345)
+Compiled vendors/devise/registrations/company-details.js  (0ms)  (pid 5345)
+Compiled vendors/offers/multiselect.js  (0ms)  (pid 5345)
+Compiled vendors/searches.js  (0ms)  (pid 5345)
+Compiled vendors/view-profile.js  (0ms)  (pid 5345)
+Compiled zclip.js  (0ms)  (pid 5345)
+Compiled jquery-ui-1.8.18.custom.css  (0ms)  (pid 5345)
+Compiled jquery.multiselect.css  (0ms)  (pid 5345)
+Compiled j.query.uniform.default.css  (0ms)  (pid 5345)
+Compiled jquery.fancybox.css  (0ms)  (pid 5345)
+Compiled jquery-ui-timepicker-addon.css  (0ms)  (pid 5345)
+Compiled application.css  (1702ms)  (pid 5345)
+Compiled bootstrap.css.scss-bkp-07-01-2014  (0ms)  (pid 5345)
+Compiled file_upload.css  (67ms)  (pid 5345)
+Compiled main.css.scss--13-1-2015-2  (0ms)  (pid 5345)
+Compiled main.css.scss-12-1-2015  (0ms)  (pid 5345)
+Compiled main.css.scss-13-1-2015  (0ms)  (pid 5345)
+Compiled main.css.scss-19-1-2015  (0ms)  (pid 5345)
+Compiled main.css.scss-9-1-2015  (0ms)  (pid 5345)
+Compiled main.css.scss-bkp-07-01-2014  (0ms)  (pid 5345)
+Compiled print.css  (1ms)  (pid 5345)
+Compiled print_preview.css  (3ms)  (pid 5345)
+Compiled jquery.tipsy.custom.css  (0ms)  (pid 5345)
+Compiled jquery.bxslider.css  (0ms)  (pid 5345)
+Compiled search.css  (196ms)  (pid 5345)
+Compiled vendors.css  (1118ms)  (pid 5345)
+Compiled video-js-custom.css  (1ms)  (pid 5345)
+Compiled bootstrap-custom.js  (0ms)  (pid 5345)
+Compiled jquery-ui-timepicker-addon.js  (1ms)  (pid 5345)
+Compiled jquery-ui.min.js  (3ms)  (pid 5345)
+Compiled jquery.bxslider.min.js  (0ms)  (pid 5345)
+Compiled jquery.cookie.js  (0ms)  (pid 5345)
+Compiled jquery.history.js  (0ms)  (pid 5345)
+Compiled jquery.multiselect.min.js  (0ms)  (pid 5345)
+Compiled jquery.placeholder.js  (0ms)  (pid 5345)
+Compiled jquery.tipsy.custom.js  (0ms)  (pid 5345)
+Compiled jquery.tools.min.js  (0ms)  (pid 5345)
+Compiled jquery.trunk8.custom.js  (0ms)  (pid 5345)
+Compiled jquery.uniform.min.js  (0ms)  (pid 5345)
+Compiled jquery.zclip.min.js  (0ms)  (pid 5345)
+Compiled jquery_file_upload/canvas-to-blob.min.js  (0ms)  (pid 5345)
+Compiled jquery_file_upload/index.js  (0ms)  (pid 5345)
+Compiled jquery_file_upload/jquery.fileupload-ip.js  (0ms)  (pid 5345)
+Compiled jquery_file_upload/jquery.fileupload-ui.js  (0ms)  (pid 5345)
+Compiled jquery_file_upload/jquery.fileupload.js  (0ms)  (pid 5345)
+Compiled jquery_file_upload/jquery.iframe-transport.js  (0ms)  (pid 5345)
+Compiled jquery_file_upload/load-image.min.js  (0ms)  (pid 5345)
+Compiled jquery_file_upload/locale.js  (0ms)  (pid 5345)
+Compiled jquery_file_upload/tmpl.min.js  (0ms)  (pid 5345)
+Compiled shake.js  (0ms)  (pid 5345)
+Compiled video.min.js  (1ms)  (pid 5345)
+Compiled video-js.css  (0ms)  (pid 5345)
+Compiled rails.validations.js  (0ms)  (pid 5345)
+Compiled h5bp/index.js  (0ms)  (pid 5345)
+Compiled h5bp/plugins.js  (0ms)  (pid 5345)
+Compiled modernizr.min.js  (0ms)  (pid 5345)
+Compiled jquery.js  (4ms)  (pid 5345)
+Compiled jquery.min.js  (1ms)  (pid 5345)
+Compiled jquery_ujs.js  (0ms)  (pid 5345)
+Compiled admins/add_storecat_to_merchant.js  (0ms)  (pid 5229)
+Compiled admins/affiliated_advertisers/affiliate_categories.js  (0ms)  (pid 5229)
+Compiled admins/auctions/datepicker-filters.js  (0ms)  (pid 5229)
+Compiled admins/auctions/email_contents/preview.js  (0ms)  (pid 5229)
+Compiled admins/box_messages.js  (0ms)  (pid 5229)
+Compiled admins/custom_advertisers.js  (0ms)  (pid 5229)
+Compiled admins/hp_stores.js  (0ms)  (pid 5229)
+Compiled admins/outcome_reports.js  (0ms)  (pid 5229)
+Compiled admins/stores.js  (0ms)  (pid 5229)
+Compiled admins/users.js  (0ms)  (pid 5229)
+Compiled admins/withdrawal_requests.js  (0ms)  (pid 5229)
+Compiled ajaxform.js  (1ms)  (pid 5229)
+Compiled application.js  (0ms)  (pid 5229)
+Compiled bootstrap.js  (1ms)  (pid 5229)
+Compiled categories_multi_select.js  (0ms)  (pid 5229)
+Compiled common/auctions.js  (0ms)  (pid 5229)
+Compiled common/file_upload.js  (0ms)  (pid 5229)
+Compiled constants.js  (0ms)  (pid 5229)
+Compiled custom.js  (0ms)  (pid 5229)
+Compiled details-box.js  (0ms)  (pid 5229)
+Compiled form-toggler.js  (0ms)  (pid 5229)
+Compiled global.js  (0ms)  (pid 5229)
+Compiled image-slider.js  (0ms)  (pid 5229)
+Compiled init_datepicker.js  (1ms)  (pid 5229)
+Compiled init_placeholders.js  (0ms)  (pid 5229)
+Compiled init_tooltips.js  (0ms)  (pid 5229)
+Compiled init_uniform.js  (0ms)  (pid 5229)
+Compiled jquery-1-11-1.min.js  (1ms)  (pid 5229)
+Compiled jquery-ui.js  (7ms)  (pid 5229)
+Compiled jquery.fancybox.js  (1ms)  (pid 5229)
+Compiled jquery.fancybox.pack.js  (0ms)  (pid 5229)
+Compiled jquery.inview.min.js  (0ms)  (pid 5229)
+Compiled main.js  (0ms)  (pid 5229)
+Compiled modernizr-2.6.2.min.js  (0ms)  (pid 5229)
+Compiled new_application.js  (0ms)  (pid 5229)
+Compiled owl.carousel.js  (1ms)  (pid 5229)
+Compiled polyfills.js  (0ms)  (pid 5229)
+Compiled rails.validations.extensions.js  (0ms)  (pid 5229)
+Compiled responsive-tables.js  (0ms)  (pid 5229)
+Compiled search/bing_search.js  (0ms)  (pid 5229)
+Compiled search/extension_background_iframe.js  (0ms)  (pid 5229)
+Compiled search/google_search.js  (0ms)  (pid 5229)
+Compiled search/mm-box.js  (0ms)  (pid 5229)
+Compiled search/mm-engine.js  (0ms)  (pid 5229)
+Compiled search/mm-icons.js  (0ms)  (pid 5229)
+Compiled search/prompt_cc_window.js  (0ms)  (pid 5229)
+Compiled search/search.js  (0ms)  (pid 5229)
+Compiled search/utils.js  (0ms)  (pid 5229)
+Compiled show_loader.js  (16ms)  (pid 5229)
+Compiled show_loader.js.erb-20-1-2015  (0ms)  (pid 5229)
+Compiled tables.js  (0ms)  (pid 5229)
+Compiled users/auctions.js  (0ms)  (pid 5229)
+Compiled users/auctions/multiselect.js  (0ms)  (pid 5229)
+Compiled users/auctions/product_categories.js  (0ms)  (pid 5229)
+Compiled users/devise/registrations.js  (0ms)  (pid 5229)
+Compiled users/devise/registrations/customer-details.js  (0ms)  (pid 5229)
+Compiled users/devise/registrations/multiselect.js  (0ms)  (pid 5229)
+Compiled users/favorite_advertisers.js  (0ms)  (pid 5229)
+Compiled users/profile/multiselect.js  (0ms)  (pid 5229)
+Compiled users/surveys.js  (0ms)  (pid 5229)
+Compiled users/user_service_providers.js  (0ms)  (pid 5229)
+Compiled vendors/campaigns.js  (0ms)  (pid 5229)
+Compiled vendors/devise/registrations/company-details.js  (0ms)  (pid 5229)
+Compiled vendors/offers/multiselect.js  (0ms)  (pid 5229)
+Compiled vendors/searches.js  (0ms)  (pid 5229)
+Compiled vendors/view-profile.js  (0ms)  (pid 5229)
+Compiled zclip.js  (0ms)  (pid 5229)
+Compiled jquery-ui-1.8.18.custom.css  (0ms)  (pid 5229)
+Compiled jquery.multiselect.css  (0ms)  (pid 5229)
+Compiled j.query.uniform.default.css  (0ms)  (pid 5229)
+Compiled jquery.fancybox.css  (0ms)  (pid 5229)
+Compiled jquery-ui-timepicker-addon.css  (0ms)  (pid 5229)
+Compiled application.css  (1753ms)  (pid 5229)
+Compiled bootstrap.css.scss-bkp-07-01-2014  (0ms)  (pid 5229)
+Compiled file_upload.css  (67ms)  (pid 5229)
+Compiled main.css.scss--13-1-2015-2  (0ms)  (pid 5229)
+Compiled main.css.scss-12-1-2015  (0ms)  (pid 5229)
+Compiled main.css.scss-13-1-2015  (0ms)  (pid 5229)
+Compiled main.css.scss-19-1-2015  (0ms)  (pid 5229)
+Compiled main.css.scss-9-1-2015  (0ms)  (pid 5229)
+Compiled main.css.scss-bkp-07-01-2014  (0ms)  (pid 5229)
+Compiled print.css  (1ms)  (pid 5229)
+Compiled print_preview.css  (3ms)  (pid 5229)
+Compiled jquery.tipsy.custom.css  (0ms)  (pid 5229)
+Compiled jquery.bxslider.css  (0ms)  (pid 5229)
+Compiled search.css  (193ms)  (pid 5229)
+Compiled vendors.css  (1149ms)  (pid 5229)
+Compiled video-js-custom.css  (1ms)  (pid 5229)
+Compiled bootstrap-custom.js  (0ms)  (pid 5229)
+Compiled jquery-ui-timepicker-addon.js  (1ms)  (pid 5229)
+Compiled jquery-ui.min.js  (2ms)  (pid 5229)
+Compiled jquery.bxslider.min.js  (0ms)  (pid 5229)
+Compiled jquery.cookie.js  (0ms)  (pid 5229)
+Compiled jquery.history.js  (0ms)  (pid 5229)
+Compiled jquery.multiselect.min.js  (0ms)  (pid 5229)
+Compiled jquery.placeholder.js  (0ms)  (pid 5229)
+Compiled jquery.tipsy.custom.js  (0ms)  (pid 5229)
+Compiled jquery.tools.min.js  (0ms)  (pid 5229)
+Compiled jquery.trunk8.custom.js  (0ms)  (pid 5229)
+Compiled jquery.uniform.min.js  (0ms)  (pid 5229)
+Compiled jquery.zclip.min.js  (0ms)  (pid 5229)
+Compiled jquery_file_upload/canvas-to-blob.min.js  (0ms)  (pid 5229)
+Compiled jquery_file_upload/index.js  (0ms)  (pid 5229)
+Compiled jquery_file_upload/jquery.fileupload-ip.js  (0ms)  (pid 5229)
+Compiled jquery_file_upload/jquery.fileupload-ui.js  (0ms)  (pid 5229)
+Compiled jquery_file_upload/jquery.fileupload.js  (0ms)  (pid 5229)
+Compiled jquery_file_upload/jquery.iframe-transport.js  (0ms)  (pid 5229)
+Compiled jquery_file_upload/load-image.min.js  (0ms)  (pid 5229)
+Compiled jquery_file_upload/locale.js  (0ms)  (pid 5229)
+Compiled jquery_file_upload/tmpl.min.js  (0ms)  (pid 5229)
+Compiled shake.js  (0ms)  (pid 5229)
+Compiled video.min.js  (1ms)  (pid 5229)
+Compiled video-js.css  (0ms)  (pid 5229)
+Compiled rails.validations.js  (0ms)  (pid 5229)
+Compiled h5bp/index.js  (0ms)  (pid 5229)
+Compiled h5bp/plugins.js  (0ms)  (pid 5229)
+Compiled modernizr.min.js  (0ms)  (pid 5229)
+Compiled jquery.js  (3ms)  (pid 5229)
+Compiled jquery.min.js  (1ms)  (pid 5229)
+Compiled jquery_ujs.js  (0ms)  (pid 5229)
+Compiled admins/add_storecat_to_merchant.js  (0ms)  (pid 5595)
+Compiled admins/affiliated_advertisers/affiliate_categories.js  (0ms)  (pid 5595)
+Compiled admins/auctions/datepicker-filters.js  (0ms)  (pid 5595)
+Compiled admins/auctions/email_contents/preview.js  (0ms)  (pid 5595)
+Compiled admins/box_messages.js  (0ms)  (pid 5595)
+Compiled admins/custom_advertisers.js  (0ms)  (pid 5595)
+Compiled admins/hp_stores.js  (0ms)  (pid 5595)
+Compiled admins/outcome_reports.js  (0ms)  (pid 5595)
+Compiled admins/stores.js  (0ms)  (pid 5595)
+Compiled admins/users.js  (0ms)  (pid 5595)
+Compiled admins/withdrawal_requests.js  (0ms)  (pid 5595)
+Compiled ajaxform.js  (1ms)  (pid 5595)
+Compiled application.js  (0ms)  (pid 5595)
+Compiled bootstrap.js  (1ms)  (pid 5595)
+Compiled categories_multi_select.js  (0ms)  (pid 5595)
+Compiled common/auctions.js  (0ms)  (pid 5595)
+Compiled common/file_upload.js  (0ms)  (pid 5595)
+Compiled constants.js  (0ms)  (pid 5595)
+Compiled custom.js  (0ms)  (pid 5595)
+Compiled details-box.js  (0ms)  (pid 5595)
+Compiled form-toggler.js  (0ms)  (pid 5595)
+Compiled global.js  (0ms)  (pid 5595)
+Compiled image-slider.js  (0ms)  (pid 5595)
+Compiled init_datepicker.js  (1ms)  (pid 5595)
+Compiled init_placeholders.js  (0ms)  (pid 5595)
+Compiled init_tooltips.js  (0ms)  (pid 5595)
+Compiled init_uniform.js  (0ms)  (pid 5595)
+Compiled jquery-1-11-1.min.js  (1ms)  (pid 5595)
+Compiled jquery-ui.js  (7ms)  (pid 5595)
+Compiled jquery.fancybox.js  (1ms)  (pid 5595)
+Compiled jquery.fancybox.pack.js  (0ms)  (pid 5595)
+Compiled jquery.inview.min.js  (0ms)  (pid 5595)
+Compiled main.js  (0ms)  (pid 5595)
+Compiled modernizr-2.6.2.min.js  (0ms)  (pid 5595)
+Compiled new_application.js  (0ms)  (pid 5595)
+Compiled owl.carousel.js  (1ms)  (pid 5595)
+Compiled polyfills.js  (0ms)  (pid 5595)
+Compiled rails.validations.extensions.js  (0ms)  (pid 5595)
+Compiled responsive-tables.js  (0ms)  (pid 5595)
+Compiled search/bing_search.js  (0ms)  (pid 5595)
+Compiled search/extension_background_iframe.js  (0ms)  (pid 5595)
+Compiled search/google_search.js  (0ms)  (pid 5595)
+Compiled search/mm-box.js  (0ms)  (pid 5595)
+Compiled search/mm-engine.js  (0ms)  (pid 5595)
+Compiled search/mm-icons.js  (0ms)  (pid 5595)
+Compiled search/prompt_cc_window.js  (0ms)  (pid 5595)
+Compiled search/search.js  (0ms)  (pid 5595)
+Compiled search/utils.js  (0ms)  (pid 5595)
+Compiled show_loader.js  (16ms)  (pid 5595)
+Compiled show_loader.js.erb-20-1-2015  (0ms)  (pid 5595)
+Compiled tables.js  (0ms)  (pid 5595)
+Compiled users/auctions.js  (0ms)  (pid 5595)
+Compiled users/auctions/multiselect.js  (0ms)  (pid 5595)
+Compiled users/auctions/product_categories.js  (0ms)  (pid 5595)
+Compiled users/devise/registrations.js  (0ms)  (pid 5595)
+Compiled users/devise/registrations/customer-details.js  (0ms)  (pid 5595)
+Compiled users/devise/registrations/multiselect.js  (0ms)  (pid 5595)
+Compiled users/favorite_advertisers.js  (0ms)  (pid 5595)
+Compiled users/profile/multiselect.js  (0ms)  (pid 5595)
+Compiled users/surveys.js  (0ms)  (pid 5595)
+Compiled users/user_service_providers.js  (0ms)  (pid 5595)
+Compiled vendors/campaigns.js  (0ms)  (pid 5595)
+Compiled vendors/devise/registrations/company-details.js  (0ms)  (pid 5595)
+Compiled vendors/offers/multiselect.js  (0ms)  (pid 5595)
+Compiled vendors/searches.js  (0ms)  (pid 5595)
+Compiled vendors/view-profile.js  (0ms)  (pid 5595)
+Compiled zclip.js  (0ms)  (pid 5595)
+Compiled jquery-ui-1.8.18.custom.css  (0ms)  (pid 5595)
+Compiled jquery.multiselect.css  (0ms)  (pid 5595)
+Compiled j.query.uniform.default.css  (0ms)  (pid 5595)
+Compiled jquery.fancybox.css  (0ms)  (pid 5595)
+Compiled jquery-ui-timepicker-addon.css  (0ms)  (pid 5595)
+Compiled application.css  (1915ms)  (pid 5595)
+Compiled bootstrap.css.scss-bkp-07-01-2014  (0ms)  (pid 5595)
+Compiled file_upload.css  (62ms)  (pid 5595)
+Compiled main.css.scss--13-1-2015-2  (0ms)  (pid 5595)
+Compiled main.css.scss-12-1-2015  (0ms)  (pid 5595)
+Compiled main.css.scss-13-1-2015  (0ms)  (pid 5595)
+Compiled main.css.scss-19-1-2015  (0ms)  (pid 5595)
+Compiled main.css.scss-9-1-2015  (0ms)  (pid 5595)
+Compiled main.css.scss-bkp-07-01-2014  (0ms)  (pid 5595)
+Compiled print.css  (1ms)  (pid 5595)
+Compiled print_preview.css  (3ms)  (pid 5595)
+Compiled jquery.tipsy.custom.css  (0ms)  (pid 5595)
+Compiled jquery.bxslider.css  (0ms)  (pid 5595)
+Compiled search.css  (191ms)  (pid 5595)
+Compiled vendors.css  (1204ms)  (pid 5595)
+Compiled video-js-custom.css  (1ms)  (pid 5595)
+Compiled bootstrap-custom.js  (0ms)  (pid 5595)
+Compiled jquery-ui-timepicker-addon.js  (1ms)  (pid 5595)
+Compiled jquery-ui.min.js  (2ms)  (pid 5595)
+Compiled jquery.bxslider.min.js  (0ms)  (pid 5595)
+Compiled jquery.cookie.js  (0ms)  (pid 5595)
+Compiled jquery.history.js  (0ms)  (pid 5595)
+Compiled jquery.multiselect.min.js  (0ms)  (pid 5595)
+Compiled jquery.placeholder.js  (0ms)  (pid 5595)
+Compiled jquery.tipsy.custom.js  (0ms)  (pid 5595)
+Compiled jquery.tools.min.js  (0ms)  (pid 5595)
+Compiled jquery.trunk8.custom.js  (0ms)  (pid 5595)
+Compiled jquery.uniform.min.js  (0ms)  (pid 5595)
+Compiled jquery.zclip.min.js  (0ms)  (pid 5595)
+Compiled jquery_file_upload/canvas-to-blob.min.js  (0ms)  (pid 5595)
+Compiled jquery_file_upload/index.js  (0ms)  (pid 5595)
+Compiled jquery_file_upload/jquery.fileupload-ip.js  (0ms)  (pid 5595)
+Compiled jquery_file_upload/jquery.fileupload-ui.js  (0ms)  (pid 5595)
+Compiled jquery_file_upload/jquery.fileupload.js  (0ms)  (pid 5595)
+Compiled jquery_file_upload/jquery.iframe-transport.js  (0ms)  (pid 5595)
+Compiled jquery_file_upload/load-image.min.js  (0ms)  (pid 5595)
+Compiled jquery_file_upload/locale.js  (0ms)  (pid 5595)
+Compiled jquery_file_upload/tmpl.min.js  (0ms)  (pid 5595)
+Compiled shake.js  (0ms)  (pid 5595)
+Compiled video.min.js  (1ms)  (pid 5595)
+Compiled video-js.css  (0ms)  (pid 5595)
+Compiled rails.validations.js  (0ms)  (pid 5595)
+Compiled h5bp/index.js  (0ms)  (pid 5595)
+Compiled h5bp/plugins.js  (0ms)  (pid 5595)
+Compiled modernizr.min.js  (0ms)  (pid 5595)
+Compiled jquery.js  (4ms)  (pid 5595)
+Compiled jquery.min.js  (1ms)  (pid 5595)
+Compiled jquery_ujs.js  (0ms)  (pid 5595)
+Compiled admins/add_storecat_to_merchant.js  (0ms)  (pid 5648)
+Compiled admins/affiliated_advertisers/affiliate_categories.js  (0ms)  (pid 5648)
+Compiled admins/auctions/datepicker-filters.js  (0ms)  (pid 5648)
+Compiled admins/auctions/email_contents/preview.js  (0ms)  (pid 5648)
+Compiled admins/box_messages.js  (0ms)  (pid 5648)
+Compiled admins/custom_advertisers.js  (0ms)  (pid 5648)
+Compiled admins/hp_stores.js  (0ms)  (pid 5648)
+Compiled admins/outcome_reports.js  (0ms)  (pid 5648)
+Compiled admins/stores.js  (0ms)  (pid 5648)
+Compiled admins/users.js  (0ms)  (pid 5648)
+Compiled admins/withdrawal_requests.js  (0ms)  (pid 5648)
+Compiled ajaxform.js  (1ms)  (pid 5648)
+Compiled application.js  (0ms)  (pid 5648)
+Compiled bootstrap.js  (1ms)  (pid 5648)
+Compiled categories_multi_select.js  (0ms)  (pid 5648)
+Compiled common/auctions.js  (0ms)  (pid 5648)
+Compiled common/file_upload.js  (0ms)  (pid 5648)
+Compiled constants.js  (0ms)  (pid 5648)
+Compiled custom.js  (0ms)  (pid 5648)
+Compiled details-box.js  (0ms)  (pid 5648)
+Compiled form-toggler.js  (0ms)  (pid 5648)
+Compiled global.js  (0ms)  (pid 5648)
+Compiled image-slider.js  (0ms)  (pid 5648)
+Compiled init_datepicker.js  (1ms)  (pid 5648)
+Compiled init_placeholders.js  (0ms)  (pid 5648)
+Compiled init_tooltips.js  (0ms)  (pid 5648)
+Compiled init_uniform.js  (0ms)  (pid 5648)
+Compiled jquery-1-11-1.min.js  (1ms)  (pid 5648)
+Compiled jquery-ui.js  (7ms)  (pid 5648)
+Compiled jquery.fancybox.js  (1ms)  (pid 5648)
+Compiled jquery.fancybox.pack.js  (0ms)  (pid 5648)
+Compiled jquery.inview.min.js  (0ms)  (pid 5648)
+Compiled main.js  (0ms)  (pid 5648)
+Compiled modernizr-2.6.2.min.js  (0ms)  (pid 5648)
+Compiled new_application.js  (0ms)  (pid 5648)
+Compiled owl.carousel.js  (1ms)  (pid 5648)
+Compiled polyfills.js  (0ms)  (pid 5648)
+Compiled rails.validations.extensions.js  (0ms)  (pid 5648)
+Compiled responsive-tables.js  (0ms)  (pid 5648)
+Compiled search/bing_search.js  (0ms)  (pid 5648)
+Compiled search/extension_background_iframe.js  (0ms)  (pid 5648)
+Compiled search/google_search.js  (0ms)  (pid 5648)
+Compiled search/mm-box.js  (0ms)  (pid 5648)
+Compiled search/mm-engine.js  (0ms)  (pid 5648)
+Compiled search/mm-icons.js  (0ms)  (pid 5648)
+Compiled search/prompt_cc_window.js  (0ms)  (pid 5648)
+Compiled search/search.js  (0ms)  (pid 5648)
+Compiled search/utils.js  (0ms)  (pid 5648)
+Compiled show_loader.js  (16ms)  (pid 5648)
+Compiled show_loader.js.erb-20-1-2015  (0ms)  (pid 5648)
+Compiled tables.js  (0ms)  (pid 5648)
+Compiled users/auctions.js  (0ms)  (pid 5648)
+Compiled users/auctions/multiselect.js  (0ms)  (pid 5648)
+Compiled users/auctions/product_categories.js  (0ms)  (pid 5648)
+Compiled users/devise/registrations.js  (0ms)  (pid 5648)
+Compiled users/devise/registrations/customer-details.js  (0ms)  (pid 5648)
+Compiled users/devise/registrations/multiselect.js  (0ms)  (pid 5648)
+Compiled users/favorite_advertisers.js  (0ms)  (pid 5648)
+Compiled users/profile/multiselect.js  (0ms)  (pid 5648)
+Compiled users/surveys.js  (0ms)  (pid 5648)
+Compiled users/user_service_providers.js  (0ms)  (pid 5648)
+Compiled vendors/campaigns.js  (0ms)  (pid 5648)
+Compiled vendors/devise/registrations/company-details.js  (0ms)  (pid 5648)
+Compiled vendors/offers/multiselect.js  (0ms)  (pid 5648)
+Compiled vendors/searches.js  (0ms)  (pid 5648)
+Compiled vendors/view-profile.js  (0ms)  (pid 5648)
+Compiled zclip.js  (0ms)  (pid 5648)
+Compiled jquery-ui-1.8.18.custom.css  (0ms)  (pid 5648)
+Compiled jquery.multiselect.css  (0ms)  (pid 5648)
+Compiled j.query.uniform.default.css  (0ms)  (pid 5648)
+Compiled jquery.fancybox.css  (0ms)  (pid 5648)
+Compiled jquery-ui-timepicker-addon.css  (0ms)  (pid 5648)
+Compiled application.css  (1709ms)  (pid 5648)
+Compiled bootstrap.css.scss-bkp-07-01-2014  (0ms)  (pid 5648)
+Compiled file_upload.css  (80ms)  (pid 5648)
+Compiled main.css.scss--13-1-2015-2  (0ms)  (pid 5648)
+Compiled main.css.scss-12-1-2015  (0ms)  (pid 5648)
+Compiled main.css.scss-13-1-2015  (0ms)  (pid 5648)
+Compiled main.css.scss-19-1-2015  (0ms)  (pid 5648)
+Compiled main.css.scss-9-1-2015  (0ms)  (pid 5648)
+Compiled main.css.scss-bkp-07-01-2014  (0ms)  (pid 5648)
+Compiled print.css  (2ms)  (pid 5648)
+Compiled print_preview.css  (3ms)  (pid 5648)
+Compiled jquery.tipsy.custom.css  (0ms)  (pid 5648)
+Compiled jquery.bxslider.css  (0ms)  (pid 5648)
+Compiled search.css  (202ms)  (pid 5648)
+Compiled vendors.css  (1135ms)  (pid 5648)
+Compiled video-js-custom.css  (1ms)  (pid 5648)
+Compiled bootstrap-custom.js  (0ms)  (pid 5648)
+Compiled jquery-ui-timepicker-addon.js  (1ms)  (pid 5648)
+Compiled jquery-ui.min.js  (2ms)  (pid 5648)

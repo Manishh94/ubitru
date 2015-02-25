@@ -1,20 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791713.0480897:@value{I"
-class:ETI"StaticAsset;
-FI"id;
-TI"%0267ea5a2ace67502ec3c1f3fc7d6720;
-FI"logical_path;
-TI"+images/ui-bg_glass_75_dadada_1x400.png;
-FI"pathname;
-TI"K$root/vendor/assets/stylesheets/images/ui-bg_glass_75_dadada_1x400.png;
-FI"content_type;
-TI"image/png;
-TI"
-mtime;
-TI"2015-02-13T19:01:04+05:00;
-TI"length;
-TI"111;
-FI"digest;
-TI"%865323d895bee4352b37d1b0060cf592;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F

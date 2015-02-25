@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791695.3791804:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851614.7396035:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%68f50dc986566b49e9dd815df327661d;
+TI"%1582cf0f7c7fa512c4f83813fefa2b73;
 FI"logical_path;
 TI""mm_consumer_HD-compressed.mp4;
 FI"pathname;

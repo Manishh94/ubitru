@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.3521893:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851606.285149:@value{I"
 class:ETI"BundledAsset;
 FI"id;
-TI"%3ba40353ef9bfc94a5ceae12bf745acb;
+TI"%06c2e4b5427eb077566813dcc10ee502;
 FI"logical_path;
 TI".users/devise/registrations/multiselect.js;
 FI"pathname;

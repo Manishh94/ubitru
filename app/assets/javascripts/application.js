@@ -34,5 +34,7 @@
 //= require categories_multi_select
 //= require constants.js
 //= require jquery.inview.min.js
+//= require_tree .
 
 
+$('.check').click(function(){ alert("haha motuuuuuu")})

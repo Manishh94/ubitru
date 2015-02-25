@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.4778106:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5879362:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%37f079654881a7aad926d049e86fc0c5;
+TI"%adc7250fd8feaa5a73a2fd1be8d44549;
 FI"logical_path;
 TI"search/g-submit-btn.png;
 FI"pathname;

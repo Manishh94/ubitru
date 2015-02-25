@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'rails', '3.1.1'
 
@@ -8,7 +9,7 @@ gem 'mysql2'
 
 gem 'execjs'
 gem 'therubyracer'
-
+gem 'rack' , '1.4.5'
 gem 'json'
 
 # Deploy with Capistrano

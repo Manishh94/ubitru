@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.3609378:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5217848:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%e86ec76be811e6c6586aa980e5482ea0;
+TI"%954eea0f7e141016caa695f9931380fc;
 FI"logical_path;
 TI"pictures/iphone-app.png;
 FI"pathname;

@@ -1051,3 +1051,4 @@
 2015-02-24T16:00:57+0500: [Worker(delayed_job host:Mamoon-PC pid:32416)] Starting job worker
 2015-02-24T16:01:05+0500: [Worker(delayed_job host:Mamoon-PC pid:32435)] Starting job worker
 2015-02-24T16:01:13+0500: [Worker(delayed_job host:Mamoon-PC pid:32451)] Starting job worker
+2015-02-25T12:36:46+0500: [Worker(delayed_job host:Mamoon-PC pid:4013)] Starting job worker

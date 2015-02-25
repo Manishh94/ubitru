@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.0772934:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2498243:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%30657fd75124f54bb7bcc220fa2f26e8;
+TI"%eac0a7abb82a3583a52a2ae86b0a5c90;
 FI"logical_path;
 TI"browser/mozilla.png;
 FI"pathname;

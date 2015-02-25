@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791666.831452:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851588.7557974:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%4c82bd98a6e6ea7adb0e7e0f370c606f;
+TI"%e4ac4603bb0f484131923d266056ee4b;
 FI"logical_path;
 TI"Museo_Slab_500.otf;
 FI"pathname;

@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791667.7537951:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.0684466:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%2e0c27934d678d04823b0d6cfb87250d;
+TI"%e37885904de4f8283a48e5762f8076fb;
 FI"logical_path;
 TI"(RobotoSlab-Bold/RobotoSlab-Bold.ttf;
 FI"pathname;

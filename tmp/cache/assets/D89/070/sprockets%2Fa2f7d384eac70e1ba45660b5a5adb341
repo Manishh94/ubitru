@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791667.8319898:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.1295881:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%4fc25a43009b69025af1d2f0c59616bc;
+TI"%fd339bde420cb95cff1d7db4b71151fa;
 FI"logical_path;
 TI"fontawesome-webfont.ttf;
 FI"pathname;

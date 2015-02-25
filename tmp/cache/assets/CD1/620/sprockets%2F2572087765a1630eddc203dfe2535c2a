@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791667.2100682:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851588.8804908:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%c692b6df8a1c5e800b10cdbcc3cca291;
+TI"%7a49c297e6871d1352aee85c91cb8140;
 FI"logical_path;
 TI"$Roboto-Medium/Roboto-Medium.otf;
 FI"pathname;

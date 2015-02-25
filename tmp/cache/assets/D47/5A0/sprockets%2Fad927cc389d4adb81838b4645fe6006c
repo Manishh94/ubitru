@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.2880907:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4516244:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%697d4cafbe3ed65086abd208622f3957;
+TI"%9a9d69fd9ab3aa07cb693a5700ce3aea;
 FI"logical_path;
 TI"ipad3.jpg;
 FI"pathname;

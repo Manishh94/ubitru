@@ -1,20 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791713.0744486:@value{I"
-class:ETI"StaticAsset;
-FI"id;
-TI"%0e7a50b947c7ccebe668fdb9db51c631;
-FI"logical_path;
-TI"'images/ui-icons_cd0a0a_256x240.png;
-FI"pathname;
-TI"G$root/vendor/assets/stylesheets/images/ui-icons_cd0a0a_256x240.png;
-FI"content_type;
-TI"image/png;
-TI"
-mtime;
-TI"2015-02-13T19:01:04+05:00;
-TI"length;
-TI"	4369;
-FI"digest;
-TI"%bd43e2992f44775697eee538fa9c0173;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F

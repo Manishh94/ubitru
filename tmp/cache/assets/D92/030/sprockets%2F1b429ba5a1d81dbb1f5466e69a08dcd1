@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.1153762:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.287813:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%92510bda02d73fdcdb99d8831d96f4d5;
+TI"%a3a65fe9fcf3add1154140584718be8a;
 FI"logical_path;
 TI"calendar-handle.png;
 FI"pathname;

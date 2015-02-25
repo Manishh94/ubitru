@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.1193836:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2915819:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%c4e1f230bf27a7a57d994af8b8d31173;
+TI"%a19c7d54b7663411402d29714fe03b4c;
 FI"logical_path;
 TI"challenge-table-bg.png;
 FI"pathname;

@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.480242:@value{	I"length:ETi7I"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851606.44103:@value{	I"length:ETi7I"digest;
 TI"%d6d2a96e321ec5f468d6db50bfcba3e4;
 FI"source;
 TI"7$(function(){var t,e=$(".profile-link:first").text();$(".profile-link").live("click",function(i){i.preventDefault();var n=$(this);n.text("Generating preview..."),t&&t.abort(),$.ajax({type:"POST",url:n.attr("href"),complete:function(){n.text(e),showDetailsBox($("#profile-details-box"))},dataType:"script"})})});;
 TI"_version;
-TI"%29a41846e89d8641397fc5ad9f1fe9d9;
+TI"%99d6243f3b733246008bab8d86c1435a;
 F

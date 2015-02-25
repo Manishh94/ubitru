@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.0479116:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2235205:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%2a453fa3740d04e7caf0d105c8e43f80;
+TI"%4d07a9ad6f0e06711d0a53223c86adaa;
 FI"logical_path;
 TI"appstore.png;
 FI"pathname;

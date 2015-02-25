@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.5962977:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.6459012:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%9a13f084537c416366327d3b8239abad;
+TI"%a3cbf15020896ca12cd98862d9484c6a;
 FI"logical_path;
 TI"social/youtube.jpg;
 FI"pathname;

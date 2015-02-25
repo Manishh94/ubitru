@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791698.2550888:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851614.9462373:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%2ee047649e96c5a0efe0414460ed1de3;
+TI"%b0c1a29e8fa56dcf77112e8ef195a379;
 FI"logical_path;
 TI"fancybox.png;
 FI"pathname;

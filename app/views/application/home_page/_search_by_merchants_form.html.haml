@@ -1,21 +1,4 @@
-:javascript
-  $(function() {
-    $(document).ready(function () {
-         alert('tesign.... ')
-         var availableTags =  new Array(); 
-          $.ajax({url: "/muddleme-search", success: function(result){
-           console.log(result);
-           for (i = 0;i < result.length; i++) { 
-               availableTags.push(result[i]);
-           }
-           }});
-         $(".search").on("keydown", function () {
-          });
-         $(".search").autocomplete({
-             source: availableTags
-         });
-     });
-   });  
+
 %section.main-search-area
   .move_left
     .container-fluid
@@ -26,4 +9,4 @@
             .input-group
               = text_field_tag :search_by_merchants,params[:search_by_merchants], :placeholder => "Macy's, JCPenney, Target...", :autocomplete => "off", :class => "form-control search rb_medium search", :style => "font-size: 18pt; font-family: Roboto-Regular;,", :size => "10"
               .input-group-btn{:style => "width:113px;"}
-                %button.btn.btn-primary.rb_bold{:type => "submit"} SEARCH
+                %button.btn.btn-primary.rb_bold.check{:type => "submit"} SEARCH

@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.483062:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851606.4439561:@value{I"
 class:ETI"BundledAsset;
 FI"id;
-TI"%c0c833b09c34903a082051704dde705b;
+TI"%f1a76bc7714a591c6fa08645333fe249;
 FI"logical_path;
 TI"zclip.js;
 FI"pathname;

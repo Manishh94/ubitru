@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.4624763:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.576333:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%3d63e19fc05de512b320ad340f452f40;
+TI"%68b43c4579fc59b2c8c9fef26ea8b96f;
 FI"logical_path;
 TI"referralpage/friends2.png;
 FI"pathname;

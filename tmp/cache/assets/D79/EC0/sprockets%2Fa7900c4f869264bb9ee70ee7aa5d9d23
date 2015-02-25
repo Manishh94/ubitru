@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791711.6260653:@value{	I"length:ETiDI"digest;
-TI"%008b2e334287a5f6f90ce6557addb6d5;
-FI"source;
-TI"D/*
- * jQuery File Upload Plugin Localization Example 6.5
- * https://github.com/blueimp/jQuery-File-Upload
- *
- * Copyright 2012, Sebastian Tschan
- * https://blueimp.net
- *
- * Licensed under the MIT license:
- * http://www.opensource.org/licenses/MIT
- */
-window.locale={fileupload:{errors:{maxFileSize:"File is too big",minFileSize:"File is too small",acceptFileTypes:"Filetype not allowed",maxNumberOfFiles:"No more files allowed",uploadedBytes:"Uploaded bytes exceed file size",emptyResult:"Empty file upload result"},error:"Error",start:"Start",cancel:"Cancel",destroy:"Delete"}};;
-TI"_version;
-TI"%76e4528b463bc3f0fd67ce550ab98730;
-F

@@ -1,7 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791711.6179237:@value{	I"length:ETiøI"digest;
-TI"%97d149e9900370f6135db44f06282bc9;
-FI"source;
-TI"ø!function(t){"use strict";var e=function(t,i,n){var s,o,a=document.createElement("img");return a.onerror=i,a.onload=function(){o&&e.revokeObjectURL(o),i(e.scale(a,n))},s=window.Blob&&t instanceof Blob||window.File&&t instanceof File?o=e.createObjectURL(t):t,s?(a.src=s,a):e.readFile(t,function(t){a.src=t})},i=window.createObjectURL&&window||window.URL&&URL||window.webkitURL&&webkitURL;e.scale=function(t,e){e=e||{};var i=document.createElement("canvas"),n=Math.max((e.minWidth||t.width)/t.width,(e.minHeight||t.height)/t.height);return n>1&&(t.width=parseInt(t.width*n,10),t.height=parseInt(t.height*n,10)),n=Math.min((e.maxWidth||t.width)/t.width,(e.maxHeight||t.height)/t.height),1>n&&(t.width=parseInt(t.width*n,10),t.height=parseInt(t.height*n,10)),e.canvas&&i.getContext?(i.width=t.width,i.height=t.height,i.getContext("2d").drawImage(t,0,0,t.width,t.height),i):t},e.createObjectURL=function(t){return i?i.createObjectURL(t):!1},e.revokeObjectURL=function(t){return i?i.revokeObjectURL(t):!1},e.readFile=function(t,e){if(window.FileReader&&FileReader.prototype.readAsDataURL){var i=new FileReader;return i.onload=function(t){e(t.target.result)},i.readAsDataURL(t),i}return!1},"undefined"!=typeof define&&define.amd?define(function(){return e}):t.loadImage=e}(this);;
-TI"_version;
-TI"%aedafd9857f9f9d87216ecff9126f6f7;
-F

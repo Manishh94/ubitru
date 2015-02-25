@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.1020112:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2742867:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%3a7d86e841b433e177bb4892118398cc;
+TI"%a6e7dcdf02b38df65552068d7d16009e;
 FI"logical_path;
 TI""browserhelp/safari_prompt.png;
 FI"pathname;

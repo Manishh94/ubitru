@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791684.9823625:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851605.755213:@value{I"
 class:ETI"BundledAsset;
 FI"id;
-TI"%15327b714a2846e4f1bee85b4a5f7aad;
+TI"%820ba374bfe902d37d95f4da80cc6cc6;
 FI"logical_path;
 TI"search/bing_search.js;
 FI"pathname;

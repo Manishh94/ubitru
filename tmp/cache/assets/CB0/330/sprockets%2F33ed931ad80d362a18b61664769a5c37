@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.3149521:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4792986:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%412502aacfa1a0e23c5bb556aea5bc37;
+TI"%c2e43b401358ee908744bdc9db2a006b;
 FI"logical_path;
 TI"milky-box-bg.png;
 FI"pathname;

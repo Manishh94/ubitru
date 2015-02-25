@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.6255238:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.660977:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%04ae50b6928af760e8402c8a0248b22a;
+TI"%64fb3e80682f52e0f7c0d8570c7fadca;
 FI"logical_path;
 TI"university-steps.jpg;
 FI"pathname;

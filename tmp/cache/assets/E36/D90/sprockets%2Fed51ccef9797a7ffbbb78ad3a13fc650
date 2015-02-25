@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.475603:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.586002:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%f66b57e0ad215a1e04c5a8ec966a84cf;
+TI"%c87e2009585e2c707fa5e44b88d38098;
 FI"logical_path;
 TI"search/bing-iconset.png;
 FI"pathname;

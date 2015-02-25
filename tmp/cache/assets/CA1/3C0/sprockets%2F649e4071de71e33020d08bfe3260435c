@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791670.2375998:@value{	I"length:ETiÂI"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851591.2935088:@value{	I"length:ETiÂI"digest;
 TI"%7238e1dffa1ddf07d732b0a57e49aed4;
 FI"source;
 TI"Âfunction showDetailsBox(t){t.fadeIn(300)}function closeDetailsBox(){$(".details-box").fadeOut(300)}$(function(){$(".details-box .details-overlay, .details-box .details-close-button").live("click",function(){closeDetailsBox()})});;
 TI"_version;
-TI"%a4964113d2f8dc74ce2361d8cfb5505f;
+TI"%a431bb3eb7e3378820944a3f4bc641b9;
 F

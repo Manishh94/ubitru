@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791692.5023649:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851612.2899253:@value{I"
 class:ETI"BundledAsset;
 FI"id;
-TI"%e25239141727d8ae31c1f28e0569363f;
+TI"%07197fbc471b8cf0d85be34acdb1d3cd;
 FI"logical_path;
 TI"jquery.bxslider.css;
 FI"pathname;

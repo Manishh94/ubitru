@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.0998273:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2722292:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%265360df4bf76df2e8e9067410f7be36;
+TI"%60bf4e8edb11a5ca85e87ff172186a31;
 FI"logical_path;
 TI" browserhelp/safari_logo.png;
 FI"pathname;

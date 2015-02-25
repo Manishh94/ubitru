@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.4731374:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5841706:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%4cef983fed98b933adf7586f92a4c481;
+TI"%47f6566460e26cc569c62c2cebedba88;
 FI"logical_path;
 TI"search/amfam-logo.png;
 FI"pathname;

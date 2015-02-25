@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.281941:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851606.1979666:@value{I"
 class:ETI"BundledAsset;
 FI"id;
-TI"%62d2dd5cf26d1dd5a3cf708c5a6e7364;
+TI"%2fa13a27f37b71c037de8e88d9e3629e;
 FI"logical_path;
 TI""users/auctions/multiselect.js;
 FI"pathname;

@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.2700303:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4340377:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%f01fb8b78cde265899edb2d4eebce001;
+TI"%a36360df79b799a89a0947530492f43a;
 FI"logical_path;
 TI"icon-mony-box.png;
 FI"pathname;

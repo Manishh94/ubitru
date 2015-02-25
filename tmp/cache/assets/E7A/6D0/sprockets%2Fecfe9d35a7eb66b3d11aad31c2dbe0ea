@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.1258574:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2978296:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%effa6350d88c1f4ef1cdb524a61b07c6;
+TI"%0119843b6365b3a57d067d4157e8825c;
 FI"logical_path;
 TI"coupon-box.png;
 FI"pathname;

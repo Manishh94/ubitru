@@ -1,20 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791713.0507514:@value{I"
-class:ETI"StaticAsset;
-FI"id;
-TI"%788ea51bff72186bf685c3bcd88f8236;
-FI"logical_path;
-TI"+images/ui-bg_glass_75_e6e6e6_1x400.png;
-FI"pathname;
-TI"K$root/vendor/assets/stylesheets/images/ui-bg_glass_75_e6e6e6_1x400.png;
-FI"content_type;
-TI"image/png;
-TI"
-mtime;
-TI"2015-02-13T19:01:04+05:00;
-TI"length;
-TI"110;
-FI"digest;
-TI"%dd158b2514a6d6f9fe655b7b6973ac77;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F

@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791667.9608986:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.139444:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%64673eb0b78cab6ed506183a183f05c6;
+TI"%ec57c07862bf7ac03674c9295cf1b62f;
 FI"logical_path;
 TI"%glyphicons-halflings-regular.ttf;
 FI"pathname;

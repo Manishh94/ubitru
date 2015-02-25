@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791684.4911969:@value{	I"length:ETiI"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851605.2896047:@value{	I"length:ETiI"digest;
 TI"%c3143cbbdc71ebdeab339c616a2db6ea;
 FI"source;
 TI"$(document).ready(function(){availableTags=new Array,$.ajax({url:"/muddleme-search",success:function(t){for(console.log(t),i=0;i<t.length;i++)availableTags.push(t[i])}}),$(".search").on("keydown",function(){}),$(".search").autocomplete({source:availableTags})});;
 TI"_version;
-TI"%1d224d887861d6ef47ce4b43507a951d;
+TI"%b4fe404abe09396967bc43f38f989869;
 F

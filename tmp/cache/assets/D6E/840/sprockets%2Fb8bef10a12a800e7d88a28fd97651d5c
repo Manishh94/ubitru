@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791683.0596237:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851603.998588:@value{I"
 class:ETI"BundledAsset;
 FI"id;
-TI"%b3ce3bdb4b89052b30b540de1a8a4e6b;
+TI"%0100d2ab9539ce0ede2e4d2ccb547433;
 FI"logical_path;
 TI"jquery.fancybox.js;
 FI"pathname;

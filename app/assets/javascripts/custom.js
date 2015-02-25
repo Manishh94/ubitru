@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+    
     $('#sbm_search_bar #search_by_merchants').click(function(){        
         var keywordVal = $(this).val();
         if (keywordVal == "Macy's, JCPenney, Target...") {

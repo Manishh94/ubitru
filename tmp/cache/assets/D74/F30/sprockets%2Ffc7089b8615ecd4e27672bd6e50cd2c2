@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.3702807:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5307086:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%e959462972ddcadf6c14cf0e64450303;
+TI"%2664240d0b19a7e701b0944dc0aeaa07;
 FI"logical_path;
 TI"!pictures/oil-testimonial.jpg;
 FI"pathname;

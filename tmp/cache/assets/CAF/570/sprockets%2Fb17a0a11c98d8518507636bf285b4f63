@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.0365674:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851605.8131363:@value{I"
 class:ETI"BundledAsset;
 FI"id;
-TI"%3f19a6e319c678e3f019e6c9e9916e6d;
+TI"%c62dbb826a0b74559897f95ed8fb8360;
 FI"logical_path;
 TI"search/mm-box.js;
 FI"pathname;

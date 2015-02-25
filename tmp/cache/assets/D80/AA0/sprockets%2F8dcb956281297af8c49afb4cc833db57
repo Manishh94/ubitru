@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791670.3893743:@value{	I"length:ETiÅI"digest;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851591.4128008:@value{	I"length:ETiÅI"digest;
 TI"%5cb3ac3e3edb453b2fcd3f974addbe3a;
 FI"source;
 TI"Åfunction initPlaceholders(){$("input[placeholder], textarea[placeholder]").placeholder(),$("input[placeholder]:not([placeholder-overriden]), textarea[placeholder]:not([placeholder-overriden])").attr("placeholder-overriden","1").focus(function(){var t=$(this);t.attr("placeholder-value",t.attr("placeholder")).removeAttr("placeholder")}).blur(function(){var t=$(this);t.attr("placeholder",t.attr("placeholder-value"))})}$(function(){initPlaceholders()});;
 TI"_version;
-TI"%a8c5019203c156278c1e90bb230d456c;
+TI"%8bdbf26f3dbca5f56db14896ef14b3fb;
 F

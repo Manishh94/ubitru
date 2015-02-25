@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.2467878:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4117472:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%1d1f6852e8e87f53936c8f4f3722c8e7;
+TI"%ebcf3248b0b3bfd489d1014c3ddd660f;
 FI"logical_path;
 TI")homepage/get-paid-for-everything.png;
 FI"pathname;

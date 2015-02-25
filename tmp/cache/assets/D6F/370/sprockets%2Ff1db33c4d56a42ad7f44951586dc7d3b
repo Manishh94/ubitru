@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.354485:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5155444:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%22a4bdb0170bea3092d6a36dfca9187f;
+TI"%a6f89fed8de4102ece0239d11d2846cc;
 FI"logical_path;
 TI"#pictures/bubbles-green-guy.png;
 FI"pathname;

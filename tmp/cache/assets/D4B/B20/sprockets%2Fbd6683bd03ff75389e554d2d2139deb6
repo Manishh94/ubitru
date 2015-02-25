@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791685.4715571:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851606.4328856:@value{I"
 class:ETI"BundledAsset;
 FI"id;
-TI"%29a41846e89d8641397fc5ad9f1fe9d9;
+TI"%99d6243f3b733246008bab8d86c1435a;
 FI"logical_path;
 TI"vendors/view-profile.js;
 FI"pathname;

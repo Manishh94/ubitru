@@ -1,32 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791713.4394865:@value{I"
-class:ETI"BundledAsset;
-FI"id;
-TI"%a69f3fe480d76fad699c54d2592e1c3e;
-FI"logical_path;
-TI"h5bp/index.js;
-FI"pathname;
-TI"k/home/mamoon/.rvm/gems/ruby-2.1.2@leme1/gems/html5-rails-0.0.4/vendor/assets/javascripts/h5bp/index.js;
-FI"content_type;
-TI"application/javascript;
-TI"
-mtime;
-TI"2015-02-16T15:31:06+05:00;
-TI"	body;
-TI"//= require ./plugins
-;
-;
-TI"asset_paths;
-T[I"k/home/mamoon/.rvm/gems/ruby-2.1.2@leme1/gems/html5-rails-0.0.4/vendor/assets/javascripts/h5bp/index.js;
-FI"dependency_paths;
-T[{I"	path;
-TI"k/home/mamoon/.rvm/gems/ruby-2.1.2@leme1/gems/html5-rails-0.0.4/vendor/assets/javascripts/h5bp/index.js;
-FI"
-mtime;
-TIu:	Time
-Æ€²cb|
-:nano_numi×:nano_deni:submicro"˜0:offsetiPF:	zoneI"PKT;
-TI"hexdigest;
-TI"%5aab46bc1b87c358eb4cf80db2fb7adf;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F

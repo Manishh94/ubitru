@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791668.3365107:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4995353:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%517ae01a18fc4b7e42084a544eda4560;
+TI"%9c2b8836bef7a39ad8f1d0016e263321;
 FI"logical_path;
 TI"panel/panel2-logo.jpg;
 FI"pathname;

@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791694.041274:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851613.6433403:@value{I"
 class:ETI"BundledAsset;
 FI"id;
-TI"%491a6f87d2540b4b0ccf91528d709ecd;
+TI"%8cf87bf228bbb8ad33b7a540a53f6b7a;
 FI"logical_path;
 TI"vendors.css;
 FI"pathname;

@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424791667.9910066:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.1830745:@value{I"
 class:ETI"StaticAsset;
 FI"id;
-TI"%c9c25860de01d40e924da057a12b9d3f;
+TI"%3943c47c919c3e587bcb09ca6e69959d;
 FI"logical_path;
 TI"museo_slab_500-webfont.svg;
 FI"pathname;
