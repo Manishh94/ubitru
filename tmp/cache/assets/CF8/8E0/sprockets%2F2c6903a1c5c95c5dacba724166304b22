@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374934.235162:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%9865d937ad5de207b962793d42dc03ccI"logical_path;
+FI",images/ui-bg_flat_100_fdddd2_40x100.png;
+TI"pathname;
+FI"L$root/vendor/assets/stylesheets/images/ui-bg_flat_100_fdddd2_40x100.png;
+TI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"182;
+FI"digest;
+F"%a82d519e4388999cb8a45d9672e905c2I"_version;
+F"%df7525e917401704ef453cb56bf16697

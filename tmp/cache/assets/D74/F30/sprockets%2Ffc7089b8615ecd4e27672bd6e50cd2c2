@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.0593631:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%2e1989f4dde67b487a69f444509f1e1eI"logical_path;
-FI"!pictures/oil-testimonial.jpg;
-TI"pathname;
-FI"9$root/app/assets/images/pictures/oil-testimonial.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-45301;
-FI"digest;
-F"%0c3be009678919b679d74a4f046745c4I"_version;
-F"%df7525e917401704ef453cb56bf16697

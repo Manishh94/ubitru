@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374783.194622:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%2f124742e4c9b2c6437cb6c69da44d38I"logical_path;
-FI""Roboto-Light/Roboto-Light.ttf;
-TI"pathname;
-FI"9$root/app/assets/fonts/Roboto-Light/Roboto-Light.ttf;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"140276;
-FI"digest;
-F"%5d46a70880b4fb66b747bfd8ecaadaabI"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.0672991:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%cc41ceca27e642f645e79ac5a17c2b2fI"logical_path;
-FI"pictures/piggy.png;
-TI"pathname;
-FI"/$root/app/assets/images/pictures/piggy.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	2796;
-FI"digest;
-F"%07b4d39f9609b800ef7d5e265c588eb3I"_version;
-F"%df7525e917401704ef453cb56bf16697

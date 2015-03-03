@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.61938:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%cae3f7463e34621048ac1603f247b2d7I"logical_path;
-FI"logo-old-navy.jpg;
-TI"pathname;
-FI".$root/app/assets/images/logo-old-navy.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	4153;
-FI"digest;
-F"%ee8be485e4d56060131c6d5bcf5ab0a3I"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.5928981:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%96862dc70d3dbdb72ac47b153d62d3cfI"logical_path;
-FI"logo-gap.jpg;
-TI"pathname;
-FI")$root/app/assets/images/logo-gap.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	3808;
-FI"digest;
-F"%45bd9771ba1e4a5118cf8d435851fa96I"_version;
-F"%df7525e917401704ef453cb56bf16697

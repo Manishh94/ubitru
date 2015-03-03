@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.02777:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%9e2eb03f13c428f2198ce396559198e5I"logical_path;
-FI",browserhelp/ie_enable_file_download.png;
-TI"pathname;
-FI"D$root/app/assets/images/browserhelp/ie_enable_file_download.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-12015;
-FI"digest;
-F"%20c8dff393bd12ccc3b27ebd6a2353deI"_version;
-F"%df7525e917401704ef453cb56bf16697

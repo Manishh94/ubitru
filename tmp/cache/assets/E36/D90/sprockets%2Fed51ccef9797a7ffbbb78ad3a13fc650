@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.371936:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%1183f7276c4d47cc234e69aed461eec6I"logical_path;
-FI"search/bing-iconset.png;
-TI"pathname;
-FI"4$root/app/assets/images/search/bing-iconset.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	5849;
-FI"digest;
-F"%82c2b2c3a3e8d12ad1404e5ad3cd6640I"_version;
-F"%df7525e917401704ef453cb56bf16697

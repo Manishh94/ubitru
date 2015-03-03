@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.720881:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%2aadc86baf02f0b84a826ab96217da14I"logical_path;
-FI"new_scissor_icon.png;
-TI"pathname;
-FI"1$root/app/assets/images/new_scissor_icon.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	3250;
-FI"digest;
-F"%6d1b19cbbf33c8cfa185590320efc043I"_version;
-F"%df7525e917401704ef453cb56bf16697

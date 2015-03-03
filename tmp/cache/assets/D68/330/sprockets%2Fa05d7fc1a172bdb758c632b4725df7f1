@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.999532:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%1319bfaf978f96c38d698c6c78a68f16I"logical_path;
-FI"browserhelp/circle_one.png;
-TI"pathname;
-FI"7$root/app/assets/images/browserhelp/circle_one.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	1993;
-FI"digest;
-F"%95f20c4c3875bc860ea414508faaa559I"_version;
-F"%df7525e917401704ef453cb56bf16697

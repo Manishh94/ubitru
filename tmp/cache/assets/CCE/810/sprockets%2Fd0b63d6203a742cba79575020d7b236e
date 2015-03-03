@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.737041:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%d7462ac2319f8c782f44fdf2b627d1bfI"logical_path;
-FI" museo_slab_500-webfont.woff;
-TI"pathname;
-FI"7$root/app/assets/fonts/museo_slab_500-webfont.woff;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-28396;
-FI"digest;
-F"%5b72bd8d8e49ac941167740b880d542aI"_version;
-F"%df7525e917401704ef453cb56bf16697

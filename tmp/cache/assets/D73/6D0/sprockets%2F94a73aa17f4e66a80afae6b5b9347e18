@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.884232:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%429b4f32e1bc2ce56e1ca79945bf828bI"logical_path;
-FI"fb-like.jpg;
-TI"pathname;
-FI"($root/app/assets/images/fb-like.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	1885;
-FI"digest;
-F"%8019ee25cb0d069f94e722f7422621cfI"_version;
-F"%df7525e917401704ef453cb56bf16697

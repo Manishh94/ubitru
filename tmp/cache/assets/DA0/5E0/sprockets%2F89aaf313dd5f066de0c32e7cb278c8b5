@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.010547:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%4b433c2c5eccb0ca25482fe7f62668b0I"logical_path;
-FI"!browserhelp/circle_three.png;
-TI"pathname;
-FI"9$root/app/assets/images/browserhelp/circle_three.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	2359;
-FI"digest;
-F"%e5a5b1da798c0114c0c05349859a7204I"_version;
-F"%df7525e917401704ef453cb56bf16697

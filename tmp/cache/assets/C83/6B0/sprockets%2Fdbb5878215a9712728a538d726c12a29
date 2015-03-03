@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374784.9324632:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%ed3180640a8354761d62b1f980c119b0I"logical_path;
-FI"(RobotoSlab-Bold/RobotoSlab-Bold.svg;
-TI"pathname;
-FI"?$root/app/assets/fonts/RobotoSlab-Bold/RobotoSlab-Bold.svg;
-TI"content_type;
-FI"image/svg+xml;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"920343;
-FI"digest;
-F"%1c1522419a7a9fb3512afb6866e8f826I"_version;
-F"%df7525e917401704ef453cb56bf16697

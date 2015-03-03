@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.812556:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%f6b6de9354ac477ad8c44aef66d862acI"logical_path;
-FI"panel/panel4-logo.jpg;
-TI"pathname;
-FI"2$root/app/assets/images/panel/panel4-logo.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	4712;
-FI"digest;
-F"%f62d9f0448e3994022637e0cb1aacdb6I"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.675621:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%1c75c11e0057c131b63c995d46bda25dI"logical_path;
-FI"experiencepage/mbook.png;
-TI"pathname;
-FI"5$root/app/assets/images/experiencepage/mbook.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-65586;
-FI"digest;
-F"%d062d74723f8923afe7267ff9dddf272I"_version;
-F"%df7525e917401704ef453cb56bf16697

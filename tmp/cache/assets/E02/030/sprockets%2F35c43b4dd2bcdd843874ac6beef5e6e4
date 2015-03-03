@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374782.290539:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%219f668b0a146cb384c9df0b42d012b4I"logical_path;
-FI"FontAwesome.otf;
-TI"pathname;
-FI"+$root/app/assets/fonts/FontAwesome.otf;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-85908;
-FI"digest;
-F"%6e81dc183d56833a811180bd172b8c54I"_version;
-F"%df7525e917401704ef453cb56bf16697

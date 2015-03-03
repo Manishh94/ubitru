@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374783.750997:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%76ed7ece9c50325296c76c915d813c75I"logical_path;
-FI"&Roboto-Regular/Roboto-Regular.svg;
-TI"pathname;
-FI"=$root/app/assets/fonts/Roboto-Regular/Roboto-Regular.svg;
-TI"content_type;
-FI"image/svg+xml;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"820654;
-FI"digest;
-F"%e5573a6ea05521e3f2276e5d047de28fI"_version;
-F"%df7525e917401704ef453cb56bf16697

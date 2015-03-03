@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.782791:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%72bcb68fb5b27a7f5a60f05bbf7ceb57I"logical_path;
-FI"service2/Untitled-11.png;
-TI"pathname;
-FI"5$root/app/assets/images/service2/Untitled-11.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-12278;
-FI"digest;
-F"%3aa72ae690ddf71f6f7e133f01ee46abI"_version;
-F"%df7525e917401704ef453cb56bf16697

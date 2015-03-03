@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.975471:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%06c4ccdfa57dc8102f74cb5712a10cb2I"logical_path;
-FI"pictures/bubbles.png;
-TI"pathname;
-FI"1$root/app/assets/images/pictures/bubbles.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	4440;
-FI"digest;
-F"%4ead18635cab55088d434b5321d4c09eI"_version;
-F"%df7525e917401704ef453cb56bf16697

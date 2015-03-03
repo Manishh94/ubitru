@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.31433:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%8b220fde5a0e77ddb04f8e65c83d3e80I"logical_path;
-FI"scissor-1.png;
-TI"pathname;
-FI"*$root/app/assets/images/scissor-1.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	2383;
-FI"digest;
-F"%f278b6eddbc992085e0b164eaa8c1c87I"_version;
-F"%df7525e917401704ef453cb56bf16697

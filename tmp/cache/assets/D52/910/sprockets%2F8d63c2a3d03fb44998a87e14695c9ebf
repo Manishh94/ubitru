@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.5293062:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%d80aa71b96146a1c77fe874cee21ea1cI"logical_path;
-FI"lock.png;
-TI"pathname;
-FI"%$root/app/assets/images/lock.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	2994;
-FI"digest;
-F"%4b57c87df64518988304bf906757467aI"_version;
-F"%df7525e917401704ef453cb56bf16697

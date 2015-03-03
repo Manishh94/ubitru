@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374934.283882:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%5704c56cdbaaf661b5cd27b635baccbcI"logical_path;
+FI"0images/ui-bg_inset-soft_95_fef1ec_1x100.png;
+TI"pathname;
+FI"P$root/vendor/assets/stylesheets/images/ui-bg_inset-soft_95_fef1ec_1x100.png;
+TI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"123;
+FI"digest;
+F"%9d457df473a600d67f71768063837cb3I"_version;
+F"%df7525e917401704ef453cb56bf16697

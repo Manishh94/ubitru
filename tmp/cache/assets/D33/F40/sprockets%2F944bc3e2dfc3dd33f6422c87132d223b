@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.714797:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%a4ed2c525289e4879adbafc4b842b8f7I"logical_path;
-FI"fancybox_loading.gif;
-TI"pathname;
-FI"1$root/app/assets/images/fancybox_loading.gif;
-TI"content_type;
-FI"image/gif;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	6567;
-FI"digest;
-F"%32453700fb21d102922d238f95e7d94dI"_version;
-F"%df7525e917401704ef453cb56bf16697

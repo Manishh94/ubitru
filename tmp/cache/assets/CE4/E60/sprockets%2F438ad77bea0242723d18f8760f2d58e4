@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.394005:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%f29a88ecb313bc4f1cd34790b9d3667aI"logical_path;
-FI"%glyphicons-halflings-regular.ttf;
-TI"pathname;
-FI"<$root/app/assets/fonts/glyphicons-halflings-regular.ttf;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-41280;
-FI"digest;
-F"%21c65e6a2e1c9439f52caa00db232553I"_version;
-F"%df7525e917401704ef453cb56bf16697

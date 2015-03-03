@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.4741912:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%fb9351a575d32512a2c501798bfe1abeI"logical_path;
-FI"search/glogo.png;
-TI"pathname;
-FI"-$root/app/assets/images/search/glogo.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	7988;
-FI"digest;
-F"%4df099c990bcc836d9cccb3b7955a57cI"_version;
-F"%df7525e917401704ef453cb56bf16697

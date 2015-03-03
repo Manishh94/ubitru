@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374782.555001:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%5110bd6d647024904d47919172aa2398I"logical_path;
-FI""Roboto-Black/Roboto-Black.svg;
-TI"pathname;
-FI"9$root/app/assets/fonts/Roboto-Black/Roboto-Black.svg;
-TI"content_type;
-FI"image/svg+xml;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"876101;
-FI"digest;
-F"%5d1c77dc49813ff23d447f91155eeb2eI"_version;
-F"%df7525e917401704ef453cb56bf16697

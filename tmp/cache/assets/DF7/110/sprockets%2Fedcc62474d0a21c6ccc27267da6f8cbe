@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374922.34189:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%848c907968db657bfbead79f93dc0856I"logical_path;
-FI"video-js.png;
-TI"pathname;
-FI",$root/vendor/assets/images/video-js.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	8235;
-FI"digest;
-F"%91433679a8ac44f6bf6be9c3d69cf8faI"_version;
-F"%df7525e917401704ef453cb56bf16697

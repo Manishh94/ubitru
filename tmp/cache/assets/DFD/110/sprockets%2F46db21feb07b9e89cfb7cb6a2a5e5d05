@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.858619:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%32889583472ab1ad970ce8afb8b00030I"logical_path;
-FI"social-login-buttons.png;
-TI"pathname;
-FI"5$root/app/assets/images/social-login-buttons.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-40935;
-FI"digest;
-F"%904f972462de8f7b8b8ef6b66f7b287bI"_version;
-F"%df7525e917401704ef453cb56bf16697

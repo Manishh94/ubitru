@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374922.3163462:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%db547ad230b8b3cc69d5433c39807903I"logical_path;
-FI"uniform/bg-input.png;
-TI"pathname;
-FI"4$root/vendor/assets/images/uniform/bg-input.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"143;
-FI"digest;
-F"%4804da51a12db517fa3d596efbbc7e6bI"_version;
-F"%df7525e917401704ef453cb56bf16697

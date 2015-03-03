@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374918.803432:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%5a6e2e2aa8e0ab45d27d8e106d98680cI"logical_path;
-FI""mm_consumer_HD-compressed.mp4;
-TI"pathname;
-FI":$root/app/assets/videos/mm_consumer_HD-compressed.mp4;
-TI"content_type;
-FI"video/mp4;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"19344152;
-FI"digest;
-F"%944d8a9d417c7d377c56522d12b083e8I"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.163836:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%5e5df0c34134f139d79894d2bdba6307I"logical_path;
-FI"popup_left-arrow.png;
-TI"pathname;
-FI"1$root/app/assets/images/popup_left-arrow.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	3977;
-FI"digest;
-F"%398260d56b5884ffbb1dd66fe749045aI"_version;
-F"%df7525e917401704ef453cb56bf16697

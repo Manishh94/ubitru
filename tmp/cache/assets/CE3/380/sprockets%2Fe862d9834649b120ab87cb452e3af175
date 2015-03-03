@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.040134:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%e25dc2bbaeda0a5a907e44902f2f9becI"logical_path;
-FI"$browserhelp/ie_enable_tools.png;
-TI"pathname;
-FI"<$root/app/assets/images/browserhelp/ie_enable_tools.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-41593;
-FI"digest;
-F"%889c3ff406eadfb74eb8cacde95c538eI"_version;
-F"%df7525e917401704ef453cb56bf16697

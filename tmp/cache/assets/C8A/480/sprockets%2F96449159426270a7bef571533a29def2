@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374782.407657:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%0a5a1e75f2569cd70e9f2ca85b29a869I"logical_path;
-FI"NexaSlab-Light.otf;
-TI"pathname;
-FI".$root/app/assets/fonts/NexaSlab-Light.otf;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-76760;
-FI"digest;
-F"%a544ece37793a976dcc3ffa67e52422bI"_version;
-F"%df7525e917401704ef453cb56bf16697

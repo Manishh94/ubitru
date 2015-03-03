@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374784.241548:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%4e1a22092b398114e44c3aa4e36c848aI"logical_path;
-FI">RobotoCondensed-BoldItalic/RobotoCondensed-BoldItalic.svg;
-TI"pathname;
-FI"U$root/app/assets/fonts/RobotoCondensed-BoldItalic/RobotoCondensed-BoldItalic.svg;
-TI"content_type;
-FI"image/svg+xml;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"872915;
-FI"digest;
-F"%0b7fb3a0e30e255686fdc36682081a8fI"_version;
-F"%df7525e917401704ef453cb56bf16697

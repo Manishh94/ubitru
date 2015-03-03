@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.961579:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%1b2d299a21bf3034f26e21123af2ff18I"logical_path;
-FI"header-for-logged-bg.png;
-TI"pathname;
-FI"5$root/app/assets/images/header-for-logged-bg.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-12212;
-FI"digest;
-F"%08b039e1a69c327edc396ec56451878eI"_version;
-F"%df7525e917401704ef453cb56bf16697

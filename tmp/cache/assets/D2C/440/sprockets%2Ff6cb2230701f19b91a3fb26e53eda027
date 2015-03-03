@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.9735522:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%80e8866dbe8a87f781ca90622c49be84I"logical_path;
-FI"browser/ie.png;
-TI"pathname;
-FI"+$root/app/assets/images/browser/ie.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	5955;
-FI"digest;
-F"%4c9da3a27416b153098b83999efa503eI"_version;
-F"%df7525e917401704ef453cb56bf16697

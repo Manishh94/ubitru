@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.5081558:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%bdc981fb07260aba93bdbfbf451eb95cI"logical_path;
-FI"ipad3.jpg;
-TI"pathname;
-FI"&$root/app/assets/images/ipad3.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	6015;
-FI"digest;
-F"%2798831f4c08de7fc28b394e4910a150I"_version;
-F"%df7525e917401704ef453cb56bf16697

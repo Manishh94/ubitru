@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.742295:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%dac58622f49f425bbf842d48e7a0720dI"logical_path;
-FI"offwhite-box-bg.png;
-TI"pathname;
-FI"0$root/app/assets/images/offwhite-box-bg.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"975;
-FI"digest;
-F"%5d0815a78fa93a3305f7ffa5d0d28e0fI"_version;
-F"%df7525e917401704ef453cb56bf16697

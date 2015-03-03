@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.281943:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%cdcc7af2ffadf5cf8015a34e000ce552I"logical_path;
-FI"!referralpage/friends-top.png;
-TI"pathname;
-FI"9$root/app/assets/images/referralpage/friends-top.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-10877;
-FI"digest;
-F"%d14471f662c6251fbb9416ba38883348I"_version;
-F"%df7525e917401704ef453cb56bf16697

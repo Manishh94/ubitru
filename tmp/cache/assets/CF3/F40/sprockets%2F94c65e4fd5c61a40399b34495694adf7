@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374922.098026:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%130c45df0c56aa99cd9c2ab7cfd5d830I"logical_path;
-FI"fancy_close.png;
-TI"pathname;
-FI"/$root/vendor/assets/images/fancy_close.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	1517;
-FI"digest;
-F"%dda858f1ee1020e3fcaaa84695dc9afdI"_version;
-F"%df7525e917401704ef453cb56bf16697

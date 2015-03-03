@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.5219269:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%1890fa0d6eaf6f92882d9600f8cfad8cI"logical_path;
-FI"#search/mm-callnow-btn-icon.png;
-TI"pathname;
-FI";$root/app/assets/images/search/mm-callnow-btn-icon.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"492;
-FI"digest;
-F"%faef8947484f4c81cb6a27f5162339e5I"_version;
-F"%df7525e917401704ef453cb56bf16697

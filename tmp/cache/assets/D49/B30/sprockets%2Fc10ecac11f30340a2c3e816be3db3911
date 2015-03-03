@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374922.162428:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%3c334b6b46916893ff4398c15b65b397I"logical_path;
-FI"fancy_shadow_n.png;
-TI"pathname;
-FI"2$root/vendor/assets/images/fancy_shadow_n.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"106;
-FI"digest;
-F"%be5a8dc173e48ab8378cc6d360555b5cI"_version;
-F"%df7525e917401704ef453cb56bf16697

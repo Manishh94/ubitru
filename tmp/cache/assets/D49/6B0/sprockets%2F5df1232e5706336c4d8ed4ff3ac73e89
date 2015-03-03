@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.059438:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%175af5a8783775048a4373ad128b9a4cI"logical_path;
-FI".RobotoSlab-Regular/RobotoSlab-Regular.otf;
-TI"pathname;
-FI"E$root/app/assets/fonts/RobotoSlab-Regular/RobotoSlab-Regular.otf;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"212716;
-FI"digest;
-F"%9a4c870862d71b093beaa271a83dd552I"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.990786:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%75759bb9a12a520381361399249220dcI"logical_path;
-FI"homepage/browser-logos.png;
-TI"pathname;
-FI"7$root/app/assets/images/homepage/browser-logos.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-18439;
-FI"digest;
-F"%c8b067a4d36650943c606b0c70bd558eI"_version;
-F"%df7525e917401704ef453cb56bf16697

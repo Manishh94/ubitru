@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.157295:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%3e4dde7b2bb86caad55806d9e3a1824cI"logical_path;
-FI"'browserhelp/safari_enable_extz.png;
-TI"pathname;
-FI"?$root/app/assets/images/browserhelp/safari_enable_extz.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-13275;
-FI"digest;
-F"%f28865e4cc2aead8a840188e42c01485I"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374900.977776:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%0b8e8e1388939331e25e2e0b50cad723I"logical_path;
-FI"!new_application.js-19-1-2015;
-TI"pathname;
-FI">$root/app/assets/javascripts/new_application.js-19-1-2015;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"851;
-FI"digest;
-F"%9b961a1eb709cbc2d0c3ad1c0ec34474I"_version;
-F"%df7525e917401704ef453cb56bf16697

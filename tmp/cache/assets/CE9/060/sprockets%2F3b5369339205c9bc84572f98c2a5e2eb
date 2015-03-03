@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.62819:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%0b9be991147d6af163e11395954ebf63I"logical_path;
-FI"logo-unavailable.jpg;
-TI"pathname;
-FI"1$root/app/assets/images/logo-unavailable.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-11219;
-FI"digest;
-F"%f3565e0df3efa42a5944da447707b5bcI"_version;
-F"%df7525e917401704ef453cb56bf16697

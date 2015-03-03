@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.209822:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%5a98dfc1c32ebe7bb089d1cb4a2fe73cI"logical_path;
-FI"bullet-orange.png;
-TI"pathname;
-FI".$root/app/assets/images/bullet-orange.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	1017;
-FI"digest;
-F"%d20b3851e29c19b878228c898d95b294I"_version;
-F"%df7525e917401704ef453cb56bf16697

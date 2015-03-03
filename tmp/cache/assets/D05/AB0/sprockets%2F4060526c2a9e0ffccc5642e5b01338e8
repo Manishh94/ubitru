@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.735067:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%f0f93e707e83fa51dd88fec6f48d5c17I"logical_path;
-FI"new_score_star.png;
-TI"pathname;
-FI"/$root/app/assets/images/new_score_star.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	7991;
-FI"digest;
-F"%84bff97f7eb6468002d6b50da92cfd65I"_version;
-F"%df7525e917401704ef453cb56bf16697

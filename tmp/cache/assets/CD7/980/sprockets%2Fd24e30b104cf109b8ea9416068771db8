@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.384406:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%69183684eccb78083e300f64bb4d531dI"logical_path;
-FI"deals/promo5.png;
-TI"pathname;
-FI"-$root/app/assets/images/deals/promo5.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	3059;
-FI"digest;
-F"%329db8382cdf712c65bd8e2c31927c19I"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.876677:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%d28e283efdc65bb0eac6628921e86aa7I"logical_path;
-FI"backpack.jpg;
-TI"pathname;
-FI")$root/app/assets/images/backpack.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	5541;
-FI"digest;
-F"%914ecc9039a0a2a91f14906b2f1a8d2fI"_version;
-F"%df7525e917401704ef453cb56bf16697

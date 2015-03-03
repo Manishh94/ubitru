@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374934.223514:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%a9c525f71eaae0e17e6c5e098db6ab79I"logical_path;
+FI"images/controls.png;
+TI"pathname;
+FI"8$root/vendor/assets/stylesheets/images/controls.png;
+TI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	2806;
+FI"digest;
+F"%07eea277c1793164b9846f46148e2722I"_version;
+F"%df7525e917401704ef453cb56bf16697

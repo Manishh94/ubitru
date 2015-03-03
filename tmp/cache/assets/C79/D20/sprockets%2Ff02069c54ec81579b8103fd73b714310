@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374922.332989:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%b5c732a8963b192fbee5da342e2cbd61I"logical_path;
-FI"uniform/sprite.png;
-TI"pathname;
-FI"2$root/vendor/assets/images/uniform/sprite.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-34229;
-FI"digest;
-F"%98c39e1ee0bd50186b2a3f07c63a4981I"_version;
-F"%df7525e917401704ef453cb56bf16697

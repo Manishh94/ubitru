@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.5590348:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%8060377c0e38a870b2319224a8addaddI"logical_path;
-FI""emails/view-offers-button.png;
-TI"pathname;
-FI":$root/app/assets/images/emails/view-offers-button.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	4909;
-FI"digest;
-F"%364490df3b6c8ef9b3f0cadd0e7d1033I"_version;
-F"%df7525e917401704ef453cb56bf16697

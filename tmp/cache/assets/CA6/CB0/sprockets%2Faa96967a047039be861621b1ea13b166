@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.880777:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%8d087c2bc729ae7a35a222db104b9a91I"logical_path;
-FI"social/youtube.jpg;
-TI"pathname;
-FI"/$root/app/assets/images/social/youtube.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	1566;
-FI"digest;
-F"%6b41e9874845564301fbbd6cc84f7ad5I"_version;
-F"%df7525e917401704ef453cb56bf16697

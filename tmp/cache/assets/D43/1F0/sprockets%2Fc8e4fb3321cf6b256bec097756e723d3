@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.262441:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%1435af23a0b8d57eecb59602b668007fI"logical_path;
-FI"challenge-table-bg.png;
-TI"pathname;
-FI"3$root/app/assets/images/challenge-table-bg.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	5179;
-FI"digest;
-F"%e155f8390e1eef186d6e0f8d97e5dcc4I"_version;
-F"%df7525e917401704ef453cb56bf16697

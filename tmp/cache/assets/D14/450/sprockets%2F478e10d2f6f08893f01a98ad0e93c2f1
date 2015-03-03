@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.106088:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%3a9d6be9f16d428567a94ad653aab755I"logical_path;
-FI"%pictures/remodel-testimonial.jpg;
-TI"pathname;
-FI"=$root/app/assets/images/pictures/remodel-testimonial.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-60553;
-FI"digest;
-F"%2c20da409fcd3d75726a4c243b66f5d0I"_version;
-F"%df7525e917401704ef453cb56bf16697

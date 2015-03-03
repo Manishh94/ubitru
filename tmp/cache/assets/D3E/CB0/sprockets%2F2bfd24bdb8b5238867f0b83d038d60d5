@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374784.465019:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%df3378da0a6891ad5d2f69c6884ec8a9I"logical_path;
-FI"4RobotoCondensed-Light/RobotoCondensed-Light.otf;
-TI"pathname;
-FI"K$root/app/assets/fonts/RobotoCondensed-Light/RobotoCondensed-Light.otf;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"183784;
-FI"digest;
-F"%847225f341770e5359fb4a879a232f70I"_version;
-F"%df7525e917401704ef453cb56bf16697

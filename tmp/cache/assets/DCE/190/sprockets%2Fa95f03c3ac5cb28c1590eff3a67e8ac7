@@ -1,5 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374871.117506:@value{	I"length:EFiÎI"digest;
-F"%08c4ad5af6a826f2c9d9ccbf0edc3bc5I"source;
-FI"Î$(document).ready(function(){function e(){wWidth=$(window).width(),wWidth>800?($(".mps_less_listings").addClass("vertical_listings"),$(".popularCat").addClass("vertical_listings")):$(".container .row").find(".vertical_listings").removeClass("vertical_listings")}$("#sbm_search_bar #search_by_merchants").click(function(){var e=$(this).val();"Macy's, JCPenney, Target..."==e&&$(this).val("")}),$("#sbm_search_bar #search_by_merchants").blur(function(){var e=$(this).val();""==e&&$(this).val("Macy's, JCPenney, Target...")}),wWidth=$(window).width(),801>wWidth&&$(".container .row").find(".vertical_listings").removeClass("vertical_listings"),$(window).on("orientationchange",function(){e()}),$(window).on("resize",e)});;
-TI"_version;
-F"%bb8029f54cf7af3503d00a918db73005

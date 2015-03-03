@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.829451:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%5b6a14fb1c8d7f99c3cc96c721bbd4a7I"logical_path;
-FI"slider.jpg;
-TI"pathname;
-FI"'$root/app/assets/images/slider.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"132010;
-FI"digest;
-F"%bd7d2e922c0a61c7d96f13962d08a1bcI"_version;
-F"%df7525e917401704ef453cb56bf16697

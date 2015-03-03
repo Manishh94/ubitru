@@ -1,5 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374871.252071:@value{	I"length:EFi<I"digest;
-F"%6cfd95484af761e560c2e6565d59e22eI"source;
-FI"<function initDatepickers(){$("input.datepicker:not(.hasDatepicker)").datepicker({onClose:function(e,t){$(t.input).change().focusout()},dateFormat:"mm/dd/y",buttonImage:"/assets/calendar-handle.png",buttonText:"Select date",buttonImageOnly:!0,showOn:"both"}),$("input.datetimepicker:not(.hasDatepicker)").datetimepicker({dateFormat:"mm/dd/y",timeFormat:"hh:mm TT",ampm:!0,stepHour:1,stepMinute:5,separator:" at ",buttonImage:"/assets/calendar-handle.png",buttonText:"Select date and time",buttonImageOnly:!0,showOn:"both"})}$(document).ready(function(){initDatepickers()});;
-TI"_version;
-F"%83f431d78922581a34795f8a675d609e

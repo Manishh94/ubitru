@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.0897229:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%60daed0885f271fb8f2715f9798a638cI"logical_path;
-FI"pictures/referrals.png;
-TI"pathname;
-FI"3$root/app/assets/images/pictures/referrals.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"151175;
-FI"digest;
-F"%7e82a7e117ffaeda2257f7770f2d6bb2I"_version;
-F"%df7525e917401704ef453cb56bf16697

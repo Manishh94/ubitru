@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374783.907447:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%6cc77877537a3efc423318b91c3629cfI"logical_path;
-FI" Roboto-Thin/Roboto-Thin.svg;
-TI"pathname;
-FI"7$root/app/assets/fonts/Roboto-Thin/Roboto-Thin.svg;
-TI"content_type;
-FI"image/svg+xml;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"850629;
-FI"digest;
-F"%04271e0a66e40148b7900e718ccd4b5bI"_version;
-F"%df7525e917401704ef453cb56bf16697

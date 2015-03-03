@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.29866:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%f287c443785d66e10f5b7a27c0ad72cbI"logical_path;
-FI"deals/border.png;
-TI"pathname;
-FI"-$root/app/assets/images/deals/border.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	2515;
-FI"digest;
-F"%ce66921e3dff735c8607f7b9260bfb99I"_version;
-F"%df7525e917401704ef453cb56bf16697

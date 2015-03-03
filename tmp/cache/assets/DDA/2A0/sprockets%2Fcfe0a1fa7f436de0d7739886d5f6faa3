@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.141536:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%059fa8d2c029b4efaf86f5ccdd74c8b3I"logical_path;
-FI"pictures/what_is_pic2.jpg;
-TI"pathname;
-FI"6$root/app/assets/images/pictures/what_is_pic2.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-21101;
-FI"digest;
-F"%68122427f4fb78569c2e307cefdf80abI"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374783.540237:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%7a7744f235074afef9b2bd65618fd2bcI"logical_path;
-FI"0Roboto-MediumItalic/Roboto-MediumItalic.otf;
-TI"pathname;
-FI"G$root/app/assets/fonts/Roboto-MediumItalic/Roboto-MediumItalic.otf;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"193784;
-FI"digest;
-F"%0b250efc9305c8445c82b9b9c58120feI"_version;
-F"%df7525e917401704ef453cb56bf16697

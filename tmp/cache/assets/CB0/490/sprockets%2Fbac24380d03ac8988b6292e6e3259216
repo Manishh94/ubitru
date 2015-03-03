@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.973185:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%6ae33b8192bfba5b7d7a2d51626958ccI"logical_path;
-FI"homepage-gray-box.png;
-TI"pathname;
-FI"2$root/app/assets/images/homepage-gray-box.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	1435;
-FI"digest;
-F"%5b6c2b5d9c92692ec78ebd912c1510c7I"_version;
-F"%df7525e917401704ef453cb56bf16697

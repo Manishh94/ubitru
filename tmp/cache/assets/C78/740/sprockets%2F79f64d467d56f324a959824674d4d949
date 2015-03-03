@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.810109:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%8f5c791542086f0881e05037468428daI"logical_path;
-FI" service2/border-pattern.png;
-TI"pathname;
-FI"8$root/app/assets/images/service2/border-pattern.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"955;
-FI"digest;
-F"%390f8b976958443054e4f4f1e6b4474bI"_version;
-F"%df7525e917401704ef453cb56bf16697

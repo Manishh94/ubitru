@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374782.35097:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%623050cfa071cb42ecb7ca4edab9be6fI"logical_path;
-FI"Museo_Slab_500.otf;
-TI"pathname;
-FI".$root/app/assets/fonts/Museo_Slab_500.otf;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-62180;
-FI"digest;
-F"%e8d52878996a87cb99f0ef58ccf91bf7I"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.94287:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%3df4b01b08d19465f39a245074ff7070I"logical_path;
-FI"textbooks.jpg;
-TI"pathname;
-FI"*$root/app/assets/images/textbooks.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	6593;
-FI"digest;
-F"%3151f0930a054fcb1c95ee5ba46f431aI"_version;
-F"%df7525e917401704ef453cb56bf16697

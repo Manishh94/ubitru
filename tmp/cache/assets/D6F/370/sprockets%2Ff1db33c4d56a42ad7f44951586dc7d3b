@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.968537:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%db6187ba44913075baa37df2dd03cda3I"logical_path;
-FI"#pictures/bubbles-green-guy.png;
-TI"pathname;
-FI";$root/app/assets/images/pictures/bubbles-green-guy.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	9742;
-FI"digest;
-F"%8765b84ebb40133abde73e7c2cd6589dI"_version;
-F"%df7525e917401704ef453cb56bf16697

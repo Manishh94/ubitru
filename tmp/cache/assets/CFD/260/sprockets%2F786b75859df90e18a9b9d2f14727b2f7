@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.3293319:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%cfcc846c67562be2cc010204dc7566fcI"logical_path;
-FI"homepage/social-media.png;
-TI"pathname;
-FI"6$root/app/assets/images/homepage/social-media.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-14712;
-FI"digest;
-F"%83bd10b9fc9807bd51bd067c7283907fI"_version;
-F"%df7525e917401704ef453cb56bf16697

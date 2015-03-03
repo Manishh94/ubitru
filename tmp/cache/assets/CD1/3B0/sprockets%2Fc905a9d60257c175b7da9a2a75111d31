@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374922.293392:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%ad43ca4a9d61cab9e466936065b2bd07I"logical_path;
-FI"fancybox.png;
-TI"pathname;
-FI",$root/vendor/assets/images/fancybox.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-15287;
-FI"digest;
-F"%7471fa0edad433d0dddb72024d1b3cb4I"_version;
-F"%df7525e917401704ef453cb56bf16697

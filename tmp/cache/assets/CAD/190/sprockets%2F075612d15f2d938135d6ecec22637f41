@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.840217:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%3a56c57666ebdf577a338c787f3eeb1fI"logical_path;
-FI"appstore.png;
-TI"pathname;
-FI")$root/app/assets/images/appstore.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-13001;
-FI"digest;
-F"%6d6375f5e3a8326bb5476773949aafdeI"_version;
-F"%df7525e917401704ef453cb56bf16697

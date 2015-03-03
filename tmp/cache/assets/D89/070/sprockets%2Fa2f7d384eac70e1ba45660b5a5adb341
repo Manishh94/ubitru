@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.341059:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%be26b00da88833a9c62c2ef9be67574dI"logical_path;
-FI"fontawesome-webfont.ttf;
-TI"pathname;
-FI"3$root/app/assets/fonts/fontawesome-webfont.ttf;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"112160;
-FI"digest;
-F"%6d8cf6949d35719dbad4dba2ee50e678I"_version;
-F"%df7525e917401704ef453cb56bf16697

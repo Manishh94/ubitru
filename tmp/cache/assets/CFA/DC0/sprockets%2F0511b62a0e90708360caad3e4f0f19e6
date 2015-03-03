@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374783.408016:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%cb08431c412dcbe3c9c50d0e90b1d9b3I"logical_path;
-FI".Roboto-LightItalic/Roboto-LightItalic.svg;
-TI"pathname;
-FI"E$root/app/assets/fonts/Roboto-LightItalic/Roboto-LightItalic.svg;
-TI"content_type;
-FI"image/svg+xml;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"882665;
-FI"digest;
-F"%988a5419a06f2712d4f54e3c00a387a9I"_version;
-F"%df7525e917401704ef453cb56bf16697

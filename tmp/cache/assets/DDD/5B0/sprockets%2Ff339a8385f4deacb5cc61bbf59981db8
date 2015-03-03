@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374783.494402:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%9927d53d566b93ac09848100432271fbI"logical_path;
-FI"$Roboto-Medium/Roboto-Medium.svg;
-TI"pathname;
-FI";$root/app/assets/fonts/Roboto-Medium/Roboto-Medium.svg;
-TI"content_type;
-FI"image/svg+xml;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"810987;
-FI"digest;
-F"%e0de3fbc559631b3727cf53264dab714I"_version;
-F"%df7525e917401704ef453cb56bf16697

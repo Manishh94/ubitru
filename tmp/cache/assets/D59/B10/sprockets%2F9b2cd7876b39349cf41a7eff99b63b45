@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.797744:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%8423e1d1cd21c0e7705dc5b832fe6fb9I"logical_path;
-FI"ajax-loader.gif;
-TI"pathname;
-FI",$root/app/assets/images/ajax-loader.gif;
-TI"content_type;
-FI"image/gif;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	4176;
-FI"digest;
-F"%7d2e4b29085cd9e12c264f04623f8f24I"_version;
-F"%df7525e917401704ef453cb56bf16697

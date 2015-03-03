@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.8669:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%b9263e46cb0528b95799927cb17010e7I"logical_path;
-FI"fav.png;
-TI"pathname;
-FI"$$root/app/assets/images/fav.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	5816;
-FI"digest;
-F"%9b77e27fc06e51a8b53f1ba67aa82c6aI"_version;
-F"%df7525e917401704ef453cb56bf16697

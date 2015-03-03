@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.040384:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%3e037a4bc672b14d8d0b6a10f6ad431dI"logical_path;
-FI"pictures/mechanic.jpg;
-TI"pathname;
-FI"2$root/app/assets/images/pictures/mechanic.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-78260;
-FI"digest;
-F"%937c23640635f6c6510deacdf94d57c1I"_version;
-F"%df7525e917401704ef453cb56bf16697

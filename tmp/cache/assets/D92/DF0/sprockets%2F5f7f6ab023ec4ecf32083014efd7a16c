@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.040258:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%2a6b6658ced94747b98412fa9d31b884I"logical_path;
-FI"+RobotoSlab-Light/RobotoSlab-Light.woff;
-TI"pathname;
-FI"B$root/app/assets/fonts/RobotoSlab-Light/RobotoSlab-Light.woff;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"104476;
-FI"digest;
-F"%b7345899ef87d9c08c297e5bcc46ff8bI"_version;
-F"%df7525e917401704ef453cb56bf16697

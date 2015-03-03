@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.601435:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%ba84e0d42f17be6903f8ac5b6a5ba3b9I"logical_path;
-FI"experiencepage/imac.png;
-TI"pathname;
-FI"4$root/app/assets/images/experiencepage/imac.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-40374;
-FI"digest;
-F"%8a5cdaffda7e73d1af1d35575c6a80ccI"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374782.603054:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%24afe296c839c4bd99067050d792b29eI"logical_path;
-FI"#Roboto-Black/Roboto-Black.woff;
-TI"pathname;
-FI":$root/app/assets/fonts/Roboto-Black/Roboto-Black.woff;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-96240;
-FI"digest;
-F"%d42b099213ba860991701775e2c3e48eI"_version;
-F"%df7525e917401704ef453cb56bf16697

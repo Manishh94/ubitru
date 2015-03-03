@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.684761:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%ae451bdf6a448a9a535e9d0eebac0343I"logical_path;
-FI" experiencepage/monitor3.png;
-TI"pathname;
-FI"8$root/app/assets/images/experiencepage/monitor3.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"123625;
-FI"digest;
-F"%b775122b57c26bec243cba6509fd33f1I"_version;
-F"%df7525e917401704ef453cb56bf16697

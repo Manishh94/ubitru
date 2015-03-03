@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.216238:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%4eb18ca921a8d981e567121a201aa068I"logical_path;
-FI""businesspage/business-top.png;
-TI"pathname;
-FI":$root/app/assets/images/businesspage/business-top.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-12252;
-FI"digest;
-F"%ba8de142ff2c48cf89d1dfaf289e02e7I"_version;
-F"%df7525e917401704ef453cb56bf16697

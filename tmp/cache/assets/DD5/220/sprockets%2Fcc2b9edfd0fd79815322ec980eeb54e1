@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.243166:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%586f280311cb78da76122e2b37b5b49eI"logical_path;
-FI" businesspage/mm-premium.png;
-TI"pathname;
-FI"8$root/app/assets/images/businesspage/mm-premium.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-21517;
-FI"digest;
-F"%2b3e384a5704f12ca29e8461216a4e34I"_version;
-F"%df7525e917401704ef453cb56bf16697

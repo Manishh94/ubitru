@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.8319318:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%9515e3f1ea3a2b632131d59019e2fbccI"logical_path;
-FI"fancybox_sprite.png;
-TI"pathname;
-FI"0$root/app/assets/images/fancybox_sprite.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	1362;
-FI"digest;
-F"%c9c59b80f891981e077dc03d8b2c850cI"_version;
-F"%df7525e917401704ef453cb56bf16697

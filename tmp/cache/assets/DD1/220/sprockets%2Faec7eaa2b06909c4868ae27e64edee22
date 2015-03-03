@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.680852:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%1badde1fc30772fa1edc8f147ca5600cI"logical_path;
-FI"mm-icon-not-logged-in.png;
-TI"pathname;
-FI"6$root/app/assets/images/mm-icon-not-logged-in.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"943;
-FI"digest;
-F"%c2b9b5de8e6a8b9c4e7045817e12daeaI"_version;
-F"%df7525e917401704ef453cb56bf16697

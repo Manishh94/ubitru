@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.6295621:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%98c6ebe407f39fd6e2eea5215ed77c26I"logical_path;
-FI"!museo700-regular-webfont.svg;
-TI"pathname;
-FI"8$root/app/assets/fonts/museo700-regular-webfont.svg;
-TI"content_type;
-FI"image/svg+xml;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-61892;
-FI"digest;
-F"%80aa180e48f4bd86edd710b1a359b8ddI"_version;
-F"%df7525e917401704ef453cb56bf16697

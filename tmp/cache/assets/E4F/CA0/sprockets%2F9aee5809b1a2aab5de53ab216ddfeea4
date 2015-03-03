@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.6053782:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%0bc3ad89198c73bdfb8953ee45f9a907I"logical_path;
-FI"search/mm-login-logo.png;
-TI"pathname;
-FI"5$root/app/assets/images/search/mm-login-logo.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	4681;
-FI"digest;
-F"%a07472fd51046e2121f74de8f4f84c31I"_version;
-F"%df7525e917401704ef453cb56bf16697

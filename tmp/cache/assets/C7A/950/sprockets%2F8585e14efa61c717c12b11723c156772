@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.690133:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%ddab1c6b020a4c10062769cd902be661I"logical_path;
-FI"#search/mm-shopnow-btn-icon.png;
-TI"pathname;
-FI";$root/app/assets/images/search/mm-shopnow-btn-icon.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"340;
-FI"digest;
-F"%e196a5b06a6c340f3d021aa8d229f3f4I"_version;
-F"%df7525e917401704ef453cb56bf16697

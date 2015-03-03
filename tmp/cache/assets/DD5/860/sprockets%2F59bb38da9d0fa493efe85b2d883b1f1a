@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374783.956366:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%8b6f57ebb4a3d55c180bec773d7260f2I"logical_path;
-FI",Roboto-ThinItalic/Roboto-ThinItalic.otf;
-TI"pathname;
-FI"C$root/app/assets/fonts/Roboto-ThinItalic/Roboto-ThinItalic.otf;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"201912;
-FI"digest;
-F"%f0873b481171e1b06ff3fd9729535774I"_version;
-F"%df7525e917401704ef453cb56bf16697

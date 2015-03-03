@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374783.444444:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%88a7ada4fde61b02be6543a47ef2b3feI"logical_path;
-FI"/Roboto-LightItalic/Roboto-LightItalic.woff;
-TI"pathname;
-FI"F$root/app/assets/fonts/Roboto-LightItalic/Roboto-LightItalic.woff;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"100384;
-FI"digest;
-F"%e645fec81269a77b2767c549d6262307I"_version;
-F"%df7525e917401704ef453cb56bf16697

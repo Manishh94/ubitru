@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374921.7935328:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%4c2ee4ce6ae3e37509a489b8fa14c255I"logical_path;
-FI"mm_vendor_HD.webm;
-TI"pathname;
-FI".$root/app/assets/videos/mm_vendor_HD.webm;
-TI"content_type;
-FI"video/webm;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"4405656;
-FI"digest;
-F"%9365f5e0d6305952470a4117147b8957I"_version;
-F"%df7525e917401704ef453cb56bf16697

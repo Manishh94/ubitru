@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.390547:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%6c67ed21a129329df9b1ff90747da04cI"logical_path;
-FI"icon-mony-box.png;
-TI"pathname;
-FI".$root/app/assets/images/icon-mony-box.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	2359;
-FI"digest;
-F"%e86341bd75cdebe571640eb217ff17e0I"_version;
-F"%df7525e917401704ef453cb56bf16697

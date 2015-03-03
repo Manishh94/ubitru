@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.8169:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%802fae42edb5e9c29ef00a78eb9f0833I"logical_path;
-FI"amazon-logo.png;
-TI"pathname;
-FI",$root/app/assets/images/amazon-logo.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	7130;
-FI"digest;
-F"%ac38742b6b351afe51ba60ab0086bae3I"_version;
-F"%df7525e917401704ef453cb56bf16697

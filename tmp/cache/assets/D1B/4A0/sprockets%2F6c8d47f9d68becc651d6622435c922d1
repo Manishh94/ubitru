@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.7110069:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%dde47513021a112c20f462f0aeb4fbf8I"logical_path;
-FI"mobile.jpg;
-TI"pathname;
-FI"'$root/app/assets/images/mobile.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-26335;
-FI"digest;
-F"%858b8b72f314925e4c760aa7c0b59d0cI"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.762452:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%d74db4dd51a9b4fd39d869c56bbf3490I"logical_path;
-FI"overlay.png;
-TI"pathname;
-FI"($root/app/assets/images/overlay.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	2281;
-FI"digest;
-F"%d37ad597bb269c2d870b78c4ce88ff64I"_version;
-F"%df7525e917401704ef453cb56bf16697

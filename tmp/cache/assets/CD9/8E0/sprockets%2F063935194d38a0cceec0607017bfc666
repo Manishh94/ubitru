@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.697248:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%7cef71b1a113cf51b2fac047c4cd627eI"logical_path;
-FI"experiencepage/shadow.png;
-TI"pathname;
-FI"6$root/app/assets/images/experiencepage/shadow.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	2055;
-FI"digest;
-F"%8240af7a54ceaafed77109e20528d044I"_version;
-F"%df7525e917401704ef453cb56bf16697

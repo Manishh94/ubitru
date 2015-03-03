@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374784.3212018:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%53b5db77ea414eecb904d647f664f880I"logical_path;
-FI"6RobotoCondensed-Italic/RobotoCondensed-Italic.eot;
-TI"pathname;
-FI"M$root/app/assets/fonts/RobotoCondensed-Italic/RobotoCondensed-Italic.eot;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"144638;
-FI"digest;
-F"%4e66c2996e1dc06f217b2578b1311661I"_version;
-F"%df7525e917401704ef453cb56bf16697

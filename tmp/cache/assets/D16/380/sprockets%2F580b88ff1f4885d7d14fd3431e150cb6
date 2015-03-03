@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.201175:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%b70a9bd3716dd2456439be11f649b8c6I"logical_path;
-FI""browserhelp/safari_search.png;
-TI"pathname;
-FI":$root/app/assets/images/browserhelp/safari_search.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"113687;
-FI"digest;
-F"%3db74e53433cd44bcb1447a640e0d927I"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.9432309:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%5527f0bfbd621b7ac86199e818042897I"logical_path;
-FI"green-box-bg.png;
-TI"pathname;
-FI"-$root/app/assets/images/green-box-bg.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	1000;
-FI"digest;
-F"%ceb0e7f758f807e05732409343d4ed57I"_version;
-F"%df7525e917401704ef453cb56bf16697

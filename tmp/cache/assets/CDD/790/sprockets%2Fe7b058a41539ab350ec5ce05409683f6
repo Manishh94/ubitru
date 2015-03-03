@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.429096:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%bb9c85870e545d1d96ba7a26972be95bI"logical_path;
-FI"emails/vendor_logo.png;
-TI"pathname;
-FI"3$root/app/assets/images/emails/vendor_logo.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-13317;
-FI"digest;
-F"%9d5f078248e9812a99d1ca1f7be7039cI"_version;
-F"%df7525e917401704ef453cb56bf16697

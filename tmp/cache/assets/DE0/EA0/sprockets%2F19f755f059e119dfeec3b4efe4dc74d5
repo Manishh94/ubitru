@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374782.6164858:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%b09e89df4a356179aacde4c7b59ddfbbI"logical_path;
-FI".Roboto-BlackItalic/Roboto-BlackItalic.eot;
-TI"pathname;
-FI"E$root/app/assets/fonts/Roboto-BlackItalic/Roboto-BlackItalic.eot;
-TI"content_type;
-FI"application/octet-stream;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"149862;
-FI"digest;
-F"%6dfaf858944866039245a99f944d76a8I"_version;
-F"%df7525e917401704ef453cb56bf16697

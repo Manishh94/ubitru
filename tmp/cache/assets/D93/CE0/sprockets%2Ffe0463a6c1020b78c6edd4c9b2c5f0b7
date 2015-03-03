@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374934.2592158:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%0f9938b46e603673aea5b5e081bcc0ffI"logical_path;
+FI"+images/ui-bg_glass_75_dadada_1x400.png;
+TI"pathname;
+FI"K$root/vendor/assets/stylesheets/images/ui-bg_glass_75_dadada_1x400.png;
+TI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"111;
+FI"digest;
+F"%865323d895bee4352b37d1b0060cf592I"_version;
+F"%df7525e917401704ef453cb56bf16697

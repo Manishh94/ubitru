@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.659607:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%28395198a44473535343bd8672cacdbbI"logical_path;
-FI"milky-box-bg.png;
-TI"pathname;
-FI"-$root/app/assets/images/milky-box-bg.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"998;
-FI"digest;
-F"%dd374c09f293e5250eb3464c2300d8d9I"_version;
-F"%df7525e917401704ef453cb56bf16697

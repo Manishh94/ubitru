@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.290622:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%d9212945afff5b2408e32a06ca659555I"logical_path;
-FI"dashed-border-pixel.png;
-TI"pathname;
-FI"4$root/app/assets/images/dashed-border-pixel.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"968;
-FI"digest;
-F"%bc36a0afe9f42fe4d24b93a00aeb9b02I"_version;
-F"%df7525e917401704ef453cb56bf16697

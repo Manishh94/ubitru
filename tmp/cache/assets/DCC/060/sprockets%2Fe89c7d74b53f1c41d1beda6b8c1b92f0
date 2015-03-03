@@ -1,5 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374901.584333:@value{	I"length:EFi¦I"digest;
-F"%0d3c58139a82892b0ca1f787bbf855c7I"source;
-FI"¦$(function(){$("#bing-submit-button").click(function(){$("#bing-search-box-form").submit()}),$("#bing-search-input-box-id-1").focus(function(){$("#bing-search-input-box-id-1, #bing-submit-column, #bing-submit-button").each(function(e,t){$(t).addClass(t.id+"-focused")})}).blur(function(){$("#bing-search-input-box-id-1, #bing-submit-column, #bing-submit-button").each(function(e,t){$(t).removeClass(t.id+"-focused")})})});;
-TI"_version;
-F"%afb0670af34a8d34991aab0d5dcbbed6

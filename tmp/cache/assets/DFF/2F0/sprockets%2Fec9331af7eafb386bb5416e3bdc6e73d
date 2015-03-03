@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374934.32163:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%b75d67e91da527151034a2831ac07ea0I"logical_path;
+FI"'images/ui-icons_ffffff_256x240.png;
+TI"pathname;
+FI"G$root/vendor/assets/stylesheets/images/ui-icons_ffffff_256x240.png;
+TI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	4369;
+FI"digest;
+F"%e7e3889d9c51c3e30d3a1e76ca4f3997I"_version;
+F"%df7525e917401704ef453cb56bf16697

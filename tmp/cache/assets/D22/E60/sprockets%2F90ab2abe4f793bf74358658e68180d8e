@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374934.203967:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%366307aa48924488b9b8560513d389d4I"logical_path;
+FI"1bootstrap/img/glyphicons-halflings-white.png;
+TI"pathname;
+FI"Q$root/vendor/assets/stylesheets/bootstrap/img/glyphicons-halflings-white.png;
+TI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	4352;
+FI"digest;
+F"%d050f89c8935ae163e68daa4d9807acdI"_version;
+F"%df7525e917401704ef453cb56bf16697

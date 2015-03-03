@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.932029:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%fd156b98a08ba627ef9b3b5c187b24deI"logical_path;
-FI"table-arrows.png;
-TI"pathname;
-FI"-$root/app/assets/images/table-arrows.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	1458;
-FI"digest;
-F"%0e7a1058b8ade4bc9f4bbd6074b31f53I"_version;
-F"%df7525e917401704ef453cb56bf16697

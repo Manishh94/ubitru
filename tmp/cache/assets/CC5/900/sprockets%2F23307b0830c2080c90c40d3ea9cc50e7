@@ -1,18 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374922.116983:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%1c6bb3c5c4f8dfd1281b0cc18ff0278eI"logical_path;
-FI"fancy_loading.png;
-TI"pathname;
-FI"1$root/vendor/assets/images/fancy_loading.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"
-10195;
-FI"digest;
-F"%bdb250394f2d389ac54729658bc18a3aI"_version;
-F"%df7525e917401704ef453cb56bf16697

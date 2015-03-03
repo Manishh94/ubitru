@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.3055072:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%2cb2580dc32ee4b26c99cf1d32c3cfbcI"logical_path;
-FI"referralpage/sign-in.png;
-TI"pathname;
-FI"5$root/app/assets/images/referralpage/sign-in.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	4854;
-FI"digest;
-F"%881e4d1dad6cff49d5c895c6394c8ffcI"_version;
-F"%df7525e917401704ef453cb56bf16697

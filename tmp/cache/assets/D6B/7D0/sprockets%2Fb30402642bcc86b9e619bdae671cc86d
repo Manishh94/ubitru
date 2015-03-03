@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.339679:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%b295579d9fb8edccf8dd4b59b717ff0dI"logical_path;
-FI"deals/deal-logo-6.jpg;
-TI"pathname;
-FI"2$root/app/assets/images/deals/deal-logo-6.jpg;
-TI"content_type;
-FI"image/jpeg;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"	5979;
-FI"digest;
-F"%09310a11992062633394559b509ee587I"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.210208:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%2aaa4242e5d5c21b0cb00af2ed790ca5I"logical_path;
-FI"posters/user-poster.png;
-TI"pathname;
-FI"4$root/app/assets/images/posters/user-poster.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"268629;
-FI"digest;
-F"%ac30dc7f934b072fc529dbf1ddf3b00aI"_version;
-F"%df7525e917401704ef453cb56bf16697

@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.661021:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%5066d75a4bc4824091eebb9405b05dc4I"logical_path;
-FI"#search/mm-profile-btn-icon.png;
-TI"pathname;
-FI";$root/app/assets/images/search/mm-profile-btn-icon.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"441;
-FI"digest;
-F"%095184ec962b57b95162a2ba5389dc2cI"_version;
-F"%df7525e917401704ef453cb56bf16697

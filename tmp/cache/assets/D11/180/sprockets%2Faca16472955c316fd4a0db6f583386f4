@@ -1,17 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374922.2618291:@value{I"
-class:EFI"StaticAsset;
-FI"id;
-F"%3dfe807a7c9b45b88162eda59fc079ceI"logical_path;
-FI"fancy_title_right.png;
-TI"pathname;
-FI"5$root/vendor/assets/images/fancy_title_right.png;
-TI"content_type;
-FI"image/png;
-FI"
-mtime;
-FI"2015-02-25T09:46:24+05:00;
-FI"length;
-FI"506;
-FI"digest;
-F"%2ed5aeef4ceec75884f0c590e32f0188I"_version;
-F"%df7525e917401704ef453cb56bf16697
