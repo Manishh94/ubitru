@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4340377:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.390547:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%a36360df79b799a89a0947530492f43a;
-FI"logical_path;
-TI"icon-mony-box.png;
-FI"pathname;
-TI".$root/app/assets/images/icon-mony-box.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%6c67ed21a129329df9b1ff90747da04cI"logical_path;
+FI"icon-mony-box.png;
+TI"pathname;
+FI".$root/app/assets/images/icon-mony-box.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	2359;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	2359;
 FI"digest;
-TI"%e86341bd75cdebe571640eb217ff17e0;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%e86341bd75cdebe571640eb217ff17e0I"_version;
+F"%df7525e917401704ef453cb56bf16697

@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4294908:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.350951:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%e21153f322929a7a0c4e8344d6b9cff7;
-FI"logical_path;
-TI" homepage/try-now-btn-bg.png;
-FI"pathname;
-TI"8$root/app/assets/images/homepage/try-now-btn-bg.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%1b24c0fd93e9a13e00aec0574fa173ccI"logical_path;
+FI" homepage/try-now-btn-bg.png;
+TI"pathname;
+FI"8$root/app/assets/images/homepage/try-now-btn-bg.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	3696;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	3696;
 FI"digest;
-TI"%8ac86ebe7b5c5a6c19d0303ea19fede8;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%8ac86ebe7b5c5a6c19d0303ea19fede8I"_version;
+F"%df7525e917401704ef453cb56bf16697

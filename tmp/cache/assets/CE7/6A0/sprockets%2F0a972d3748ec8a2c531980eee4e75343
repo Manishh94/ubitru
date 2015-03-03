@@ -1,7 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.9150789:@value{	I"length:ETiÜI"digest;
-TI"%6ac5b70ce2916449a2e77daf101b8b6e;
-FI"source;
-TI"Ü$(function(){$('input[name="to_release[]"]').live("click",function(){var e=0;$('input[name="to_release[]"]').each(function(){this.checked&&(e+=100*Number(this.value))}),$("#for_release").text("$"+(e/100).toFixed(2))})});;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374789.630661:@value{	I"length:EFiÜI"digest;
+F"%6ac5b70ce2916449a2e77daf101b8b6eI"source;
+FI"Ü$(function(){$('input[name="to_release[]"]').live("click",function(){var e=0;$('input[name="to_release[]"]').each(function(){this.checked&&(e+=100*Number(this.value))}),$("#for_release").text("$"+(e/100).toFixed(2))})});;
 TI"_version;
-TI"%c4145e3a3f367272e98478dd226c6acd;
-F
+F"%cade7443f63c52930597ea043c931d52

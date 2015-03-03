@@ -9,7 +9,7 @@ gem 'mysql2'
 
 gem 'execjs'
 gem 'therubyracer'
-gem 'rack' , '1.4.5'
+#gem 'rack' , '1.4.5'
 gem 'json'
 
 # Deploy with Capistrano

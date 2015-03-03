@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.3781517:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.884232:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%8c8d4a3510308db1e4efc9c02e867c48;
-FI"logical_path;
-TI"fb-like.jpg;
-FI"pathname;
-TI"($root/app/assets/images/fb-like.jpg;
-FI"content_type;
-TI"image/jpeg;
-TI"
+F"%429b4f32e1bc2ce56e1ca79945bf828bI"logical_path;
+FI"fb-like.jpg;
+TI"pathname;
+FI"($root/app/assets/images/fb-like.jpg;
+TI"content_type;
+FI"image/jpeg;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	1885;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	1885;
 FI"digest;
-TI"%8019ee25cb0d069f94e722f7422621cf;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%8019ee25cb0d069f94e722f7422621cfI"_version;
+F"%df7525e917401704ef453cb56bf16697

@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.469508:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.61938:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%20602d8fe9c102af5750bbe7be2b7981;
-FI"logical_path;
-TI"logo-old-navy.jpg;
-FI"pathname;
-TI".$root/app/assets/images/logo-old-navy.jpg;
-FI"content_type;
-TI"image/jpeg;
-TI"
+F"%cae3f7463e34621048ac1603f247b2d7I"logical_path;
+FI"logo-old-navy.jpg;
+TI"pathname;
+FI".$root/app/assets/images/logo-old-navy.jpg;
+TI"content_type;
+FI"image/jpeg;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	4153;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	4153;
 FI"digest;
-TI"%ee8be485e4d56060131c6d5bcf5ab0a3;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%ee8be485e4d56060131c6d5bcf5ab0a3I"_version;
+F"%df7525e917401704ef453cb56bf16697

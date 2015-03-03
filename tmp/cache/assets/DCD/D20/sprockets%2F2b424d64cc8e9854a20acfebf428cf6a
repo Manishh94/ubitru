@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2285185:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.876677:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%f4dc032fe7e1ace1a3ae8656c57cd1b6;
-FI"logical_path;
-TI"backpack.jpg;
-FI"pathname;
-TI")$root/app/assets/images/backpack.jpg;
-FI"content_type;
-TI"image/jpeg;
-TI"
+F"%d28e283efdc65bb0eac6628921e86aa7I"logical_path;
+FI"backpack.jpg;
+TI"pathname;
+FI")$root/app/assets/images/backpack.jpg;
+TI"content_type;
+FI"image/jpeg;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	5541;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	5541;
 FI"digest;
-TI"%914ecc9039a0a2a91f14906b2f1a8d2f;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%914ecc9039a0a2a91f14906b2f1a8d2fI"_version;
+F"%df7525e917401704ef453cb56bf16697

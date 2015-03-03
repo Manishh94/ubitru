@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2145207:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.812153:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%8f35b3be033e2012651954ec481b85fc;
-FI"logical_path;
-TI"alert-box.png;
-FI"pathname;
-TI"*$root/app/assets/images/alert-box.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%774921a23aba93e2f338bac6545db04bI"logical_path;
+FI"alert-box.png;
+TI"pathname;
+FI"*$root/app/assets/images/alert-box.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	1489;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	1489;
 FI"digest;
-TI"%71c54716100f8966297a8208b0227f57;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%71c54716100f8966297a8208b0227f57I"_version;
+F"%df7525e917401704ef453cb56bf16697

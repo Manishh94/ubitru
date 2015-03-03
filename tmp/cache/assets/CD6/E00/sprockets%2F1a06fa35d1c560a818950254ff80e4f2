@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.295736:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.272755:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%24c3a4836a1f6d256d19aea480a1d89d;
-FI"logical_path;
-TI"coupon-border.png;
-FI"pathname;
-TI".$root/app/assets/images/coupon-border.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%44fed81537db6f0b76bfd950e9c07961I"logical_path;
+FI"coupon-border.png;
+TI"pathname;
+FI".$root/app/assets/images/coupon-border.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	1005;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	1005;
 FI"digest;
-TI"%289c3ef7be23c2034ed58fe49eb27a3b;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%289c3ef7be23c2034ed58fe49eb27a3bI"_version;
+F"%df7525e917401704ef453cb56bf16697

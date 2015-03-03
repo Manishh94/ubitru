@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851588.8073606:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374782.775001:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%722363d8525096936eabfad47d03a6fe;
-FI"logical_path;
-TI" Roboto-Bold/Roboto-Bold.ttf;
-FI"pathname;
-TI"7$root/app/assets/fonts/Roboto-Bold/Roboto-Bold.ttf;
-FI"content_type;
-TI"application/octet-stream;
-TI"
+F"%1a4e3b59bd8bd6bbeac62b5683365f2cI"logical_path;
+FI" Roboto-Bold/Roboto-Bold.ttf;
+TI"pathname;
+FI"7$root/app/assets/fonts/Roboto-Bold/Roboto-Bold.ttf;
+TI"content_type;
+FI"application/octet-stream;
+FI"
 mtime;
-TI"2015-02-13T19:00:51+05:00;
-TI"length;
-TI"135820;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"135820;
 FI"digest;
-TI"%8e3e54f1ab51f8cc3d59913b9267954f;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%8e3e54f1ab51f8cc3d59913b9267954fI"_version;
+F"%df7525e917401704ef453cb56bf16697

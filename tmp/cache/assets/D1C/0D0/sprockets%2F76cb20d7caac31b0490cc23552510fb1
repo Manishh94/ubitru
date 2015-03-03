@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851588.926114:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374783.850066:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%0f24cb3116d3f29b7739d97b0dad841d;
-FI"logical_path;
-TI" Roboto-Thin/Roboto-Thin.eot;
-FI"pathname;
-TI"7$root/app/assets/fonts/Roboto-Thin/Roboto-Thin.eot;
-FI"content_type;
-TI"application/octet-stream;
-TI"
+F"%b8121abdac32564cebcd16755b922e64I"logical_path;
+FI" Roboto-Thin/Roboto-Thin.eot;
+TI"pathname;
+FI"7$root/app/assets/fonts/Roboto-Thin/Roboto-Thin.eot;
+TI"content_type;
+FI"application/octet-stream;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"130382;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"130382;
 FI"digest;
-TI"%20eb599137a2769ebb64d504625be18c;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%20eb599137a2769ebb64d504625be18cI"_version;
+F"%df7525e917401704ef453cb56bf16697

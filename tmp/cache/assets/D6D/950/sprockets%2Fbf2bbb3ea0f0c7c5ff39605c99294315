@@ -1,21 +1,18 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.1809132:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.678308:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%b51d9630c4ba3fe20a6c5a6d69230755;
-FI"logical_path;
-TI"museo_slab_500-webfont.eot;
-FI"pathname;
-TI"6$root/app/assets/fonts/museo_slab_500-webfont.eot;
-FI"content_type;
-TI"application/octet-stream;
-TI"
+F"%86ded1bdb459b2bf86c88dd9daedd9f2I"logical_path;
+FI"museo_slab_500-webfont.eot;
+TI"pathname;
+FI"6$root/app/assets/fonts/museo_slab_500-webfont.eot;
+TI"content_type;
+FI"application/octet-stream;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"
 55516;
 FI"digest;
-TI"%a88b02fdf19a161659ed213feb5989a1;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%a88b02fdf19a161659ed213feb5989a1I"_version;
+F"%df7525e917401704ef453cb56bf16697

@@ -1,7 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851591.2935088:@value{	I"length:ETiÂI"digest;
-TI"%7238e1dffa1ddf07d732b0a57e49aed4;
-FI"source;
-TI"Âfunction showDetailsBox(t){t.fadeIn(300)}function closeDetailsBox(){$(".details-box").fadeOut(300)}$(function(){$(".details-box .details-overlay, .details-box .details-close-button").live("click",function(){closeDetailsBox()})});;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374871.1321:@value{	I"length:EFiÂI"digest;
+F"%3959f294de23ef4f1e81ac93e6f9fab0I"source;
+FI"Âfunction showDetailsBox(e){e.fadeIn(300)}function closeDetailsBox(){$(".details-box").fadeOut(300)}$(function(){$(".details-box .details-overlay, .details-box .details-close-button").live("click",function(){closeDetailsBox()})});;
 TI"_version;
-TI"%a431bb3eb7e3378820944a3f4bc641b9;
-F
+F"%855e00d643997d9ab8639b3dd41390b5

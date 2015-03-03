@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.3371828:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.545851:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%fe04030892bb9df27c456d92cc9e6545;
-FI"logical_path;
-TI" emails/view-lead-button.png;
-FI"pathname;
-TI"8$root/app/assets/images/emails/view-lead-button.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%bca12d4cb3a2669ceeeb3c8a8847f94cI"logical_path;
+FI" emails/view-lead-button.png;
+TI"pathname;
+FI"8$root/app/assets/images/emails/view-lead-button.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	4789;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	4789;
 FI"digest;
-TI"%9be8916792c8d15c9f724184b75f4901;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%9be8916792c8d15c9f724184b75f4901I"_version;
+F"%df7525e917401704ef453cb56bf16697

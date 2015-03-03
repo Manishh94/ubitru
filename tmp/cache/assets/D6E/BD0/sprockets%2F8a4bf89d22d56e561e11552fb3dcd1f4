@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.519589:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.982421:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%d8c1591782e0fc10a8791c9f263e9447;
-FI"logical_path;
-TI"$pictures/great-deal-sticker.png;
-FI"pathname;
-TI"<$root/app/assets/images/pictures/great-deal-sticker.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%eb0eb72dcab202fe1c293f9f3b0500caI"logical_path;
+FI"$pictures/great-deal-sticker.png;
+TI"pathname;
+FI"<$root/app/assets/images/pictures/great-deal-sticker.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	8115;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	8115;
 FI"digest;
-TI"%5d743dc16b2067706b8eb852ee574540;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%5d743dc16b2067706b8eb852ee574540I"_version;
+F"%df7525e917401704ef453cb56bf16697

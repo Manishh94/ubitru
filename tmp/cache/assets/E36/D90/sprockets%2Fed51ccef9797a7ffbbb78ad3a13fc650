@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.586002:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.371936:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%c87e2009585e2c707fa5e44b88d38098;
-FI"logical_path;
-TI"search/bing-iconset.png;
-FI"pathname;
-TI"4$root/app/assets/images/search/bing-iconset.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%1183f7276c4d47cc234e69aed461eec6I"logical_path;
+FI"search/bing-iconset.png;
+TI"pathname;
+FI"4$root/app/assets/images/search/bing-iconset.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:53+05:00;
-TI"length;
-TI"	5849;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	5849;
 FI"digest;
-TI"%82c2b2c3a3e8d12ad1404e5ad3cd6640;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%82c2b2c3a3e8d12ad1404e5ad3cd6640I"_version;
+F"%df7525e917401704ef453cb56bf16697

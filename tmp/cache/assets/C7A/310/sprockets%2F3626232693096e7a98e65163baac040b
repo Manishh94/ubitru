@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851614.8460906:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374920.638579:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%356e85fc3294844f63638862cc978050;
-FI"logical_path;
-TI" mm_vendor_HD-compressed.mp4;
-FI"pathname;
-TI"8$root/app/assets/videos/mm_vendor_HD-compressed.mp4;
-FI"content_type;
-TI"video/mp4;
-TI"
+F"%65f14a3675fcd7ee8160041c4520bcb4I"logical_path;
+FI" mm_vendor_HD-compressed.mp4;
+TI"pathname;
+FI"8$root/app/assets/videos/mm_vendor_HD-compressed.mp4;
+TI"content_type;
+FI"video/mp4;
+FI"
 mtime;
-TI"2015-02-13T19:00:54+05:00;
-TI"length;
-TI"19193195;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"19193195;
 FI"digest;
-TI"%30e7efad55ebc18bbc7d70164acd4032;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%30e7efad55ebc18bbc7d70164acd4032I"_version;
+F"%df7525e917401704ef453cb56bf16697

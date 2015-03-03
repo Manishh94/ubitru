@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.359995:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.697248:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%9418cd4c5ceff8ca725fd9daf30d0306;
-FI"logical_path;
-TI"experiencepage/shadow.png;
-FI"pathname;
-TI"6$root/app/assets/images/experiencepage/shadow.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%7cef71b1a113cf51b2fac047c4cd627eI"logical_path;
+FI"experiencepage/shadow.png;
+TI"pathname;
+FI"6$root/app/assets/images/experiencepage/shadow.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	2055;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	2055;
 FI"digest;
-TI"%8240af7a54ceaafed77109e20528d044;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%8240af7a54ceaafed77109e20528d044I"_version;
+F"%df7525e917401704ef453cb56bf16697

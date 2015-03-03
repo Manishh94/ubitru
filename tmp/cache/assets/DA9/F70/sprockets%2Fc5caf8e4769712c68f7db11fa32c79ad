@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.3105001:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.3267782:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%4f3db8dc8e013ba761f6c3258b4d06c5;
-FI"logical_path;
-TI"deals/deal-logo-4.jpg;
-FI"pathname;
-TI"2$root/app/assets/images/deals/deal-logo-4.jpg;
-FI"content_type;
-TI"image/jpeg;
-TI"
+F"%5d2bc2155f6f190b8f3f6c3d66057770I"logical_path;
+FI"deals/deal-logo-4.jpg;
+TI"pathname;
+FI"2$root/app/assets/images/deals/deal-logo-4.jpg;
+TI"content_type;
+FI"image/jpeg;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	7337;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	7337;
 FI"digest;
-TI"%0089c7ec617b16f2f99fd7f531bb5dbe;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%0089c7ec617b16f2f99fd7f531bb5dbeI"_version;
+F"%df7525e917401704ef453cb56bf16697

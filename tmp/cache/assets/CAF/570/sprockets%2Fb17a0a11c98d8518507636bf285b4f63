@@ -1,18 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851605.8131363:@value{I"
-class:ETI"BundledAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374790.722054:@value{I"
+class:EFI"BundledAsset;
 FI"id;
-TI"%c62dbb826a0b74559897f95ed8fb8360;
-FI"logical_path;
-TI"search/mm-box.js;
-FI"pathname;
-TI"2$root/app/assets/javascripts/search/mm-box.js;
-FI"content_type;
-TI"application/javascript;
-TI"
+F"%4d9e6b7aad1ef87443d33be87c30dc43I"logical_path;
+FI"search/mm-box.js;
+TI"pathname;
+FI"2$root/app/assets/javascripts/search/mm-box.js;
+TI"content_type;
+FI"application/javascript;
+FI"
 mtime;
-TI"2015-02-13T19:00:53+05:00;
-TI"	body;
-TI"#// JS Logic for MMBox
+FI"2015-02-25T09:46:24+05:00;
+FI"	body;
+FI"#// JS Logic for MMBox
 function MMBoxWidget(engine) {
     this.engine = engine;
     this.messages = [];
@@ -229,17 +228,14 @@ MMBoxWidget.prototype.onUserLoggedOut = function () {
     this.clearResults();
 };
 ;
-TI"asset_paths;
-T[I"2$root/app/assets/javascripts/search/mm-box.js;
-FI"dependency_paths;
-T[{I"	path;
-TI"2$root/app/assets/javascripts/search/mm-box.js;
-FI"
+FI"asset_paths;
+F[I"2$root/app/assets/javascripts/search/mm-box.js;
+TI"dependency_paths;
+F[{I"	path;
+FI"2$root/app/assets/javascripts/search/mm-box.js;
+TI"
 mtime;
-TIu:	TimeÆ≈Ä¨ùU
-:nano_numiõ:nano_deni:submicro"í0:offsetiPF:	zoneI"PKT;
-TI"hexdigest;
-TI"%16fe7e189e5b088ead610ed080584814;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+FIu:	Time$«Ä  Äπ:@_zoneI"PKT;
+T:offsetiPFI"hexdigest;
+F"%16fe7e189e5b088ead610ed080584814I"_version;
+F"%df7525e917401704ef453cb56bf16697

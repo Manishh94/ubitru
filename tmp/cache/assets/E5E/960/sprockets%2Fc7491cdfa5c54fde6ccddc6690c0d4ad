@@ -1,7 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851605.7521803:@value{	I"length:ETi¨I"digest;
-TI"%4a7079361aec7a75d24ea1bdc7f1f10e;
-FI"source;
-TI"¨$(document).ready(function(){function t(t){t.wrap("<div class='table-wrapper' />");var e=t.clone();e.find("td:not(:first-child), th:not(:first-child)").css("display","none"),e.removeClass("responsive"),t.closest(".table-wrapper").append(e),e.wrap("<div class='pinned' />"),t.wrap("<div class='scrollable' />"),i(t,e)}function e(t){t.closest(".table-wrapper").find(".pinned").remove(),t.unwrap(),t.unwrap()}function i(t,e){var i=t.find("tr"),n=e.find("tr"),s=[];i.each(function(t){var e=$(this),i=e.find("th, td");i.each(function(){var e=$(this).outerHeight(!0);s[t]=s[t]||0,e>s[t]&&(s[t]=e)})}),n.each(function(t){$(this).height(s[t])})}var n=!1,s=function(){return $(window).width()<767&&!n?(n=!0,$("table.responsive").each(function(e,i){t($(i))}),!0):(n&&$(window).width()>767&&(n=!1,$("table.responsive").each(function(t,i){e($(i))})),void 0)};$(window).load(s),$(window).on("redraw",function(){n=!1,s()}),$(window).on("resize",s)});;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374901.559668:@value{	I"length:EFi¨I"digest;
+F"%193803202233464e8b15d70b4b6371e1I"source;
+FI"¨$(document).ready(function(){function e(e){e.wrap("<div class='table-wrapper' />");var t=e.clone();t.find("td:not(:first-child), th:not(:first-child)").css("display","none"),t.removeClass("responsive"),e.closest(".table-wrapper").append(t),t.wrap("<div class='pinned' />"),e.wrap("<div class='scrollable' />"),i(e,t)}function t(e){e.closest(".table-wrapper").find(".pinned").remove(),e.unwrap(),e.unwrap()}function i(e,t){var i=e.find("tr"),n=t.find("tr"),s=[];i.each(function(e){var t=$(this),i=t.find("th, td");i.each(function(){var t=$(this).outerHeight(!0);s[e]=s[e]||0,t>s[e]&&(s[e]=t)})}),n.each(function(e){$(this).height(s[e])})}var n=!1,s=function(){return $(window).width()<767&&!n?(n=!0,$("table.responsive").each(function(t,i){e($(i))}),!0):(n&&$(window).width()>767&&(n=!1,$("table.responsive").each(function(e,i){t($(i))})),void 0)};$(window).load(s),$(window).on("redraw",function(){n=!1,s()}),$(window).on("resize",s)});;
 TI"_version;
-TI"%65bb758e93b3b6b300e25256b196e6e5;
-F
+F"%2500f64f520b9fc38886acaed602ce91

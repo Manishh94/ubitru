@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2722292:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.168812:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%60bf4e8edb11a5ca85e87ff172186a31;
-FI"logical_path;
-TI" browserhelp/safari_logo.png;
-FI"pathname;
-TI"8$root/app/assets/images/browserhelp/safari_logo.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%e3d498b9facb091a842815fd56c34759I"logical_path;
+FI" browserhelp/safari_logo.png;
+TI"pathname;
+FI"8$root/app/assets/images/browserhelp/safari_logo.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	9881;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	9881;
 FI"digest;
-TI"%3b2c323b3626ad1000eea08de4610bb7;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%3b2c323b3626ad1000eea08de4610bb7I"_version;
+F"%df7525e917401704ef453cb56bf16697

@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5287163:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.0487301:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%de5fa3e3028152a2a6357939d8ec4a8a;
-FI"logical_path;
-TI"pictures/megaphone.png;
-FI"pathname;
-TI"3$root/app/assets/images/pictures/megaphone.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%374595c69d3f198eb98413adb93a167eI"logical_path;
+FI"pictures/megaphone.png;
+TI"pathname;
+FI"3$root/app/assets/images/pictures/megaphone.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:53+05:00;
-TI"length;
-TI"	3535;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	3535;
 FI"digest;
-TI"%63839f5aaab4d69ee228b34c83d86cb1;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%63839f5aaab4d69ee228b34c83d86cb1I"_version;
+F"%df7525e917401704ef453cb56bf16697

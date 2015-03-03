@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5155444:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.968537:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%a6f89fed8de4102ece0239d11d2846cc;
-FI"logical_path;
-TI"#pictures/bubbles-green-guy.png;
-FI"pathname;
-TI";$root/app/assets/images/pictures/bubbles-green-guy.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%db6187ba44913075baa37df2dd03cda3I"logical_path;
+FI"#pictures/bubbles-green-guy.png;
+TI"pathname;
+FI";$root/app/assets/images/pictures/bubbles-green-guy.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	9742;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	9742;
 FI"digest;
-TI"%8765b84ebb40133abde73e7c2cd6589d;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%8765b84ebb40133abde73e7c2cd6589dI"_version;
+F"%df7525e917401704ef453cb56bf16697

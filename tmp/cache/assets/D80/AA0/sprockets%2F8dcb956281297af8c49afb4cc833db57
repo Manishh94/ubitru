@@ -1,7 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851591.4128008:@value{	I"length:ETiÅI"digest;
-TI"%5cb3ac3e3edb453b2fcd3f974addbe3a;
-FI"source;
-TI"Åfunction initPlaceholders(){$("input[placeholder], textarea[placeholder]").placeholder(),$("input[placeholder]:not([placeholder-overriden]), textarea[placeholder]:not([placeholder-overriden])").attr("placeholder-overriden","1").focus(function(){var t=$(this);t.attr("placeholder-value",t.attr("placeholder")).removeAttr("placeholder")}).blur(function(){var t=$(this);t.attr("placeholder",t.attr("placeholder-value"))})}$(function(){initPlaceholders()});;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374871.260999:@value{	I"length:EFiÅI"digest;
+F"%71b8e14f8dd50827b6bc6d6f3e8282f3I"source;
+FI"Åfunction initPlaceholders(){$("input[placeholder], textarea[placeholder]").placeholder(),$("input[placeholder]:not([placeholder-overriden]), textarea[placeholder]:not([placeholder-overriden])").attr("placeholder-overriden","1").focus(function(){var e=$(this);e.attr("placeholder-value",e.attr("placeholder")).removeAttr("placeholder")}).blur(function(){var e=$(this);e.attr("placeholder",e.attr("placeholder-value"))})}$(function(){initPlaceholders()});;
 TI"_version;
-TI"%8bdbf26f3dbca5f56db14896ef14b3fb;
-F
+F"%8d9d132132667b6599e9facd5daafd9d

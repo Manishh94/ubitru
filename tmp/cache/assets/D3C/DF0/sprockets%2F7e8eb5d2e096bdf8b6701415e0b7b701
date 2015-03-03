@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4649298:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.5928981:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%9acba220a5ba4e913a149151eaf85104;
-FI"logical_path;
-TI"logo-gap.jpg;
-FI"pathname;
-TI")$root/app/assets/images/logo-gap.jpg;
-FI"content_type;
-TI"image/jpeg;
-TI"
+F"%96862dc70d3dbdb72ac47b153d62d3cfI"logical_path;
+FI"logo-gap.jpg;
+TI"pathname;
+FI")$root/app/assets/images/logo-gap.jpg;
+TI"content_type;
+FI"image/jpeg;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	3808;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	3808;
 FI"digest;
-TI"%45bd9771ba1e4a5118cf8d435851fa96;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%45bd9771ba1e4a5118cf8d435851fa96I"_version;
+F"%df7525e917401704ef453cb56bf16697

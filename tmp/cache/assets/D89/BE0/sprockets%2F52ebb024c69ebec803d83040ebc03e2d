@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.3916624:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.936008:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%951906e9ce2e3f39240da0e672d83570;
-FI"logical_path;
-TI"gradients.png;
-FI"pathname;
-TI"*$root/app/assets/images/gradients.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%f3e1ec63fea8bff554b8d6cfc9571c6dI"logical_path;
+FI"gradients.png;
+TI"pathname;
+FI"*$root/app/assets/images/gradients.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	1607;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	1607;
 FI"digest;
-TI"%3dcb84071dd48f78927a167433b2f394;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%3dcb84071dd48f78927a167433b2f394I"_version;
+F"%df7525e917401704ef453cb56bf16697

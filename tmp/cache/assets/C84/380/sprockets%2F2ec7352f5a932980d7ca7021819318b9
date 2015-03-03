@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.327054:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.3947809:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%f65018f26f87206a844e9f870d92137b;
-FI"logical_path;
-TI"deals/promo6.png;
-FI"pathname;
-TI"-$root/app/assets/images/deals/promo6.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%8492462ba1ff20ac0250075e145dc2e7I"logical_path;
+FI"deals/promo6.png;
+TI"pathname;
+FI"-$root/app/assets/images/deals/promo6.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	3087;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	3087;
 FI"digest;
-TI"%cd84328cf3712a0b0a4e1b55ce432a3f;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%cd84328cf3712a0b0a4e1b55ce432a3fI"_version;
+F"%df7525e917401704ef453cb56bf16697

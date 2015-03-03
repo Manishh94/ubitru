@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.6588163:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.94287:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%d7c38d31d425c818ac12e64634d44bd0;
-FI"logical_path;
-TI"textbooks.jpg;
-FI"pathname;
-TI"*$root/app/assets/images/textbooks.jpg;
-FI"content_type;
-TI"image/jpeg;
-TI"
+F"%3df4b01b08d19465f39a245074ff7070I"logical_path;
+FI"textbooks.jpg;
+TI"pathname;
+FI"*$root/app/assets/images/textbooks.jpg;
+TI"content_type;
+FI"image/jpeg;
+FI"
 mtime;
-TI"2015-02-13T19:00:53+05:00;
-TI"length;
-TI"	6593;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	6593;
 FI"digest;
-TI"%3151f0930a054fcb1c95ee5ba46f431a;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%3151f0930a054fcb1c95ee5ba46f431aI"_version;
+F"%df7525e917401704ef453cb56bf16697

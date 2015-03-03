@@ -14,7 +14,7 @@ default: &default
   #encoding: unicode
   #pool: 5
   username: root
-  password: password
+  password: admin
   #socket: /usr/local/var/mysql/mysql.sock
 
 

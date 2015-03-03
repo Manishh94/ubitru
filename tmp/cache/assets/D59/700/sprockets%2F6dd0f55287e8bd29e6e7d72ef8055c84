@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.6439595:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.8769011:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%878668adc926ad294da310da3da93f1c;
-FI"logical_path;
-TI"social/twitter.jpg;
-FI"pathname;
-TI"/$root/app/assets/images/social/twitter.jpg;
-FI"content_type;
-TI"image/jpeg;
-TI"
+F"%085a7de0a183587eed758a71fdd92102I"logical_path;
+FI"social/twitter.jpg;
+TI"pathname;
+FI"/$root/app/assets/images/social/twitter.jpg;
+TI"content_type;
+FI"image/jpeg;
+FI"
 mtime;
-TI"2015-02-13T19:00:53+05:00;
-TI"length;
-TI"	1422;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	1422;
 FI"digest;
-TI"%8bc9d5835cdf08ec748fc04772a80f3e;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%8bc9d5835cdf08ec748fc04772a80f3eI"_version;
+F"%df7525e917401704ef453cb56bf16697

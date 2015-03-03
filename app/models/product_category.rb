@@ -54,7 +54,7 @@ class ProductCategory < ActiveRecord::Base
   PCS = ["Accessories", "Airline", "Air Conditioning", "Appliances", "Automotive", "Baby", "Books", "Boots", "Builders", "Cable/Dish TV", "Cameras", "Car Rentals", "Clothng", "Coffee", "Computers", "Cosmetics", "Costumes", "Crafts", "Debt Repair",
     "Decor", "Delivery", "Designer", "Dresses", "Electricians", "Electronics", "Fashion", "Flights", "Flowers", "Food", "Furniture", "Games", "Gifts", "Health", "Home", "Hotels", "HVAC", "Insurance", "Internet", "Jewelry",
     "Kids", "Laptops", "Mac", "Magazines", "Makeup", "Movies", "Music", "Outdoors", "Party Supplies", "Photo", "Plumbing", "Roofers", "Shoes", "Skin Care", "Software", "Sports", "Supplements", "Tablets", "Tickets", "Tools",
-    "Toys", "Travel", "TV’s", "Weddings"].sort_by{|e| e}
+    "Toys", "Travel", "TVs", "Weddings"].sort_by{|e| e}
 
   MOST_POPULAR_STORES = [
     ['Accessories', ['Ebags', 'Sunglasses Hut', 'SUSU Handbag', 'Ray-Ban', 'Oakley', 'Jewelry.com']],

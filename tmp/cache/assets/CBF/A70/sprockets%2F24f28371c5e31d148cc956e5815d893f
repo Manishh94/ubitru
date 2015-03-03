@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5488818:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.163836:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%47035dc3f7148be9a080e44b51f136f7;
-FI"logical_path;
-TI"popup_left-arrow.png;
-FI"pathname;
-TI"1$root/app/assets/images/popup_left-arrow.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%5e5df0c34134f139d79894d2bdba6307I"logical_path;
+FI"popup_left-arrow.png;
+TI"pathname;
+FI"1$root/app/assets/images/popup_left-arrow.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:53+05:00;
-TI"length;
-TI"	3977;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	3977;
 FI"digest;
-TI"%398260d56b5884ffbb1dd66fe749045a;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%398260d56b5884ffbb1dd66fe749045aI"_version;
+F"%df7525e917401704ef453cb56bf16697

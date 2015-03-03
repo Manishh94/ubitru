@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.341239:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.574958:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%ab61bbde0dab4bc95fb119db4bb5c650;
-FI"logical_path;
-TI"+emails/view-recommendations-button.png;
-FI"pathname;
-TI"C$root/app/assets/images/emails/view-recommendations-button.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%7b5e45c4a6909f6bd74ccb8507369fcfI"logical_path;
+FI"+emails/view-recommendations-button.png;
+TI"pathname;
+FI"C$root/app/assets/images/emails/view-recommendations-button.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	6237;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	6237;
 FI"digest;
-TI"%186f7192dd20fdeae2eb3c47c3bc06ed;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%186f7192dd20fdeae2eb3c47c3bc06edI"_version;
+F"%df7525e917401704ef453cb56bf16697

@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4360409:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.397186:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%4deb4b832d73e97a4a4b6bdbf01cd578;
-FI"logical_path;
-TI"icon/scissors.png;
-FI"pathname;
-TI".$root/app/assets/images/icon/scissors.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%52be7e474a12454c3f92b33fe232d735I"logical_path;
+FI"icon/scissors.png;
+TI"pathname;
+FI".$root/app/assets/images/icon/scissors.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	1385;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	1385;
 FI"digest;
-TI"%edbd8f4293e4addcba08c36597089bd8;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%edbd8f4293e4addcba08c36597089bd8I"_version;
+F"%df7525e917401704ef453cb56bf16697

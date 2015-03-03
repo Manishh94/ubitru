@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851614.9484591:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374922.3072472:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%74a3ffb007293b11d96888f939fb8387;
-FI"logical_path;
-TI"uniform/bg-input-focus.png;
-FI"pathname;
-TI":$root/vendor/assets/images/uniform/bg-input-focus.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%545ed39e59010f0f308da46d665affa5I"logical_path;
+FI"uniform/bg-input-focus.png;
+TI"pathname;
+FI":$root/vendor/assets/images/uniform/bg-input-focus.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:01:04+05:00;
-TI"length;
-TI"143;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"143;
 FI"digest;
-TI"%fbf248cb17caa4f5d5e6fe499117cbf8;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%fbf248cb17caa4f5d5e6fe499117cbf8I"_version;
+F"%df7525e917401704ef453cb56bf16697

@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2124486:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.797744:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%54b665079eadb1c87896c76b9d3bdfdb;
-FI"logical_path;
-TI"ajax-loader.gif;
-FI"pathname;
-TI",$root/app/assets/images/ajax-loader.gif;
-FI"content_type;
-TI"image/gif;
-TI"
+F"%8423e1d1cd21c0e7705dc5b832fe6fb9I"logical_path;
+FI"ajax-loader.gif;
+TI"pathname;
+FI",$root/app/assets/images/ajax-loader.gif;
+TI"content_type;
+FI"image/gif;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	4176;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	4176;
 FI"digest;
-TI"%7d2e4b29085cd9e12c264f04623f8f24;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%7d2e4b29085cd9e12c264f04623f8f24I"_version;
+F"%df7525e917401704ef453cb56bf16697

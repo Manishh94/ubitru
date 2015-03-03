@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.513362:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.957131:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%73aee9d0ec4030daf29646925381e31a;
-FI"logical_path;
-TI"pattern.jpg;
-FI"pathname;
-TI"($root/app/assets/images/pattern.jpg;
-FI"content_type;
-TI"image/jpeg;
-TI"
+F"%be8b577948bd88edf5a5134d68d773b2I"logical_path;
+FI"pattern.jpg;
+TI"pathname;
+FI"($root/app/assets/images/pattern.jpg;
+TI"content_type;
+FI"image/jpeg;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	1353;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	1353;
 FI"digest;
-TI"%562a0208331d9def74bfa91aab5a52ef;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%562a0208331d9def74bfa91aab5a52efI"_version;
+F"%df7525e917401704ef453cb56bf16697

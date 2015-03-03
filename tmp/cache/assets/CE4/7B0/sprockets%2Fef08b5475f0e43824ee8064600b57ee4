@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4117472:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.038104:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%ebcf3248b0b3bfd489d1014c3ddd660f;
-FI"logical_path;
-TI")homepage/get-paid-for-everything.png;
-FI"pathname;
-TI"A$root/app/assets/images/homepage/get-paid-for-everything.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%2e77564bd20c17ae7a7f6885eb7a8d63I"logical_path;
+FI")homepage/get-paid-for-everything.png;
+TI"pathname;
+FI"A$root/app/assets/images/homepage/get-paid-for-everything.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	5937;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	5937;
 FI"digest;
-TI"%8dc717166e34105d01f78a76ce692fc1;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%8dc717166e34105d01f78a76ce692fc1I"_version;
+F"%df7525e917401704ef453cb56bf16697

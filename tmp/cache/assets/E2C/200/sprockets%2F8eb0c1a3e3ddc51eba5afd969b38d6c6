@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.6632924:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374789.0408041:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%fe8190d9b12987a427116e679f4f4c30;
-FI"logical_path;
-TI"video-button-sprite.png;
-FI"pathname;
-TI"4$root/app/assets/images/video-button-sprite.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%eb90d7773a91660f73d1af862aebfd56I"logical_path;
+FI"video-button-sprite.png;
+TI"pathname;
+FI"4$root/app/assets/images/video-button-sprite.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:53+05:00;
-TI"length;
-TI"	7925;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	7925;
 FI"digest;
-TI"%4b2645df62910f7f7c223876782262d7;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%4b2645df62910f7f7c223876782262d7I"_version;
+F"%df7525e917401704ef453cb56bf16697

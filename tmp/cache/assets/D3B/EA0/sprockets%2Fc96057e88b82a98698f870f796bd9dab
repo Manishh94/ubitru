@@ -1,7 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851591.3052454:@value{	I"length:ETiI"digest;
-TI"%8a1d71a9391188c1bba80d62ec3c1e60;
-FI"source;
-TI"initFormToggler=function(t,e,i,n){var o=function(){t.add(i.find(".to-hide")).hide(),i.find(".to-show, .actions").fadeIn("normal")};n&&o(),t.live("click",function(){o()}),e.live("click",function(){t.add(i.find(".to-hide")).fadeIn("normal"),i.find(".to-show, .actions").hide()})};;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374871.173138:@value{	I"length:EFiI"digest;
+F"%dddacea8a4f7b9f3c00db008194d81a4I"source;
+FI"initFormToggler=function(e,t,i,n){var s=function(){e.add(i.find(".to-hide")).hide(),i.find(".to-show, .actions").fadeIn("normal")};n&&s(),e.live("click",function(){s()}),t.live("click",function(){e.add(i.find(".to-hide")).fadeIn("normal"),i.find(".to-show, .actions").hide()})};;
 TI"_version;
-TI"%0a722874cf8cf482080d5dc4affb14be;
-F
+F"%6315c7fe2be602b5717da9fe4e3e594d

@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2655203:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.0454972:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%edd6275bd76d48415d75e184e993f832;
-FI"logical_path;
-TI"browserhelp/ie_logo.png;
-FI"pathname;
-TI"4$root/app/assets/images/browserhelp/ie_logo.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%36b3d8798f773e046d1f6cd205e2778bI"logical_path;
+FI"browserhelp/ie_logo.png;
+TI"pathname;
+FI"4$root/app/assets/images/browserhelp/ie_logo.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	8871;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	8871;
 FI"digest;
-TI"%aa35120b47be45ab2a57b1d07aefe41e;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%aa35120b47be45ab2a57b1d07aefe41eI"_version;
+F"%df7525e917401704ef453cb56bf16697

@@ -1,7 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851606.3072512:@value{	I"length:ETi›I"digest;
-TI"%921bb0ce68d79914585a44fb5f3174a0;
-FI"source;
-TI"›$(function(){$("select#user_age_range, select#user_sex, select#user_education, select#user_occupation, select#user_income_range, select#user_marital_status, select#user_family_size, select#user_home_owner, select#user_state_abbreviation").multiselect({header:!1,selectedList:1,height:"auto",minWidth:"160",multiple:!1,classes:"multiselect-button multiselect-dropdown",position:{my:"left top",at:"left top"}})});;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374906.2859972:@value{	I"length:EFi›I"digest;
+F"%921bb0ce68d79914585a44fb5f3174a0I"source;
+FI"›$(function(){$("select#user_age_range, select#user_sex, select#user_education, select#user_occupation, select#user_income_range, select#user_marital_status, select#user_family_size, select#user_home_owner, select#user_state_abbreviation").multiselect({header:!1,selectedList:1,height:"auto",minWidth:"160",multiple:!1,classes:"multiselect-button multiselect-dropdown",position:{my:"left top",at:"left top"}})});;
 TI"_version;
-TI"%f4c488c97b10c4440c3ff71607bfb04d;
-F
+F"%6a90398852e16e8e10241d936cf86f0c

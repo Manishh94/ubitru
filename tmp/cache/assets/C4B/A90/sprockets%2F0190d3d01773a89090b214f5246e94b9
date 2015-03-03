@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851588.9287713:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374783.8748522:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%90b7244997ad64e3f6756f848a73ce09;
-FI"logical_path;
-TI" Roboto-Thin/Roboto-Thin.otf;
-FI"pathname;
-TI"7$root/app/assets/fonts/Roboto-Thin/Roboto-Thin.otf;
-FI"content_type;
-TI"application/octet-stream;
-TI"
+F"%6f26766b923345bc093bccb5a105529dI"logical_path;
+FI" Roboto-Thin/Roboto-Thin.otf;
+TI"pathname;
+FI"7$root/app/assets/fonts/Roboto-Thin/Roboto-Thin.otf;
+TI"content_type;
+FI"application/octet-stream;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"190820;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"190820;
 FI"digest;
-TI"%488fee9bef2d781d0ec21d82ba9f8faf;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%488fee9bef2d781d0ec21d82ba9f8fafI"_version;
+F"%df7525e917401704ef453cb56bf16697

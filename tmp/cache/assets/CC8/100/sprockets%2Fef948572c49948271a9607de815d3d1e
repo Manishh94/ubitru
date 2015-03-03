@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5069728:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.9279501:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%fe6b2bb4df55a2a1a63e34e571cba059;
-FI"logical_path;
-TI"panel/panel6-logo.jpg;
-FI"pathname;
-TI"2$root/app/assets/images/panel/panel6-logo.jpg;
-FI"content_type;
-TI"image/jpeg;
-TI"
+F"%a3bca299c449e19900cb754de6183c64I"logical_path;
+FI"panel/panel6-logo.jpg;
+TI"pathname;
+FI"2$root/app/assets/images/panel/panel6-logo.jpg;
+TI"content_type;
+FI"image/jpeg;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	5169;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	5169;
 FI"digest;
-TI"%e5a14a951f74344a09a545c6209783bd;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%e5a14a951f74344a09a545c6209783bdI"_version;
+F"%df7525e917401704ef453cb56bf16697

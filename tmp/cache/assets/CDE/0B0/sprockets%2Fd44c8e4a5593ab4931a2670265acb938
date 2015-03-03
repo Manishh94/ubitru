@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.2183573:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374785.8218088:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%2b1a4dc6835e60d3eb208863e400c470;
-FI"logical_path;
-TI"app-store.png;
-FI"pathname;
-TI"*$root/app/assets/images/app-store.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%bd403c9735883d9737a61ae3ea56e2c0I"logical_path;
+FI"app-store.png;
+TI"pathname;
+FI"*$root/app/assets/images/app-store.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	3847;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	3847;
 FI"digest;
-TI"%ce8a731d4aac4a00aa2143c42a58aeba;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%ce8a731d4aac4a00aa2143c42a58aebaI"_version;
+F"%df7525e917401704ef453cb56bf16697

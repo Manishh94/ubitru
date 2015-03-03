@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.3717468:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374786.846308:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%878435c16097adbd1cdb70d4b5039514;
-FI"logical_path;
-TI"fancybox_sprite@2x.png;
-FI"pathname;
-TI"3$root/app/assets/images/fancybox_sprite@2x.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%52d3982121a39bb552736cb5e98a6ba8I"logical_path;
+FI"fancybox_sprite@2x.png;
+TI"pathname;
+FI"3$root/app/assets/images/fancybox_sprite@2x.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	6553;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	6553;
 FI"digest;
-TI"%751c771baf1b5d9f41c2c8e5eefc1e13;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%751c771baf1b5d9f41c2c8e5eefc1e13I"_version;
+F"%df7525e917401704ef453cb56bf16697

@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.5743008:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374788.287154:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%fd281593f93fcf18b439e56d594d8b1c;
-FI"logical_path;
-TI"referralpage/friends1.png;
-FI"pathname;
-TI"6$root/app/assets/images/referralpage/friends1.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%f8b832bd375b908c4cdaf45aced140adI"logical_path;
+FI"referralpage/friends1.png;
+TI"pathname;
+FI"6$root/app/assets/images/referralpage/friends1.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:53+05:00;
-TI"length;
-TI"	4201;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	4201;
 FI"digest;
-TI"%a681dfec75052c5966e215dcccf7ea01;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%a681dfec75052c5966e215dcccf7ea01I"_version;
+F"%df7525e917401704ef453cb56bf16697

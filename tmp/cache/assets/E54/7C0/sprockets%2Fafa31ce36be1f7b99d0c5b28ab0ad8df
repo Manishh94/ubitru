@@ -1,7 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851606.2822466:@value{	I"length:ETi€I"digest;
-TI"%e72bb67cf5e84b2fc3979efc00f7df16;
-FI"source;
-TI"€$(function(){$("#continue-registration").bind("click",function(){var t=!0;if($("[data-validate]:input:visible").each(function(){var e=window[this.form.id];$(this).isValid(e.validators)||(t=!1)}),t){var e="-624px";$("#customer-registration #step1_init").animate({marginLeft:e},300,"swing"),$("#customer-registration #step1_init").slideUp("slow"),$("#customer-registration #step1_describe_customer").slideDown("slow")}return t}),$("#describe-continue").click(function(){var t="-624px";$("#customer-registration #step1_describe_customer").animate({marginLeft:t},300,"swing"),$("#customer-registration #step1_additional").slideDown("slow")})});;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374906.250886:@value{	I"length:EFi€I"digest;
+F"%cf6d85d788a9107004b400136d5667e9I"source;
+FI"€$(function(){$("#continue-registration").bind("click",function(){var e=!0;if($("[data-validate]:input:visible").each(function(){var t=window[this.form.id];$(this).isValid(t.validators)||(e=!1)}),e){var t="-624px";$("#customer-registration #step1_init").animate({marginLeft:t},300,"swing"),$("#customer-registration #step1_init").slideUp("slow"),$("#customer-registration #step1_describe_customer").slideDown("slow")}return e}),$("#describe-continue").click(function(){var e="-624px";$("#customer-registration #step1_describe_customer").animate({marginLeft:e},300,"swing"),$("#customer-registration #step1_additional").slideDown("slow")})});;
 TI"_version;
-TI"%7d46bffc40736809febd830c0a4bc31a;
-F
+F"%f46206216a41f5e45bcd7c5900dd8fe3

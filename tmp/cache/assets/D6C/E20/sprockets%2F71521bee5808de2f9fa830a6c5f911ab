@@ -1,20 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1424851589.4873774:@value{I"
-class:ETI"StaticAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1425374787.720881:@value{I"
+class:EFI"StaticAsset;
 FI"id;
-TI"%292a200a4b593d2fe1bfb6259beb571f;
-FI"logical_path;
-TI"new_scissor_icon.png;
-FI"pathname;
-TI"1$root/app/assets/images/new_scissor_icon.png;
-FI"content_type;
-TI"image/png;
-TI"
+F"%2aadc86baf02f0b84a826ab96217da14I"logical_path;
+FI"new_scissor_icon.png;
+TI"pathname;
+FI"1$root/app/assets/images/new_scissor_icon.png;
+TI"content_type;
+FI"image/png;
+FI"
 mtime;
-TI"2015-02-13T19:00:52+05:00;
-TI"length;
-TI"	3250;
+FI"2015-02-25T09:46:24+05:00;
+FI"length;
+FI"	3250;
 FI"digest;
-TI"%6d1b19cbbf33c8cfa185590320efc043;
-FI"_version;
-TI"%df7525e917401704ef453cb56bf16697;
-F
+F"%6d1b19cbbf33c8cfa185590320efc043I"_version;
+F"%df7525e917401704ef453cb56bf16697
