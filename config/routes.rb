@@ -5,6 +5,7 @@ require File.expand_path("../../lib/routes_constraints", __FILE__)
 MuddleMe::Application.routes.draw do
   
   namespace :admins do resources :store_categories end
+  namespace :admins do resources :product_categories end
    
   # ======== mm box web app routes =============
   get '/google_search' => 'search#google_search', :as => :google_search
