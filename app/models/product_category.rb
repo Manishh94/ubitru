@@ -51,10 +51,17 @@ class ProductCategory < ActiveRecord::Base
   self.per_page = 20
 
   MPS  =  ["Accessories", "Appliances", "Art & crafts", "Automative",  "Baby", "Beautify & Health", "Books", "Clothing", "Cooking", "Food", "Musical Instruments", "School Supplies", "Shoes", "Sporting Goods", "Sports Apparel", "Ticket & Travel", "Novelty Items"].sort_by{|e| e}
-  PCS = ["Accessories", "Airline", "Air Conditioning", "Appliances", "Automotive", "Baby", "Books", "Boots", "Builders", "Cable/Dish TV", "Cameras", "Car Rentals", "Clothng", "Coffee", "Computers", "Cosmetics", "Costumes", "Crafts", "Debt Repair",
-    "Decor", "Delivery", "Designer", "Dresses", "Electricians", "Electronics", "Fashion", "Flights", "Flowers", "Food", "Furniture", "Games", "Gifts", "Health", "Home", "Hotels", "HVAC", "Insurance", "Internet", "Jewelry",
-    "Kids", "Laptops", "Mac", "Magazines", "Makeup", "Movies", "Music", "Outdoors", "Party Supplies", "Photo", "Plumbing", "Roofers", "Shoes", "Skin Care", "Software", "Sports", "Supplements", "Tablets", "Tickets", "Tools",
-    "Toys", "Travel", "TVs", "Weddings"].sort_by{|e| e}
+  
+  #PCS = ["Accessories", "Airline", "Air Conditioning", "Appliances", "Automotive", "Baby", "Books", "Boots", "Builders", "Cable/Dish TV", "Cameras", "Car Rentals", "Clothng", "Coffee", "Computers", "Cosmetics", "Costumes", "Crafts", "Debt Repair",
+  #  "Decor", "Delivery", "Designer", "Dresses", "Electricians", "Electronics", "Fashion", "Flights", "Flowers", "Food", "Furniture", "Games", "Gifts", "Health", "Home", "Hotels", "HVAC", "Insurance", "Internet", "Jewelry",
+  #  "Kids", "Laptops", "Mac", "Magazines", "Makeup", "Movies", "Music", "Outdoors", "Party Supplies", "Photo", "Plumbing", "Roofers", "Shoes", "Skin Care", "Software", "Sports", "Supplements", "Tablets", "Tickets", "Tools",
+  #  "Toys", "Travel", "TVs", "Weddings"].sort_by{|e| e}
+
+  PCS = ["Accessories", "Airline", "Air Conditioning", "Appliances", "Automotive", "Baby", "Books", "Cameras", "Car Rentals", "Clothng", "Coffee", "Computers", "Cosmetics", "Costumes", "Crafts", "Debt Repair", "Decor", "Delivery", "Discounts", "Dresses","Education", "Electricians", "Electronics", "Fashion", "Flights", "Flowers", "Food", "Furniture", "Games", "Gifts", "Health", "Home", "Hotels", "HVAC", "Insurance", "Internet", "Jewelry","Kids", "Laptops", "Mac", "Magazines", "Makeup", "Movies", "Music", "Outdoors", "Party Supplies","Pets", "Plumbing", "Roofers", "Shoes", "Skin Care", "Software", "Sports", "Supplements", "Tablets", "Tickets", "Tools","Toys", "Travel", "TVs", "Weddings"].sort_by{|e| e}  
+
+
+
+
 
   MOST_POPULAR_STORES = [
     ['Accessories', ['Ebags', 'Sunglasses Hut', 'SUSU Handbag', 'Ray-Ban', 'Oakley', 'Jewelry.com']],
@@ -73,8 +80,8 @@ class ProductCategory < ActiveRecord::Base
     ['Ticket & Travel', ['TicketNetwork', 'Ticket Solutions', 'Ticket Spot', 'Priceline', 'Travelocity', 'Hotwire', 'Expedia', 'Hotels', 'Virgin Atlantic', 'Hertz', 'Thrifty']]
   ]
 
-  include Tire::Model::Search
-  include Tire::Model::Callbacks
+  #include Tire::Model::Search
+  #include Tire::Model::Callbacks
   # Define the mapping
   def to_indexed_json
     fullname = name

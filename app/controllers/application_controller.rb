@@ -38,7 +38,8 @@ class ApplicationController < ActionController::Base
     selected_pc = []
 #    ProductCategory::MPS.map{|cname| get_product_categories(cname).map{ |pcs| all_pc.push(pcs)}}
     ProductCategory::PCS.map{|cname| get_product_categories(cname).map{ |pcs| selected_pc.push(pcs)}}
-    @popular_categories = selected_pc.flatten.compact.uniq_by(&:name)
+    #@popular_categories = selected_pc.flatten.compact.uniq_by(&:name)
+    @popular_categories = ProductCategory.where(:popular => true)
     @favorite_stores = HpStore.added_stores("favorite_stores")
     @browse_stores = HpStore.added_stores("browseable")
     @all_top_deals = HpStore.added_stores("top_dealers")
@@ -71,7 +72,7 @@ class ApplicationController < ActionController::Base
   end
 
   def get_product_categories(cname)
-    ProductCategory.where("name LIKE ?", "%#{cname}%")
+    ProductCategory.where("name LIKE ?", "#{cname}")
   end
 
   # def search_soleo_and_local_merchants_db(search, search_intent, zip_code)

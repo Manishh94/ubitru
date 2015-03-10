@@ -1,4 +1,5 @@
 $(function(){
+      alert('tesing...')
        availableTags =  new Array(); 
        $.ajax({url: "/muddleme-search", success: function(result){
         console.log(result);

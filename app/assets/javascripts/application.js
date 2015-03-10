@@ -5,8 +5,7 @@
 // the compiled file.
 //
 //= require jquery_ujs
-//= require jquery
-//= require jquery_ujs
+//= require jquery-1-11-1.min
 //= require jquery-ui
 //= require jquery-ui-timepicker-addon
 //= require jquery.fancybox.pack
