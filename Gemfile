@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-source 'https://rubygems.org'
+#source 'https://rubygems.org'
 
 gem 'rails', '3.1.1'
 
@@ -28,7 +28,7 @@ gem 'haml-rails' # Optional - to generate haml
 
 gem 'jquery-rails', '1.0.19' #must be fixed because current version of multiselect widget doesn't work with jquery version >= 1.8.0
 gem 'html5-rails', '0.0.4'
-gem 'gdata', git: 'https://github.com/agentrock/gdata.git'
+gem 'gdata', :git => 'https://github.com/agentrock/gdata.git'
 gem "iconv", "~> 1.0.3"
 gem 'sprockets'
 # To use ActiveModel has_secure_password

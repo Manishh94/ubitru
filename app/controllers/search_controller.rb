@@ -987,6 +987,6 @@ class SearchController < ApplicationController
 
     arr = avant + cj + linkshare + pj + ir
     arr = arr.map{|m| m.gsub(".com","")}
-    render json: arr
+    render :json => arr
   end
 end
