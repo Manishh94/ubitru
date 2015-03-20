@@ -92,6 +92,7 @@ gem 'rubyzip', '< 1.0.0', :require => false
 gem 'google_places'
 gem 'foursquare2'
 gem 'twilio-ruby'
+gem 'orm_adapter'
 #gem 'elasticsearch'
 
 group :development, :test do

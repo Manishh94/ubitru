@@ -371,6 +371,7 @@ DEPENDENCIES
   omniauth-facebook (~> 1.4.1)
   omniauth-google-oauth2 (~> 0.1.13)
   omniauth-twitter (~> 0.0.12)
+  orm_adapter
   paperclip (~> 2.7)
   paypal-sdk-adaptivepayments
   paypal-sdk-merchant
