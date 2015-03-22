@@ -5,7 +5,8 @@ class Search::Merchant < ActiveRecord::Base
   serialize :params
 
   attr_accessible :company_name, :company_address, :company_url, :offer_name, :coupon_code, :company_phone, :user_money, :offer_buy_url, :company_coupons_url, :type, :logo_url
-
+  attr_accessor :coupons_count
+  
   def add_intent_id_to_trackable_url(param_name)
     if self.offer_buy_url
       uri = Addressable::URI.parse(self.offer_buy_url)

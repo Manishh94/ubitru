@@ -41,14 +41,16 @@ html {
 .ui-autocomplete {
     display: none;
     position: relative !important;
-    top: -5276px !important;
-    left: 276px !important;
+    /*top: -5276px !important;*/
+    left: 268px !important;
     width: 635px !important;
     background: white !important;
     border: solid gray !important;
     color:#000 !important;
     border-radius:2px !important;
     font-weight: normal;
+    max-height: 300px;
+    overflow: scroll;
 }
 .ui-menu .ui-menu-item a.ui-corner-all:hover, .ui-menu .ui-menu-item a.ui-corner-all:focus, .ui-menu .ui-menu-item a.ui-corner-all:active {
     background:#ff8a00 !important;
