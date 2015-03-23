@@ -1,1 +1,0 @@
-$(function(){var e,t=$(".preview-link:first").text();$(".preview-link").live("click",function(a){a.preventDefault();var n=$(this);n.text("Generating preview..."),e&&e.abort(),$.ajax({type:"POST",url:n.attr("href"),complete:function(){n.text(t),showDetailsBox($("#email-content-details-box"))},dataType:"script"})})});

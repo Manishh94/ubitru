@@ -1,1 +1,0 @@
-$(function(){$("#describe-continue").click(function(){var t="-624px";$("#company-registration #step2_init").animate({marginLeft:t},300,"swing"),$("#company-registration #step2_optional").slideDown("slow")})});
