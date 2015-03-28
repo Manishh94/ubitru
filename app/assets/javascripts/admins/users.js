@@ -1,5 +1,5 @@
 $(function(){
-    $('input[name="to_release[]"]').live('click', function(){
+    $('input[name="to_release[]"]').on('click', function(){
         var total = 0;
         $('input[name="to_release[]"]').each(function() {
             if(this.checked) {

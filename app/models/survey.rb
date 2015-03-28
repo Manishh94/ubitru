@@ -1,4 +1,7 @@
 class Survey < ActiveRecord::Base
+  #!/bin/env ruby
+  # encoding: utf-8
+  puts "hello world @@@@@@@@@@@@@"
   POINTS_FOR_SURVEY_QUESTION = 1
 
   QUESTIONS = {
@@ -6,7 +9,6 @@ class Survey < ActiveRecord::Base
           :label => "Merchants reviewed before purchase:",
           :options => {
               1 => "1 Merchant",
-              2 => "2 – 4 Merchants",
               3 => "5+ Merchants"
           }
       },
