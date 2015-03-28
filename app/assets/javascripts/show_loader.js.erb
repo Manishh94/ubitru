@@ -500,7 +500,7 @@ function generate_services_search_results_popup(){
 $(function() {
   var loading_posts;
   loading_posts = false;
-  return $('a.load-more-posts', 'a.load-less-posts').on('click', function(e, visible) {
+  return $('a.load-more-posts', 'a.load-less-posts').live('click', function(e, visible) {
     if (loading_posts || !visible) {
       return;
     }
@@ -556,14 +556,14 @@ $(document).ready(function(){
     $.fancybox.open('#hp_popup');
   }
 
-  $(document).on('click', '.view-number-results', function(){
+  $(document).live('click', '.view-number-results', function(){
     var $this = $(this);
     var $id = $this.data('id');
     $("#result-company-phone-" + $id).show();
     $("#view-number-results-" + $id).hide();
   });
 
-  $(document).on('click', '.result-company-phone', function(){
+  $(document).live('click', '.result-company-phone', function(){
     var $this = $(this);
     var $id = $this.data('id');
     $("#result-company-phone-" + $id).hide();
@@ -572,7 +572,7 @@ $(document).ready(function(){
 
 
 
-  $('.user-coupon-submit-btn').on('click', function(e){
+  $('.user-coupon-submit-btn').live('click', function(e){
     e.preventDefault();
     $('.user-coupon-submit-btn').attr("disabled", "disabled");
     var $errors = '';
@@ -619,7 +619,7 @@ $(document).ready(function(){
     }
   });
 
-  $('.offer-type').on('click', function(){
+  $('.offer-type').live('click', function(){
     $('.printable-coupon-file-field').hide();
     var $this = $(this);
     $('.offer-type').each(function(i, obj){
@@ -635,7 +635,7 @@ $(document).ready(function(){
     }
   });
 
-  $('.user-coupon-submit-btn-new').on('click', function(e){
+  $('.user-coupon-submit-btn-new').live('click', function(e){
     e.preventDefault();
     $('.user-coupon-submit-btn-new').attr("disabled", "disabled");
     var $errors = '';
