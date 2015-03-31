@@ -475,6 +475,7 @@ class SearchController < ApplicationController
     end
     puts "svdvdvdvddvdvdvdevcscjsckddwdwdwwd-dwdwd-dw-d-wd-wd"
     @results = []
+    @other_merchants = nil
     avant = AvantAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
     cj = CjAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
     linkshare = LinkshareAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
@@ -484,27 +485,41 @@ class SearchController < ApplicationController
     if avant
       merchant = Search::AvantMerchant.find_or_initialize_by_db_id_and_intent_id(avant.id, search_intent.id)
       merchant.set_attributes_from_search avant, nil, self
-      @results << merchant.attributes if merchant.save!
-       puts "avant"
+      if merchant.save!
+        @results << merchant.attributes 
+        @other_merchants = AvantAdvertiser.where('inactive != 1').limit(4)
+      end
+      puts "avant"
     elsif cj
       merchant = Search::CjMerchant.find_or_initialize_by_db_id_and_intent_id(cj.id, search_intent.id)
       merchant.set_attributes_from_search cj, nil, self
-      @results << merchant.attributes if merchant.save!
-      puts "cj"
+      if merchant.save!
+        @results << merchant.attributes 
+        @similar_merchants = CjAdvertiser.where('inactive != 1').limit(4)
+      end
     elsif linkshare
       merchant = Search::LinkshareMerchant.find_or_initialize_by_db_id_and_intent_id(linkshare.id, search_intent.id)
       merchant.set_attributes_from_search linkshare, nil, self
-      @results << merchant.attributes if merchant.save!
+      if merchant.save!
+        @results << merchant.attributes
+        @similar_merchants = LinkshareAdvertiser.where('inactive != 1').limit(4)
+      end
       puts "linkshare"
     elsif pj
       merchant = Search::PjMerchant.find_or_initialize_by_db_id_and_intent_id(pj.id, search_intent.id)
       merchant.set_attributes_from_search pj, nil, self
-      @results << merchant.attributes if merchant.save!
+      if merchant.save!
+        @results << merchant.attributes
+        @similar_merchants =  PjAdvertiser.where('inactive != 1').limit(4)
+      end
       puts "pj"
     elsif ir
       merchant = Search::IrMerchant.find_or_initialize_by_db_id_and_intent_id(ir.id, search_intent.id)
       merchant.set_attributes_from_search ir, nil, self
-      @results << merchant.attributes if merchant.save!
+      if merchant.save!
+        @results << merchant.attributes
+        @similar_merchants = IrAdvertiser.where('inactive != 1').limit(4) 
+      end
       puts "ir"
     end
    if @results.blank?
