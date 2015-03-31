@@ -11,11 +11,11 @@ class AddMobileHelpContentToSystemSettings < ActiveRecord::Migration
 
       <h3>Merchants Compete to Show You Offers</h3>
       <p>You choose how many vendors your wish to contact you for the product or service you requested. They compete in a bidding war to win your business. When the auction ends you earn 70% of the cumulative value of the auction. This can add up fast!</p>
-      <p>The winning merchants give you their best offers because they’re vested in winning your business and don’t want to lose.</p>
+      <p>The winning merchants give you their best offers because they are vested in winning your business and don’t want to lose.</p>
 
       <h3>Cash Back Shopping</h3>
       <p>When you initiate an auction you will have the opportunity to view instant cash back offers from over 300 of the top merchants in the United States - up to 20% cash back. The cash back savings are for anything you purchase from that merchant, not only the item for which you initiated an auction.</p>
-      <p class=\"important\">NOTE: Due to technical reasons, some merchants still aren't enabled to give cash back via the mobile app. You will still see these cash back offers, but you may be directed to login to you MuddleMe account via a PC or MAC to take advantage of these earnings.</p>
+      <p class=\"important\">NOTE: Due to technical reasons, some merchants still are not enabled to give cash back via the mobile app. You will still see these cash back offers, but you may be directed to login to you MuddleMe account via a PC or MAC to take advantage of these earnings.</p>
 
       <h3>Handy Tips</h3>
       <ul>
