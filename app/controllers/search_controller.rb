@@ -487,7 +487,7 @@ class SearchController < ApplicationController
       merchant.set_attributes_from_search avant, nil, self
       if merchant.save!
         @results << merchant.attributes 
-        @other_merchants = AvantAdvertiser.where('inactive != 1').limit(4)
+        @similar_merchants = AvantAdvertiser.where('inactive != 1').limit(4)
       end
       puts "avant"
     elsif cj
