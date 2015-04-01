@@ -1001,7 +1001,7 @@ class SearchController < ApplicationController
     ir = IrAdvertiser.all.map(&:name)
 
     arr = avant + cj + linkshare + pj + ir
-    arr = arr.map{|m| m.gsub(".com","")}
-    render :json => arr
+    # arr = arr.map{|m| m.gsub(".com","")}
+    render :json => avant
   end
 end
