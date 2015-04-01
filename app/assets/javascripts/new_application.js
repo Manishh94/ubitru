@@ -4,13 +4,26 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 //
-//= require jquery-1-11-1.min
-//= require jquery-ui
 //= require jquery_ujs
-//= require custom
-//= require ajaxform
-//= require show_loader
+//= require jquery-ui
+//= require jquery-ui-timepicker-addon
+//= require jquery.fancybox.pack
+//= require jquery.fancybox
+//= require jquery.multiselect.min
+//= require jquery.uniform
+//= require jquery.placeholder
+//= require h5bp
+//= require global.js
+//= require rails.validations
+//= require rails.validations.extensions
 //= require init_datepicker
+//= require init_placeholders
+//= require image-slider
+//= require form-toggler
+//= require common/auctions
+//= require categories_multi_select
+//= require constants.js
+//= require jquery.inview.min.js
 
 
 

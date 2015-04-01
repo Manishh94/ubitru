@@ -32,9 +32,13 @@ function reportError(msg) {
 
 // Open popup window
 function generate_popup(link_id, intent_id, coupons_check){
+  console.log("in the generate popup")
+  console.log(link_id);
+  console.log(intent_id);
+  console.log(coupons_check);
   $this = $("#"+ link_id)
   $second_coupon_window = $("#merchant_c_window_"+intent_id)
-
+  console.log($second_coupon_window);
   var height = 660;
   var left = $(window).width() + 100;
   var winParams = 'innerWidth=440,height=' + height + ',resizable=no,location=no,scrollbars=yes';

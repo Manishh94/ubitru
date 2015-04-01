@@ -28,20 +28,22 @@
       - else
         %h1 
           Opps this is Embarrassing! 
-        %p
+        %p{:style => "margin-top:20px;"}
           We don’t have this Merchant in our platform. Please fill out the simple form below and we’ll add them to our list. 
-        %p
-          Merchant Name:
-          %input{:type => "text"} 
-        %p
-          Merchant Website:
-          %input{:type => "text"}
-        %p
-          We would need this form to go to our admin queue where we would a) approve this merchant  (make sure they are not currently in our DB of Merchants    b) be able to add a Merchant Logo and c) Allow admin/users to submit coupon codes and printable codes for use on the site (WE would not have cash back or an api integration with these Merchants – this is for convenience only
-
-          For Example:
-
-          User types in Michaels (http://www.michaels.com/). They are not one of our cash back merchants so we display the following message:
+        
+        %div.col-md-4
+          %form
+            %div
+              %label
+                = "Merchant Name:"
+              %input{:type => "text", :style => "margin-left: 15px;"}
+            %div
+              %label   
+                = "Merchant Website:"
+              %input{:type => "text"}
+            %div
+              %input{:type => "submit"}  
+        
 
 
       .search-results-back-section
