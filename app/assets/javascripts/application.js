@@ -4,16 +4,15 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 //
+//= require jquery-1-11-1.min
 //= require jquery_ujs
 //= require jquery-ui
 //= require jquery-ui-timepicker-addon
 //= require jquery.fancybox.pack
 //= require jquery.fancybox
 //= require jquery.multiselect.min
-//= require jquery.uniform.min
+//= require jquery.uniform
 //= require jquery.placeholder
-//= require jquery.tools.min
-//= require jquery.history
 //= require h5bp
 //= require global.js
 //= require rails.validations
