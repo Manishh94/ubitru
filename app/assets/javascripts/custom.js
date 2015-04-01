@@ -20,10 +20,10 @@ $(document).ready(function(){
     if (wWidth < 801) {
        $(".container .row").find(".vertical_listings").removeClass("vertical_listings");
     }
-    $( window ).live( "orientationchange", function( event ) {
+    $( window ).on( "orientationchange", function( event ) {
        resizeMenu();
     });
-    $(window).live("resize", resizeMenu);
+    $(window).on("resize", resizeMenu);
     
     function resizeMenu(){
          wWidth = $(window).width();

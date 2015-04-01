@@ -1,5 +1,5 @@
 $(function(){
-  $('.details-box .details-overlay, .details-box .details-close-button').live('click', function(){
+  $('.details-box .details-overlay, .details-box .details-close-button').on('click', function(){
     closeDetailsBox();
   });
 });

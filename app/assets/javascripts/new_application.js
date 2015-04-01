@@ -14,20 +14,3 @@
 
 
 
-
-$(document).ready(function () {
-      debugger;
-
-       availableTags =  new Array(); 
-       $.ajax({url: "/muddleme-search", success: function(result){
-        console.log(result);
-        for (i = 0;i < result.length; i++) { 
-            availableTags.push(result[i]);
-        }
-        }});
-      $(".search").on("keydown", function () {
-    });
-      $(".search").autocomplete({
-          source: availableTags
-      });
-  });

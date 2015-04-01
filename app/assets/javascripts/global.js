@@ -4,12 +4,11 @@ $(function(){
         for (i = 0;i < result.length; i++) { 
             availableTags.push(result[i]);
         }
-        }});
-      $(".search").live("keydown", function () {
-    });
-      $(".search").autocomplete({
+        $(".search").autocomplete({
           source: availableTags
-      });
+        });
+        }});
+      
   });
 
 
