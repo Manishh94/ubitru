@@ -8,7 +8,6 @@
     = params[:controller] == "users/devise/registrations"
     = render "layouts/application/head_sign"
   -else
-    = "in the else"
     = render "layouts/application/head"
   - body_class = (controller_name == 'application' && action_name == 'index') ? "main-page" : controller_name
   %body{ :class => "#{ body_class }" }
