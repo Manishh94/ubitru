@@ -3,7 +3,6 @@
 
 - ie_html :class => "no-js", :lang => "en" do
   -if params[:controller] == "users/devise/registrations" or params[:controller] == "users/devise/sessions"
-    = "in the if"
     = params[:controller]
     = params[:controller] == "users/devise/registrations"
     = render "layouts/application/head_sign"
