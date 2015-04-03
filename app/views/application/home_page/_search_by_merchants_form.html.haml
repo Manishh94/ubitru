@@ -7,7 +7,7 @@
           #all-form-errors.text-center.text-danger
           .search-area
             .input-group
-              .input-group{:style => "position:relative;background-color:white;height:46px;"}
+              .input-group{:style => "position:relative;background-color:white;height:60px;"}
                 = text_field_tag :search_by_merchants,params[:search_by_merchants], :placeholder => "Macy's, JCPenney, Target...", :autocomplete => "off", :class => "form-control search rb_medium", :style => "font-size: 18pt; font-family: Roboto-Regular;,", :size => "10", :id => "search"
                 %input{:autocomplete => "off", :class => "form-control search reb_medium",:style => "font-size: 18pt; font-family: Roboto-Regular;color:grey;", :size => "10", :id => "autocomplete", :disabled => "disabled"}
               .input-group-btn{:style => "width:113px;"}
@@ -21,16 +21,16 @@
     left: 0;
     z-index: 11;
     background: transparent;
-    height: 46px;
+    height: 60px;
   }
   #autocomplete{
     position: absolute;    
-    top: 2px;
+    top: 1px;
     left: 1px; 
     background: transparent;
     z-index: 10;
     border: 0px;
-    height: 46px;
+    height: 60px;
   }
 
 :javascript
