@@ -25,6 +25,22 @@
                 - group.each_with_index do |result, index|
                   .col-md-4.col-sm-6.padding-left-0
                     = render "/search/deals_section_new", :result => result, :index => index
+      -elsif @product_results_cj.present? or @product_results_pj.present? or @product_results_ir.present? or @product_results_avant.present?
+        %div.clearfix{:style => "display:table;width:100%;"}
+          -if @product_results_cj.present? 
+            -@product_results_cj.each do |product|
+              = render "/search/keyword_search", :product => product
+          -if @product_results_pj.present?
+            -@product_results_pj.each do |product|
+              = render "/search/keyword_search", :product => product
+          -if @product_results_ir.present?
+            -@product_results_ir.each do |product|
+              = render "/search/keyword_search", :product => product
+          -if @product_results_avant.present?
+            -@product_results_avant.each do |product|
+              = render "/search/keyword_search", :product => product
+
+                      
       - else
         %h1 
           Opps this is Embarrassing! 
