@@ -530,7 +530,7 @@ class SearchController < ApplicationController
         end
         puts "ir"
       end
-    else
+    elsif product_category
       puts "@@@@@@@@@@@@@@@@@@ in the else"
       @product_results_cj = product_category.cj_advertisers
       @product_results_avant = product_category.avant_advertisers
