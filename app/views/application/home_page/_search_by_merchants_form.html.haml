@@ -7,32 +7,64 @@
           #all-form-errors.text-center.text-danger
           .search-area
             .input-group
-              = text_field_tag :search_by_merchants,params[:search_by_merchants], :placeholder => "Macy's, JCPenney, Target...", :autocomplete => "off", :class => "form-control search rb_medium search", :style => "font-size: 18pt; font-family: Roboto-Regular;,", :size => "10"
+              .input-group{:style => "position:relative;background-color:white;height:60px;"}
+                = text_field_tag :search_by_merchants,params[:search_by_merchants], :placeholder => "Macy's, JCPenney, Target...", :autocomplete => "off", :class => "form-control search rb_medium", :style => "font-size: 18pt; font-family: Roboto-Regular;,", :size => "10", :id => "search"
+                %input{:autocomplete => "off", :class => "form-control search reb_medium",:style => "font-size: 18pt; font-family: Roboto-Regular;color:grey;", :size => "10", :id => "autocomplete", :disabled => "disabled"}
               .input-group-btn{:style => "width:113px;"}
                 %button.btn.btn-primary.rb_bold.check{:type => "submit"} SEARCH
 
 
+:css
+  #search{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    background: transparent;
+    height: 60px;
+  }
+  #autocomplete{
+    position: absolute;    
+    top: 1px;
+    left: 1px; 
+    background: transparent;
+    z-index: 10;
+    border: 0px;
+    height: 60px;
+  }
+
 :javascript
   
   $(document).ready(function () {
-    availableTags =  new Array(); 
-    
+
     $.ajax({
     maxResults: 10,
     url: "/muddleme-search", 
-    success: function(result){
-        console.log(result);
-        for (i = 0;i < result.length; i++) { 
-          availableTags.push(result[i]);
-        }
-
-        $(".search").autocomplete({
-              source: availableTags
+    success: function(Array){
+        console.log(Array);
+        var array2 = $.map(Array, function(n,i){return n.toLowerCase();});
+        $("#search").keyup(function(e){
+          value = $("#search").val();
+          if(value == ""){
+            $("#autocomplete").val("");
+            return;
+          }
+          new_value = value.toLowerCase();
+          $("#autocomplete").val(value);
+          for(i = 0; i< array2.length; i++){
+            if(array2[i].lastIndexOf(new_value, 0) === 0){
+              if(e.keyCode == 39){
+                $("#search").val(array2[i])
+              }
+              str_after = array2[i].substr(new_value.length, array2[i].length);
+              new_str = value + str_after
+              $("#autocomplete").val(new_str);
+              return;
+            }
+          }
         });
       }
-    });
-     
-      
+    }); 
   });
   
    
