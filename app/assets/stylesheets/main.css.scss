@@ -21,7 +21,10 @@ select,
 textarea {
     color: #222;
 }
-
+.box-for-popular-stores{
+    background-color: white;
+    padding-left: 11px;
+}
 html {
     font-size: 1em;
     line-height: 1.4;
@@ -1088,18 +1091,18 @@ p.click-call{
     font-size: 13px;
 }
 .chapter {
+     margin-top: 19px;
      background: none repeat scroll 0 0 #ff6600;
-     border-radius: 50%;
      color: #fff;
      content: "";
      display: block;
      font-size: 22px;
     //  font-weight: bold;
-     height: 45px;
+     height: 41px;
     //  margin-bottom: 20px;
      margin-left: 0px;
      padding: 7px 10px 15% 8%;
-     width: 45px;
+     width: 105px;
      margin-bottom: 15px;
  }
 .money-box-panel {
@@ -1183,6 +1186,7 @@ p.click-call{
 }
 .click-to-call-service {
     margin-top: 40px;
+    background-color: white;
 }
 .click-to-call-service ul li.title {
     font-size: 14px;
@@ -1495,18 +1499,18 @@ width: 50%;
         margin-bottom: 40px;
     }
     .chapter {
+        margin-top: 19px;
         background: none repeat scroll 0 0 #ff6600;
-        border-radius: 50%;
         color: #fff;
         content: "";
         display: block;
         font-size: 22px;
         font-weight: bold;
-        height: 45px;
+        height: 41px;
         margin-bottom: 20px;
         margin-left: 0;
         padding: 7px 5px 10% 11%;
-        width: 45px;
+        width: 105px;
     }
     .first-ch{
         padding-left: 15%;
