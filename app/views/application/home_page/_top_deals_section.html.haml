@@ -11,6 +11,12 @@
             - group.each_with_index do |advertiser, i|
               .col-md-4.col-sm-6
                 .deals
+                  .wrapper
+                    .ribbon-wrapper-green
+                      .ribbon-green
+                        %a{href:"#"}
+                          = number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})
+                          Cash Back
                   .deals-logo
                     - if advertiser.hp_advertiser_image.blank?
                       = link_to(image_tag(advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url, :title => advertiser.name), "javascript:void(0);", :id => "merchant_popup_#{advertiser.advertiser_id}",  :class => "image-responsive", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;")
@@ -54,9 +60,6 @@
                       - else
                         %span{:class => "promo"}
                           
-                      .margin-top-5{:style => 'margin-top:5px;'}
-                      %span.cash-back{:style => "font-family: Roboto-black; font-size:14px; text-transform: uppercase;"}
-                        = number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})
-                        Cash Back
+
                     .row
                       = link_to "SHOP NOW", advertiser.advertiser_url, :target => "_blank", :class => "btn btn-primary shop-now", :id => "merchant_popup_#{advertiser.advertiser_id}", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return true;"
