@@ -460,7 +460,8 @@ class SearchController < ApplicationController
   def hp_merchants_search
      @results = []
      search = params[:search_by_merchants].strip
-     search = search.downcase.gsub(/[!@%'s'S&-,";]/,'')
+     search = search
+     # .downcase.gsub(/[!@%'s'S&-,";]/,'')
      begin
       if current_user.present?
         search_intent = Search::Intent.find_or_create_by_search_and_user_id_and_search_date(search, current_user.id, Date.today)
@@ -484,12 +485,7 @@ class SearchController < ApplicationController
     product_category = ProductCategory.where("LOWER(name) LIKE ?", "%#{search}%").first
     puts "@@@@@@@@@@@@@@@@@@@@@", product_category
     if avant.present? or cj.present? or linkshare.present? or pj.present? or ir.present?
-      puts "@@@@@@@@@@@@@@@@ in the if"
-      puts "@@@@@@@@@@@@@@@@@@@ avant", avant
-      puts "@@@@@@@@@@@@@@@@@@ cj",cj
-      puts "@@@@@@@@@@@@@@@@@@ linkshare", linkshare
-      puts "@@@@@@@@@@@@@@@@@@ pj", pj
-      puts "@@@@@@@@@@@@@@@@@@ ir", ir
+     
       if avant
         merchant = Search::AvantMerchant.find_or_initialize_by_db_id_and_intent_id(avant.id, search_intent.id)
         merchant.set_attributes_from_search avant, nil, self
@@ -530,16 +526,11 @@ class SearchController < ApplicationController
         end
         puts "ir"
       end
-    else
-      puts "@@@@@@@@@@@@@@@@@@ in the else"
+    elsif product_category
       @product_results_cj = product_category.cj_advertisers
       @product_results_avant = product_category.avant_advertisers
       @product_results_pj = product_category.pj_advertisers
-      @product_results_ir = product_category.ir_advertisers
-      puts "@@@@@@@@@@@@@@@@@@", @product_results_cj
-      puts "@@@@@@@@@@@@@@@@@@", @product_results_avant
-      puts "@@@@@@@@@@@@@@@@@@", @product_results_pj
-      puts "@@@@@@@@@@@@@@@@@@", @product_results_ir  
+      @product_results_ir = product_category.ir_advertisers  
     end 
     if @results.blank? and @product_results_cj.blank? and @product_results_pj.blank? and @product_results_ir.blank? and @product_results_avant.blank?
       direct_affiliate_name_result, direct_linkshare_advertisers,  direct_avant_advertisers, direct_cj_advertisers, direct_pj_advertisers, direct_ir_advertisers = search_all_affiliates_by_name(search_intent, search)
