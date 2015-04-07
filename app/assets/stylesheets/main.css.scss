@@ -2340,9 +2340,9 @@ p.arrows {
     -o-transform: rotate(-44deg);
     position: relative;
     padding: 7px 0;
-    left: -32px;
-    top: 32px;
-    /* width: 138px; */
+    left: -56px;
+  top: 28px;
+  width: 206px;
     background-color: #FA7B00;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#FA7B00), to(#FA7B00));
     background-image: -webkit-linear-gradient(top, #FA7B00, #FA7B00);
@@ -2360,3 +2360,15 @@ p.arrows {
     text-decoration: none;
     color: white;
 }
+
+
+.panel-bottom{
+    background-color: #F7F7F7;
+    padding: 17px;
+    font-size: 20px;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+  }

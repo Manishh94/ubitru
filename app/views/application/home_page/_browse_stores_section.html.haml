@@ -9,7 +9,7 @@
       - unless @browse_stores.blank?
         .outer-div.col-xs-12
           .outer-inner
-            - @browse_stores.compact.in_groups_of(4,false) do |group|
+            - @browse_stores.first(4).compact.in_groups_of(4,false) do |group|
               - group.each do |advertiser|
                 .col-sm-6.col-xs-12.col-md-4.col-lg-3
                   .panel{:style => "position:relative;"}
@@ -28,7 +28,7 @@
                     .panel-info.panel-bottom
                       .row
                         .col-xs-12
-                          = "25 % off deals"              
+                          = "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} off deals"              
 
 :javascript
   $(document).ready(function(){
@@ -59,17 +59,3 @@
       }
     });
   });
-
-
-:css
-
-  .panel-bottom{
-      background-color: #F7F7F7;
-    padding: 17px;
-    font-size: 20px;
-    text-align: center;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-
-  }
