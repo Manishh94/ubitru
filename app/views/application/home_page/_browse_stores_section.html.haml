@@ -7,11 +7,37 @@
             Browse these stores for more great offers and cash back!
     .row.panel-content
       - unless @browse_stores.blank?
-        .outer-div.col-xs-12
-          .outer-inner
+        .outer-div-mobile.col-sm-12.hidden-md.hidden-lg
+          .outer-inner-mobile
             - @browse_stores.compact.in_groups_of(4,false) do |group|
               - group.each do |advertiser|
-                .col-sm-6.col-xs-12.col-md-4.col-lg-3
+                .col-sm-6.col-xs-12.col-md-4.col-lg-3.inner-mobile
+                  .panel{:style => "position:relative;"}
+                    .wrapper
+                      .ribbon-wrapper-green
+                        .ribbon-green
+                          %a{href:"#"}
+                            = "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} CASH BACK"
+                    .panel-logo
+                      - if advertiser.hp_advertiser_image.blank?
+                        = link_to(image_tag(advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url, :title => advertiser.name), "javascript:void(0);", :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img-responsive", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;")
+                        = link_to "coupon_window", mm_prompt_cc_window_path(:ad => advertiser.advertiser_id, :type => advertiser.class.name, :offer_url => advertiser.advertiser_url), :style => "display:none;", :id => "merchant_c_window_#{advertiser.advertiser_id}"
+                      - else
+                        = link_to(image_tag(advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url, :title => advertiser.name), "javascript:void(0);", :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img-responsive", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;")
+                        = link_to "coupon_window", mm_prompt_cc_window_path(:ad => advertiser.advertiser_id, :type => advertiser.class.name, :offer_url => advertiser.advertiser_url), :style => "display:none;", :id => "merchant_c_window_#{advertiser.advertiser_id}"
+                    .panel-info.panel-bottom
+                      .row
+                        .col-xs-12
+                          = "25 % off deals"
+        .outer-div.col-md-12.col-lg-12.hidden-sm.hidden-xs
+          .left-arrow.col-md-1.col-lg-1.mar-top-90
+            #left-button
+          .outer-inner{:data => {:"total-count" => @browse_stores.count}}
+            -index = 0
+            - @browse_stores.compact.in_groups_of(4,false) do |group|
+              - group.each do |advertiser|
+                .col-md-3.col-lg-3.inner{:data => {:number => index}, :style => "margin-right: 10px;"}
+                  -index = index + 1
                   .panel{:style => "position:relative;"}
                     .wrapper
                       .ribbon-wrapper-green
@@ -29,47 +55,96 @@
                       .row
                         .col-xs-12
                           = "25 % off deals"              
-
-:javascript
-  $(document).ready(function(){
-    
-
-    $('#right-arrow-button').click(function(){
-      console.log("clicked");
-      var scrollAmount = $('.outer-inner').width() - $('.outer-inner').parent().width();
-      console.log(scrollAmount);
-      var currentPos = Math.abs(parseInt($('.outer-inner').css('left')));
-      var remainingScroll = scrollAmount - currentPos;
-    
-      // Scroll half-a-screen by default
-      var nextScroll = Math.floor($('.outer-inner').parent().width() / 2);
-    
-      // But if there isn’t a FULL scroll left, do only the remaining amount.
-      if (remainingScroll < nextScroll) {
-        nextScroll = remainingScroll;
-      }
-     
-      if (currentPos < scrollAmount) {
-        // Scroll left
-        $('.outer-inner').animate({'left':'-=' + nextScroll}, 'slow');
-      }
-      else {
-        // Scroll right
-        $('.outer-inner').animate({'left':'0'}, 'fast');
-      }
-    });
-  });
+          .right-arrow.col-md-1.col-lg-1.pull-right.mar-top-90
+            #right-button
 
 
 :css
 
+  #right-button {
+    width: 0; height: 0;
+    border: 20px solid transparent;
+    border-left-color: grey;
+    cursor: pointer;
+  }
+
+  .mar-top-90{
+    margin-top: 90px;
+
+  }
+
+  #left-button{
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right:20px solid grey;
+    cursor: pointer; 
+  }
+
   .panel-bottom{
-      background-color: #F7F7F7;
+    background-color: #F7F7F7;
     padding: 17px;
     font-size: 20px;
     text-align: center;
     bottom: 0;
     position: absolute;
     width: 100%;
-
   }
+
+
+:javascript
+  $(document).ready(function(){
+    var total_images = $(".outer-inner").data("total-count");
+    var slide = 1;
+    console.log(total_images);
+    if(total_images > 3){
+        $.each($(".inner"),function(index,value){
+            if($(value).data("number") > 2){
+                console.log(value)
+                $(value).hide();
+            }
+        });
+    }
+    
+    $("#left-button").click(function(){
+        var visible_images = $(".inner:visible").length;
+        var first_visible_image = $(".inner:visible").first().data("number");
+        if(slide > 1){
+            var first_image_range = (first_visible_image  - 3)
+            var last_image_range = first_image_range + 3
+            $(".inner").hide();
+            $.each($(".inner"), function(index, value){
+                if($(value).data("number") >= first_image_range && $(value).data("number") < last_image_range){
+                    $(value).show();
+                }
+            });
+            slide = slide - 1;
+        }
+    });
+    
+    $("#right-button").click(function(){
+        var visible_images = $(".inner:visible").length;
+        var last_visible_image = $(".inner:visible").last().data("number");
+        if(last_visible_image < (total_images -1)){
+            var difference = total_images - (last_visible_image + 1)
+            if(difference < 4){
+                next_images_range = last_visible_image + difference
+            }
+            else{
+                next_images_range = last_visible_image + 3
+            }
+            $(".inner").hide();
+            $.each($(".inner"), function(index, value){
+                if($(value).data("number") > last_visible_image && $(value).data("number") <= next_images_range){
+                
+                    $(value).show();
+                }
+            })
+            slide = slide + 1;
+        }
+    });
+
+  });
+
+
