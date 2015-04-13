@@ -31,3 +31,6 @@
 //= require categories_multi_select
 //= require constants.js
 //= require jquery.inview.min.js
+
+
+console.log("in appllicaiton");

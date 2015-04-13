@@ -4,7 +4,7 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 //
-//= require jquery
+//= require jquery-1-11-1.min
 //= require jquery.tipsy.custom
 //= require jquery_ujs
 //= require jquery.cookie
@@ -14,5 +14,3 @@
 //= require shake
 //= require search/utils
 //= require search/mm-engine
-
-alert('testing...')

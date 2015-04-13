@@ -57,8 +57,8 @@
                             %td.no_border= "-"
                             %td.no_border
                               %i.fa.fa-phone
-                              = link_to 'view number', "javascript:void(0);", :class => "view-number-results general_theme_link", :id => "view-number-results-#{result.id}", 'data-id' => "#{result.id}"
-                              %span{:class => "result-company-phone", :id => "result-company-phone-#{result.id}", :style => "display: none;", 'data-id' => "#{result.id}"}
+                              = link_to 'view number', "javascript:void(0);", :class => "view-number-results general_theme_link", :id => "view-number-results-#{result['id']}", 'data-id' => "#{result['id']}"
+                              %span{:class => "result-company-phone", :id => "result-company-phone-#{result['id']}", :style => "display: none;", 'data-id' => "#{result['id']}"}
                                 = result['company_phone']
                     - else
                       %tbody.hidden-more-deals.no_border{:style => "display: none;"}
@@ -75,8 +75,8 @@
                               %td.no_border= "-"
                               %td.no_border
                                 %i.fa.fa-phone
-                                = link_to 'view number', "javascript:void(0);", :class => "view-number-results general_theme_link", :id => "view-number-results-#{result.id}", 'data-id' => "#{result.id}"
-                                %span{:class => "result-company-phone", :id => "result-company-phone-#{result.id}", :style => "display: none;", 'data-id' => "#{result.id}"}
+                                = link_to 'view number', "javascript:void(0);", :class => "view-number-results general_theme_link", :id => "view-number-results-#{result['id']}", 'data-id' => "#{result['id']}"
+                                %span{:class => "result-company-phone", :id => "result-company-phone-#{result['id']}", :style => "display: none;", 'data-id' => "#{result['id']}"}
                                   = result['company_phone']
           .total_cash.clearfix{:style => "margin: 10px 0px 20px 0px;"}
             .col-md-9{:style => "text-align:left;"}

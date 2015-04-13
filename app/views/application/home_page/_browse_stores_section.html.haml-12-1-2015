@@ -4,7 +4,7 @@
       .subtitle.fancy
         %span
           %h3.title
-            Browse these stores for more great offers and cash back!
+            Browse these stores for more great offers and cash bacjjk!
     .row.panel-content
       - unless @browse_stores.blank?
         - @browse_stores.compact.in_groups_of(4,false) do |group|

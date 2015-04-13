@@ -133,15 +133,22 @@ class SearchController < ApplicationController
   end
 
   def search_soleo_and_local_merchants_db(search, search_intent, zip_code)
+    puts "@@@@@@@@@@@ in the soloe function"
     result = []
    
     hydra = Typhoeus::Hydra.hydra
-    soleo_category = SoleoCategory.relevant_search search
-    
+    puts "@@@@@@@@@@@@@@ hydra", hydra.inspect
+    # soleo_category = SoleoCategory.relevant_search search
+    soleo_category = SoleoCategory.where("name = ?", "#{search}").first
+    if soleo_category.blank?
+      soleo_category = SoleoCategory.where("name LIKE ?", "%#{search}%").first
+    end
     soleo_max_money = 0
+    puts "@@@@@@@@@@@@@@@ soleo category", soleo_category.inspect
     if soleo_category.present? && soleo_category.parent.present? && soleo_category.parent.parent.present?
+      puts "@@@@@@@@@@@@@@@@@ in the if"
       soleo_category_search = soleo_category.parent.parent.name
-      
+      puts "@@@@@@@@@@ soleo category search", soleo_category_search
       session[:soleo_category_search] = soleo_category_search
       # ======================= Soleo prepare XML =======================
       builder = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml|
@@ -150,12 +157,17 @@ class SearchController < ApplicationController
             {'business-name' => nil, :zip => zip_code, 'category-name' => soleo_category_search, 'auto-decode' => false, 'result-size' => 12, 'sort-by' => 'value'}.each { |k, v| xml.send(k, v) }
           }
         }
+
+        puts "@@@@@@@@@@@@@@@@", builder
       end
     
       # ======================= Soleo run request =======================
+      puts "@@@@@@@@@@@@@@ soleo run request"
       t_request = Typhoeus::Request.new('https://mobapi.soleocom.com/xapi/query', :method => :post, :userpwd => $soleo_basic_auth, :body => builder.to_xml)
       t_request.on_complete do |response|
+        puts "@@@@@@@@@@@ response complete"
         if response.success?
+          puts "@@@@@@@@@@@@ response success"
           body = Hash.from_xml(response.body)['response']
           logger.info "******* #{Time.now.in_time_zone('Eastern Time (US & Canada)').strftime('%m-%d-%y %I-%M-%S %p')} : Soleo listings for #{search} : "
           logger.info '******* ' + response.body.to_s
@@ -483,7 +495,6 @@ class SearchController < ApplicationController
     pj = PjAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
     ir = IrAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
     product_category = ProductCategory.where("LOWER(name) LIKE ?", "%#{search}%").first
-    puts "@@@@@@@@@@@@@@@@@@@@@", product_category
     if avant.present? or cj.present? or linkshare.present? or pj.present? or ir.present?
      
       if avant
@@ -552,8 +563,8 @@ class SearchController < ApplicationController
     render :layout => "new_resp_popup"
   end
 
-  def hp_services_searchb
-    
+  def hp_services_search
+    puts "@@@@@@@@@@@@@@@@ in the hp services search" 
     search = params[:search_by_services].strip
     zip_code = !(params[:zip_code].blank?)  ?  (params[:zip_code]) : (current_user.zip_code)
     begin
@@ -571,10 +582,14 @@ class SearchController < ApplicationController
     rescue ActiveRecord::RecordNotUnique
       render :json => [] and return
     end
+    puts "@@@@@@@@@@@@@@@@ search",search
+    puts "@@@@@@@@@@@@@@@@ search_intent", search_intent.inspect
+    puts "@@@@@@@@@@@@@@@@ zip code", zip_code 
     @results = search_soleo_and_local_merchants_db(search, search_intent, zip_code)
-   
     @more_deals_total = 0
     @results.each do |r| @more_deals_total = @more_deals_total + r['user_money'] end
+    puts "@@@@@@@@@@@@@@@@@@@@@@ results", @results.inspect
+    puts "@@@@@@@@@@@@@@@@@@@@@@ results---------"
     render :layout => "new_resp_popup"
   end
 

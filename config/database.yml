@@ -14,7 +14,7 @@ default: &default
   #encoding: unicode
   #pool: 5
   username: root
-  password: admin
+  password: root
   #socket: /usr/local/var/mysql/mysql.sock
 
 
@@ -24,8 +24,7 @@ development:
 
 production:
   <<: *default
-  database: muddleme_production
-
+  database: muddleme_development
 
 
 
