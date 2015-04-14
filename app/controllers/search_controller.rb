@@ -141,7 +141,7 @@ class SearchController < ApplicationController
     # soleo_category = SoleoCategory.relevant_search search
     soleo_category = SoleoCategory.where("name = ?", "#{search}").first
     if soleo_category.blank?
-      soleo_category = SoleoCategory.where("name LIKE ?", "%#{search}%").first
+      soleo_category = SoleoCategory.where("name LIKE ? and ancestry_depth > 3", "%#{search}%").first
     end
     soleo_max_money = 0
     puts "@@@@@@@@@@@@@@@ soleo category", soleo_category.inspect

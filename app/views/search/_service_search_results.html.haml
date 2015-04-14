@@ -36,8 +36,8 @@
                       %td.no_border= "-"
                       %td.no_border
                         %i.fa.fa-phone
-                        = link_to 'view number', "javascript:void(0);", :class => "view-number-results general_theme_link", :id => "view-number-results-#{result.id}", 'data-id' => "#{result.id}"
-                        %span{:class => "result-company-phone", :id => "result-company-phone-#{result.id}", :style => "display: none; cursor: pointer;", 'data-id' => "#{result.id}"}
+                        = link_to 'view number', "javascript:void(0);", :class => "view-number-results general_theme_link", :id => "view-number-results-#{result['id']}", 'data-id' => "#{result['id']}"
+                        %span{:class => "result-company-phone", :id => "result-company-phone-#{result['id']}", :style => "display: none; cursor: pointer;", 'data-id' => "#{result['id']}"}
                           = result['company_phone']
                 - else
                   - index = 0
