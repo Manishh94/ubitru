@@ -353,7 +353,7 @@ body {
 /* part-11 */
 
 .part-11 {
-	background:url('../img/section-11-bg.png')no-repeat;
+	background:url('/assets/section-11-bg.png')no-repeat;
 	background-size:100% 100%;
 }
 .part-11 h1 {
@@ -383,7 +383,7 @@ body {
   padding-left: 10px;
   width: 60%;
 }
-.part-11 span a {
+.part-11 span button {
   background: none repeat scroll 0 0 #ff6600;
   border-radius: 0 4px 4px 0;
   color: #fff;
@@ -394,7 +394,7 @@ body {
   text-decoration: none;
   transition: all 0.3s ease 0s;
 }
-.part-11 a:hover {
+.part-11 a:button {
 	background:#66655C;
 }
 .part-11 span p {
