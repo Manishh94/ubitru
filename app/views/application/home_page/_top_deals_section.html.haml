@@ -3,7 +3,7 @@
     .part-10.text-center.bottom-padding
       .container
         .row
-          - @all_top_deals.each_with_index do |advertiser,i|
+          - @all_top_deals.first(3).each_with_index do |advertiser,i|
             .col-lg-3.col-md-4.col-sm-6.col-xs-12
               .boxs
                 - if advertiser.hp_advertiser_image.blank?
@@ -32,12 +32,12 @@
 
                 %br
                 -if coupon_code.present?
-                  %img{:alt => "SITE40", :src => "assets/site40.png", :style => "width:45%"}/
+                  %img{:alt => "SITE40", :src => "assets/sessiors-btn.png", :style => "width:35%"}/
                   %span.coup-code
                     = coupon_code
                 -else
-                  %img{:alt => "SITE40", :src => "assets/site40.png", :style => "width:45%"}/
+                  %img{:alt => "SITE40", :src => "assets/sessiors-btn.png", :style => "width:35%"}/
                   %span.coup-code
                     = "No code present"
-                %span
+                %span.shop-now
                   = link_to "SHOP NOW", advertiser.advertiser_url, :target => "_blank", :id => "merchant_popup_#{advertiser.advertiser_id}", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return true;"

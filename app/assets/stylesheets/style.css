@@ -326,13 +326,13 @@ body {
   margin-right: -10px;
   padding: 15px 10px 5px;
 }
-.part-10 .boxs img {
+.part-10 .boxs a img {
   height: auto;
   margin-bottom: 15px;
   width: 100%;
   cursor: pointer;
 }
-.part-10 a {
+.part-10 .shop-now a {
 	padding:10px 20px;
 	background:#63645E;
 	margin-top:20px;
@@ -342,7 +342,7 @@ body {
 	border-radius:3px;
 	transition:0.3s;
 }
-.part-10 a:hover {
+.part-10 .shop-now a:hover {
 	background: #FF7E00;
 	color: #fff;
 }

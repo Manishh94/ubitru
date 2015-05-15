@@ -15,10 +15,10 @@
     width: 50% !important;
   }
   .coup-code{
-    left: 19%;
+    left: 18%;
     position: absolute;
-    margin-top: 30px;
-    font-weight: bold;
+    margin-top: 15px;
+    font-size: 10px;
 
   }
 }
