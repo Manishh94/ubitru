@@ -293,7 +293,7 @@ body {
 /* part-9 */
 
 .part-9 {
-  background: url("../img/background.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  background: url("/assets/background.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   padding-bottom: 45px;
   padding-top: 25px;
 }
@@ -310,7 +310,7 @@ body {
 /* part-10 */
 
 .part-10 {
-	background:url('../img/background.png')no-repeat;
+	background:url('/assets/background.png')no-repeat;
 	background-size:100% 100%;
 }
 .part-10 h2 {
