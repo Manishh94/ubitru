@@ -120,6 +120,25 @@ body {
 	text-decoration:none;
 }
 
+/*for button*/
+.part-2 button, .part-7 button {
+    background: none repeat scroll 0 0 #ff6600;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "RobotoSlab-Regular";
+    font-size: 18px;
+    margin-left: -5px;
+    padding: 21px 30px 19px;
+    transition: all 0.5s ease 0s;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.part-2 button:hover {
+    color:#f6f6f6;
+    background:#1B1B1B;
+    text-decoration:none;
+}
+
 /* part-3 */
 
 .part-3 img{
