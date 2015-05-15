@@ -8,7 +8,7 @@
               .feture-sec
                 %a{:href => "javascript:void(0);", :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img img-responsive fav_merchant", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}
                   = image_tag(advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url, :title => advertiser.name)
-                  
+
 
 
 
