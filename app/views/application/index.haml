@@ -23,19 +23,11 @@
 =# render "/application/home_page/most_popular_stores_section"
 = render '/application/home_page/most_popular_stores'
 = render "/application/home_page/money_box_section"
-%section.popular-stories
-  .container
-    .row
-      = render "/application/home_page/hp_click_to_call_services"
-      .subtitle.fancy3
-        %span
-          %h3.title
-            = link_to "+", "javascript:void(0);", :id => "pcs_plus", :class => "pcs_show_hide pcs_list_link"
-            Popular Categories
-      = render "/application/home_page/popular_categories"
+= render "/application/home_page/hp_click_to_call_services"
 
 
-= render '/application/home_page/hp_popup'
+
+=# render '/application/home_page/hp_popup'
 
 - if session[:user_sign_up_via_sbs]
   - session.delete(:user_sign_up_via_sbs)
