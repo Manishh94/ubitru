@@ -28,28 +28,28 @@ class ApplicationController < ActionController::Base
     end
     @browser = :unknown
     case agent.browser
-      when 'Safari' then @browser = :safari
-      when 'Internet Explorer' then @browser = :ie
-      when 'Chrome' then @browser = :chrome
-      when 'Firefox' then @browser = :firefox
+    when 'Safari' then @browser = :safari
+    when 'Internet Explorer' then @browser = :ie
+    when 'Chrome' then @browser = :chrome
+    when 'Firefox' then @browser = :firefox
     end
     #HOME PAGE CONTENT
     all_pc = []
     selected_pc = []
-#    ProductCategory::MPS.map{|cname| get_product_categories(cname).map{ |pcs| all_pc.push(pcs)}}
+    #    ProductCategory::MPS.map{|cname| get_product_categories(cname).map{ |pcs| all_pc.push(pcs)}}
     ProductCategory::PCS.map{|cname| get_product_categories(cname).map{ |pcs| selected_pc.push(pcs)}}
     #@popular_categories = selected_pc.flatten.compact.uniq_by(&:name)
-    @popular_categories = ProductCategory.where(:popular => true)
+    #    @popular_categories = ProductCategory.where(:popular => true)
+    @popular_categories = ProductCategory.all
     @favorite_stores = HpStore.added_stores("favorite_stores")
     @browse_stores = HpStore.added_stores("browseable")
     @all_top_deals = HpStore.added_stores("top_dealers")
-
-#    @pcs = all_pc.flatten.compact
-#    @pc_hash = {}
-#    @pcs.each do |category|
-#      merchants = category.cj_advertisers.limit(5) + category.avant_advertisers.limit(5)+ category.linkshare_advertisers.limit(5) + category.pj_advertisers.limit(5) + category.ir_advertisers.limit(5)
-#      @pc_hash.merge!(category.name => merchants.first(15)) unless merchants.blank?
-#    end
+    #    @pcs = all_pc.flatten.compact
+    #    @pc_hash = {}
+    #    @pcs.each do |category|
+    #      merchants = category.cj_advertisers.limit(5) + category.avant_advertisers.limit(5)+ category.linkshare_advertisers.limit(5) + category.pj_advertisers.limit(5) + category.ir_advertisers.limit(5)
+    #      @pc_hash.merge!(category.name => merchants.first(15)) unless merchants.blank?
+    #    end
 
     @ctc_merchants = {}
     # default_zip_code  = "99999"
@@ -186,22 +186,22 @@ class ApplicationController < ActionController::Base
   def mm_extension
     agent = UserAgent.parse request.env['HTTP_USER_AGENT']
     case agent.browser
-      when 'Safari' then enable_safari
-      when 'Internet Explorer' then enable_ie
-      when 'Chrome' then redirect_to 'https://chrome.google.com/webstore/detail/muddleme/dofcnpiibckhhhmcbnbmkcjclhfhpaad' and return
-      when 'Firefox' then redirect_to 'https://addons.mozilla.org/en-us/firefox/addon/muddleme-firefox-extension/versions/?page=1#version-1.1.1' and return
-      else raise ActionController::RoutingError.new('Not Found')
+    when 'Safari' then enable_safari
+    when 'Internet Explorer' then enable_ie
+    when 'Chrome' then redirect_to 'https://chrome.google.com/webstore/detail/muddleme/dofcnpiibckhhhmcbnbmkcjclhfhpaad' and return
+    when 'Firefox' then redirect_to 'https://addons.mozilla.org/en-us/firefox/addon/muddleme-firefox-extension/versions/?page=1#version-1.1.1' and return
+    else raise ActionController::RoutingError.new('Not Found')
     end
   end
 
   def mm_extension_lite
     agent = UserAgent.parse request.env['HTTP_USER_AGENT']
     case agent.browser
-      when 'Safari' then enable_safari_lite
-      when 'Internet Explorer' then enable_ie
-      when 'Chrome' then redirect_to 'https://chrome.google.com/webstore/detail/muddleme-lite/ohlpjdhemmmeojkcdgmcogheabckkkie' and return
-      when 'Firefox' then redirect_to 'https://addons.mozilla.org/en-US/firefox/addon/muddleme-lite-extension/versions/?page=1#version-1.0.5' and return
-      else raise ActionController::RoutingError.new('Not Found')
+    when 'Safari' then enable_safari_lite
+    when 'Internet Explorer' then enable_ie
+    when 'Chrome' then redirect_to 'https://chrome.google.com/webstore/detail/muddleme-lite/ohlpjdhemmmeojkcdgmcogheabckkkie' and return
+    when 'Firefox' then redirect_to 'https://addons.mozilla.org/en-US/firefox/addon/muddleme-lite-extension/versions/?page=1#version-1.0.5' and return
+    else raise ActionController::RoutingError.new('Not Found')
     end
   end
 
@@ -437,11 +437,11 @@ class ApplicationController < ActionController::Base
     @withdrawals_dir = params[:withdrawals_dir] == 'DESC' ? :DESC : :ASC
 
     @earnings = user.search_intents.where('status = "confirmed" AND user_earnings > 0').
-        order("#{@earnings_order} #{@earnings_dir}").paginate(:page=>params[:earnings_page], :per_page=>5)
+      order("#{@earnings_order} #{@earnings_dir}").paginate(:page=>params[:earnings_page], :per_page=>5)
     #@earnings = user.auctions.where('status = "accepted" AND user_earnings > 0').
     #    order("#{@earnings_order} #{@earnings_dir}").paginate(:page=>params[:earnings_page], :per_page=>5)
     @withdrawals = user.funds_withdrawals.where(:success => true).
-        order("#{@withdrawals_order} #{@withdrawals_dir}").paginate(:page=>params[:withdrawals_page], :per_page=>5)
+      order("#{@withdrawals_order} #{@withdrawals_dir}").paginate(:page=>params[:withdrawals_page], :per_page=>5)
   end
 
   def list_transfers_and_refunds(vendor=current_vendor)
@@ -451,9 +451,9 @@ class ApplicationController < ActionController::Base
     @refunds_dir = params[:refunds_dir] == 'ASC' ? :ASC : :DESC
 
     @transfers = VendorTransaction.where(:vendor_id=>vendor.id, :transactable_type=>['FundsTransfer','VendorFundsGrant']).
-        order("#{@transfers_order} #{@transfers_dir}").paginate(:page=>params[:transfers_page], :per_page=>5)
+      order("#{@transfers_order} #{@transfers_dir}").paginate(:page=>params[:transfers_page], :per_page=>5)
     @refunds = vendor.funds_refunds.
-        order("#{@refunds_order} #{@refunds_dir}").paginate(:page=>params[:refunds_page], :per_page=>5)
+      order("#{@refunds_order} #{@refunds_dir}").paginate(:page=>params[:refunds_page], :per_page=>5)
   end
 
   unless Rails.application.config.consider_all_requests_local

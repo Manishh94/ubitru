@@ -1,44 +1,44 @@
 @font-face{
 	font-family:'RobotoSlab-Bold';
-	src:url('fonts/RobotoSlab-Bold.ttf')
+	src:url('../fonts/RobotoSlab-Bold.ttf')
 }
 @font-face{
 	font-family:'RobotoSlab-Light';
-	src:url('fonts/RobotoSlab-Light.ttf')
+	src:url('../fonts/RobotoSlab-Light.ttf')
 }
 @font-face{
 	font-family:'RobotoSlab-Regular';
-	src:url('fonts/RobotoSlab-Regular.ttf')
+	src:url('../fonts/RobotoSlab-Regular.ttf')
 }
 @font-face{
 	font-family:'RobotoSlab-Thin';
-	src:url('fonts/RobotoSlab-Thin.ttf')
+	src:url('../fonts/RobotoSlab-Thin.ttf')
 }
 @font-face{
 	font-family:'Roboto-Bold';
-	src:url('fonts/roboto/Roboto-Bold.ttf')
+	src:url('../fonts/Roboto-Bold.ttf')
 }
 @font-face{
 	font-family:'Roboto-Regular';
-	src:url('fonts/roboto/Roboto-Regular.ttf')
+	src:url('../fonts/Roboto-Regular.ttf')
 }
 @font-face{
 	font-family:'Roboto-Light';
-	src:url('fonts/roboto/Roboto-Light.ttf')
+	src:url('../fonts/Roboto-Light.ttf')
 }
 @font-face{
 	font-family:'Roboto-LightItalic';
-	src:url('fonts/roboto/Roboto-LightItalic.ttf')
+	src:url('../fonts/Roboto-LightItalic.ttf')
 }
 @font-face{
 	font-family:'Roboto-Black';
-	src:url('fonts/roboto/Roboto-Black.ttf')
+	src:url('../fonts/Roboto-Black.ttf')
 }@font-face{
 	font-family:'Roboto-Italic';
-	src:url('fonts/roboto/Roboto-Italic.ttf')
+	src:url('../fonts/Roboto-Italic.ttf')
 }@font-face{
 	font-family:'OpenSans-Light';
-	src:url('fonts/OpenSans-Light.ttf')
+	src:url('../fonts/OpenSans-Light.ttf')
 }
 
 body {
@@ -120,25 +120,6 @@ body {
 	text-decoration:none;
 }
 
-/*for button*/
-.part-2 button, .part-7 button {
-    background: none repeat scroll 0 0 #ff6600;
-    border-radius: 4px;
-    color: #fff;
-    font-family: "RobotoSlab-Regular";
-    font-size: 18px;
-    margin-left: -5px;
-    padding: 21px 30px 19px;
-    transition: all 0.5s ease 0s;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-.part-2 button:hover {
-    color:#f6f6f6;
-    background:#1B1B1B;
-    text-decoration:none;
-}
-
 /* part-3 */
 
 .part-3 img{
@@ -158,7 +139,7 @@ body {
 	border:1px solid #828282;
 	width:100%;
 	margin-top:21%;
-		
+
 }
 .part-4 h1 {
   color: #000000;
@@ -185,7 +166,7 @@ body {
 /* part-6 */
 
 .part-6 {
-	background:url('/assets/section-6-bg.png')no-repeat;
+	background:url('section-6-bg.png')no-repeat;
 	background-size:100% 100%;
     margin-top: 15px;
 }
@@ -222,7 +203,7 @@ body {
 
 .part-7 {
 	padding-top:60px;
-	background:url('/assets/section-7-bg.png')no-repeat;
+	background:url('section-7-bg.png')no-repeat;
 	background-size:100% 100%;
     padding-bottom: 30px;
 }
@@ -293,14 +274,14 @@ body {
 /* part-9 */
 
 .part-9 {
-  background: url("/assets/background.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  background: url("background.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   padding-bottom: 45px;
   padding-top: 25px;
 }
 .part-9 h1 {
 	font-size:30px;
 	font-family:'RobotoSlab-Regular';
-		
+
 }
 .part-9 hr {
 	border:1px solid #828282;
@@ -310,7 +291,7 @@ body {
 /* part-10 */
 
 .part-10 {
-	background:url('/assets/background.png')no-repeat;
+	background:url('background.png')no-repeat;
 	background-size:100% 100%;
 }
 .part-10 h2 {
@@ -326,13 +307,13 @@ body {
   margin-right: -10px;
   padding: 15px 10px 5px;
 }
-.part-10 .boxs a img {
+.part-10 .boxs img {
   height: auto;
   margin-bottom: 15px;
   width: 100%;
   cursor: pointer;
 }
-.part-10 .shop-now a {
+.part-10 a {
 	padding:10px 20px;
 	background:#63645E;
 	margin-top:20px;
@@ -342,7 +323,7 @@ body {
 	border-radius:3px;
 	transition:0.3s;
 }
-.part-10 .shop-now a:hover {
+.part-10 a:hover {
 	background: #FF7E00;
 	color: #fff;
 }
@@ -353,7 +334,7 @@ body {
 /* part-11 */
 
 .part-11 {
-	background:url('/assets/section-11-bg.png')no-repeat;
+	background:url('section-11-bg.png')no-repeat;
 	background-size:100% 100%;
 }
 .part-11 h1 {
@@ -383,7 +364,7 @@ body {
   padding-left: 10px;
   width: 60%;
 }
-.part-11 span button {
+.part-11 span a {
   background: none repeat scroll 0 0 #ff6600;
   border-radius: 0 4px 4px 0;
   color: #fff;
@@ -394,7 +375,7 @@ body {
   text-decoration: none;
   transition: all 0.3s ease 0s;
 }
-.part-11 a:button {
+.part-11 a:hover {
 	background:#66655C;
 }
 .part-11 span p {
@@ -408,7 +389,7 @@ body {
   margin: 0 0 0 30px;
 }
 .part-12 {
-  background: url("/assets/background.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  background: url("background.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   padding: 20px 0;
 }
 .part-12 hr {
@@ -419,12 +400,12 @@ body {
 	font-family: 'RobotoSlab-Regular';
 	font-size: 30px;
 	color: #000;
-		
+
 }
 .part-12 .box {
 	background:#F8F8F8;
 	padding: 5px 10px;
-		
+
 }
 .part-12 ul, .part-15 .box ul{margin-left: -40px;}
 .part-12 ul li, .part-15 .box ul li{list-style: none}
@@ -459,7 +440,7 @@ body {
 .part-12 p {
 	font-family:'Roboto-Regular';
 	color: #393939;
-		
+
 }
 .part-12.padding-top {
   margin-top: -30px;
@@ -498,7 +479,7 @@ body {
 }
 .part-13 img {
 	margin-right:10px;
-		
+
 }
 .part-13 .dis-right {
   border-left: 1px solid #ff6600;
@@ -512,19 +493,19 @@ body {
 /* part-14 */
 
 .part-14 {
-  background: url("../img/background.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  background: url("background.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   padding-top: 10px;
 }
 .part-14 hr{
 	border:1px solid #828282;
 	margin-top:15%;
-		
+
 }
 .part-14 h1 {
 	font-family:'RobotoSlab-Regular';
 	color: #000;
 	font-size:30px;
-		
+
 }
 
 /* part-15 */
@@ -532,7 +513,7 @@ body {
   font-size: 13px;
 }
 .part-15 {
-  background: url("../img/background.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  background: url("background.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   padding: 10px 0 65px;
 }
 .part-15 .box {
@@ -546,13 +527,13 @@ body {
 }
 .part-15 p {
 	font-family: 'Roboto-Regular';
-		
+
 }
 
 /* FOOTER-AREA */
 
 .footer-area {
-	background:url('/assets/footer-image.png')no-repeat;
+	background:url('footer-image.png')no-repeat;
 	background-size:100% 100%;
 	padding: 10px 0px;
 }
@@ -643,7 +624,7 @@ body {
 	font-family:'Roboto-Regular';
 	color: #DADADA;
 	transition:0.3s;
-	
+
 }
 .copyright span:hover {
 	color:#FF6600;
@@ -653,7 +634,7 @@ body {
 	font-family:'Roboto-Regular';
 	text-align:right;
     font-size: 12px;
-		
+
 }
 .copyright hr {
 	border:1px solid #494949;
@@ -722,7 +703,7 @@ body {
 
 
 
-	
+
 }
 @media screen and (min-device-width: 768px) and (max-device-width: 991px){
 	.header-area .top-menu {
@@ -786,7 +767,7 @@ body {
         .logo-images{
     display:block!important;
     }
-	
+
 @media screen and (max-width:640px){
 			.header-area .top-menu {
 	  display: none;
@@ -815,4 +796,3 @@ body {
 	}
 }
 */
-

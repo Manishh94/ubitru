@@ -29,7 +29,7 @@
             = hidden_field_tag :user_id, "#{current_user.id rescue nil}", :class => 'zip-user-id'
             = text_field_tag :service_keyword, nil, :placeholder => "Electricians, Plumbers, Dish TV....",  :autocomplete => "off", :class => "search rb_regular custom_ss_field"
 
-            %button{:type => "submit"} SEARCH
+            %a{:href => "javascript:;", :onclick => "$('#sbs_search_bar').submit();"} SEARCH
       .container
         .row
           .col-lg-8.col-md-8.col-lg-offset-2.col-md-offset-2
