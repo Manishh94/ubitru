@@ -5,6 +5,12 @@
     = simple_form_for @advertiser_store_image, :html => { :multipart => true }, :url => update_custom_store_logo_admin_hp_stores_path, :method => "put" do |f|
       %p Select Image to update
       %p= f.file_field :hp_image
+      %p Select logo to update
+      %p= f.file_field :hp_logo
+      %p Title
+      %p= f.text_field :title
+      %p Description
+      %p= f.text_area :description
       = hidden_field_tag :id, @advertiser_store_image.id
       = hidden_field_tag :store_type, params[:store_type]
       %p= f.button :submit, 'Update Store Logo', :class => 'fixed-width-button'
