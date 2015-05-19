@@ -9,6 +9,7 @@ class IrAdvertiser < ActiveRecord::Base
   has_one :hp_advertiser_image,  :as => :imageable, :dependent=>:destroy
   has_many :stores, :as => :storable, :dependent=>:destroy
   has_many :user_coupons, :as => :advertisable
+  has_attached_file :image, :styles => { :thumb => "100X100>", :medium => "381X328#", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
 
   has_attached_file :logo
   require "open-uri"
