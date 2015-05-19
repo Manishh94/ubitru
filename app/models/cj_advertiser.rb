@@ -16,6 +16,7 @@ class CjAdvertiser < ActiveRecord::Base
 
   CJ_BASE_URL = "https://members.cj.com/member/"
   CJ_MEMBER_CREDS = {:uname=>'kevin@muddleme.com', :pw=>'JUx9QEx'}
+  has_attached_file :image, :styles => { :thumb => "100X100>", :medium => "381X328#", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
 
   has_attached_file :logo
 
