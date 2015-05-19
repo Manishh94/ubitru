@@ -3,12 +3,24 @@
 - content_for :main_column do
   %section.default-content
     = simple_form_for @advertiser_store_image, :html => { :multipart => true }, :url => update_custom_store_logo_admin_hp_stores_path, :method => "put" do |f|
+      - if @advertiser_store_image.hp_image.exists?
+        %p Previous Background Image
+        %p= image_tag @advertiser_store_image.hp_image.url, :style => "height:100px;"
       %p Select Image to update
       %p= f.file_field :hp_image
+      %hr
+      - if @advertiser_store_image.hp_logo.exists?
+        %p Previous Logo Image
+        %p= image_tag @advertiser_store_image.hp_logo.url, :style => "height:100px;"
+
       %p Select logo to update
       %p= f.file_field :hp_logo
+      %hr
+
       %p Title
       %p= f.text_field :title
+      %hr
+
       %p Description
       %p= f.text_area :description
       = hidden_field_tag :id, @advertiser_store_image.id

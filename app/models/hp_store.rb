@@ -12,6 +12,7 @@ class HpStore < ActiveRecord::Base
   scope :favorite_stores, where(:store_type => "favorite_stores")
 
   def advertiser=(id_with_class_name)
+    xsss
     pair = id_with_class_name.split('.')
     case pair[0]
       when CjAdvertiser.name

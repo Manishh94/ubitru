@@ -10,6 +10,9 @@
     %th
       %span.txt
         %span Delete
+    %th
+      %span.txt
+        %span Details
   - if @hp_stores.blank?
     %tr
       %td.ctr{:colspan => 2}
@@ -31,3 +34,6 @@
       %td
         %span.txt
           %span= link_to 'Delete', admin_hp_store_path(adv, :type => params[:type]), :method => "delete", :confirm => 'Are you sure?'
+      %td
+        %span.txt
+          %span= adv.advertiser.inspect

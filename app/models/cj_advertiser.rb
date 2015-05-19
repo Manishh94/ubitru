@@ -9,7 +9,9 @@ class CjAdvertiser < ActiveRecord::Base
           :primary_key=>'advertiser_id', :dependent=>:restrict
   has_many :favorite_advertisers, :dependent => :destroy
   has_many :hp_stores, :dependent => :destroy
+
   has_one :hp_advertiser_image,  :as => :imageable, :dependent=>:destroy
+
   has_many :stores, :as => :storable, :dependent=>:destroy
   has_many :mcb_updates, :as => :alertable, :dependent => :destroy
   has_many :user_coupons, :as => :advertisable
