@@ -21,12 +21,12 @@ class Admins::HpStoresController < ApplicationController
 
   def create
     case params[:store_type]
-    when "browseable"
-      max_count = 8
-    when "top_dealers"
-      max_count = 6
-    when "favorite_stores"
-      max_count = 3
+      when "browseable"
+        max_count = 8
+      when "top_dealers"
+        max_count = 6
+      when "favorite_stores"
+        max_count = 3
     end
     if HpStore.send(params[:store_type]).count >= max_count
       flash[:alert] = "You can't  mark more than #{max_count} merchants"
@@ -88,12 +88,15 @@ class Admins::HpStoresController < ApplicationController
   def update_custom_store_logo
     @advertiser_store_image = HpAdvertiserImage.find(params[:id])
 
-
-    if @advertiser_store_image.update_attributes(params[:hp_advertiser_image])
-      flash[:notice] = "Store Image updated"
-    else
-      flash[:alert] = @advertiser_store_image.errors.full_messages
+    if @advertiser_store_image.imageable_type == 'LinkshareAdvertiser'
+      link_share = LinkshareAdvertiser.find @advertiser_store_image.imageable_id
+      link_share.update_attributes(:title=>params[:hp_advertiser_image][:title],:description=>params[:hp_advertiser_image][:description],:image=>params[:hp_advertiser_image][:hp_image])
     end
+    # if @advertiser_store_image.update_attributes(params[:hp_advertiser_image])
+    #   flash[:notice] = "Store Image updated"
+    # else
+    #   flash[:alert] = @advertiser_store_image.errors.full_messages
+    # end
     redirect_to admin_hp_stores_path(:type => params[:store_type])
   end
 

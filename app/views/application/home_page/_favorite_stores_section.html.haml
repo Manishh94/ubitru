@@ -4,18 +4,11 @@
       - unless @favorite_stores.blank?
         - @favorite_stores.compact.in_groups_of(3,false) do |group|
           - group.each do |advertiser|
-            - unless advertiser.hp_advertiser_image.nil?
-              .col-lg-4.col-md-4.col-sm-4.col-xs-12
-                .feture-sec{:style => "width:328px;height:381px;float:left;background-image: url('#{advertiser.hp_advertiser_image.hp_image.url(:medium)}');background-repeat: no-repeat;"}
-                  .logo-details{:style => "  height: 120px;width:328px;  position: absolute;bottom: 52px;color: #fff;padding: 5px;background-color: silver;opacity: 0.9;"}
-                    .logo-section{:style => "float:left;width:30%;"}
-                      %a{:href => "javascript:void(0);", :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img img-responsive fav_merchant", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}
-                        = image_tag(advertiser.hp_advertiser_image.hp_logo(:medium), :style => "height:100px;width:100px;")
-                    .details-section{:style => "float:left;width:70%;"}
-                      %span{:style => "float:left;width:100%;font-size:28px;font-weight:bold;"}
-                        = advertiser.hp_advertiser_image.title
-                      %span{:style => "float:left;width:100%;font-size:24px;font-weight:bolder;"}
-                        = advertiser.hp_advertiser_image.description
+            .col-lg-4.col-md-4.col-sm-4.col-xs-12
+              .feture-sec
+                %a{:href => "javascript:void(0);", :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img img-responsive fav_merchant", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}
+                  = image_tag(advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url, :title => advertiser.name)
+
 
 
 
