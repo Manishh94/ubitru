@@ -5,10 +5,18 @@
         - @favorite_stores.compact.in_groups_of(3,false) do |group|
           - group.each do |advertiser|
             .col-lg-4.col-md-4.col-sm-4.col-xs-12
-              .feture-sec
-                %a{:href => "javascript:void(0);", :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img img-responsive fav_merchant", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}
-                  = image_tag(advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url, :title => advertiser.name)
+              .feture-sec.ms-feature
+                %a{:href => "#"}
+                  .ms-info
+                    .row
+                      .col-xs-12
+                        %img.ms-info-img{:alt => "", :src => "#{advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url}",:id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img img-responsive fav_merchant",:onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}
+                          .ms-info-tx
+                            -if  advertiser.max_commission_percent?
+                              %h3= "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} off deals"
+                            -else
+                              =advertiser.hp_advertiser_image.title
+                            %p= "#{advertiser.hp_advertiser_image.description}"
 
-
-
-
+                  %a{:href => "javascript:void(0);", :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img img-responsive fav_merchant", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}
+                    = image_tag(advertiser.is_a?(LinkshareAdvertiser) ? advertiser.hp_advertiser_image.hp_image : advertiser.hp_advertiser_image.hp_image, :title => advertiser.name)

@@ -1,37 +1,35 @@
 - unless @all_top_deals.blank?
   %section
-    .part-10.text-center.bottom-padding
-      .container
-        .row
-          - @all_top_deals.each_with_index do |advertiser,i|
-            .col-lg-3.col-md-4.col-sm-6.col-xs-12
-              .boxs
-                - if advertiser.hp_advertiser_image.blank?
-                  = image_tag advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url, :title => advertiser.name, :id => "merchant_popup_#{advertiser.advertiser_id}", :style => "height: 157px",  :class => "image-responsive custom-link", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"
-                  = link_to "coupon_window", mm_prompt_cc_window_path(:ad => advertiser.advertiser_id, :type => advertiser.class.name, :offer_url => advertiser.advertiser_url), :style => "display:none;", :id => "merchant_c_window_#{advertiser.advertiser_id}"
+  .part-10.text-center.bottom-padding
+    .container
+      .row
+        - @all_top_deals.each_with_index do |advertiser,i|
+          .col-lg-3.col-md-4.col-sm-6.col-xs-12
+            .boxs
+              %img{:alt => "", :src => "#{advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url}", :style => "height:160px;",:title => advertiser.name, :id => "merchant_popup_#{advertiser.advertiser_id}",:class => "image-responsive custom-link", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}/
+              = link_to "coupon_window", mm_prompt_cc_window_path(:ad => advertiser.advertiser_id, :type => advertiser.class.name, :offer_url => advertiser.advertiser_url), :style => "display:none;", :id => "merchant_c_window_#{advertiser.advertiser_id}"
+
+
+              - coupon = advertiser.coupons.where(['expires_at IS NULL or expires_at >= ?', Date.today]).first
+              - coupon_description = coupon.description rescue nil
+              - coupon_description = '' if coupon_description.blank?
+
+              - couponcode = advertiser.coupons.where(['expires_at IS NULL or expires_at >= ?', Date.today]).first
+              - coupon_code = couponcode.code rescue nil
+              - if coupon_code.present?
+                - if coupon_description.length <= 40
+                  %h2
+                    = coupon_description
                 - else
-                  = image_tag advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url, :title => advertiser.name, :id => "merchant_popup_#{advertiser.advertiser_id}", :style => "height: 157px",  :class => "image-responsive custom-link", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"
-                  = link_to "coupon_window", mm_prompt_cc_window_path(:ad => advertiser.advertiser_id, :type => advertiser.class.name, :offer_url => advertiser.advertiser_url), :style => "display:none;", :id => "merchant_c_window_#{advertiser.advertiser_id}"
+                  %h2
+                    = "#{coupon_description[0..40]}..."
+              - else
+                - content = "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} Cash Back"
+                %h2{:style => "height:25px;"}
+                  = content
 
-                - coupon = advertiser.coupons.where(['expires_at IS NULL or expires_at >= ?', Date.today]).first
-                - coupon_description = coupon.description rescue nil
-                - coupon_description = '' if coupon_description.blank?
-
-                - couponcode = advertiser.coupons.where(['expires_at IS NULL or expires_at >= ?', Date.today]).first
-                - coupon_code = couponcode.code rescue nil
-                - if coupon_code.present?
-                  - if coupon_description.length <= 40
-                    %h2{:style => "height:25px;"}
-                      = coupon_description
-                  - else
-                    %h2{:style => "height:25px;"}
-                      = "#{coupon_description[0..40]}..."
-                - else
-                  - content = "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} Cash Back"
-                  %h2{:style => "height:25px;"}
-                    = content
-
-                %br
-                  %img{:alt => "SITE40", :src => "assets/site40.png", :style => "width:35%"}/
-                  %span.shop-now
-                    = link_to "SHOP NOW", advertiser.advertiser_url, :target => "_blank", :id => "merchant_popup_#{advertiser.advertiser_id}", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return true;"
+              -#%img{:alt => "", :src => "assets/bottom-orange-button.png", :style => "width:127px; height:34px"}/
+              %br/
+              %img{:alt => "SITE40", :src => "assets/site40.png", :style => "width:35%; height:54px"}/
+              %span
+                = link_to "SHOP NOW", advertiser.advertiser_url, :target => "_blank", :id => "merchant_popup_#{advertiser.advertiser_id}", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return true;"

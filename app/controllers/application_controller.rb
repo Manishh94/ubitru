@@ -44,6 +44,7 @@ class ApplicationController < ActionController::Base
     @favorite_stores = HpStore.added_stores("favorite_stores")
     @browse_stores = HpStore.added_stores("browseable")
     @all_top_deals = HpStore.added_stores("top_dealers")
+    
     #    @pcs = all_pc.flatten.compact
     #    @pc_hash = {}
     #    @pcs.each do |category|

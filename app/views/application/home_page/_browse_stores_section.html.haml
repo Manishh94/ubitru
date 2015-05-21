@@ -16,14 +16,17 @@
             - @browse_stores.compact.in_groups_of(4,false) do |group|
               - group.each do |advertiser|
                 .item.orange
-                  .image_box{:style => "width: 212px;height: 152px;text-align:center;border: 1px solid #e5e5e5;padding-left: 25px;padding-top: 50px;background-image: url('/assets/orange-ribbon.png');background-repeat: no-repeat;"}
-                    - if advertiser.hp_advertiser_image.blank?
-                      = image_tag advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url, :title => advertiser.name, :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img-responsive", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"
-                      = link_to "coupon_window", mm_prompt_cc_window_path(:ad => advertiser.advertiser_id, :type => advertiser.class.name, :offer_url => advertiser.advertiser_url), :style => "display:none;", :id => "merchant_c_window_#{advertiser.advertiser_id}"
-                    - else
-                      = link_to image_tag advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url, :title => advertiser.name, :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img-responsive", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"
-                      = link_to "coupon_window", mm_prompt_cc_window_path(:ad => advertiser.advertiser_id, :type => advertiser.class.name, :offer_url => advertiser.advertiser_url), :style => "display:none;", :id => "merchant_c_window_#{advertiser.advertiser_id}"
+                  .ribbon
+                    %span.ribbontext #{advertiser.hp_advertiser_image.title}
+                  %img{:alt => "", :src => "#{advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url}",:title => advertiser.name, :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img-responsive", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}/
+                  = link_to "coupon_window", mm_prompt_cc_window_path(:ad => advertiser.advertiser_id, :type => advertiser.class.name, :offer_url => advertiser.advertiser_url), :style => "display:none;", :id => "merchant_c_window_#{advertiser.advertiser_id}"
                   %p= "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} off deals"
+
+
+
+
+
+
 
 
 :css
@@ -126,7 +129,7 @@
     }
 
     $("#owl-demo").owlCarousel({
-      autoPlay: 300000
+      autoPlay: 3000
     });
 
   });
