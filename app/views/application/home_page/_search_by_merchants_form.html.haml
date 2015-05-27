@@ -3,63 +3,8 @@
     .col-lg-12.col-md-12.col-sm-12.col-xs-12.text-center
       .container
         = form_tag('/hp_mm_box_merchants_search', :method => "post", :id => "sbm_search_bar", :class => "search-form navbar-form") do
-          = text_field_tag :search_by_merchants,params[:search_by_merchants], :placeholder => "Macy's, JCPenney, Target...", :autocomplete => "off", :class => "search rb_medium", :id => "search"
-          %input{:autocomplete => "off", :class => "search reb_medium",:style => "font-size: 18pt; font-family: Roboto-Regular;color:grey;", :size => "10", :id => "autocomplete", :disabled => "disabled"}
+          = autocomplete_field_tag 'search_by_merchants', params[:search_by_merchants], '/search/autocomplete_muddleme_search', :size => 75, :placeholder => "Macy's, JCPenney, Target...", :autocomplete => "off", :class => "search rb_medium", :id => "search"
+
           %a{:href => "javascript:;", :onclick => "$('#sbm_search_bar').submit();"} SEARCH
           %h1 Coupons and Cash Back from your Favorite Stores
-
-
-:css
-  #search{
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 11;
-    background: transparent;
-    height: 60px;
-  }
-  #autocomplete{
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    background: transparent;
-    z-index: 10;
-    border: 0px;
-    height: 60px;
-  }
-
-:javascript
-
-  $(document).ready(function () {
-
-    $.ajax({
-    maxResults: 10,
-    url: "/muddleme-search",
-    success: function(Array){
-        console.log(Array);
-        var array2 = $.map(Array, function(n,i){return n.toLowerCase();});
-        $("#search").keyup(function(e){
-          value = $("#search").val();
-          if(value == ""){
-            $("#autocomplete").val("");
-            return;
-          }
-          new_value = value.toLowerCase();
-          $("#autocomplete").val(value);
-          for(i = 0; i< array2.length; i++){
-            if(array2[i].lastIndexOf(new_value, 0) === 0){
-              if(e.keyCode == 39){
-                $("#search").val(array2[i])
-              }
-              str_after = array2[i].substr(new_value.length, array2[i].length);
-              new_str = value + str_after
-              $("#autocomplete").val(new_str);
-              return;
-            }
-          }
-        });
-      }
-    });
-  });
-
 

@@ -470,15 +470,15 @@ class SearchController < ApplicationController
   end
 
   def hp_merchants_search
-     @results = []
-     search = params[:search_by_merchants].strip
-     search = search
-     # .downcase.gsub(/[!@%'s'S&-,";]/,'')
-     begin
+    @results = []
+    search = params[:search_by_merchants].strip
+    search = search
+    # .downcase.gsub(/[!@%'s'S&-,";]/,'')
+    begin
       if current_user.present?
         search_intent = Search::Intent.find_or_create_by_search_and_user_id_and_search_date(search, current_user.id, Date.today)
-     else
-       search_intent = Search::Intent.find_or_create_by_search_and_search_date(search, Date.today)
+      else
+        search_intent = Search::Intent.find_or_create_by_search_and_search_date(search, Date.today)
        
       end
     rescue ActiveRecord::RecordNotUnique
@@ -553,6 +553,7 @@ class SearchController < ApplicationController
     end
     render :layout => "new_application"
   end
+  
   def hp_pc_merchants
     category = ProductCategory.find_by_id(params[:pcid])
     @advertisers = category.cj_advertisers.limit(5) + category.avant_advertisers.limit(5) + category.linkshare_advertisers.limit(5) + category.pj_advertisers.limit(5) + category.ir_advertisers.limit(5)
@@ -607,16 +608,16 @@ class SearchController < ApplicationController
     store_link = ''
     if advertiser.present? && advertiser_type.present?
       case advertiser_type
-        when 'IrAdvertiser' then
-          store_link = advertiser.params['AdvertiserUrl'] if advertiser.params.present?
-        when 'LinkshareAdvertiser' then
-          store_link = advertiser.website
-        when 'CjAdvertiser' then
-          store_link = advertiser.params['program_url'] if advertiser.params.present?
-        when 'AvantAdvertiser' then
-          store_link = advertiser.advertiser_url
-        when 'PjAdvertiser' then
-          store_link = advertiser.params['website'] if advertiser.params.present?
+      when 'IrAdvertiser' then
+        store_link = advertiser.params['AdvertiserUrl'] if advertiser.params.present?
+      when 'LinkshareAdvertiser' then
+        store_link = advertiser.website
+      when 'CjAdvertiser' then
+        store_link = advertiser.params['program_url'] if advertiser.params.present?
+      when 'AvantAdvertiser' then
+        store_link = advertiser.advertiser_url
+      when 'PjAdvertiser' then
+        store_link = advertiser.params['website'] if advertiser.params.present?
       end
     end
     store_link
@@ -761,99 +762,99 @@ class SearchController < ApplicationController
 
   def linkshare_mapping
     @api_map = {
-        17 => ['Business & Career',
-               {150 => 'B-to-B',
-                151 => 'Employment',
-                152 => 'Real Estate'}],
-        18 => ['Department Store',
-               {153 => 'Clothing',
-                154 => 'Gifts',
-                155 => 'Home',
-                247 => 'Jewelry'}],
-        19 => ['Family',
-               {156 => 'Baby',
-                157 => 'Education',
-                158 => 'Entertainment',
-                159 => 'Pets'}],
-        21 => ['Telecommunications',
-               {211 => 'Equipment',
-                212 => 'Long Distance',
-                213 => 'Wireless'}],
-        1 => ['Hobbies & Collectibles',
-              {101 => 'Art',
-               102 => 'Auctions',
-               103 => 'Collectibles'}],
-        2 => ['Auto',
-              {104 => 'Accessories',
-               105 => 'Cars',
-               106 => 'Rentals'}],
-        3 => ['Clothing & Accessories',
-              {207 => 'Children',
-               107 => 'Accessories',
-               108 => 'Men',
-               109 => 'Women',
-               246 => 'Jewelry'}],
-        4 => ['Computer & Electronics',
-              {110 => 'Hardware',
-               111 => 'Consumer',
-               112 => 'Software'}],
-        5 => ['Entertainment',
-              {113 => 'Books/Magazines',
-               114 => 'Music',
-               115 => 'Videos'}],
-        6 => ['Financial Services',
-              {116 => 'Banking/Trading',
-               117 => 'Credit Cards',
-               118 => 'Loans'}],
-        7 => ['Food & Drink',
-              {218 => 'Candy',
-               119 => 'Cigars',
-               120 => 'Gourmet',
-               121 => 'Wine'}],
-        8 => ['Games & Toys',
-              {122 => 'Children',
-               123 => 'Educational',
-               124 => 'Electronic'}],
-        9 => ['Gift & Flowers',
-              {125 => 'Gifts',
-               126 => 'Flowers',
-               127 => 'Greeting Cards'}],
-        10 => ['Health & Beauty',
-               {229 => 'Prescription',
-                128 => 'Bath/Body',
-                129 => 'Cosmetics',
-                130 => 'Vitamins',
-                11248 => 'Medical Supplies & Services'}],
-        11 => ['Home & Living',
-               {232 => 'Improvement',
-                131 => 'Bed/Bath',
-                132 => 'Garden',
-                133 => 'Kitchen'}],
-        12 => ['Mature/Adult',
-               {134 => 'Apparel',
-                135 => 'Books',
-                136 => 'Entertainment'}],
-        13 => ['Office',
-               {137 => 'Equipment',
-                138 => 'Home Office',
-                139 => 'Supplies'}],
-        14 => ['Sports & Fitness',
-               {140 => 'Clothing',
-                141 => 'Collectibles',
-                142 => 'Equipment'}],
-        15 => ['Travel',
-               {245 => 'Vacations',
-                143 => 'Airline',
-                144 => 'Car',
-                145 => 'Hotel'}],
-        16 => ['Internet & Online',
-               {149 => 'Programs',
-                146 => 'Services',
-                147 => 'Development',
-                148 => 'Hosting',
-                16249 => 'Online Dating'}],
-        20 => ['Miscellaneous',
-               {210 => 'Other, Other Products/Services'}]}.sort_by { |key, val| key }
+      17 => ['Business & Career',
+        {150 => 'B-to-B',
+          151 => 'Employment',
+          152 => 'Real Estate'}],
+      18 => ['Department Store',
+        {153 => 'Clothing',
+          154 => 'Gifts',
+          155 => 'Home',
+          247 => 'Jewelry'}],
+      19 => ['Family',
+        {156 => 'Baby',
+          157 => 'Education',
+          158 => 'Entertainment',
+          159 => 'Pets'}],
+      21 => ['Telecommunications',
+        {211 => 'Equipment',
+          212 => 'Long Distance',
+          213 => 'Wireless'}],
+      1 => ['Hobbies & Collectibles',
+        {101 => 'Art',
+          102 => 'Auctions',
+          103 => 'Collectibles'}],
+      2 => ['Auto',
+        {104 => 'Accessories',
+          105 => 'Cars',
+          106 => 'Rentals'}],
+      3 => ['Clothing & Accessories',
+        {207 => 'Children',
+          107 => 'Accessories',
+          108 => 'Men',
+          109 => 'Women',
+          246 => 'Jewelry'}],
+      4 => ['Computer & Electronics',
+        {110 => 'Hardware',
+          111 => 'Consumer',
+          112 => 'Software'}],
+      5 => ['Entertainment',
+        {113 => 'Books/Magazines',
+          114 => 'Music',
+          115 => 'Videos'}],
+      6 => ['Financial Services',
+        {116 => 'Banking/Trading',
+          117 => 'Credit Cards',
+          118 => 'Loans'}],
+      7 => ['Food & Drink',
+        {218 => 'Candy',
+          119 => 'Cigars',
+          120 => 'Gourmet',
+          121 => 'Wine'}],
+      8 => ['Games & Toys',
+        {122 => 'Children',
+          123 => 'Educational',
+          124 => 'Electronic'}],
+      9 => ['Gift & Flowers',
+        {125 => 'Gifts',
+          126 => 'Flowers',
+          127 => 'Greeting Cards'}],
+      10 => ['Health & Beauty',
+        {229 => 'Prescription',
+          128 => 'Bath/Body',
+          129 => 'Cosmetics',
+          130 => 'Vitamins',
+          11248 => 'Medical Supplies & Services'}],
+      11 => ['Home & Living',
+        {232 => 'Improvement',
+          131 => 'Bed/Bath',
+          132 => 'Garden',
+          133 => 'Kitchen'}],
+      12 => ['Mature/Adult',
+        {134 => 'Apparel',
+          135 => 'Books',
+          136 => 'Entertainment'}],
+      13 => ['Office',
+        {137 => 'Equipment',
+          138 => 'Home Office',
+          139 => 'Supplies'}],
+      14 => ['Sports & Fitness',
+        {140 => 'Clothing',
+          141 => 'Collectibles',
+          142 => 'Equipment'}],
+      15 => ['Travel',
+        {245 => 'Vacations',
+          143 => 'Airline',
+          144 => 'Car',
+          145 => 'Hotel'}],
+      16 => ['Internet & Online',
+        {149 => 'Programs',
+          146 => 'Services',
+          147 => 'Development',
+          148 => 'Hosting',
+          16249 => 'Online Dating'}],
+      20 => ['Miscellaneous',
+        {210 => 'Other, Other Products/Services'}]}.sort_by { |key, val| key }
 
     @advertisers = LinkshareAdvertiser.where('inactive != 1').order('name asc').all.to_a
     @advertisers.each do |adv|
@@ -979,10 +980,10 @@ class SearchController < ApplicationController
           final_merchants << merchant if user_update.blank?
         end
 
-       # Creating a update and sending email update.
+        # Creating a update and sending email update.
         if !final_merchants.blank?
-           final_merchants.map{|m| m.mcb_updates.create({ :user_id => current_user.id, :alert_date => Date.today.strftime('%Y-%m-%d')})}
-           SearchMailer.coupons_available_near_user(final_merchants, current_user).deliver
+          final_merchants.map{|m| m.mcb_updates.create({ :user_id => current_user.id, :alert_date => Date.today.strftime('%Y-%m-%d')})}
+          SearchMailer.coupons_available_near_user(final_merchants, current_user).deliver
         end
         render :json => merchants and return
 
@@ -1016,13 +1017,12 @@ class SearchController < ApplicationController
     (spots.blank?) ? [] : spots.collect { |spot| spot.name }.uniq
   end
 
-  def muddleme_search
-
-    avant = AvantAdvertiser.all.map(&:name)
-    cj = CjAdvertiser.all.map(&:name)
-    linkshare = LinkshareAdvertiser.all.map(&:name)
-    pj = PjAdvertiser.all.map(&:name)
-    ir = IrAdvertiser.all.map(&:name)
+  def autocomplete_muddleme_search
+    avant = AvantAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term]}%").limit(10).map(&:name)
+    cj = CjAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term]}%").map(&:name)
+    linkshare = LinkshareAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term]}%").map(&:name)
+    pj = PjAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term]}%").map(&:name)
+    ir = IrAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term]}%").map(&:name)
 
     arr = avant + cj + linkshare + pj + ir
     arr = arr.map{|m| m.gsub(".com","")}

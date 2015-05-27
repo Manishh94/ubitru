@@ -4,7 +4,7 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 //
-//= require jquery-1-11-1.min
+//= require jquery
 //= require jquery_ujs
 //= require jquery-ui
 //= require jquery-ui-timepicker-addon
@@ -32,6 +32,7 @@
 //= require constants.js
 //= require jquery.inview.min.js
 //= require owl.carousel.min.js
+//= require autocomplete-rails
 
 
 console.log("in appllicaiton");

@@ -94,6 +94,7 @@ gem 'foursquare2'
 gem 'twilio-ruby'
 gem 'orm_adapter'
 #gem 'elasticsearch'
+gem 'rails3-jquery-autocomplete'
 
 group :development, :test do
   gem 'thin'
