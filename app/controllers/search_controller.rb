@@ -1018,12 +1018,11 @@ class SearchController < ApplicationController
   end
 
   def autocomplete_muddleme_search
-    avant = AvantAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term]}%").limit(10).map(&:name)
-    cj = CjAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term]}%").map(&:name)
-    linkshare = LinkshareAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term]}%").map(&:name)
-    pj = PjAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term]}%").map(&:name)
-    ir = IrAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term]}%").map(&:name)
-
+    avant = AvantAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term].downcase}%").limit(10).map(&:name)
+    cj = CjAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term].downcase}%").map(&:name)
+    linkshare = LinkshareAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term].downcase}%").map(&:name)
+    pj = PjAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term].downcase}%").map(&:name)
+    ir = IrAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term].downcase}%").map(&:name)
     arr = avant + cj + linkshare + pj + ir
     arr = arr.map{|m| m.gsub(".com","")}
     render :json => arr
