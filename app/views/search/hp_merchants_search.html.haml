@@ -1,6 +1,6 @@
 = render "/application/home_page/search_by_merchants_form"
 %section.deals-area
-  .container-fuild
+  .container-fluid
     .row
       .search-result-title
         .large-search-results-label Search Results -
@@ -12,7 +12,7 @@
           - if @results.count < 3
             %div.results.col-md-12
               - @results.each_with_index do |result, index|
-       
+
                 .col-md-4.col-sm-6.padding-left-0{:style => "margin-left: 30%;float:none !important;"}
                   = render "/search/deals_section_new", :result => result, :index => index
             %div.similar-merchants.col-md-12{:style => "border: 1px solid; padding: 5px;"}
@@ -40,7 +40,7 @@
             -@product_results_avant.each do |product|
               = render "/search/keyword_search", :product => product
 
-                      
+
       - else
         %h1 
           Opps this is Embarrassing! 
@@ -59,10 +59,10 @@
               %input{:type => "text"}
             %div
               %input{:type => "submit"}  
-        
+
 
 
       .search-results-back-section
         = image_tag('second-pattern-line.png', :class => 'search-results-bottom-line-img')
-        = link_to 'BACK', root_path, :class => 'back-from-search pull-right btn roboto-bold'
+        = link_to 'BACK', root_path, :class => 'back-from-search pull-right btn robot-bold'
         = link_to 'SEARCH AGAIN', hp_mm_box_merchants_search_url(:search_by_merchants => params[:search_by_merchants]), :class => 'btn btn-primary-custom pull-right roboto-bold search-again-merchants', :method => :post
