@@ -55,6 +55,7 @@ MuddleMe::Application.routes.draw do
   get '/enable-ie' => 'application#enable_ie'
   get '/enable-safari' => 'application#enable_safari'
   get '/search/autocomplete_muddleme_search' => "search#autocomplete_muddleme_search"
+  get '/search/autocomplete_service_search' => "search#autocomplete_service_search"
 
   # ======== mm box web app routes =============
   # ======== backend routes =============

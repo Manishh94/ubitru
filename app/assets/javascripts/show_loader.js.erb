@@ -394,11 +394,12 @@ error_messages = error_messages + "* Please provide a search keyword to find ser
 console.log(error);
 if (!error) {
 $('#sbs-form-errors').html('');
+alert('x');
 $("#sbs_subBtn").trigger("click");
 }
 else{
 $('#sbs-form-errors').html(error_messages);
-//reportError(error_messages);
+reportError(error_messages);
 }
 return false;
 });

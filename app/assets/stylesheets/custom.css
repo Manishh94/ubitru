@@ -1,0 +1,25 @@
+.part-2 input[type="submit"], .part-7 input[type="submit"]{
+  background: none repeat scroll 0 0 #ff6600;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "RobotoSlab-Regular";
+  font-size: 18px;
+  margin-left: -5px;
+  padding: 21px 30px 19px;
+  transition: all 0.5s ease 0s;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.part-2 input[type="submit"]:hover {
+  color:#f6f6f6;
+  background:#1B1B1B;
+  text-decoration:none;
+}
+
+@media screen and (max-width: 445px) {
+  .part-2 input[type="submit"], .part-7 input[type="submit"] {
+    font-family: "RobotoSlab-Regular";
+    padding: 8px 18px 8px;
+    font-size: 16px;
+  }
+}

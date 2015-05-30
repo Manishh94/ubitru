@@ -53,7 +53,5 @@
               %i.fa.fa-lock
               %span{:style => "margin-right:15px;"} Balance:
               %span.dollars{:style => "color:#9dc700 !important;"}= format_currency(current_user.total_balance || 0)
-            = link_to 'Sign out', destroy_user_session_path, :method=>'delete', :id=>'logout-link',:style => "color:#f6f6f6;margin-right:5px;" do
-              %i.fa.fa-lock
-              %span Sign out
+            = link_to raw("<i class='fa fa-lock'/><span>Sign out</span>"), destroy_user_session_path, :method=>'delete', :id=>'logout-link',:style => "color:#f6f6f6;margin-right:5px;"
 

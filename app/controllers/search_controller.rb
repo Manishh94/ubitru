@@ -1028,4 +1028,10 @@ class SearchController < ApplicationController
     arr = arr.map{|m| m.gsub(".com","")}
     render :json => arr
   end
+  
+  def autocomplete_service_search
+    service_categories = ServiceCategory.where("LOWER(name) LIKE ?", "#{params[:term]}%").limit(10).map(&:name)
+    render :json => service_categories
+  end
+
 end
