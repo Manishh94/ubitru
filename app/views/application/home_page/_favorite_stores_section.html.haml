@@ -15,7 +15,7 @@
                             -if advertiser.hp_advertiser_image.title.blank?
                               %h3= "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} CASH BACK"
                             -else
-                              =advertiser.hp_advertiser_image.title
+                              %h3= advertiser.hp_advertiser_image.title
 
                             %p= "#{advertiser.hp_advertiser_image.description}"
 
