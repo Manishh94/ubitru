@@ -24,10 +24,10 @@
         %td
           - if adv.advertiser.hp_advertiser_image.blank?
             %span.txt
-              %span= link_to 'Add Store Logo', add_custom_store_logo_admin_hp_stores_path(:adv_id => (adv.advertiser.class.name == "CustomAdvertiser") ? adv.advertiser.id : adv.advertiser.advertiser_id, :adv_type => adv.advertiser.class.name, :store_type => params[:type])
+              %span= link_to 'Add Merchant Image', add_custom_store_logo_admin_hp_stores_path(:adv_id => (adv.advertiser.class.name == "CustomAdvertiser") ? adv.advertiser.id : adv.advertiser.advertiser_id, :adv_type => adv.advertiser.class.name, :store_type => params[:type])
           - else
             %span.txt
-              %span= link_to 'Edit Store Logo', edit_custom_store_logo_admin_hp_stores_path(:hpai => adv.advertiser.hp_advertiser_image.id, :store_type => params[:type])
+              %span= link_to 'Edit Merchant Image', edit_custom_store_logo_admin_hp_stores_path(:hpai => adv.advertiser.hp_advertiser_image.id, :store_type => params[:type])
       %td
         %span.txt
           %span= link_to 'Delete', admin_hp_store_path(adv, :type => params[:type]), :method => "delete", :confirm => 'Are you sure?'
