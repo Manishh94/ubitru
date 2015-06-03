@@ -12,7 +12,7 @@
                       .col-xs-12
                         %img.ms-info-img{:alt => "", :src => "#{advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url}",:id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img img-responsive fav_merchant",:onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}
                           .ms-info-tx
-                            -if  advertiser.max_commission_percent?
+                            -if advertiser.hp_advertiser_image.title.blank?
                               %h3= "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} CASH BACK"
                             -else
                               =advertiser.hp_advertiser_image.title
