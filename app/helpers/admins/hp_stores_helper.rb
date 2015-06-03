@@ -3,11 +3,11 @@ module Admins::HpStoresHelper
   def stores_page_name(type)
     case type
       when "browseable"
-        name = "Home Page Browseable Stores"
+        name = "Browseable Stores"
       when "top_dealers"
-        name = "Home Page Top Dealers"
+        name = "Top Dealers"
       when "favorite_stores"
-        name = "Home Page Favorite Stores"
+        name = "Favorite Stores"
     end
     return name
   end
