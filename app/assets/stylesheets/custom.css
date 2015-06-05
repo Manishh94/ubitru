@@ -23,3 +23,17 @@
     font-size: 16px;
   }
 }
+
+.orange-dynamic{
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-position:right center;
+  width:auto; height:160px;
+}
+
+.coupon-dynamic{
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-position:right center;
+  width:35%; height:54px;
+}
