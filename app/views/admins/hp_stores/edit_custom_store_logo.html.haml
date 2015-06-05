@@ -3,7 +3,7 @@
 - content_for :main_column do
   %section.default-content
     = simple_form_for @advertiser_store_image, :html => { :multipart => true }, :url => update_custom_store_logo_admin_hp_stores_path, :method => "put" do |f|
-      -if params[:store_type] != "browseable"
+      -if params[:store_type] != "browseable" and params[:store_type] != "top_dealers"
         %p Merchant Image
         =image_tag @advertiser_store_image.hp_image, :style => "width: 150px; height: 150px;"
 
