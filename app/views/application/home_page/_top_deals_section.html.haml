@@ -46,16 +46,6 @@
               %span
                 %h2{:style => "height:42px;"}
                   = advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.description
-              %span.orange-dynamic
-                - if coupon_code.present?
-                  - if coupon_description.length <= 40
-                    = coupon_description
-                  - else
-                    = "#{coupon_description[0..40]}..."
-                - else
-                  - content = "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} Cash Back"
-                  = content
-
 
               %br
               %span.coupon-dynamic
