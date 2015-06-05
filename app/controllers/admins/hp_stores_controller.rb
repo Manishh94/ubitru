@@ -24,7 +24,7 @@ class Admins::HpStoresController < ApplicationController
       when "browseable"
         max_count = 8
       when "top_dealers"
-        max_count = 6
+        max_count = 8
       when "favorite_stores"
         max_count = 3
     end
