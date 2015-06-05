@@ -21,12 +21,12 @@ class Admins::HpStoresController < ApplicationController
 
   def create
     case params[:store_type]
-      when "browseable"
-        max_count = 8
-      when "top_dealers"
-        max_count = 8
-      when "favorite_stores"
-        max_count = 3
+    when "browseable"
+      max_count = 8
+    when "top_dealers"
+      max_count = 8
+    when "favorite_stores"
+      max_count = 3
     end
     if HpStore.send(params[:store_type]).count >= max_count
       flash[:alert] = "You can't  mark more than #{max_count} merchants"
@@ -64,6 +64,16 @@ class Admins::HpStoresController < ApplicationController
   end
 
   def add_custom_store_logo
+    if params[:store_type] == "top_dealers"
+      if params[:adv_type] == "CustomAdvertiser"
+        @advertiser = params[:adv_type].constantize.where("id = (?)", params[:adv_id]).first
+      else
+        @advertiser = params[:adv_type].constantize.where("advertiser_id = (?)", params[:adv_id]).first
+      end
+      @advertiser_store_image = @advertiser.build_hp_advertiser_image()
+      @advertiser_store_image.save!
+      render :action => "edit_custom_store_logo"
+    end
   end
 
   def edit_custom_store_logo
