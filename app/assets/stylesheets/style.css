@@ -125,9 +125,9 @@ body {
 .part-3 img{
 	width:100%;
 }
-/*.part-3 a:hover {
+.part-3 a:hover {
 	box-shadow:100px 100px 500px #FE6600;
-}*/
+}
 
 /* part-4 */
 
@@ -161,7 +161,7 @@ body {
   display: inline-block;
   font-family: Open Sans;
   font-size: 19px;
-  padding: 8px 10px;
+  padding: 8px 38px;
 }
 /* part-6 */
 
@@ -673,11 +673,43 @@ body {
 
 #owl-demo .owl-item .item{position: relative; padding-left: 10px; padding-right: 10px;}
 #owl-demo .owl-item .item .ribbon{position: absolute; top: 25px; left: 5px; background: url("robbion.png") no-repeat center; width: 94px; height: 95px;}
-#owl-demo .owl-item .item .ribbon span.ribbontext {  color: #ffffff;  display: block;  font-size: 12px;  font-weight: bold;  left: -11px;  position: absolute;  top: 24px;  -ms-transform: rotate(-45deg);  -webkit-transform: rotate(-45deg);  transform: rotate(-45deg);  width: 100%;  }
+#owl-demo .owl-item .item .ribbon span.ribbontext {  color: #ffffff;  display: block;  font-size: 13px;  font-weight: bold;  left: -11px;  position: absolute;  top: 25px;  -ms-transform: rotate(-45deg);  -webkit-transform: rotate(-45deg);  transform: rotate(-45deg);  width: 100%;  }
 
 #owl-demo .owl-item .item .ms-imgwrapper {  box-shadow: 1px -1px 4px rgba(78, 78, 78, 0.8);  margin: 0;  padding-bottom: 22px;  padding-top: 58px;  width: 100%; }
 #owl-demo .owl-item .item .ms-imgwrapper img{max-width: 100%; max-height: 50px;}
 #owl-demo .owl-item .item p{width:  100%;}
+
+.ms-discounttxt{
+    width: 139px;
+    height: 37px;
+    background: url('button_bg.png') no-repeat center;
+    margin: 10px auto;
+    line-height: 33px;
+    color: #fff;
+}
+.btm-button{
+padding: 0 15px;
+}
+.btm-button .btm-button-st{
+    width: 104px;
+    height: 49px;
+    display: inline-block;
+    background: url('site40-bg.png') no-repeat center transparent;
+    color: #333231;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 39px;
+}
+
+.btm-button .btm-button-st:hover{
+    opacity: 0.8;
+    color: #333231;
+    background: url('site40-bg.png') no-repeat center transparent;
+    text-decoration: none;
+}
+.btm-button>a{margin-top: 5px; margin-bottom: 15px;}
+
 @media (max-width: 991px) {
     .feture-sec.ms-feature .ms-info .ms-info-tx p{margin: 0; display: none;}
     .feture-sec.ms-feature .ms-info .ms-info-img{  width: 50px;  height: 50px;  }

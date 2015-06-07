@@ -18,15 +18,17 @@
               - couponcode = advertiser.coupons.where(['expires_at IS NULL or expires_at >= ?', Date.today]).first
               - coupon_code = couponcode.code rescue nil
 
-              %span
-                %h2{:style => "height:42px;"}
-                  = advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.description
+              %h2{:style => "height:42px;"}
+                = advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.description
 
-              %br
-              %span.coupon-dynamic
-                = advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.title
-              %span
+              .ms-discounttxt
+                = "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} Cash Back"
+
+              .btm-button
+                %a{:href=>"javascript:;", :class => "btm-button-st"}
+                  = advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.title
                 = link_to "SHOP NOW", advertiser.advertiser_url, :target => "_blank", :id => "merchant_popup_#{advertiser.advertiser_id}", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return true;"
+                                            
       .row
         - @all_top_deals[4..8].each_with_index do |advertiser,i|
           .col-lg-3.col-md-4.col-sm-6.col-xs-12
@@ -43,12 +45,13 @@
               - couponcode = advertiser.coupons.where(['expires_at IS NULL or expires_at >= ?', Date.today]).first
               - coupon_code = couponcode.code rescue nil
 
-              %span
-                %h2{:style => "height:42px;"}
-                  = advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.description
+              %h2{:style => "height:42px;"}
+                = advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.description
 
-              %br
-              %span.coupon-dynamic
-                = advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.title
-              %span
+              .ms-discounttxt
+                = "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} Cash Back"
+
+              .btm-button
+                %a{:href=>"javascript:;", :class => "btm-button-st"}
+                  = advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.title
                 = link_to "SHOP NOW", advertiser.advertiser_url, :target => "_blank", :id => "merchant_popup_#{advertiser.advertiser_id}", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return true;"
