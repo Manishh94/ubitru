@@ -4,7 +4,7 @@
       .col-lg-2.col-md-2.col-sm-12.col-xs12.pull-left
         %a{:href => "/profiles"}
           = image_tag("logo_new.png", :id => "logo", :class => "image-responsive")
-      .col-lg-8.col-md-7.text-center
+      .col-lg-7.col-md-7.text-center
         %ul.top-menu
           %li
             %a{:href => "/"} Home
@@ -39,7 +39,7 @@
             %li
               %a{:href => 'http://muddleme.blog.com', :target => 'blank'} Blog
       / responsive-menu
-      .col-lg-2.col-md-3.pull-right.login-sec{:style => "color:#f6f6f6;font-family:'RobotoSlab-Regular';margin-top:1%;"}
+      .col-lg-3.col-md-3.pull-right.login-sec{:style => "color:#f6f6f6;font-family:'RobotoSlab-Regular';margin-top:1%;"}
         .pull-right
           - if current_user.blank?
             %a{:href => "/login", :style => "color:#f6f6f6;margin-right:5px;"}
@@ -53,5 +53,5 @@
               %i.fa.fa-lock
               %span{:style => "margin-right:15px;"} Balance:
               %span.dollars{:style => "color:#9dc700 !important;"}= format_currency(current_user.total_balance || 0)
-            = link_to raw("<i class='fa fa-lock'/><span>Sign out</span>"), destroy_user_session_path, :method=>'delete', :id=>'logout-link',:style => "color:#f6f6f6;margin-right:5px;"
+            = link_to raw("<span>Sign out</span>"), destroy_user_session_path, :method=>'delete', :id=>'logout-link',:style => "color:#f6f6f6;margin-right:5px;"
 
