@@ -1,3 +1,12 @@
+.btm-button .btm-button-st{
+  width: 138px !important;
+  font-size: 12px !important;
+}
+
+.part-10 a {
+  padding: 10px 3px !important;
+}
+
 .part-2 input[type="submit"], .part-7 input[type="submit"]{
   background: none repeat scroll 0 0 #ff6600;
   border-radius: 4px;
@@ -24,16 +33,4 @@
   }
 }
 
-.orange-dynamic{
-  background-image: url('');
-  background-repeat: no-repeat;
-  background-position:right center;
-  width:auto; height:160px;
-}
 
-.coupon-dynamic{
-  background-image: url('');
-  background-repeat: no-repeat;
-  background-position:right center;
-  width:35%; height:54px;
-}
