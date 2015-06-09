@@ -687,9 +687,47 @@ body {
     line-height: 33px;
     color: #fff;
 }
-.btm-button{
-padding: 0 15px;
+
+.btm-button-ul{padding: 0; margin: 0; list-style: none; white-space: nowrap; text-align: center;}
+.btm-button-ul li{display: inline-block; max-width: 50%;white-space: nowrap;}
+.btm-button-ul li a{display: inline-block; max-width: 100%; white-space: nowrap; /*overflow: hidden; */text-overflow: ellipsis; padding: 10px; margin: 10px 0;}
+.btm-button-ul li:first-child{padding-right: 10px;}
+.btm-button-ul li a span{display: block; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;float: left;}
+
+
+.btm-button-ul li a.btm-button-st{
+    height: 49px;
+    display: inline-block;
+    background: url('btn-bg.png') repeat-x top center transparent;
+    color: #333231;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 39px;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+.btm-button-ul li a.btm-button-st:before{
+    position: absolute;
+    content: "";
+    left: -12px;
+    top: 0;
+    height: 49px;
+    width: 48px;
+    background: url('btn-left.png') no-repeat center transparent;
+}
+.btm-button-ul li a.btm-button-st:after{
+    position: absolute;
+    content: "";
+    right: -8px;
+    top: 0;
+    height: 49px;
+    width: 30px;
+    background: url('btn-right.png') no-repeat center transparent;
+}
+.btm-button-ul li a.btm-button-st:hover{ opacity: 0.8;color: #333231;text-decoration: none;}
+
+.btm-button{padding: 0 15px;}
 .btm-button .btm-button-st{
     width: 104px;
     height: 49px;
@@ -729,7 +767,7 @@ padding: 0 15px;
 
 
 /* MEDIA-QUERY */
-}@media screen and (min-device-width: 1200px) and (max-device-width: 1920px){
+@media screen and (min-device-width: 1200px) and (max-device-width: 1920px){
     .header-area ul {
       list-style: outside none none;
       margin-left: 8%;

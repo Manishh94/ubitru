@@ -24,10 +24,12 @@
               .ms-discounttxt
                 = "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} Cash Back"
 
-              .btm-button
-                %a{:href=>"javascript:;", :class => "btm-button-st"}
-                  = advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.title
-                = link_to "SHOP NOW", advertiser.advertiser_url, :target => "_blank", :id => "merchant_popup_#{advertiser.advertiser_id}", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return true;"
+              %ul.btm-button-ul
+                %li
+                  = link_to raw("<span>#{advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.title}</span>"), "javascript:;", :class => "btm-button-st"
+                %li
+                  = link_to raw("<span>SHOP NOW</span>"), advertiser.advertiser_url, :target => "_blank", :id => "merchant_popup_#{advertiser.advertiser_id}", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return true;"
+                
                                             
       .row
         - @all_top_deals[4..8].each_with_index do |advertiser,i|
@@ -51,7 +53,8 @@
               .ms-discounttxt
                 = "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} Cash Back"
 
-              .btm-button
-                %a{:href=>"javascript:;", :class => "btm-button-st"}
-                  = advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.title
-                = link_to "SHOP NOW", advertiser.advertiser_url, :target => "_blank", :id => "merchant_popup_#{advertiser.advertiser_id}", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return true;"
+              %ul.btm-button-ul
+                %li
+                  = link_to raw("<span>#{advertiser.hp_advertiser_image.nil? ? '' : advertiser.hp_advertiser_image.title}</span>"), "javascript:;", :class => "btm-button-st"
+                %li
+                  = link_to raw("<span>SHOP NOW</span>"), advertiser.advertiser_url, :target => "_blank", :id => "merchant_popup_#{advertiser.advertiser_id}", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return true;"
