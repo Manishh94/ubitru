@@ -64,7 +64,7 @@ class Admins::HpStoresController < ApplicationController
   end
 
   def add_custom_store_logo
-    if params[:store_type] == "top_dealers"
+    if params[:store_type] == "top_dealers" or params[:store_type] == "browseable"
       if params[:adv_type] == "CustomAdvertiser"
         @advertiser = params[:adv_type].constantize.where("id = (?)", params[:adv_id]).first
       else
