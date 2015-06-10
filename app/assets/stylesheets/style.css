@@ -670,7 +670,6 @@ body {
 }
 .feture-sec.ms-feature .ms-info .ms-info-tx p{margin: 0;}
 
-
 #owl-demo .owl-item .item{position: relative; padding-left: 10px; padding-right: 10px;}
 #owl-demo .owl-item .item .ribbon{position: absolute; top: 25px; left: 5px; background: url("robbion.png") no-repeat center; width: 94px; height: 95px;}
 #owl-demo .owl-item .item .ribbon span.ribbontext {  color: #ffffff;  display: block;  font-size: 13px;  font-weight: bold;  left: -11px;  position: absolute;  top: 25px;  -ms-transform: rotate(-45deg);  -webkit-transform: rotate(-45deg);  transform: rotate(-45deg);  width: 100%;  }
