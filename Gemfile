@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-source 'https://rubygems.org'
+#source 'https://rubygems.org'
 
 gem 'rails', '3.1.1'
 
@@ -56,7 +56,7 @@ gem 'twitter', '~>4.0.0'
 
 gem "ancestry", '~>1.3.0 '
 gem 'simple_form', '~>2.0'
-gem "paperclip", "3.5.0"
+gem 'paperclip', '~>2.7'
 gem 'client_side_validations', '3.1.4'
 gem 'will_paginate', '~>3.0.3'
 gem 'browser', '~>0.1.5'
@@ -92,12 +92,14 @@ gem 'rubyzip', '< 1.0.0', :require => false
 gem 'google_places'
 gem 'foursquare2'
 gem 'twilio-ruby'
+gem 'orm_adapter'
 #gem 'elasticsearch'
 gem 'rails3-jquery-autocomplete'
+
 group :development, :test do
   gem 'thin'
   gem 'machinist', '~>2.0'
   gem 'faker', '~>1.1.1'
   gem 'rails-dev-tweaks', '~> 0.6.1'
-  #  gem 'rails-dev-tweaks', '~> 1.1'
+#  gem 'rails-dev-tweaks', '~> 1.1'
 end
