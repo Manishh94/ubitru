@@ -404,6 +404,7 @@ MuddleMe::Application.routes.draw do
       post "create_custom_store_logo", :on => :collection
       get "edit_custom_store_logo", :on => :collection
       put "update_custom_store_logo", :on => :collection
+      put "save_high_resolution_image", :on => :collection
     end
 
     resources :stores, :controller=> 'stores', :constraints => true, :only=>[:index, :show] do

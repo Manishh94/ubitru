@@ -13,6 +13,10 @@ module ApplicationHelper
     result.html_safe
   end
 
+  def fetch_image_of_advertiser(advertiser, style)
+    advertiser.image.exists? ? advertiser.image.url(style.to_sym) : (advertiser.is_a?(LinkshareAdvertiser) ? advertiser.logo_url : advertiser.logo.url)
+  end
+
   def no_label_input  form, attribute, simple_form_options={}
     title = strip_tags(form.label(attribute, :label=>simple_form_options[:label]))
     options = {:input_html=>{:title=>title}}
@@ -133,10 +137,10 @@ module ApplicationHelper
     ''
     if instance_variable_get("@#{list_name}_order").to_sym == param_name.to_sym
       'active' + if instance_variable_get("@#{list_name}_dir").to_sym == :DESC
-         ' up'
-       else
-         ''
-       end
+        ' up'
+      else
+        ''
+      end
     end
   end
 
@@ -149,18 +153,18 @@ module ApplicationHelper
 
   def facebok_include_sdk
     '<div id="fb-root"></div>' +
-    '<script>(function(d, s, id) {'+
-    'var js, fjs = d.getElementsByTagName(s)[0];'+
-    'if (d.getElementById(id)) return;'+
-    'js = d.createElement(s); js.id = id;'+
-    "js.src = '//connect.facebook.net/en_US/all.js#xfbml=1&appId=#{SOCIAL_CONFIG['fb_app_id']}';"+
-    'fjs.parentNode.insertBefore(js, fjs);'+
-    "}(document, 'script', 'facebook-jssdk'));</script>".html_safe
+      '<script>(function(d, s, id) {'+
+      'var js, fjs = d.getElementsByTagName(s)[0];'+
+      'if (d.getElementById(id)) return;'+
+      'js = d.createElement(s); js.id = id;'+
+      "js.src = '//connect.facebook.net/en_US/all.js#xfbml=1&appId=#{SOCIAL_CONFIG['fb_app_id']}';"+
+      'fjs.parentNode.insertBefore(js, fjs);'+
+      "}(document, 'script', 'facebook-jssdk'));</script>".html_safe
   end
 
   def facebook_like_button page_url
     '<div class="fb-like" data-href="' + page_url + '" data-send="false"' +
-    ' data-layout="button_count" data-width="450" data-show-faces="false"></div>'.html_safe
+      ' data-layout="button_count" data-width="450" data-show-faces="false"></div>'.html_safe
   end
 
   def twitter_tweet_button pager_url, text

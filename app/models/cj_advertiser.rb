@@ -6,17 +6,19 @@ class CjAdvertiser < ActiveRecord::Base
   has_many :product_categories, :through=>:cj_advertiser_category_mappings
   has_many :cj_offers, :foreign_key=>'advertiser_id', :primary_key=>'advertiser_id', :dependent=>:restrict
   has_many :coupons, :class_name=>'CjCoupon', :foreign_key=>'advertiser_id',
-          :primary_key=>'advertiser_id', :dependent=>:restrict
+    :primary_key=>'advertiser_id', :dependent=>:restrict
   has_many :favorite_advertisers, :dependent => :destroy
   has_many :hp_stores, :dependent => :destroy
-  has_one :hp_advertiser_image,  :as => :imageable, :dependent=>:destroy
+  has_one  :hp_advertiser_image,  :as => :imageable, :dependent=>:destroy
   has_many :stores, :as => :storable, :dependent=>:destroy
   has_many :mcb_updates, :as => :alertable, :dependent => :destroy
   has_many :user_coupons, :as => :advertisable
+  has_attached_file :image,
+    :styles => { :thumb => "100X100>", :medium => "381X328>", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
 
   CJ_BASE_URL = "https://members.cj.com/member/"
   CJ_MEMBER_CREDS = {:uname=>'kevin@muddleme.com', :pw=>'JUx9QEx'}
-  has_attached_file :image, :styles => { :thumb => "100X100>", :medium => "381X328#", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
+
 
   has_attached_file :logo
 
@@ -74,16 +76,16 @@ class CjAdvertiser < ActiveRecord::Base
         end
         sort { by :name, 'asc' }
       end
-      rescue => e
-        Rails.logger.info "\n=============SEARCH ERROR TRACE======================\n"
-        Rails.logger.info "\n Query::#{search_query} \n"
-        Rails.logger.info "\n Message::#{e.message} \n"
-        Rails.logger.info "\n Error Class::#{e.class} \n"
-        Rails.logger.info "\n=============END OF SEARCH ERROR TRACE================\n"
-        # $notify_team.each do |developer|
-        #   SearchMailer.search_error_notification(developer, e, search_query).deliver
-        # end
-        return []
+    rescue => e
+      Rails.logger.info "\n=============SEARCH ERROR TRACE======================\n"
+      Rails.logger.info "\n Query::#{search_query} \n"
+      Rails.logger.info "\n Message::#{e.message} \n"
+      Rails.logger.info "\n Error Class::#{e.class} \n"
+      Rails.logger.info "\n=============END OF SEARCH ERROR TRACE================\n"
+      # $notify_team.each do |developer|
+      #   SearchMailer.search_error_notification(developer, e, search_query).deliver
+      # end
+      return []
     end
   end
 

@@ -14,7 +14,9 @@ class PjAdvertiser < ActiveRecord::Base
   has_many :user_coupons, :as => :advertisable
   has_attached_file :logo
   require "open-uri"
-  has_attached_file :image, :styles => { :thumb => "100X100>", :medium => "381X328#", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
+  has_attached_file :image,
+    :styles => { :thumb => "100X100>", :medium => "381X328>", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
+
 
   validates :advertiser_id, :presence => true
   validates :name, :presence => true
@@ -139,16 +141,16 @@ class PjAdvertiser < ActiveRecord::Base
         end
         sort { by :name, 'asc' }
       end
-      rescue => e
-        Rails.logger.info "\n=============SEARCH ERROR TRACE======================\n"
-        Rails.logger.info "\n Query::#{search_query} \n"
-        Rails.logger.info "\n Message::#{e.message} \n"
-        Rails.logger.info "\n Error Class::#{e.class} \n"
-        Rails.logger.info "\n=============END OF SEARCH ERROR TRACE================\n"
-        # $notify_team.each do |developer|
-        #   SearchMailer.search_error_notification(developer, e, search_query).deliver
-        # end
-        return []
+    rescue => e
+      Rails.logger.info "\n=============SEARCH ERROR TRACE======================\n"
+      Rails.logger.info "\n Query::#{search_query} \n"
+      Rails.logger.info "\n Message::#{e.message} \n"
+      Rails.logger.info "\n Error Class::#{e.class} \n"
+      Rails.logger.info "\n=============END OF SEARCH ERROR TRACE================\n"
+      # $notify_team.each do |developer|
+      #   SearchMailer.search_error_notification(developer, e, search_query).deliver
+      # end
+      return []
     end
   end
 
