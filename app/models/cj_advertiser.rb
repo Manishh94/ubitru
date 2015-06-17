@@ -14,7 +14,7 @@ class CjAdvertiser < ActiveRecord::Base
   has_many :mcb_updates, :as => :alertable, :dependent => :destroy
   has_many :user_coupons, :as => :advertisable
   has_attached_file :image,
-    :styles => { :thumb => "100X100#", :medium => "381X328>", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
+    :styles => { :thumb => "100x", :medium => "381x328>", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
 
   CJ_BASE_URL = "https://members.cj.com/member/"
   CJ_MEMBER_CREDS = {:uname=>'kevin@muddleme.com', :pw=>'JUx9QEx'}
