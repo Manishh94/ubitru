@@ -13,7 +13,7 @@ class LinkshareAdvertiser < ActiveRecord::Base
   has_many :mcb_updates, :as => :alertable, :dependent => :destroy
   has_many :user_coupons, :as => :advertisable
   has_attached_file :image,
-    :styles => { :thumb => "100X100>", :medium => "381X328>", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
+    :styles => { :thumb => "100X100#", :medium => "381X328>", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
 
   validates :advertiser_id, :presence => true
   validates :base_offer_id, :presence => true # used to always have trackable link
