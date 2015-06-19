@@ -10,7 +10,7 @@ class IrAdvertiser < ActiveRecord::Base
   has_many :stores, :as => :storable, :dependent=>:destroy
   has_many :user_coupons, :as => :advertisable
   has_attached_file :image,
-    :styles => { :thumb => "65x", :medium => "381x328>", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
+    :styles => { :thumb => "100x", :medium => "381x328>", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
 
 
   has_attached_file :logo

@@ -15,7 +15,7 @@ class PjAdvertiser < ActiveRecord::Base
   has_attached_file :logo
   require "open-uri"
   has_attached_file :image,
-    :styles => { :thumb => "65x", :medium => "381x328>", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
+    :styles => { :thumb => "100x", :medium => "381x328>", :upload => "48x48>", :iphone=>"268x>", :iphone2x=>"536x>" }
 
 
   validates :advertiser_id, :presence => true
