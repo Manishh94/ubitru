@@ -1,3 +1,7 @@
+.feture-sec.ms-feature .ms-info .ms-info-img{
+  height: auto;
+}
+
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
   display: inline-block !important;
 }
