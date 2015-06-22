@@ -10,15 +10,15 @@
                   .ms-info
                     .row
                       .col-xs-12
-                        %span{:style => "border: 1px solid white; float: left; width: 70px; background: white none repeat scroll 0% 0%; height: auto;"
-                        %img.ms-info-img{:alt => "", :src => fetch_image_of_advertiser(advertiser, 'thumb'), :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img img-responsive fav_merchant",:onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}
-                          .ms-info-tx
-                            -if advertiser.hp_advertiser_image.blank? or advertiser.hp_advertiser_image.title.blank?
-                              %h3= "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} CASH BACK"
-                            -else
-                              %h3= advertiser.hp_advertiser_image.title
+                        %span{:style => "border: 1px solid white; float: left; width: 70px; background: white none repeat scroll 0% 0%; height: auto;"}
+                          %img.ms-info-img{:alt => "", :src => fetch_image_of_advertiser(advertiser, 'thumb'), :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img img-responsive fav_merchant",:onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}
+                            .ms-info-tx
+                              -if advertiser.hp_advertiser_image.blank? or advertiser.hp_advertiser_image.title.blank?
+                                %h3= "#{number_to_percentage(advertiser.max_commission_percent, {:precision => 1, :strip_insignificant_zeros => true})} CASH BACK"
+                              -else
+                                %h3= advertiser.hp_advertiser_image.title
 
-                            %p= "#{advertiser.hp_advertiser_image.blank? ? '' : advertiser.hp_advertiser_image.description}"
+                              %p= "#{advertiser.hp_advertiser_image.blank? ? '' : advertiser.hp_advertiser_image.description}"
 
                   %a{:href => "javascript:void(0);", :id => "merchant_popup_#{advertiser.advertiser_id}", :class => "img img-responsive fav_merchant", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;"}
                     = image_tag(advertiser.hp_advertiser_image.nil? ? '' : advertiser.is_a?(LinkshareAdvertiser) ? advertiser.hp_advertiser_image.hp_image : advertiser.hp_advertiser_image.hp_image, :title => advertiser.name, :class => "main-img")
