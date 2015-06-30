@@ -1,4 +1,4 @@
-# MySQL.  Versions 5.0+ are recommended.
+  # MySQL.  Versions 5.0+ are recommended.
 #
 # Install the MYSQL driver
 #   gem install mysql2
@@ -13,8 +13,8 @@ default: &default
   adapter: mysql2
   #encoding: unicode
   #pool: 5
-  username: root
-  password: admin
+  username: "root"
+  password: "123"
   #socket: /usr/local/var/mysql/mysql.sock
 
 
