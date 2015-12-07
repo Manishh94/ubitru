@@ -5,11 +5,11 @@ initFormToggler = function(editButton, cancelButton, fieldsWrap, enabled) {
   }
   if(enabled) show();
   
-  editButton.live('click', function(){
+  editButton.on('click', function(){
     show();
   })
   
-  cancelButton.live('click', function(){
+  cancelButton.on('click', function(){
     editButton.add(fieldsWrap.find('.to-hide')).fadeIn('normal');
     fieldsWrap.find('.to-show, .actions').hide();
   })

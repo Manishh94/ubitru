@@ -10,23 +10,31 @@ class SoleoCategory < ActiveRecord::Base
   end
 
   def self.relevant_search(search_string)
+    puts "@@@@@@@@@@@@@ search string", search_string
     search_string = Search::Intent.check_requested_query(search_string)
+    puts "@@@@@@@@@@@@ search string 2", search_string.inspect
     sr = do_search search_string
+    puts "@@@@@@@@@@@@@@ sr", sr.inspect
     if sr.class.name == "Tire::Results::Collection"
+      puts "@@@@@@@@@@@ in the if second relevant search"
       sr = do_search "#{search_string}*" if sr.total == 0
       sr = do_search "#{search_string}", 'or' if sr.total == 0
       sr = do_search "#{search_string}*", 'or' if sr.total == 0
-      sr.total > 0 ? sr.results[0] : nil
+      result = sr.total > 0 ? sr.results[0] : nil
+      puts "@@@@@@@@@@@@2 result", result.inspect
     end
   end
 
   def self.do_search(search_string, operator = 'AND')
     begin
-      tire.search :load => true, :page => 1, :per_page => 1 do
+      
+      result = tire.search :load => true, :page => 1, :per_page => 1 do
         query { string search_string, :default_operator => operator }
         filter :term, :ancestry_depth => 4
+      
       end
       rescue => e
+        puts "@@@@@ in the rescue"
         Rails.logger.info "\n=============SEARCH ERROR TRACE======================\n"
         Rails.logger.info "\n Query::#{search_string} \n"
         Rails.logger.info "\n Message::#{e.message} \n"
@@ -37,6 +45,8 @@ class SoleoCategory < ActiveRecord::Base
         # end
         return []
     end
+    puts "this is result baby",result
+    result
   end
 
   def self.import_from_spreadsheet

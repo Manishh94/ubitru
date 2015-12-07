@@ -15,7 +15,8 @@
   %meta{ :name => "viewport", :content => "width=device-width,initial-scale=1" }/
 
   -# Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons
-  = javascript_include_tag :all
+
+  %script{src: "/assets/jquery-1.6.min.js"}
   = render "layouts/application/stylesheets"
 
 
@@ -24,7 +25,7 @@
   -# All JavaScript at the bottom, except this Modernizr build incl. Respond.js
   -# Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects;
   -# for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/
-  = javascript_include_tag "polyfills"
+  -#= javascript_include_tag "polyfills"
 
   = render :partial => 'layouts/application/google_analytics'
 

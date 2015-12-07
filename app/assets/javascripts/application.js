@@ -4,17 +4,15 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 //
+//= require jquery
 //= require jquery_ujs
-//= require jquery-1-11-1.min
 //= require jquery-ui
 //= require jquery-ui-timepicker-addon
 //= require jquery.fancybox.pack
 //= require jquery.fancybox
 //= require jquery.multiselect.min
-//= require jquery.uniform.min
+//= require jquery.uniform
 //= require jquery.placeholder
-//= require jquery.tools.min
-//= require jquery.history
 //= require h5bp
 //= require global.js
 //= require rails.validations
@@ -33,7 +31,8 @@
 //= require categories_multi_select
 //= require constants.js
 //= require jquery.inview.min.js
-//= require_tree .
+//= require owl.carousel.min.js
+//= require autocomplete-rails
 
 
-$('.check').click(function(){ alert("haha motuuuuuu")})
+console.log("in appllicaiton");

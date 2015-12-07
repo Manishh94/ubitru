@@ -1,16 +1,12 @@
-%section.money-box-panel.margin-top-50
-  .container-fluid
-    .row
-      .container
-        .col-sm-5.custom.ypmb-left-section
-          .money-box-panel-content
-            = image_tag("icon-mony-box.png")
-            %p.personal-money-box Your Personal Money Box
-            %p.description The Muddleme coupon and cash back browser extension.
-        .col-sm-5.custom
-          .money-box-panel-content
-            %p.notify
-              Search for services and shop at your favorite stores and the Muddleme Money
-              Box will notify you when you have coupons and cash back
-        .col-sm-2
-          %a{:class => "btn btn-default get-money", :href => "javascript:void(0);", :id => 'get-money-box', :style => "width: 250px; font-family: Roboto-black; font-size: 14px;"} GET THE MONEY BOX
+%section
+  .part-13
+    .container
+      .col-lg-5.col-md-5.col-sm-6.col-xs-12{:style => "margin-top:40px;"}
+        %img{:alt => "", :src => "/assets/pig-icon.png", :style => "float:left;"}/
+        %span
+          %p Your Personal Money Box
+        %p The Muddleme coupon and cash back browser extension.
+      .col-lg-4.col-md-4.col-sm-6.col-xs-12
+        %p.dis-right Search for services and shop at your favorite stoes and the Muddleme Money Box will notify you when you have coupons and cash back
+      .col-lg-3.col-md-3.col-sm-12.col-xs-12{:style => "margin-top:55px;"}
+        %a{:href => "javascript:void(0);", :id => 'get-money-box',:style => "font-size:15px;" } GET THE MONEY BOX

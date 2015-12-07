@@ -33,7 +33,8 @@ $(function () {
       $('#customer-registration article.step-' + currentStep).
       find('[data-validate]:input').data('changed', true).each(function() {
         var input = $(this)
-        input.data('changed', true)
+        input.data('changed', true);
+        console.log(input);
         if (!input.isValid(window.user_registration_form.validators)) 
           valid = false; 
       });

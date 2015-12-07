@@ -18,29 +18,53 @@ class Admins::HpStoresController < ApplicationController
     @list = @list.sort_by &:name
   end
 
+  def save_high_resolution_image
+    puts "*******************************************************************"
+    puts params[:id].inspect
+    advertiser_splitted = params[:advertiser_id_with_class_name].split('.')
+    advertiser_class = advertiser_splitted[0].classify.constantize
+    advertiser_id = advertiser_splitted[1].to_i
+    @advertiser = advertiser_class.find_by_id(advertiser_id)
+    puts "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    puts advertiser_splitted[0].underscore.downcase.to_sym
+    puts params[advertiser_splitted[0].underscore.downcase.to_sym]
+    @advertiser.image = params[advertiser_splitted[0].underscore.downcase.to_sym][:image]
+    @advertiser.save!
+    flash[:notice] = "Successfully added !"
+    redirect_to admin_hp_stores_path(:type => params[:store_type])
+  end
+
 
   def create
-    case params[:store_type]
+    if params[:commit] == "Update High Resolution Image"
+      advertiser_splitted = params[:advertiser_id_with_class_name].split('.')
+      advertiser_class = advertiser_splitted[0].classify.constantize
+      advertiser_id = advertiser_splitted[1].to_i
+      @advertiser = advertiser_class.find_by_id(advertiser_id)
+      render "/admins/hp_stores/update_high_resolution_image" and return
+    else
+      case params[:store_type]
       when "browseable"
         max_count = 8
       when "top_dealers"
-        max_count = 6
+        max_count = 8
       when "favorite_stores"
         max_count = 3
+      end
+      if HpStore.send(params[:store_type]).count >= max_count
+        flash[:alert] = "You can't  mark more than #{max_count} merchants"
+        redirect_to admin_hp_stores_path(:type => params[:store_type]) and return
+      end
+      hp_fav_store = HpStore.new
+      hp_fav_store.advertiser = params[:advertiser_id_with_class_name]
+      hp_fav_store.store_type = params[:store_type]
+      if hp_fav_store.save
+        flash[:notice] = 'Successfully added.'
+      else
+        flash[:alert] = hp_fav_store.errors.full_messages
+      end
+      redirect_to admin_hp_stores_path(:type => params[:store_type])
     end
-    if HpStore.send(params[:store_type]).count >= max_count
-      flash[:alert] = "You can't  mark more than #{max_count} merchants"
-      redirect_to admin_hp_stores_path(:type => params[:store_type]) and return
-    end
-    hp_fav_store = HpStore.new
-    hp_fav_store.advertiser = params[:advertiser_id_with_class_name]
-    hp_fav_store.store_type = params[:store_type]
-    if hp_fav_store.save
-      flash[:notice] = 'Successfully added.'
-    else
-      flash[:alert] = hp_fav_store.errors.full_messages
-    end
-    redirect_to admin_hp_stores_path(:type => params[:store_type])
   end
 
   def replace_hp_store
@@ -64,6 +88,16 @@ class Admins::HpStoresController < ApplicationController
   end
 
   def add_custom_store_logo
+    if params[:store_type] == "top_dealers" or params[:store_type] == "browseable"
+      if params[:adv_type] == "CustomAdvertiser"
+        @advertiser = params[:adv_type].constantize.where("id = (?)", params[:adv_id]).first
+      else
+        @advertiser = params[:adv_type].constantize.where("advertiser_id = (?)", params[:adv_id]).first
+      end
+      @advertiser_store_image = @advertiser.build_hp_advertiser_image()
+      @advertiser_store_image.save!
+      render :action => "edit_custom_store_logo"
+    end
   end
 
   def edit_custom_store_logo

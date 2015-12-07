@@ -1,1 +1,0 @@
-$(".check").click(function(){alert("haha motuuuuuu")});

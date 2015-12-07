@@ -1,1 +1,0 @@
-initFormToggler=function(e,t,i,n){var s=function(){e.add(i.find(".to-hide")).hide(),i.find(".to-show, .actions").fadeIn("normal")};n&&s(),e.live("click",function(){s()}),t.live("click",function(){e.add(i.find(".to-hide")).fadeIn("normal"),i.find(".to-show, .actions").hide()})};

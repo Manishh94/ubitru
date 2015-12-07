@@ -1,6 +1,6 @@
 $(function(){
   
-  $('table .actns-wrap .actns').live('mouseenter', function(){
+  $('table .actns-wrap .actns').on('mouseenter', function(){
     var $this = $(this);
     if($this.data('leaveTimer')) {
       window.clearTimeout($this.data('leaveTimer'))
@@ -20,7 +20,7 @@ $(function(){
     });
   }
   
-  $('table .actns-wrap .actns').live('mouseleave', function(){
+  $('table .actns-wrap .actns').on('mouseleave', function(){
     var $this = $(this);
     $this.data('leaveTimer', window.setTimeout(function(){
       leaveHandler($this);

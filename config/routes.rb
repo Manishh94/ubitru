@@ -54,6 +54,8 @@ MuddleMe::Application.routes.draw do
 
   get '/enable-ie' => 'application#enable_ie'
   get '/enable-safari' => 'application#enable_safari'
+  get '/search/autocomplete_muddleme_search' => "search#autocomplete_muddleme_search"
+  get '/search/autocomplete_service_search' => "search#autocomplete_service_search"
 
   # ======== mm box web app routes =============
   # ======== backend routes =============
@@ -138,9 +140,9 @@ MuddleMe::Application.routes.draw do
 
   devise_for :admins,
     :controllers => {
-       :sessions => "admins/devise/sessions",
-       :passwords => "admins/devise/passwords",
-    },
+    :sessions => "admins/devise/sessions",
+    :passwords => "admins/devise/passwords",
+  },
     :skip=>[:sessions, :passwords] do
     get     '/admin'   => 'admins/devise/sessions#new', :as => "new_admin_session"
     post    '/admin'   => 'admins/devise/sessions#create', :as => "admin_session"
@@ -270,20 +272,20 @@ MuddleMe::Application.routes.draw do
   end
 
   resources :searches, :controller=>'vendors/searches', :constraints => LoggedInVendorConstraint.new,
-            :only=>[:index, :show] do
+    :only=>[:index, :show] do
     get 'active', :on=>:collection
     get 'lost', :on=>:collection
     get 'won', :on=>:collection
   end
 
   resource :profile, :controller=>'vendors/profile', :constraints => LoggedInVendorConstraint.new,
-           :only=>[:show, :update]
+    :only=>[:show, :update]
 
   resource :settings, :controller => 'vendors/settings', :constraints => LoggedInVendorConstraint.new,
-           :except=>[:show, :destroy]
+    :except=>[:show, :destroy]
 
   resources :keywords, :controller => 'vendors/keywords', :constraints => LoggedInVendorConstraint.new,
-           :only =>[:index, :create, :destroy] do
+    :only =>[:index, :create, :destroy] do
     delete 'destroy_all', :on=>:collection
     post 'import_from_adwords_csv', :on=>:new
   end
@@ -370,7 +372,7 @@ MuddleMe::Application.routes.draw do
   #admin zone
   namespace :admin, :module=>"admins" do
     resources :users, :controller=> 'users', :path => "customers", :constraints => LoggedInAdminConstraint.new,
-              :only=>[:index, :show] do
+      :only=>[:index, :show] do
       put 'block', :on=>:member
       put 'unblock', :on=>:member
       get 'become', :on=>:member
@@ -388,7 +390,7 @@ MuddleMe::Application.routes.draw do
 
     resources :withdrawal_requests, :controller=> 'withdrawal_requests', :constraints => true, :only=>[:index, :show]
     
-     resources :add_storecat_to_merchant, :controller=> 'add_storecat_to_merchant', :constraints => true,:only=>[:index] do
+    resources :add_storecat_to_merchant, :controller=> 'add_storecat_to_merchant', :constraints => true,:only=>[:index] do
       get "get_merchants_list", :on => :collection
       get "get_selected_merchants_list", :on => :collection
       delete "remove_selected_merchant", :on => :collection
@@ -402,6 +404,7 @@ MuddleMe::Application.routes.draw do
       post "create_custom_store_logo", :on => :collection
       get "edit_custom_store_logo", :on => :collection
       put "update_custom_store_logo", :on => :collection
+      put "save_high_resolution_image", :on => :collection
     end
 
     resources :stores, :controller=> 'stores', :constraints => true, :only=>[:index, :show] do
@@ -413,14 +416,14 @@ MuddleMe::Application.routes.draw do
     end
 
     resources :vendors, :controller=> 'vendors', :path => "companies", :constraints => LoggedInAdminConstraint.new,
-              :only=>[:index, :show] do
+      :only=>[:index, :show] do
       put 'block', :on=>:member
       put 'unblock', :on=>:member
       post 'create_funds_grant', :on=>:member
     end
 
     resources :auctions, :controller=> 'auctions', :constraints => LoggedInAdminConstraint.new,
-              :only=>[:index, :show]
+      :only=>[:index, :show]
 
     resources :outcome_reports, :constraints => LoggedInAdminConstraint.new, :only=>[:index] do
       collection do
@@ -433,7 +436,7 @@ MuddleMe::Application.routes.draw do
     get 'revenue_day_report' => 'finance#revenue_day_report', :constraints => LoggedInAdminConstraint.new, :as=>'overall_revenue_day_report'
 
     resources :email_contents, :controller => 'email_contents', :constraints => LoggedInAdminConstraint.new,
-              :only=>[:index, :edit, :update] do
+      :only=>[:index, :edit, :update] do
       post 'preview', :on=>:member
     end
 
@@ -446,7 +449,7 @@ MuddleMe::Application.routes.draw do
     get 'revenue_day_report/:user_id' => 'sales_links#revenue_day_report', :constraints => LoggedInAdminConstraint.new, :as=>'revenue_day_report'
 
     resources :affiliated_advertisers, :constraints => LoggedInAdminConstraint.new,
-              :only=>[:index] do
+      :only=>[:index] do
       get 'cj_coupons', :on => :collection, :format=>'csv'
       get 'cj_auto_downloaded_coupons', :on => :collection, :format=>'csv'
       get 'avant_coupons', :on => :collection, :format=>'csv'

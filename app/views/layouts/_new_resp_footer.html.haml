@@ -1,96 +1,52 @@
-%section.footer
-  .container-fluid
-    .row
-      .col-sm-4
-        .follow-us
-          %p Follow Us
-          %ul
-            %li
-              %a{:href => "https://www.facebook.com/pages/Muddleme/308255049336613?ref_type=bookmark", :target => "_blank", :class => 'footer-social-link'}
-                %span>
-                  = image_tag("social/facebook.jpg")
-                Facebook
-            %li
-              %a{:href => "https://twitter.com/MuddlemeSavings", :target => "_blank", :class => 'footer-social-link'}
-                %span>
-                  = image_tag("social/twitter.jpg")
-                Twitter
-            %li
-              %a{:href => "https://plus.google.com/109111471039644073577", :target => "_blank", :class => 'footer-social-link'}
-                %span>
-                  = image_tag("social/google.jpg")
-                Google
-            %li
-              %a{:href => "https://www.youtube.com/channel/UC80FmBdIUnmxVvIB1aOpaxw", :target => "_blank", :class => 'footer-social-link'}
-                %span>
-                  = image_tag("social/youtube.jpg")
-                Youtube
-      .col-sm-4
-        .make-money
-          %p Make money while you search!
-          %ul#browser-content
-            %li
-              %span
-                #browser-logo-chrome{:class => "#{@browser == :chrome ? 'browser-logo-enabled' : '' }"}
-                  = image_tag("browser/chrome.png")
-            %li
-              %span
-                #browser-logo-firefox{:class => "#{@browser == :firefox ? 'browser-logo-enabled' : '' }"}
-                  = image_tag("browser/mozilla.png")
-            %li
-              %span
-                #browser-logo-ie{:class => "#{@browser == :ie ? 'browser-logo-enabled' : '' }"}
-                  = image_tag("browser/ie.png")
-            %li
-              %span
-                #browser-logo-safari{:class => "#{@browser == :safari ? 'browser-logo-enabled' : '' }"}
-                  = image_tag("browser/safari.png")
 
-          %p
-            %a.btn.btn-default.start-now{:href => "javascript:void(0);", :id => 'start-now'} START NOW
-      .col-sm-4
-        .refer
-          %p
-            %a.btn.btn-default.start-now.margin-right-35{:href => "/referral"} REFER A FRIEND
-          %p
-            .fb-like{"data-action" => "like", "data-href" => "https://www.facebook.com/pages/Developer-world/508730062544458", "data-layout" => "button_count", "data-share" => "false", "data-show-faces" => "false"}
-    .row
-      .container.footer-bottom
-        %hr.separator.margin-right-15/
-        .col-sm-8
-          .nav.footer-nav
+%footer
+  .footer-area
+    .container
+      .footer-i.col-md-3.col-sm-6.col-xs-6.icon
+        %h3 Follow Us
+        %a{:href => "https://www.facebook.com/pages/Muddleme/308255049336613?ref_type=bookmark", :target => "_blank"}
+          %i.fb-i.fa.fa-facebook{:style => "color:#4a6ea9;"}
+        %span Facebook
+        %br/
+        %a{:href => "https://twitter.com/MuddlemeSavings", :target => "_blank"}
+          %i.twitter-i.fa.fa-twitter{:style => "color:#30DCF2;"}
+        %span Twitter
+        %br/
+        %a{:href => "https://plus.google.com/109111471039644073577", :target => "_blank"}
+          %i.fa.google-i.fa-google-plus{:style => "color:#E25F43;"}
+        %span Google+
+        %br/
+        %a{:href => "https://www.youtube.com/channel/UC80FmBdIUnmxVvIB1aOpaxw", :target => "_blank"}
+          %i.fa.youtube-i.fa-youtube{:style => "color:#E34A42;"}
+        %span YouTube
+      .col-md-6.col-sm-12.text-center
+        %h3 Make money while you search!
+        %a{:href => ""}
+          %img{:alt => "", :src => "/assets/footer-icon.png"}/
+        %br/
+        %a.a{:href => "#"} START NOW
+      .col-md-3.col-sm-12.abc.text-center
+        %a.ab{:href => "/referral"} REFER A FRIEND
+        %br
+          .facebool-check
+            %i.fa.fa-check Like
+            %img{:alt => "fb-like-counter", :src => "/assets/fb-counter.png"}
+      .copyright
+        .col-lg-12.col-md-12.col-sm-12.col-xs-12
+          %hr/
+        .col-lg-6.col-md-6.col-sm-6.col-xs-12.pull-left
+          .footer-menu
             %ul
-              %li= link_to 'About Us', about_path
+              %li
+                %a{:href => about_path} About Us
               %li
                 %a{:href => 'http://muddleme.blog.com', :target => '_blank'} Blog
-              %li= link_to 'Contact', contact_path
-              %li= link_to 'Privacy Policy', privacy_policy_path
-              %li= link_to 'FAQ', faq_path
-        .col-sm-4
-          %p.copy-right.margin-right-15 Copyright #{ Date.today.year } MuddleMe
+              %li
+                %a{:href => contact_path} Contact
+              %li
+                %a{:href => privacy_policy_path} Privacy policy
+              %li
+                %a{:href => faq_path} FAQ
 
-#fb-root
-:javascript
-  (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=666543300066181&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-/ Google Analytics: change UA-XXXXX-X to be your site's ID.
-:javascript
-  (function (b, o, i, l, e, r) {
-      b.GoogleAnalyticsObject = l;
-      b[l] || (b[l] =
-              function () {
-                  (b[l].q = b[l].q || []).push(arguments)
-              });
-      b[l].l = +new Date;
-      e = o.createElement(i);
-      r = o.getElementsByTagName(i)[0];
-      e.src = '//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e, r)
-  }(window, document, 'script', 'ga'));
-  ga('create', 'UA-XXXXX-X');
-  ga('send', 'pageview');
+        .col-lg-4.col-md-4.col-sm-4.col-xs-12.pull-right
+          %p Copyright #{ Date.today.year } Muddleme

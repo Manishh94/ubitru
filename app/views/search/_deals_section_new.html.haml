@@ -22,10 +22,11 @@
             = content[29..content.length]
           = link_to 'view more', 'javascript: void(0);', :class => 'view-more-coupon-description roboto-light', :id => "#{advertiser.advertiser_id}", :style => "font-size:12px!important;"
           %br
-          %span{:class => "coupon-sty"}
-          %a{:href => "#"}
+          
+          %span{:class => "coupons rb_regular cursor-pointer", :onclick => "generate_popup(this.id, #{advertiser.advertiser_id}, #{advertiser.coupons.blank?}); return false;" ,:style => 'padding-left: 0px;'}
             %img{:src => "assets/new_scissor_icon.png"}
-            Get Coupon (#{result['company_address'][result['company_address'].length - 1]})
+            - coupons = advertiser_coupons(advertiser)  
+            %span{:style => "font-size:12px;"} Get Coupons ( #{coupons.count} )
                 
     .row
       %span.roboto-light.margin-left-36

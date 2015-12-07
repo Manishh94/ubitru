@@ -133,15 +133,22 @@ class SearchController < ApplicationController
   end
 
   def search_soleo_and_local_merchants_db(search, search_intent, zip_code)
+    puts "@@@@@@@@@@@ in the soloe function"
     result = []
    
     hydra = Typhoeus::Hydra.hydra
-    soleo_category = SoleoCategory.relevant_search search
-    
+    puts "@@@@@@@@@@@@@@ hydra", hydra.inspect
+    # soleo_category = SoleoCategory.relevant_search search
+    soleo_category = SoleoCategory.where("name = ?", "#{search}").first
+    if soleo_category.blank?
+      soleo_category = SoleoCategory.where("name LIKE ? and ancestry_depth > 3", "%#{search}%").first
+    end
     soleo_max_money = 0
+    puts "@@@@@@@@@@@@@@@ soleo category", soleo_category.inspect
     if soleo_category.present? && soleo_category.parent.present? && soleo_category.parent.parent.present?
+      puts "@@@@@@@@@@@@@@@@@ in the if"
       soleo_category_search = soleo_category.parent.parent.name
-      
+      puts "@@@@@@@@@@ soleo category search", soleo_category_search
       session[:soleo_category_search] = soleo_category_search
       # ======================= Soleo prepare XML =======================
       builder = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml|
@@ -150,12 +157,17 @@ class SearchController < ApplicationController
             {'business-name' => nil, :zip => zip_code, 'category-name' => soleo_category_search, 'auto-decode' => false, 'result-size' => 12, 'sort-by' => 'value'}.each { |k, v| xml.send(k, v) }
           }
         }
+
+        puts "@@@@@@@@@@@@@@@@", builder
       end
     
       # ======================= Soleo run request =======================
+      puts "@@@@@@@@@@@@@@ soleo run request"
       t_request = Typhoeus::Request.new('https://mobapi.soleocom.com/xapi/query', :method => :post, :userpwd => $soleo_basic_auth, :body => builder.to_xml)
       t_request.on_complete do |response|
+        puts "@@@@@@@@@@@ response complete"
         if response.success?
+          puts "@@@@@@@@@@@@ response success"
           body = Hash.from_xml(response.body)['response']
           logger.info "******* #{Time.now.in_time_zone('Eastern Time (US & Canada)').strftime('%m-%d-%y %I-%M-%S %p')} : Soleo listings for #{search} : "
           logger.info '******* ' + response.body.to_s
@@ -458,66 +470,90 @@ class SearchController < ApplicationController
   end
 
   def hp_merchants_search
-     @results = []
-     search = params[:search_by_merchants].strip
-     search = search.downcase.gsub(/[!@%'s'S&-,";]/,'')
-     puts '--------------------------------------------------------------------------------'
-     begin
+    @results = []
+    search = params[:search_by_merchants].strip
+    search = search
+    # .downcase.gsub(/[!@%'s'S&-,";]/,'')
+    begin
       if current_user.present?
         search_intent = Search::Intent.find_or_create_by_search_and_user_id_and_search_date(search, current_user.id, Date.today)
-        puts "svdvdvdvddvdvdvdevcscjsckcd-------------------------------eccc"
-     else
-       search_intent = Search::Intent.find_or_create_by_search_and_search_date(search, Date.today)
-       puts "svdvdvdvddvdvdvdevcscjsck"
+      else
+        search_intent = Search::Intent.find_or_create_by_search_and_search_date(search, Date.today)
+       
       end
     rescue ActiveRecord::RecordNotUnique
       render :json => [] and return
     end
-    puts "svdvdvdvddvdvdvdevcscjsckddwdwdwwd-dwdwd-dw-d-wd-wd"
     @results = []
+    @product_results_cj = []
+    @product_results_pj = []
+    @product_results_ir = []
+    @product_results_avant = []
     avant = AvantAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
     cj = CjAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
     linkshare = LinkshareAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
     pj = PjAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
     ir = IrAdvertiser.where('inactive != 1 and LOWER(name) LIKE ?', "%#{search}%").first
-
-    if avant
-      merchant = Search::AvantMerchant.find_or_initialize_by_db_id_and_intent_id(avant.id, search_intent.id)
-      merchant.set_attributes_from_search avant, nil, self
-      @results << merchant.attributes if merchant.save!
-       puts "avant"
-    elsif cj
-      merchant = Search::CjMerchant.find_or_initialize_by_db_id_and_intent_id(cj.id, search_intent.id)
-      merchant.set_attributes_from_search cj, nil, self
-      @results << merchant.attributes if merchant.save!
-      puts "cj"
-    elsif linkshare
-      merchant = Search::LinkshareMerchant.find_or_initialize_by_db_id_and_intent_id(linkshare.id, search_intent.id)
-      merchant.set_attributes_from_search linkshare, nil, self
-      @results << merchant.attributes if merchant.save!
-      puts "linkshare"
-    elsif pj
-      merchant = Search::PjMerchant.find_or_initialize_by_db_id_and_intent_id(pj.id, search_intent.id)
-      merchant.set_attributes_from_search pj, nil, self
-      @results << merchant.attributes if merchant.save!
-      puts "pj"
-    elsif ir
-      merchant = Search::IrMerchant.find_or_initialize_by_db_id_and_intent_id(ir.id, search_intent.id)
-      merchant.set_attributes_from_search ir, nil, self
-      @results << merchant.attributes if merchant.save!
-      puts "ir"
-    end
-   if @results.blank?
+    product_category = ProductCategory.where("LOWER(name) LIKE ?", "%#{search}%").first
+    if avant.present? or cj.present? or linkshare.present? or pj.present? or ir.present?
+     
+      if avant
+        merchant = Search::AvantMerchant.find_or_initialize_by_db_id_and_intent_id(avant.id, search_intent.id)
+        merchant.set_attributes_from_search avant, nil, self
+        if merchant.save!
+          @results << merchant.attributes 
+          @similar_merchants = AvantAdvertiser.where('inactive != 1').limit(4)
+        end
+        puts "avant"
+      elsif cj
+        merchant = Search::CjMerchant.find_or_initialize_by_db_id_and_intent_id(cj.id, search_intent.id)
+        merchant.set_attributes_from_search cj, nil, self
+        if merchant.save!
+          @results << merchant.attributes 
+          @similar_merchants = CjAdvertiser.where('inactive != 1').limit(4)
+        end
+      elsif linkshare
+        merchant = Search::LinkshareMerchant.find_or_initialize_by_db_id_and_intent_id(linkshare.id, search_intent.id)
+        merchant.set_attributes_from_search linkshare, nil, self
+        if merchant.save!
+          @results << merchant.attributes
+          @similar_merchants = LinkshareAdvertiser.where('inactive != 1').limit(4)
+        end
+        puts "linkshare"
+      elsif pj
+        merchant = Search::PjMerchant.find_or_initialize_by_db_id_and_intent_id(pj.id, search_intent.id)
+        merchant.set_attributes_from_search pj, nil, self
+        if merchant.save!
+          @results << merchant.attributes
+          @similar_merchants =  PjAdvertiser.where('inactive != 1').limit(4)
+        end
+        puts "pj"
+      elsif ir
+        merchant = Search::IrMerchant.find_or_initialize_by_db_id_and_intent_id(ir.id, search_intent.id)
+        merchant.set_attributes_from_search ir, nil, self
+        if merchant.save!
+          @results << merchant.attributes
+          @similar_merchants = IrAdvertiser.where('inactive != 1').limit(4) 
+        end
+        puts "ir"
+      end
+    elsif product_category
+      @product_results_cj = product_category.cj_advertisers
+      @product_results_avant = product_category.avant_advertisers
+      @product_results_pj = product_category.pj_advertisers
+      @product_results_ir = product_category.ir_advertisers  
+    end 
+    if @results.blank? and @product_results_cj.blank? and @product_results_pj.blank? and @product_results_ir.blank? and @product_results_avant.blank?
       direct_affiliate_name_result, direct_linkshare_advertisers,  direct_avant_advertisers, direct_cj_advertisers, direct_pj_advertisers, direct_ir_advertisers = search_all_affiliates_by_name(search_intent, search)
       @results = direct_affiliate_name_result
-       #  render 'users/index' 
-       # # redirect_to admins_add_storecat_to_merchant_add_merchant_path
-       # # redirect_to add_merchant_admin_add_storecat_to_merchant_path
+      #  render 'users/index' 
+      # # redirect_to admins_add_storecat_to_merchant_add_merchant_path
+      # # redirect_to add_merchant_admin_add_storecat_to_merchant_path
       puts "blank"
-   end
-     render :layout => "new_application"
+    end
+    render :layout => "new_application"
   end
-
+  
   def hp_pc_merchants
     category = ProductCategory.find_by_id(params[:pcid])
     @advertisers = category.cj_advertisers.limit(5) + category.avant_advertisers.limit(5) + category.linkshare_advertisers.limit(5) + category.pj_advertisers.limit(5) + category.ir_advertisers.limit(5)
@@ -529,7 +565,7 @@ class SearchController < ApplicationController
   end
 
   def hp_services_search
-    
+    puts "@@@@@@@@@@@@@@@@ in the hp services search" 
     search = params[:search_by_services].strip
     zip_code = !(params[:zip_code].blank?)  ?  (params[:zip_code]) : (current_user.zip_code)
     begin
@@ -547,10 +583,14 @@ class SearchController < ApplicationController
     rescue ActiveRecord::RecordNotUnique
       render :json => [] and return
     end
+    puts "@@@@@@@@@@@@@@@@ search",search
+    puts "@@@@@@@@@@@@@@@@ search_intent", search_intent.inspect
+    puts "@@@@@@@@@@@@@@@@ zip code", zip_code 
     @results = search_soleo_and_local_merchants_db(search, search_intent, zip_code)
-   
     @more_deals_total = 0
     @results.each do |r| @more_deals_total = @more_deals_total + r['user_money'] end
+    puts "@@@@@@@@@@@@@@@@@@@@@@ results", @results.inspect
+    puts "@@@@@@@@@@@@@@@@@@@@@@ results---------"
     render :layout => "new_resp_popup"
   end
 
@@ -568,16 +608,16 @@ class SearchController < ApplicationController
     store_link = ''
     if advertiser.present? && advertiser_type.present?
       case advertiser_type
-        when 'IrAdvertiser' then
-          store_link = advertiser.params['AdvertiserUrl'] if advertiser.params.present?
-        when 'LinkshareAdvertiser' then
-          store_link = advertiser.website
-        when 'CjAdvertiser' then
-          store_link = advertiser.params['program_url'] if advertiser.params.present?
-        when 'AvantAdvertiser' then
-          store_link = advertiser.advertiser_url
-        when 'PjAdvertiser' then
-          store_link = advertiser.params['website'] if advertiser.params.present?
+      when 'IrAdvertiser' then
+        store_link = advertiser.params['AdvertiserUrl'] if advertiser.params.present?
+      when 'LinkshareAdvertiser' then
+        store_link = advertiser.website
+      when 'CjAdvertiser' then
+        store_link = advertiser.params['program_url'] if advertiser.params.present?
+      when 'AvantAdvertiser' then
+        store_link = advertiser.advertiser_url
+      when 'PjAdvertiser' then
+        store_link = advertiser.params['website'] if advertiser.params.present?
       end
     end
     store_link
@@ -722,99 +762,99 @@ class SearchController < ApplicationController
 
   def linkshare_mapping
     @api_map = {
-        17 => ['Business & Career',
-               {150 => 'B-to-B',
-                151 => 'Employment',
-                152 => 'Real Estate'}],
-        18 => ['Department Store',
-               {153 => 'Clothing',
-                154 => 'Gifts',
-                155 => 'Home',
-                247 => 'Jewelry'}],
-        19 => ['Family',
-               {156 => 'Baby',
-                157 => 'Education',
-                158 => 'Entertainment',
-                159 => 'Pets'}],
-        21 => ['Telecommunications',
-               {211 => 'Equipment',
-                212 => 'Long Distance',
-                213 => 'Wireless'}],
-        1 => ['Hobbies & Collectibles',
-              {101 => 'Art',
-               102 => 'Auctions',
-               103 => 'Collectibles'}],
-        2 => ['Auto',
-              {104 => 'Accessories',
-               105 => 'Cars',
-               106 => 'Rentals'}],
-        3 => ['Clothing & Accessories',
-              {207 => 'Children',
-               107 => 'Accessories',
-               108 => 'Men',
-               109 => 'Women',
-               246 => 'Jewelry'}],
-        4 => ['Computer & Electronics',
-              {110 => 'Hardware',
-               111 => 'Consumer',
-               112 => 'Software'}],
-        5 => ['Entertainment',
-              {113 => 'Books/Magazines',
-               114 => 'Music',
-               115 => 'Videos'}],
-        6 => ['Financial Services',
-              {116 => 'Banking/Trading',
-               117 => 'Credit Cards',
-               118 => 'Loans'}],
-        7 => ['Food & Drink',
-              {218 => 'Candy',
-               119 => 'Cigars',
-               120 => 'Gourmet',
-               121 => 'Wine'}],
-        8 => ['Games & Toys',
-              {122 => 'Children',
-               123 => 'Educational',
-               124 => 'Electronic'}],
-        9 => ['Gift & Flowers',
-              {125 => 'Gifts',
-               126 => 'Flowers',
-               127 => 'Greeting Cards'}],
-        10 => ['Health & Beauty',
-               {229 => 'Prescription',
-                128 => 'Bath/Body',
-                129 => 'Cosmetics',
-                130 => 'Vitamins',
-                11248 => 'Medical Supplies & Services'}],
-        11 => ['Home & Living',
-               {232 => 'Improvement',
-                131 => 'Bed/Bath',
-                132 => 'Garden',
-                133 => 'Kitchen'}],
-        12 => ['Mature/Adult',
-               {134 => 'Apparel',
-                135 => 'Books',
-                136 => 'Entertainment'}],
-        13 => ['Office',
-               {137 => 'Equipment',
-                138 => 'Home Office',
-                139 => 'Supplies'}],
-        14 => ['Sports & Fitness',
-               {140 => 'Clothing',
-                141 => 'Collectibles',
-                142 => 'Equipment'}],
-        15 => ['Travel',
-               {245 => 'Vacations',
-                143 => 'Airline',
-                144 => 'Car',
-                145 => 'Hotel'}],
-        16 => ['Internet & Online',
-               {149 => 'Programs',
-                146 => 'Services',
-                147 => 'Development',
-                148 => 'Hosting',
-                16249 => 'Online Dating'}],
-        20 => ['Miscellaneous',
-               {210 => 'Other, Other Products/Services'}]}.sort_by { |key, val| key }
+      17 => ['Business & Career',
+        {150 => 'B-to-B',
+          151 => 'Employment',
+          152 => 'Real Estate'}],
+      18 => ['Department Store',
+        {153 => 'Clothing',
+          154 => 'Gifts',
+          155 => 'Home',
+          247 => 'Jewelry'}],
+      19 => ['Family',
+        {156 => 'Baby',
+          157 => 'Education',
+          158 => 'Entertainment',
+          159 => 'Pets'}],
+      21 => ['Telecommunications',
+        {211 => 'Equipment',
+          212 => 'Long Distance',
+          213 => 'Wireless'}],
+      1 => ['Hobbies & Collectibles',
+        {101 => 'Art',
+          102 => 'Auctions',
+          103 => 'Collectibles'}],
+      2 => ['Auto',
+        {104 => 'Accessories',
+          105 => 'Cars',
+          106 => 'Rentals'}],
+      3 => ['Clothing & Accessories',
+        {207 => 'Children',
+          107 => 'Accessories',
+          108 => 'Men',
+          109 => 'Women',
+          246 => 'Jewelry'}],
+      4 => ['Computer & Electronics',
+        {110 => 'Hardware',
+          111 => 'Consumer',
+          112 => 'Software'}],
+      5 => ['Entertainment',
+        {113 => 'Books/Magazines',
+          114 => 'Music',
+          115 => 'Videos'}],
+      6 => ['Financial Services',
+        {116 => 'Banking/Trading',
+          117 => 'Credit Cards',
+          118 => 'Loans'}],
+      7 => ['Food & Drink',
+        {218 => 'Candy',
+          119 => 'Cigars',
+          120 => 'Gourmet',
+          121 => 'Wine'}],
+      8 => ['Games & Toys',
+        {122 => 'Children',
+          123 => 'Educational',
+          124 => 'Electronic'}],
+      9 => ['Gift & Flowers',
+        {125 => 'Gifts',
+          126 => 'Flowers',
+          127 => 'Greeting Cards'}],
+      10 => ['Health & Beauty',
+        {229 => 'Prescription',
+          128 => 'Bath/Body',
+          129 => 'Cosmetics',
+          130 => 'Vitamins',
+          11248 => 'Medical Supplies & Services'}],
+      11 => ['Home & Living',
+        {232 => 'Improvement',
+          131 => 'Bed/Bath',
+          132 => 'Garden',
+          133 => 'Kitchen'}],
+      12 => ['Mature/Adult',
+        {134 => 'Apparel',
+          135 => 'Books',
+          136 => 'Entertainment'}],
+      13 => ['Office',
+        {137 => 'Equipment',
+          138 => 'Home Office',
+          139 => 'Supplies'}],
+      14 => ['Sports & Fitness',
+        {140 => 'Clothing',
+          141 => 'Collectibles',
+          142 => 'Equipment'}],
+      15 => ['Travel',
+        {245 => 'Vacations',
+          143 => 'Airline',
+          144 => 'Car',
+          145 => 'Hotel'}],
+      16 => ['Internet & Online',
+        {149 => 'Programs',
+          146 => 'Services',
+          147 => 'Development',
+          148 => 'Hosting',
+          16249 => 'Online Dating'}],
+      20 => ['Miscellaneous',
+        {210 => 'Other, Other Products/Services'}]}.sort_by { |key, val| key }
 
     @advertisers = LinkshareAdvertiser.where('inactive != 1').order('name asc').all.to_a
     @advertisers.each do |adv|
@@ -940,10 +980,10 @@ class SearchController < ApplicationController
           final_merchants << merchant if user_update.blank?
         end
 
-       # Creating a update and sending email update.
+        # Creating a update and sending email update.
         if !final_merchants.blank?
-           final_merchants.map{|m| m.mcb_updates.create({ :user_id => current_user.id, :alert_date => Date.today.strftime('%Y-%m-%d')})}
-           SearchMailer.coupons_available_near_user(final_merchants, current_user).deliver
+          final_merchants.map{|m| m.mcb_updates.create({ :user_id => current_user.id, :alert_date => Date.today.strftime('%Y-%m-%d')})}
+          SearchMailer.coupons_available_near_user(final_merchants, current_user).deliver
         end
         render :json => merchants and return
 
@@ -977,16 +1017,20 @@ class SearchController < ApplicationController
     (spots.blank?) ? [] : spots.collect { |spot| spot.name }.uniq
   end
 
-  def muddleme_search
-
-    avant = AvantAdvertiser.all.map(&:name)
-    cj = CjAdvertiser.all.map(&:name)
-    linkshare = LinkshareAdvertiser.all.map(&:name)
-    pj = PjAdvertiser.all.map(&:name)
-    ir = IrAdvertiser.all.map(&:name)
-
+  def autocomplete_muddleme_search
+    avant = AvantAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term].downcase}%").limit(10).map(&:name)
+    cj = CjAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term].downcase}%").map(&:name)
+    linkshare = LinkshareAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term].downcase}%").map(&:name)
+    pj = PjAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term].downcase}%").map(&:name)
+    ir = IrAdvertiser.where("LOWER(name) LIKE ?", "#{params[:term].downcase}%").map(&:name)
     arr = avant + cj + linkshare + pj + ir
     arr = arr.map{|m| m.gsub(".com","")}
-    render json: arr
+    render :json => arr
   end
+  
+  def autocomplete_service_search
+    service_categories = ServiceCategory.where("LOWER(name) LIKE ?", "#{params[:term]}%").limit(10).map(&:name)
+    render :json => service_categories
+  end
+
 end

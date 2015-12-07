@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-source 'https://rubygems.org'
+#source 'https://rubygems.org'
 
 gem 'rails', '3.1.1'
 
@@ -92,7 +92,9 @@ gem 'rubyzip', '< 1.0.0', :require => false
 gem 'google_places'
 gem 'foursquare2'
 gem 'twilio-ruby'
+gem 'orm_adapter'
 #gem 'elasticsearch'
+gem 'rails3-jquery-autocomplete'
 
 group :development, :test do
   gem 'thin'
