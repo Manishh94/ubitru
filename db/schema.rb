@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150310120619) do
+ActiveRecord::Schema.define(:version => 20150519104644) do
 
   create_table "admin_commissions", :force => true do |t|
     t.float    "commission_amount"
@@ -39,18 +39,6 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
   add_index "admins", ["email"], :name => "index_admins_on_email", :unique => true
   add_index "admins", ["reset_password_token"], :name => "index_admins_on_reset_password_token", :unique => true
 
-  create_table "admins_categories", :force => true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "admins_store_categories", :force => true do |t|
-    t.string   "name"
-    t.integer  "order"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "archived_bids", :force => true do |t|
     t.integer  "auction_id"
     t.integer  "vendor_id"
@@ -72,10 +60,10 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
   create_table "auction_images", :force => true do |t|
     t.integer  "user_id"
     t.integer  "auction_id"
-    t.datetime "image_updated_at"
     t.string   "image_file_name"
     t.string   "image_content_type"
     t.integer  "image_file_size"
+    t.datetime "image_updated_at"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -155,14 +143,20 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
     t.decimal  "commission_percent", :precision => 8, :scale => 2
     t.decimal  "commission_dollars", :precision => 8, :scale => 2
     t.text     "params"
-    t.integer  "logo_file_size"
-    t.datetime "logo_updated_at"
     t.string   "logo_file_name"
     t.string   "logo_content_type"
+    t.integer  "logo_file_size"
+    t.datetime "logo_updated_at"
     t.boolean  "inactive"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "mobile_enabled"
+    t.string   "title"
+    t.string   "description"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   add_index "avant_advertisers", ["advertiser_id"], :name => "index_avant_advertisers_on_advertiser_id", :unique => true
@@ -277,29 +271,26 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
     t.string   "name"
     t.string   "advertiser_id"
     t.string   "sample_link_id"
-    t.decimal  "commission_percent",     :precision => 8, :scale => 2
-    t.decimal  "commission_dollars",     :precision => 8, :scale => 2
+    t.float    "commission_percent"
+    t.float    "commission_dollars"
     t.text     "params"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "inactive"
-    t.integer  "logo_file_size"
-    t.datetime "logo_updated_at"
     t.string   "logo_file_name"
     t.string   "logo_content_type"
+    t.integer  "logo_file_size"
+    t.datetime "logo_updated_at"
     t.float    "max_commission_percent"
-    t.decimal  "max_commission_dollars", :precision => 8, :scale => 2
+    t.float    "max_commission_dollars"
     t.boolean  "mobile_enabled"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   add_index "cj_advertisers", ["advertiser_id"], :name => "index_cj_advertisers_on_advertiser_id", :unique => true
-
-  create_table "cj_advertisers_product_categories", :force => true do |t|
-    t.integer  "cj_advertiser_id"
-    t.integer  "product_category_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
 
   create_table "cj_commissions", :force => true do |t|
     t.string   "commission_id"
@@ -355,11 +346,17 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
     t.float    "max_commission_percent"
     t.decimal  "max_commission_dollars", :precision => 8, :scale => 2
     t.string   "logo_file_name"
-    t.datetime "logo_updated_at"
-    t.integer  "logo_file_size"
     t.string   "logo_content_type"
+    t.integer  "logo_file_size"
+    t.datetime "logo_updated_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "title"
+    t.string   "description"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "delayed_jobs", :force => true do |t|
@@ -472,13 +469,19 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
 
   create_table "hp_advertiser_images", :force => true do |t|
     t.string   "hp_image_file_name"
-    t.datetime "hp_image_updated_at"
-    t.integer  "hp_image_file_size"
     t.string   "hp_image_content_type"
+    t.integer  "hp_image_file_size"
+    t.datetime "hp_image_updated_at"
     t.integer  "imageable_id"
     t.string   "imageable_type"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "title"
+    t.string   "description"
+    t.string   "hp_logo_file_name"
+    t.string   "hp_logo_content_type"
+    t.integer  "hp_logo_file_size"
+    t.datetime "hp_logo_updated_at"
   end
 
   create_table "hp_stores", :force => true do |t|
@@ -514,11 +517,17 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
     t.decimal  "max_commission_dollars",                       :precision => 8, :scale => 2
     t.string   "generic_link"
     t.string   "logo_file_name"
-    t.datetime "logo_updated_at"
-    t.integer  "logo_file_size"
     t.string   "logo_content_type"
+    t.integer  "logo_file_size"
+    t.datetime "logo_updated_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "title"
+    t.string   "description"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "ir_coupons", :force => true do |t|
@@ -557,6 +566,12 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "logo_url"
+    t.string   "title"
+    t.string   "description"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   add_index "linkshare_advertisers", ["advertiser_id"], :name => "index_linkshare_advertisers_on_advertiser_id"
@@ -601,10 +616,10 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
   create_table "offer_images", :force => true do |t|
     t.integer  "vendor_id"
     t.integer  "offer_id"
-    t.datetime "image_updated_at"
     t.string   "image_file_name"
     t.string   "image_content_type"
     t.integer  "image_file_size"
+    t.datetime "image_updated_at"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -612,19 +627,15 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
   create_table "offers", :force => true do |t|
     t.string   "name"
     t.integer  "vendor_id"
-    t.boolean  "product_offer",                                          :default => false
+    t.boolean  "product_offer",                                   :default => false
     t.string   "coupon_code"
     t.string   "offer_url"
     t.text     "offer_description"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean  "is_deleted",                                             :default => false
+    t.boolean  "is_deleted",                                      :default => false
     t.datetime "expiration_time"
-    t.decimal  "total_spent",              :precision => 8, :scale => 2
-    t.string   "offer_video_file_name"
-    t.string   "offer_video_content_type"
-    t.integer  "offer_video_file_size"
-    t.datetime "offer_video_updated_at"
+    t.decimal  "total_spent",       :precision => 8, :scale => 2
   end
 
   create_table "pj_advertiser_category_mappings", :force => true do |t|
@@ -647,12 +658,18 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
     t.float    "max_commission_percent"
     t.decimal  "max_commission_dollars",                       :precision => 8, :scale => 2
     t.string   "generic_link"
+    t.string   "logo_file_name"
+    t.string   "logo_content_type"
     t.integer  "logo_file_size"
     t.datetime "logo_updated_at"
-    t.string   "logo_content_type"
-    t.string   "logo_file_name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "title"
+    t.string   "description"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "pj_coupons", :force => true do |t|
@@ -672,10 +689,10 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
 
   create_table "printable_coupons", :force => true do |t|
     t.integer  "user_coupon_id"
-    t.string   "coupon_image_content_type"
     t.string   "coupon_image_file_name"
-    t.datetime "coupon_image_updated_at"
+    t.string   "coupon_image_content_type"
     t.integer  "coupon_image_file_size"
+    t.datetime "coupon_image_updated_at"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -895,13 +912,6 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
 
   add_index "soleo_categories", ["soleo_id", "ancestry_depth"], :name => "index_soleo_categories_on_soleo_id_and_ancestry_depth", :unique => true
 
-  create_table "store_categories", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.integer  "order"
-    t.datetime "updated_at"
-  end
-
   create_table "stores", :force => true do |t|
     t.string   "name"
     t.string   "address"
@@ -1042,9 +1052,9 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
+    t.integer  "referred_visit_id"
     t.string   "favourite_browser_name"
     t.string   "favourite_browser_major_version"
-    t.integer  "referred_visit_id"
     t.string   "education"
     t.string   "occupation"
     t.string   "income_range"
@@ -1055,10 +1065,6 @@ ActiveRecord::Schema.define(:version => 20150310120619) do
     t.integer  "score"
     t.string   "state_abbreviation"
     t.boolean  "from_university_landing_page"
-    t.integer  "image_file_size"
-    t.string   "image_file_name"
-    t.datetime "image_updated_at"
-    t.string   "image_content_type"
     t.boolean  "donate_enabled",                                                :default => true
     t.boolean  "sales_owner",                                                   :default => false
     t.string   "sales_name"

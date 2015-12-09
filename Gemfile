@@ -13,7 +13,11 @@ gem 'therubyracer'
 gem 'json'
 
 # Deploy with Capistrano
-gem 'capistrano'
+group :development do
+  gem 'capistrano'
+  gem 'rvm-capistrano', github: 'rvm/rvm-capistrano', require: false
+  gem 'capistrano-multistage', require: false
+end
 gem 'nokogiri', '~> 1.5.10'
 # Gems used only for assets and not required
 # in production environments by default.

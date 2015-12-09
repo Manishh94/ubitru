@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/rvm/rvm-capistrano.git
+  revision: bb8503df20ca18451dfe2320db02febea0e95f0f
+  specs:
+    rvm-capistrano (1.5.6)
+      capistrano (~> 2.15.4)
+
+GIT
   remote: https://github.com/agentrock/gdata.git
   revision: 271d0b49d7dbe97b16969f06104f3e91022c40bc
   specs:
@@ -61,6 +68,9 @@ GEM
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.1.0)
+    capistrano-multistage (0.0.4)
+      capistrano (>= 2.12.0)
+      rake
     chronic (0.10.2)
     chunky_png (1.2.8)
     client_side_validations (3.1.4)
@@ -340,6 +350,7 @@ DEPENDENCIES
   ancestry (~> 1.3.0)
   browser (~> 0.1.5)
   capistrano
+  capistrano-multistage
   client_side_validations (= 3.1.4)
   cmess (~> 0.3.1)
   compass (= 0.12.alpha.4)
@@ -384,6 +395,7 @@ DEPENDENCIES
   recaptcha
   roo (= 1.10.3)
   rubyzip (< 1.0.0)
+  rvm-capistrano!
   sass-rails (= 3.1.4)
   simple_form (~> 2.0)
   sprockets
@@ -397,3 +409,6 @@ DEPENDENCIES
   useragent
   whenever
   will_paginate (~> 3.0.3)
+
+BUNDLED WITH
+   1.10.6
