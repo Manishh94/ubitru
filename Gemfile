@@ -5,7 +5,7 @@ gem 'rails', '3.1.1'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
-gem 'mysql2'
+gem 'mysql2', '~> 0.3.21'
 
 gem 'execjs'
 gem 'therubyracer'
@@ -17,6 +17,7 @@ group :development do
   gem 'capistrano'
   gem 'rvm-capistrano', github: 'rvm/rvm-capistrano', require: false
   gem 'capistrano-multistage', require: false
+  gem "letter_opener"
 end
 gem 'nokogiri', '~> 1.5.10'
 # Gems used only for assets and not required

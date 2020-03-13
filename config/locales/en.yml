@@ -7,7 +7,7 @@ en:
       greather_or_equal_to_other_attr: "Has to be greater than or equal to %{other_attr}"
       less_or_equal_to_other_attr: "Has to be less than or equal to %{other_attr}"
     attributes:
-      zip_code: 
+      zip_code:
         invalid: 'does not look like a zip code, e.g., 99999'
       phone:
         invalid: 'does not look like a phone, e.g., 1 (555) 555-5555'
@@ -57,4 +57,4 @@ en:
           attributes:
             amount:
               less_or_equal_to_other_attr: "You can't withdraw more than your current balance of: $%{other_attr} "
-    
+

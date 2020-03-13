@@ -31,11 +31,13 @@ MuddleMe::Application.configure do
   config.assets.debug = true
   #config.assets.compile= true
   config.action_mailer.default_url_options = { :host => "localhost", :port => '3000' }
-  config.action_mailer.delivery_method = :sendmail
-  config.action_mailer.sendmail_settings = {
-      :location => '/usr/sbin/sendmail',
-      :arguments => '-i'
-  }
+  # config.action_mailer.delivery_method = :sendmail
+  config.action_mailer.delivery_method = :letter_opener
+  config.action_mailer.perform_deliveries = true
+  # config.action_mailer.sendmail_settings = {
+  #     :location => '/usr/sbin/sendmail',
+  #     :arguments => '-i'
+  # }
 
   $fb_app_id = SOCIAL_CONFIG['fb_app_id']
   $fb_app_secret = SOCIAL_CONFIG['fb_app_secret']

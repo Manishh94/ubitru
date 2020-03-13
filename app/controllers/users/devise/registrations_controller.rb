@@ -17,6 +17,7 @@ class Users::Devise::RegistrationsController < Devise::RegistrationsController
         render :json => {:success => false, :message => resource.errors.full_messages.join(', ')} and return
       end
     else
+      Rails.logger.info request
       super
     end
     cookies[:signed_in] = 1

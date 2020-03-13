@@ -5,15 +5,14 @@ $(function () {
 
   var showStep = function(num, dontValidate){
     if(currentStep == num) return;
-    if(currentStep == 1 && num == 3) return;//cant go from 1 to 3 
+    if(currentStep == 1 && num == 3) return;//cant go from 1 to 3
     //maybe done better: validate second step if not valid than show second step instead
-
     if(num <= currentStep) dontValidate = true
 
     //enable fields on step 1
     if(num == 1) {
       skippedAuction = false
-      
+
       //reenable validate inputs
       $('#customer-registration article.step-1').
       find('[data-validate]:input').removeAttr('data-was-validate').attr('data-validate', true)
@@ -26,7 +25,7 @@ $(function () {
     }
 
     if(num == 3) copyInputValues()
-   
+
     //validate fields
     if(!dontValidate) {
       var valid = true;
@@ -35,8 +34,8 @@ $(function () {
         var input = $(this)
         input.data('changed', true);
         console.log(input);
-        if (!input.isValid(window.user_registration_form.validators)) 
-          valid = false; 
+        if (!input.isValid(window.user_registration_form.validators))
+          valid = false;
       });
 
       if(!valid) return;
@@ -86,7 +85,7 @@ $(function () {
     showStep(2, true)
   })
 
-  $('#step-2-next').click(function(){showStep(3)})
+  $('#step-2-next').click(function(){console.log('-------------------');showStep(3)})
 
   $('#step-2-back').click(function(){showStep(1)})
 
@@ -110,7 +109,7 @@ $(function () {
       at: 'left top'
     }
   });
-  
+
   $('select#user_auctions_attributes_0_min_vendors, select#user_auctions_attributes_0_max_vendors').multiselect({
     header: false,
     selectedList: 1,

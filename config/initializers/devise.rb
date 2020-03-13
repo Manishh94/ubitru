@@ -7,7 +7,7 @@ Devise.setup do |config|
   if HOSTNAME_CONFIG['hostname'] == 'muddleme.rightproject.net'
     config.mailer_sender = "muddleme@muddleme.rightproject.net"
   else
-    config.mailer_sender = "\"Muddleme Support\" <kevin@muddleme.com>"
+    config.mailer_sender = "muddleme@muddleme.rightproject.net"
   end
 
   # Configure the class responsible to send e-mails.
@@ -225,13 +225,13 @@ Devise.setup do |config|
   #   manager.intercept_401 = false
   #   manager.default_strategies(:scope => :user).unshift :some_external_strategy
   # end
-  
+
   require "omniauth-facebook"
   config.omniauth :facebook, $fb_app_id, $fb_app_secret, {:scope => 'email, publish_stream'}
 
   require "omniauth-twitter"
   config.omniauth :twitter, $tw_consumer_key, $tw_consumer_secret
-  
+
   require "omniauth-google-oauth2"
   config.omniauth :google_oauth2, $g_consumer_key, $g_consumer_secret
 end

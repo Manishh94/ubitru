@@ -34,5 +34,4 @@
 //= require owl.carousel.min.js
 //= require autocomplete-rails
 
-
-console.log("in appllicaiton");
+console.log("in applicaiton");
